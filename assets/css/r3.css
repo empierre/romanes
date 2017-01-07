@@ -1800,7 +1800,7 @@ body.body-slider {
 }
 .related-projects > div {
     margin: auto;
-    width: 296px;
+    width: 100% !important;
 }
 .info-project.info-closed.related2 {
     border: none;
@@ -2135,7 +2135,9 @@ body.body-slider.body-gallery {
 .columnlists  li li:before {
     content: '\B7'
 }
-
+.carousel .item{
+	height:100vh;
+}
 @media only screen and (min-width: 43.75em) {
  body {
         background-size: 80% auto
@@ -2151,4 +2153,30 @@ body.body-slider.body-gallery {
 .columnlists  ul {
         columns: 2em 3
     }
+}
+@media (min-width:768px){
+.project-description {
+	position:relative;
+    height: 100%;
+}
+.content-description.jspScrollable.scrollable {
+    position: absolute;
+    width: 100%;
+    height: 50%;
+    left: 0;
+    top: 0;
+}
+.socialNetwork-projects {
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.related-projects.scrollable {
+    top: 50%;
+    margin-top: 71px;
+    position: absolute;
+    left: 0;
+    height: 50%;
+    padding-bottom: 108px;
+}
 }

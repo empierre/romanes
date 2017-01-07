@@ -242,7 +242,10 @@ function checkImgSize() {
 }
 
 $(document).ready(function(){
-		$('.carousel .item').height($(window).height());
+		if ($('.carousel.slide').height() != null){
+			$('.carousel .item').height($(window).height());
+		}
+		
 		$('.info-project.info-closed.related2').height($(window).height());
 	window.onload = function() {
 		if ($('#wowslider-container1').height() != null){
@@ -371,6 +374,9 @@ $(document).ready(function(){
 	};
 });
 $(window).resize(function() {
+	if ($('.carousel.slide').height() != null){
+		$('.carousel .item').height($(window).height());
+	}
 	$('.carousel .carousel-inner').height($(window).height());
 	$('.carousel .item').height($(window).height());
 	$('div#wowslider-container1').height($(window).height());

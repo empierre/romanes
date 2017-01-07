@@ -109,7 +109,8 @@ my $t_footer;
 my %web_host_img=(
 	"9" => "http://www.romanes.org/",
 	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.free.fr/",
+	#"1" => "http://romanes.free.fr/",
+	"1" => "http://romanes.pagesperso-orange.fr/",
 	"2" => "http://romanes2.free.fr/",
 	"3" => "http://romanes3.free.fr/",
 	"4" => "http://romanes4.free.fr/",
@@ -120,7 +121,7 @@ my %web_host_img=(
     "12" => "http://romanes12.free.fr/"
 );
 my %web_host_thb=(
-	"1" => "hhttp://romanes.pagesperso-orange.fr/"
+	"1" => "http://romanes.pagesperso-orange.fr/"
 	#"1" => "http://www.romanes.org/"
 );
 my %web_host_album=(
@@ -128,7 +129,8 @@ my %web_host_album=(
 	"12" => "http://romanes12.free.fr/",
 	"9" => "http://www.romanes.org/",
 	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.free.fr/",
+	"1" => "http://romanes.pagesperso-orange.fr/",
+	#"1" => "http://romanes.free.fr/",
 	"2" => "http://romanes2.free.fr/",
 	"3" => "http://romanes3.free.fr/",
 	"4" => "http://romanes4.free.fr/",

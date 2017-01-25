@@ -8,8 +8,8 @@
 	
 	<title>Pierres Romanes: Art et Architecture romane en Europe</title>
 	<meta name="Author" content="Romanes.com"/>
-	<meta name="description" content="Romanes.com regroupe toutes les formes d'art et d'architecture liées aux églises romanes et gothiques du patrimoine de France"/>
-	<meta name="keywords" content="roman, art, architecture, gothique, église, abbaye, cathédrale, cistercien, cistercienne, médiéval, moyen-age, romane, patrimoine, sculpture, romanes, romanesque"/>
+	<meta name="description" content="Romanes.com regroupe toutes les formes d'art et d'architecture liees aux eglises romanes et gothiques du patrimoine de France"/>
+	<meta name="keywords" content="roman, art, architecture, gothique, eglise, abbaye, cathedrale, cistercien, cistercienne, medieval, moyen-age, romane, patrimoine, sculpture, romanes, romanesque"/>
 <!-- SOCIAL NETWORK SNIPPETS -->
 	<!-- TWITTER -->
 		<meta name="twitter:card" content="summary_large_image">
@@ -39,8 +39,8 @@
     <meta name="viewport" content="width=device-width" />
     
     <link href="/bootstrap3/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="/assets/css/gsdk.css" rel="stylesheet"/>    
-    <link href="/assets/css/r3.css" rel="stylesheet" /> 
+    <link href="/assets/css/gsdk.css" rel="stylesheet"/>      
+    <link href="/../assets/css/r3.css" rel="stylesheet" /> 
         
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
@@ -72,17 +72,20 @@
 
 </head>
 
-<body>
+<body class="transparent_mobile_menu">
 
 <nav class="navbar navbar-default navbar-transparent navbar-fixed-top" role="navigation">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
-      <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <button id="menu-toggle" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mobile_menu">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar bar"></span>
-        <span class="icon-bar bar"></span>
-        <span class="icon-bar bar"></span>
+		<span class="lines">
+			<span class="icon-bar bar"></span>
+			<span class="icon-bar bar"></span>
+			<span class="icon-bar bar"></span>
+		</span>
+        <span class="text">MENU</span>
       </button>
       <a href="http://www.romanes.com">
            <div class="logo-container">
@@ -98,84 +101,88 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
-
-	 <ul class="nav navbar-nav navbar-right">
-            <li class="active">
-                <a href="#">
-        		<img src="/assets/img/flags/FR.png"/> 
-			<img src="/assets/img/flags/US.png"/> 
-			<img src="/assets/img/flags/IT.png"/> 
-			<img src="/assets/img/flags/ES.png"/></a>
-            </li>     
-      </ul>
-	   
-      <ul class="nav navbar-nav navbar-right">
+	  <div id="mobile_menu" class="for_mobile">
+		  <div class="container menu_cont">
+			  <ul class="nav navbar-nav navbar-right nav_list_menu">
+					<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Arts
+							<b class="caret"></b>
+						  </a>
+						  <ul class="dropdown-menu">
+							<li><a href="/Arts/">Introduction</a></li>
+							<li><a href="/art_roman.html">Architecture</a></li>
+							<li><a href="/Arts/sculpture_romane.html">Sculpture</a></li>
+							<li><a href="/Arts/vitraux_romans.html">Vitrail</a></li>
+							<li><a href="/Arts/manuscrits_romans.html">Manuscrit</a></li>
+							<li><a href="/Arts/ivoires_romans.html">Ivoires</a></li>
+							<li><a href="/art_cistercien.html">Art Cistercien</a></li>
+							<li><a href="/art_gothique.html">Art Gothique</a></li>
+						  </ul>
+					</li>			
+					<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Europe Romane
+							<b class="caret"></b>
+						  </a>
+						  <ul class="dropdown-menu">
+					<li><a href="/romanes_map.html">Carte de l'Europe Romane</a></li>
+								<li><a href="/voyages_fr.html" title="Itineraires et voyages">Itineraires et voyages</a></li>
+					<li><a href="/France_fr.html">Sites par regions </a></li>
+					<li><a href="/map_list.html">Sites par plan</a></li>
+					<li><a href="/romanes_map.html">Carte interactive</a></li>
+					<li><a href="/earth/gps_poi.html">Carte sur GPS</a></li>
+					<li><a href="/earth">Carte sur Google Earth</a></li>
+						  </ul>
+					</li>
+					
+					<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Reperes
+							<b class="caret"></b>
+						  </a>
+						  <ul class="dropdown-menu">
+						<li><a href="/map_hist.html">Reperes</a>
+									<li><a href="/medieval_history_fr.html">Chronologie medievale</a></li>
+						<li><a href="/map_hist.html">Cartes chronologiques</a></li>
+						<li><a href="/romanes_map.html">Carte interactive</a></li>
+						  </ul>
+					</li>
+					<li class="dropdown">
+						  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							Bibliotheque
+							<b class="caret"></b>
+						  </a>
+						  <ul class="dropdown-menu">
+							<li><a href="/biblio/">Bibliotheque generale</a></li>
+						<li><a href="/biblio/zodiaque_fr.html">Editions Zodiaque</a></li>
+						<li><a href="/biblio/musiques_fr.html">Musique medievale</a></li>
+						<li><a href="/news/artisanat_fr.html">Artisanat d'Art</a></li>
+						<li><a href="/biblio/index_en.html">English books</a></li>
+						  </ul>
+					</li>		
+			   </ul>
+		   </div>
+		 <ul class="nav navbar-nav navbar-right nav_list_lng">
+				<li class="active">
+					<a href="#">
+					<img src="/assets/img/flags/FR.png"/> 
+				<img src="/assets/img/flags/US.png"/> 
+				<img src="/assets/img/flags/IT.png"/> 
+				<img src="/assets/img/flags/ES.png"/></a>
+				</li>     
+		  </ul>
+	  </div>
+      <ul class="nav navbar-nav navbar-right nav_list_search">
             <li class="dropdown active">                
-                 <a href="javascript:void(0);" data-toggle="search" class="hidden-xs"><i class="fa fa-search"></i></a>
+                 <a href="javascript:void(0);" data-toggle="search" class=""><i class="fa fa-search"></i></a>
             </li>                      
             <form class="navbar-form navbar-left navbar-search-form" role="search">
                 <div class="form-group">
                     <input type="text" value="" class="form-control" placeholder="Search...">
                 </div>
             </form>
-			<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Arts
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/Arts/">Introduction</a></li>
-				<li><a href="/art_roman.html">Architecture</a></li>
-				<li><a href="/Arts/sculpture_romane.html">Sculpture</a></li>
-				<li><a href="/Arts/vitraux_romans.html">Vitrail</a></li>
-				<li><a href="/Arts/manuscrits_romans.html">Manuscrit</a></li>
-				<li><a href="/Arts/ivoires_romans.html">Ivoires</a></li>
-				<li><a href="/art_cistercien.html">Art Cistercien</a></li>
-				<li><a href="/art_gothique.html">Art Gothique</a></li>
-                  </ul>
-            </li>			
-            <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Europe Romane
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-			<li><a href="/romanes_map.html">Carte de l'Europe Romane</a></li>
-                    	<li><a href="/voyages_fr.html" title="Itinéraires et voyages">Itinéraires et voyages</a></li>
-			<li><a href="/France_fr.html">Sites par régions </a></li>
-			<li><a href="/map_list.html">Sites par plan</a></li>
-			<li><a href="/romanes_map.html">Carte intéractive</a></li>
-			<li><a href="/earth/gps_poi.html">Carte sur GPS</a></li>
-			<li><a href="/earth">Carte sur Google Earth</a></li>
-                  </ul>
-            </li>
-			
-			<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Repères
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-				<li><a href="/map_hist.html">Repères</a>
-	                        <li><a href="/medieval_history_fr.html">Chronologie médiévale</a></li>
-				<li><a href="/map_hist.html">Cartes chronologiques</a></li>
-				<li><a href="/romanes_map.html">Carte intéractive</a></li>
-                  </ul>
-            </li>
-			<li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                    Bibliothèque
-                    <b class="caret"></b>
-                  </a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/biblio/">Bibliothéque générale</a></li>
-				<li><a href="/biblio/zodiaque_fr.html">Editions Zodiaque</a></li>
-				<li><a href="/biblio/musiques_fr.html">Musique médiévale</a></li>
-				<li><a href="/news/artisanat_fr.html">Artisanat d'Art</a></li>
-				<li><a href="/biblio/index_en.html">English books</a></li>
-                  </ul>
-            </li>		
-       </ul>
+	  </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -192,54 +199,140 @@
                 <li data-target="#carousel-example-generic" data-slide-to="4"></li>
               </ol>
 
-              <!-- Wrapper for slides -->
-              <div class="carousel-inner">
-                <div class="item active">
-                  <img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Cruas-Notre_Dame-E5D_2010-08-13_9742.png" alt="Awesome Image">
-<div class="container">
-        <div class="carousel-caption">
-            <h1>Notre Dame de Cruas</h1>
-            <a class="btn btn-large btn-primary" href="#">Voir l'album</a>
-        </div>
-    </div>
-                </div>
-                <div class="item">
-                  <img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Plaimpied_Givaudins-Saint_Martin-4240-0026.png" alt="Awesome Image">
-     <div class="container">
-        <div class="carousel-caption">
-            <h1>Saint Martin de Plainpied Givaudins</h1>
-            <a class="btn btn-large btn-primary" href="#">Voir l'album</a>
-        </div>
-    </div>
-                </div>
-                <div class="item">
-                  <img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Cruas-Notre_Dame-E5D_2010-08-13_9797.png" alt="Awesome Image">
-     <div class="container">
-        <div class="carousel-caption">
-            <h1>Notre Dame de Cruas</h1>
-            <a class="btn btn-large btn-primary" href="#">Voir l'album</a>
-        </div>
-    </div>
-                </div>
-                <div class="item">
-                  <img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Saint_Martin_du_Canigou-Saint_Martin-f100_2008-08-14_1928_pt.png" alt="Awesome Image">
-     <div class="container">
-        <div class="carousel-caption">
-            <h1>Saint Martin du Canigou</h1>
-            <a class="btn btn-large btn-primary" href="#">Voir l'album</a>
-        </div>
-    </div>
-                </div>
-                <div class="item">
-                  <img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Saint_Michel_de_Cuixa-Saint_Michel-f100_2008-08-13_1690_pt.png" alt="Awesome Image">
-     <div class="container">
-        <div class="carousel-caption">
-            <h1>Saint Michel de Cuixa</h1>
-            <a class="btn btn-large btn-primary" href="#">Voir l'album</a>
-        </div>
-    </div>
-                </div>
-              </div>
+              <!-- Wrapper for new slides -->
+			<div class="top_slider">	
+				<div class="og-slider_new">	
+					<div class="og-slider-wrap">	
+						<div class="og-slides">			
+							<div class="og-slide og-slide-1" style="">
+								<div class="og-slide-bg" style="">
+									<img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Cruas-Notre_Dame-E5D_2010-08-13_9742.png" alt="Awesome Image">
+								</div>
+								<a class="slide-labelbox" href="#">
+
+									<h3 class="slide-label">
+										<span class="slide-label-1">Notre Dame de Cruas</span>
+									</h3>
+
+									<p class="slide-action">
+										<span class="slide-btn btn-hollow">Voir l'album</span>
+									</p>
+
+								</a>
+							</div>
+							<div class="og-slide og-slide-2" style="">
+								<div class="og-slide-bg" style="">
+									<img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Plaimpied_Givaudins-Saint_Martin-4240-0026.png">
+								</div>
+								<a class="slide-labelbox" href="#">
+
+									<h3 class="slide-label">
+										<span class="slide-label-1">Saint Martin de Plainpied Givaudins</span>
+									</h3>
+
+									<p class="slide-action">
+										<span class="slide-btn btn-hollow">Voir l'album</span>
+									</p>
+
+								</a>
+							</div>
+							<div class="og-slide og-slide-3" style="">
+								<div class="og-slide-bg" style="">
+									<img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Cruas-Notre_Dame-E5D_2010-08-13_9797.png">
+								</div>
+								<a class="slide-labelbox" href="#">
+
+									<h3 class="slide-label">
+										<span class="slide-label-1">Notre Dame de Cruas</span>
+									</h3>
+
+									<p class="slide-action">
+										<span class="slide-btn btn-hollow">Voir l'album</span>
+									</p>
+
+								</a>
+							</div>
+							<div class="og-slide og-slide-4" style="">
+								<div class="og-slide-bg" style="">
+									<img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Saint_Martin_du_Canigou-Saint_Martin-f100_2008-08-14_1928_pt.png">
+								</div>
+								<a class="slide-labelbox" href="#">
+
+									<h3 class="slide-label">
+										<span class="slide-label-1">Saint Martin du Canigou</span>
+									</h3>
+
+									<p class="slide-action">
+										<span class="slide-btn btn-hollow">Voir l'album</span>
+									</p>
+
+								</a>
+							</div>
+							<div class="og-slide og-slide-5" style="">
+								<div class="og-slide-bg" style="">
+									<img src="http://romanes.pagesperso-orange.fr/assets/img/carousel/FR-Saint_Michel_de_Cuixa-Saint_Michel-f100_2008-08-13_1690_pt.png">
+								</div>
+								<a class="slide-labelbox" href="#">
+
+									<h3 class="slide-label">
+										<span class="slide-label-1">Saint Martin du Cuixa</span>
+									</h3>
+
+									<p class="slide-action">
+										<span class="slide-btn btn-hollow">Voir l'album</span>
+									</p>
+
+								</a>
+							</div>
+						</div>          
+					</div>           
+					<div class="og-slider-nav">  
+						<div id="og-next"></div>
+						<div id="og-prev"></div>
+					</div>          
+				</div>         
+			</div>      
+			<div class="four_blocks"> 
+				<div class="row"> 
+					<div class="col-sm-3"> 
+						<a href="">
+							<img class="four_col_img" src="/assets/img/carousel/FR-Plaimpied_Givaudins-Saint_Martin-4240-0026.jpg">
+							<div class="teaser-text">
+								<span class="teaser-label">Arts medievaux</span>
+								<span class="teaser-btn btn-hollow">Voir l'album</span>
+							</div>
+						</a>
+					</div> 
+					<div class="col-sm-3"> 
+						<a href="">
+							<img class="four_col_img" src="/assets/img/carousel/FR-Cruas-Notre_Dame-E5D_2010-08-13_9742.jpg">
+							<div class="teaser-text">
+								<span class="teaser-label">Art Roman</span>
+								<span class="teaser-btn btn-hollow">Voir l'album</span>
+							</div>
+						</a>
+					</div> 
+					<div class="col-sm-3"> 
+						<a href="">
+							<img class="four_col_img" src="/assets/img/carousel/orig/FR-Valmagne-DSCF8594.jpg">
+							<div class="teaser-text">
+								<span class="teaser-label">Art Cistercien</span>
+								<span class="teaser-btn btn-hollow">Voir l'album</span>
+							</div>
+						</a>
+					</div> 
+					<div class="col-sm-3"> 
+						<a href="">
+							<img class="four_col_img" src="/assets/img/carousel/orig/FR-Amiens-Notre_Dame-T0024-0015.jpg">
+							<div class="teaser-text">
+								<span class="teaser-label">Art Gothique (arte francigenum)</span>
+								<span class="teaser-btn btn-hollow">Voir l'album</span>
+							</div>
+						</a>
+					</div> 
+				</div> 
+			</div>      
+              <!-- end of Wrapper for new slides -->
 
               <!-- Controls -->
               <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
@@ -260,7 +353,7 @@
    <div class="section">
             <div class="container tim-container" style="max-width:800px; padding-top:50px">
                <h1 class="text-center">Art et Architecture Romane</h1>
-               <p>Ce site a pour but de présenter le patrimoine religieux et architectural de France et d'Europe, à travers les différentes époques et courants du roman au gothique.</p>      
+               <p>Ce site a pour but de presenter le patrimoine religieux et architectural de France et d'Europe, a travers les differentes epoques et courants du roman au gothique.</p>      
                    <!--     end extras -->
                 <p><br/><br/></p>
 
@@ -287,7 +380,7 @@
                         </p>
 
                         <a class="card-link" href="#">
-                            <h4 class="title">Arts médiévaux</h4>
+                            <h4 class="title">Arts medievaux</h4>
                         </a>
                         <div class="stats pull-right">
                         </div>
@@ -392,7 +485,7 @@
     <div class="section"><!-- corse -->
         <div class="container">
             <h2 class="section-title">Focus sur la Corse Romane</h2>
-            <p>Construites sur un plan basilical, avec très peu d'ouvertures, les églises romanes de Corse surprennent d'abord le voyageur qui les juge austères. Pourtant, bien vite, elles le séduisent, tant elles se marient harmonieusement avec leur écrin naturel. Les reliefs énigmaniques qui les ornent ajoutent à leur charme un parfum de mystère.</p>
+            <p>Construites sur un plan basilical, avec tres peu d'ouvertures, les eglises romanes de Corse surprennent d'abord le voyageur qui les juge austeres. Pourtant, bien vite, elles le seduisent, tant elles se marient harmonieusement avec leur ecrin naturel. Les reliefs enigmaniques qui les ornent ajoutent a leur charme un parfum de mystere.</p>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card card-plain">
@@ -549,7 +642,7 @@
                 <div class="col-md-4">
                     <div class="card card-plain">
                         <div class="image">
-                            <img src="http://romanes4.free.fr/FR-Aregno-Trinite-tz1_2009-05-17-190947.jpg" alt="Trinité d'Aregno">
+                            <img src="http://romanes4.free.fr/FR-Aregno-Trinite-tz1_2009-05-17-190947.jpg" alt="Trinite d'Aregno">
                             <div class="filter">
                                 <button type="button" class="btn btn-neutral btn-simple">
                                     <i class="fa fa-align-left"></i> <a href="http://www.romanes.org/Corse/Aregno/index.html">Voir l'album</a>
@@ -560,7 +653,7 @@
                             <p class="category text-info">
                             </p>
                             <a class="card-link" href="http://www.romanes.org/Corse/Aregno/index.html">
-                                <h4 class="title">Trinité d'Aregno</h4>
+                                <h4 class="title">Trinite d'Aregno</h4>
                             </a>
                             <div class="footer">
                                 <div class="author">
@@ -604,7 +697,7 @@
                            <p class="category text-info">
                            </p>
                            <a class="card-link" href="/biblio/zodiaque_fr.html">
-                               <h4 class="title">Retrouvez tous les titres des éditions Zodiaque de la Pierre qui Vire</h4>
+                               <h4 class="title">Retrouvez tous les titres des editions Zodiaque de la Pierre qui Vire</h4>
                            </a>
                            <div class="footer">
                                <div class="author">
@@ -810,9 +903,9 @@
 												<h3 id="F93"><a href="Provence-Alpes-Cote_d_Azur_fr.html">Provence romane</a>
 											</h5>
 											<ul>
-												<li><a href="/Frejus/">Groupe Episcopal de Fréjus</a></li>
-												<li><a href="/Ganagobie/">Prieuré de Ganagobie</a></li>
-												<li><a href="/Senanque">Abbaye de Sénanque</a></li>
+												<li><a href="/Frejus/">Groupe Episcopal de Frejus</a></li>
+												<li><a href="/Ganagobie/">Prieure de Ganagobie</a></li>
+												<li><a href="/Senanque">Abbaye de Senanque</a></li>
 												<li><a href="/Silvacane">Abbaye de Silvacane</a></li>
 												<li><a href="/Thoronet">Abbaye de Thoronet</a></li>
 												<li><a href="/Aiguebelle/">Abbaye d'Aiguebelle</a></li>
@@ -822,20 +915,20 @@
 												<li><a href="/Arles/StTrophime/Cloitre/">Cloitre de St Trophime d'Arles</a></li>
 												<li><a href="/Arles/StHonorat/">Saint Honorat des Alyscamps d'Arles</a></li>
 												<li><a href="/Rians/">Notre-Dame-de-Nazareth de Rians</a></li>
-												<li><a href="/Uzes/">Saint-Théodorit d'Uzès</a></li>
+												<li><a href="/Uzes/">Saint-Theodorit d'Uzes</a></li>
 												<li><a href="/VaisonLaRomaine/">Vaison La Romaine</a></li>
 												<li><a href="/Avignon/Palais_des_Papes/">Palais des Papes d'Avignon</a></li>
 												<li><a href="/Avignon/SaintBenezet/">Pont Saint Benezet d'Avignon</a></li>
-												<li><a href="/Saint_Raphael">Notre Dame des Templiers de St Raphaël</a></li>
+												<li><a href="/Saint_Raphael">Notre Dame des Templiers de St Raphael</a></li>
 												<li><a href="/Digne/">Notre Dame du Bourg de Digne</a></li>
 										</ul>
 
 									   <h5 class="title">
-											<h3 id="F82"><a href="Rhone-Alpes_fr.html">Rhône-Alpes romanes</a>
+											<h3 id="F82"><a href="Rhone-Alpes_fr.html">Rhone-Alpes romanes</a>
 										</h5>
 										<ul>
-											<li><a href="/LaGardeAdhemar/">Saint Michel de La Garde Adhémar</a></li>
-											<li><a href="/SaintPaultroischateaux/">Saint Paul Trois Châteaux</a></li>
+											<li><a href="/LaGardeAdhemar/">Saint Michel de La Garde Adhemar</a></li>
+											<li><a href="/SaintPaultroischateaux/">Saint Paul Trois Chateaux</a></li>
 											<li><a href="/Charlieu/Saint-Fortunat/">Saint-Fortunat de Charlieu</a></li>
 											<li><a href="/Aiguebelle/">Abbaye cistercienne d'Aiguebelle</a></li>
 											<li><a href="/Cruas/">Abbaye de Cruas</a></li>
@@ -860,14 +953,14 @@
 										<li><a href="/Morienval/">Notre Dame de Morienval</a></li>
 										<li><a href="/Moncel">Abbaye du Moncel</a></li>
 										<li><a href="/Ourscamp/Maison/">Maison d'Ourscamp</a></li>
-										<li><a href="/Poissy">Collégiale de Poissy</a></li>
+										<li><a href="/Poissy">Collegiale de Poissy</a></li>
 										<li><a href="/Port_Royal">Abbaye de Port Royal</a></li>
-										<li><a href="/Bethancourt/">Saint Sulpice de Béthancourt en Valois</a></li>
+										<li><a href="/Bethancourt/">Saint Sulpice de Bethancourt en Valois</a></li>
 										<li><a href="/Gilocourt/">Saint Martin et Saint Priest de Gilocourt</a></li>
 										<li><a href="/Etampes/Notre_Dame_du_Fort/">Notre Dame du Fort d'Etampes</a></li>
 										<li><a href="/Etampes/Saint_Basile/">Saint Basile d'Etampes</a></li>
 										<li><a href="/Etampes/Saint_Martin/">Saint Martin d'Etampes</a></li>
-										<li><a href="http://www.romanes.com/Paris/Saint-Germain-des-Pres/">Notre Dame de Saint-Germain-des-Prés de Paris</a></li>
+										<li><a href="http://www.romanes.com/Paris/Saint-Germain-des-Pres/">Notre Dame de Saint-Germain-des-Pres de Paris</a></li>
 										<li><a href="/Feucherolles/">Feucherolles</a></li>
 										<li><a href="/Orgeval/">Orgeval</a></li>
 										<li><a href="/La-Croix-sur-Ourcq/">La Croix-sur-Ourcq</a></li>
@@ -878,16 +971,16 @@
 										<h3 id="F24"><a href="Pays_de_la_Loire_fr.html">Centre roman</a> 
 									</h5>
 									<ul>
-										<li><a href="/Saint_Benoit_sur_Loire/">Saint Benoît sur Loire</a></li>
+										<li><a href="/Saint_Benoit_sur_Loire/">Saint Benoit sur Loire</a></li>
 										<li><a href="/Fontevraud">Abbaye de Fontevraud</a></li>
 										<li><a href="/Candes/">Saint Martin de Candes-Saint-Martin</a></li>
 										<li><a href="/Cunault/">Notre Dame de Cunault</a></li>
-										<li><a href="/Treves/">Saint Aubin de Trèves</a></li>
-										<li><a href="/Chenehutte/">Notre Dame de la Prée des Tuffeaux</a></li>
+										<li><a href="/Treves/">Saint Aubin de Treves</a></li>
+										<li><a href="/Chenehutte/">Notre Dame de la Pree des Tuffeaux</a></li>
 										<li><a href="/Ineuil/">Saint Martin d'Ineuil</a></li>
 										<li><a href="/Plaimpied-Givaudins/">Saint Martin de Plaimpied-Givaudins</a></li>
 										<li><a href="/Avord/">Saint Hugues d'Avord</a></li>
-										<li><a href="/Jussy-Champagne/">Saint André de Jussy-Champagne</a></li>
+										<li><a href="/Jussy-Champagne/">Saint Andre de Jussy-Champagne</a></li>
 										<li><a href="/Blet/">Saint Germain de Blet</a></li>
 										<li><a href="/Dun-sur-Auron/">Saint Etienne de Dun sur Auron</a></li>
 										<li><a href="/Brinay">Saint Pierre de Brinay</a></li>
@@ -902,19 +995,19 @@
 							</h5>
 							<ul>
 								<li><a href="/Aulnay/">Aulnay de Saintonge</a></li>
-								<li><a href="/Angouleme/">Saint Pierre d'Angoulême</a></li>
+								<li><a href="/Angouleme/">Saint Pierre d'Angouleme</a></li>
 								<li><a href="/Benet/">Benet</a></li>
-								<li><a href="/Chatres/">Abbaye de Châtres</a></li>
+								<li><a href="/Chatres/">Abbaye de Chatres</a></li>
 								<li><a href="/Fontdouce/">Abbaye de Fontdouce</a></li>
 								<li><a href="/Coulgens/">Saint Jean-Baptiste de Coulgens</a></li>
 								<li><a href="/Gimeux/">Eglise de Gimeux</a></li>
 								<li><a href="/Lusignan">Notre Dame de Lusignan</a></li>
-								<li><a href="/Maille/">Maillé</a></li>
+								<li><a href="/Maille/">Maille</a></li>
 								<li><a href="/Maillezais/St_Nicolas/">Saint Nicolas de Maillezais</a></li>
 								<li><a href="/Maillezais/Abbaye/">Saint Pierre de Maillezais</a></li>
 								<li><a href="/Melle/">Melle</a></li>
-								<li><a href="/Saint_Mande_sur_Bredoire/">Saint Mandé sur Bredoire</a></li>
-								<li><a href="/Matha/">Saint Hérie de Matha</a></li>
+								<li><a href="/Saint_Mande_sur_Bredoire/">Saint Mande sur Bredoire</a></li>
+								<li><a href="/Matha/">Saint Herie de Matha</a></li>
 								<li><a href="/Marestay/">Saint Pierre de Marestay</a></li>
 								<li><a href="/Nieul/">Abbaye de Nieul sur l'Autise</a></li>
 								<li><a href="/Saintes">Abbaye aux Dames de Saintes</a></li>
@@ -930,45 +1023,45 @@
 								<li><a href="/Airvault/">Saint Pierre d'Airvault</a></li>
 								<li><a href="/Chauvigny/">Saint Pierre de Chauvigny</a></li>
 								<li><a href="/Charroux/">Abbaye de Charroux</a></li>
-								<li><a href="/Chatain/">Eglise de Châtain</a></li>
+								<li><a href="/Chatain/">Eglise de Chatain</a></li>
 								<li><a href="/Civaux/">Eglise de Civaux</a></li>
 								<li><a href="/Civray/">Eglise de Civray</a></li>
 								<li><a href="/Genouille/">Eglise de Genouille</a></li>
-								<li><a href="/LaReau/">Abbaye de La Réau</a></li>
-								<li><a href="/Nouaille_Mauperthuis/">Nouaillé-Mauperthuis</a></li>
+								<li><a href="/LaReau/">Abbaye de La Reau</a></li>
+								<li><a href="/Nouaille_Mauperthuis/">Nouaille-Mauperthuis</a></li>
 								<li><a href="/Saint-Junien/">Saint Junien</a></li>
 								<li><a href="/Poitiers/">Notre Dame la Grande de Poitiers</a></li>
 								<li><a href="/Ruffec/">Ruffec</a></li>
 								<li><a href="/Saint_Jouin_de_Marnes/">Saint Jouin de Marnes</a></li>
 								<li><a href="/StMauricelaClouere/">Saint Maurice la Clouere</a></li>
 								<li><a href="/StPierredExideuil/">Saint Pierre d'Exideuil</a></li>
-								<li><a href="/Saint_Generoux/">Saint Généroux</a></li>
+								<li><a href="/Saint_Generoux/">Saint Generoux</a></li>
 								<li><a href="/Usson/">Usson de Poitou</a></li>
 							</ul>
 							<h5 class="title">
-								<h3 id="F74"><a href="Auvergne_Limousin_Perigord_fr.html">Périgord et Limousin romans</a>
+								<h3 id="F74"><a href="Auvergne_Limousin_Perigord_fr.html">Perigord et Limousin romans</a>
 							</h5>
 							<ul>
 								<li><a href="/Solignac/">Abbaye de Solignac</a></li>
 								<li><a href="/Audrix/">Audrix</a></li>
-								<li><a href="/Belves">Eglise de Belvès</a></li>
-								<li><a href="/Cenac">Cénac-et-Saint-Julien</a></li>
+								<li><a href="/Belves">Eglise de Belves</a></li>
+								<li><a href="/Cenac">Cenac-et-Saint-Julien</a></li>
 								<li><a href="/Boschaud">Abbaye de Boschaud</a></li>
 								<li><a href="/Brantome">Abbaye de Brantome</a></li>
 								<li><a href="/Cadouin">Abbaye de Cadouin</a></li>
 								<li><a href="/Chancelade">Abbaye de Chancelade</a></li>
-								<li><a href="/Merlande/">Ancien Prieuré de Merlande</a></li>
+								<li><a href="/Merlande/">Ancien Prieure de Merlande</a></li>
 								<li><a href="/Paunat/">Saint Martial de Paunat</a></li>
 								<li><a href="/StAmanddeColy/">Saint Amand de Coly</a></li>
-								<li><a href="/SaintLeonsurVezere">Saint Léon sur Vézère</a></li>
+								<li><a href="/SaintLeonsurVezere">Saint Leon sur Vezere</a></li>
 								<li><a href="/Thiviers">Eglise de Thiviers</a></li>
-								<li><a href="/Tremolat">Notre Dame de Trémolat</a></li>
-								<li><a href="/Saint_Front/">Saint Front de Périgueux</a></li>
-								<li><a href="/Sainte_Alvere/">Sainte Alvère</a></li>
-								<li><a href="/Perigueux/StEtienne/">Saint Etienne de Périgueux</a></li>
+								<li><a href="/Tremolat">Notre Dame de Tremolat</a></li>
+								<li><a href="/Saint_Front/">Saint Front de Perigueux</a></li>
+								<li><a href="/Sainte_Alvere/">Sainte Alvere</a></li>
+								<li><a href="/Perigueux/StEtienne/">Saint Etienne de Perigueux</a></li>
 								<li><a href="/Espalion/">Eglise de Perse d'Espalion</a></li>
 								<li><a href="/Lassouts/">Saint Jacques de Lassouts</a></li>
-								<li><a href="/Cahors/Saint_Etienne/">Saint-Étienne de Cahors</a></li>
+								<li><a href="/Cahors/Saint_Etienne/">Saint-Etienne de Cahors</a></li>
 							</ul>
 							<h5 class="title">
 								<h3 id="F25"><a href="Normandie_fr.html">Normandie romane</a>
@@ -976,13 +1069,13 @@
 							<ul>
 								<li><a href="/Caen/">Abbayes de Caen</a></li>
 								<li><a href="/Epau/">Abbaye de l'Epau</a></li>
-								<li><a href="/Jumiege/">Abbaye de Jumièges</a></li>
+								<li><a href="/Jumiege/">Abbaye de Jumieges</a></li>
 								<li><a href="/Mont-Saint-Michel/">Mont-Saint-Michel</a></li>
-								<li><a href="/LeMans">Cathédrale Saint Julien du Mans</a></li>
+								<li><a href="/LeMans">Cathedrale Saint Julien du Mans</a></li>
 								<li><a href="/Saint-Martin-de-Boscherville/">Saint Martin de Boscherville</a></li>
 								<li><a href="/Cerisy-la-Foret/">Cerisy la foret</a></li>
 								<li><a href="/Bayeux/">Notre Dame de Bayeux</a></li>
-								<li><a href="/SaintGabrielBrecy/">Saint Gabriel Brécy</a></li>
+								<li><a href="/SaintGabrielBrecy/">Saint Gabriel Brecy</a></li>
 								<li><a href="/Rucqueville/">Rucqueville</a></li>
 							</ul>
 							
@@ -991,16 +1084,16 @@
 							</h5>
 							<ul>
 									<li><a href="/Bourbon">Saint Georges de Bourbon L'Archambault</a></li>
-									<li><a href="/Souvigny/">Prieuré Saint-Pierre-et-Saint-Paul de Souvigny</a></li>
+									<li><a href="/Souvigny/">Prieure Saint-Pierre-et-Saint-Paul de Souvigny</a></li>
 									<li><a href="/Ygrande">Saint Martin d'Ygrande</a></li>
 									<li><a href="/Le_Puy/Notre_Dame/">Notre Dame du Puy en Velay</a></li>
 									<li><a href="/Le_Puy/Saint_Michel">Saint Michel d'Aiguilhe du Puy</a></li>
 									<li><a href="/Lavaudieu">Notre Dame de Lavaudieu</a></li>
 									<li><a href="/Clermont/ND_Port">Notre Dame du Port de Clermont</a></li>
 									<li><a href="/Mozac">Saint Pierre de Mozac</a></li>
-									<li><a href="/Royat">Saint Léger de Royat</a></li>
+									<li><a href="/Royat">Saint Leger de Royat</a></li>
 									<li><a href="/Orcival">Notre Dame d'Orcival</a></li>
-									<li><a href="/Ennezat">Collégiale Saint-Victor et Sainte-Couronne d'Ennezat</a></li>
+									<li><a href="/Ennezat">Collegiale Saint-Victor et Sainte-Couronne d'Ennezat</a></li>
 									<li><a href="/Saint_Nectaire">Notre Dame de Saint Nectaire</a></li>
 									<li><a href="/Saint_Saturnin">Notre Dame de Saint Saturnin</a></li>
 									<li><a href="/Issoire">Saint Austremoine d'Issoire</a></li>
@@ -1010,7 +1103,7 @@
 									<li><a href="/Blesle">Saint Pierre de Blesle</a></li>
 							</ul>
 							<h5 class="title">
-								<h3 id="F91"><a href="Languedoc-Roussillon_fr.html">Languedoc</a> <h3 id="F73"><a href="Midi-Pyrenees_fr.html">Midi-Pyrénées Romans</a>
+								<h3 id="F91"><a href="Languedoc-Roussillon_fr.html">Languedoc</a> <h3 id="F73"><a href="Midi-Pyrenees_fr.html">Midi-Pyrenees Romans</a>
 							</h5>
 							<ul>
 									<li><a href="/Serrabone/">Prieur de Serrabone</a></li>
@@ -1022,7 +1115,7 @@
 									<li><a href="/Saint-Genis-des-fontaines/">Saint Michel de Saint-Genis-des-fontaines</a></li>
 									<li><a href="/Fontfroide/">Abbaye cistercienne de Fontfroide</a></li>
 									<li><a href="/Le-Bugat/">Saint Pierre du Bugat</a></li>
-									<li><a href="/Sylvanes">Abbaye de Sylvanès</a></li>
+									<li><a href="/Sylvanes">Abbaye de Sylvanes</a></li>
 									<li><a href="/Carennac">Saint Pierre de Carennac</a></li>
 									<li><a href="/Moissac/Saint-Martin/">Saint Martin de Moissac</a></li>
 									<li><a href="/Moissac/Saint-Pierre/">Saint Pierre de Moissac</a></li>
@@ -1031,9 +1124,9 @@
 								<h3 id="F26"><a href="Bourgogne_fr.html">Bourgogne romane</a>
 							</h5>
 							<ul>
-								<li><a href="/Anzy-le-Duc/">Sainte-Trinité d'Anzy-le-Duc</a></li>
+								<li><a href="/Anzy-le-Duc/">Sainte-Trinite d'Anzy-le-Duc</a></li>
 								<li><a href="/Autun/">Saint Lazare d'Autun</a></li>
-								<li><a href="/Berze-la-Ville/">Chapelle de Berzé la Ville</a></li>
+								<li><a href="/Berze-la-Ville/">Chapelle de Berze la Ville</a></li>
 								<li><a href="/Brancion/">Saint Pierre de Brancion</a></li>
 								<li><a href="/Chapaize/">Saint Martin de Chapaize</a></li>
 								<li><a href="/Citeaux">Abbaye de Citeaux</a></li>
@@ -1041,7 +1134,7 @@
 								<li><a href="/Fontenay/">Abbaye de Fontenay</a></li>
 								<li><a href="/Jalogny/">Jalogny et Vaux</a></li>
 								<li><a href="/Montceaux_l_Etoile/">Saints Pierre et Paul de Montceaux l'Etoile</a></li>
-								<li><a href="/Iguerande/">Saint Marcel d'Iguérande</a></li>
+								<li><a href="/Iguerande/">Saint Marcel d'Iguerande</a></li>
 								<li><a href="/Massy/">Saint Denis de Massy</a></li>
 								<li><a href="/Mont-Saint-Vincent/">Mont Saint Vincent</a></li>
 								<li><a href="/Mazille/">Saint Blaise de Mazille</a></li>
@@ -1051,11 +1144,11 @@
 								<li><a href="/Saint-Germain-en-Brionnais/">Saint-Germain-en-Brionnais</a></li>
 								<li><a href="/Saint-Julien-de-Jonzy/">Saint-Julien-de-Jonzy</a></li>
 								<li><a href="/Saulieu/">Basilique de Saulieu</a></li>
-								<li><a href="/Semur-en-Brionnais/">Saint Hilaire de Sémur-en-Brionnais</a></li>
+								<li><a href="/Semur-en-Brionnais/">Saint Hilaire de Semur-en-Brionnais</a></li>
 								<li><a href="/Seignelay/">Saint Martial de Seignelay</a></li>
 								<li><a href="/Tournus/">Saint Philibert de Tournus</a></li>
 								<li><a href="/Varenne-l-Arconce/">Saint-Pierre-aux-Liens de Varenne l'Arconce</a></li>
-								<li><a href="/Vezelay/">Basilique de Vézelay</a></li>
+								<li><a href="/Vezelay/">Basilique de Vezelay</a></li>
 							</ul>
 						
 							
@@ -1063,14 +1156,14 @@
 								<h3 id="F72"><a href="Aquitaine_fr.html">Aquitaine romane</a>
 							</h5>
 							<ul>
-								<li><a href="/Agen/">Cathédrale Saint Caprais d'Agen</a></li>
+								<li><a href="/Agen/">Cathedrale Saint Caprais d'Agen</a></li>
 								<li><a href="/Saint-Gilles-du-Gard/">Saint-Gilles du Gard</a></li>
 								<li><a href="/Saint-Maurin/">Abbaye de Saint Maurin</a></li>
 								<li><a href="/Aubiac/">Sainte Marie d'Aubiac</a></li>
 								<li><a href="/Faye/">Faye</a></li>
 								<li><a href="/Frespech/">Notre Dame de Frespech</a></li>
 								<li><a href="/Layrac/">Saint Martin de Layrac</a></li>
-								<li><a href="/Moirax/">Prieuré Sainte Marie de Moirax</a></li>
+								<li><a href="/Moirax/">Prieure Sainte Marie de Moirax</a></li>
 								<li><a href="/Sainte-Livrade/">Sainte Livrade</a></li>
 								<li><a href="/LaSauveMajeure/">Abbaye de La Sauve Majeure</a></li>
 								<li><a href="/Petit_Palais/">Petit Palais</a></li>
@@ -1083,11 +1176,11 @@
 								<li><a href="/Andlau/">Sainte Richarde d'Andlau</a></li>
 								<li><a href="/Epfig/">Sainte Marguerite d'Epfig</a></li>
 								<li><a href="/Eschau/">Sainte-Trophime d'Eschau</a></li>
-								<li><a href="/Marmoutier/">Abbaye Saint-Étienne de Marmoutier</a></li>
+								<li><a href="/Marmoutier/">Abbaye Saint-Etienne de Marmoutier</a></li>
 								<li><a href="/Ottmarsheim/">Saint-Pierre-et-Saint-Paul d'Ottmarsheim</a></li>
 								<li><a href="/Rosheim/">Saints Pierre et Saint Paul de Rosheim</a></li>
 								<li><a href="/Saint-Thierry/">Saint-Hilaire de Saint-Thierry</a></li>
-								<li><a href="/Selestat/">Sainte Foy de Sélestat</a></li>
+								<li><a href="/Selestat/">Sainte Foy de Selestat</a></li>
 							</ul>
 							<h5 class="title">
 								<h3 id="F94"><a href="Corse_fr.html">Corse romane</a>
@@ -1095,7 +1188,7 @@
 							<ul>
 								<li><a href="http://www.romanes.org/Corse/Canonica/">Santa Maria Assunta de Canonica</a></li>
 								<li><a href="http://www.romanes.org/Corse/Erbalunga/">Notre-Dame-des-Neiges d'Erbalunga</a></li>
-								<li><a href="http://www.romanes.org/Corse/Murato">San Michele é Murato</a></li>
+								<li><a href="http://www.romanes.org/Corse/Murato">San Michele e Murato</a></li>
 								<li><a href="http://www.romanes.org/Corse/Carbini/">San Giovanni Battista Carbini</a></li>
 								<li><a href="http://www.romanes.org/Corse/Tallano/">San Giovanni Battista Poggio di Tallano</a></li>
 								<li><a href="http://www.romanes.org/Corse/Castirla/">San Michele Castirla</a></li>
@@ -1112,17 +1205,17 @@
 								<li><a href="http://www.romanes.org/Corse/Canari/">Santa Maria Assunta Canari</a></li>
 								<li><a href="http://www.romanes.org/Corse/Favalello/">Santa Maria Assunta Favalello</a></li>
 								<li><a href="http://www.romanes.org/Corse/Quenza/">Santa Maria Assunta Quenza</a></li>
-								<li><a href="http://www.romanes.org/Corse/Santa-Maria-Assunta-Sicche/">Santa Maria Assunta Sicché</a></li>
+								<li><a href="http://www.romanes.org/Corse/Santa-Maria-Assunta-Sicche/">Santa Maria Assunta Sicche</a></li>
 								<li><a href="http://www.romanes.org/Corse/Santa-Maria-Figaniella/">Santa Maria Figaniella</a></li>
 								<li><a href="http://www.romanes.org/Corse/Bonifacio/">Santa Reparata Bonifacio</a></li>
-								<li><a href="http://www.romanes.org/Corse/Aregno">Trinité Aregno</a></li>
+								<li><a href="http://www.romanes.org/Corse/Aregno">Trinite Aregno</a></li>
 							</ul>
 							<h5 class="title">
 								Suisse romane
 							</h5>
 							<ul>
 								<li><a href="/Suisse/Maigrauge">Abbaye de la Maigrauge</a></li>
-								<li><a href="/Suisse/Romainmotier">Abbaye de Romainmôtier</a></li>
+								<li><a href="/Suisse/Romainmotier">Abbaye de Romainmotier</a></li>
 								<li><a href="/Suisse/Grandson">St-Jean-Baptiste de Grandson</a></li>
 								<li><a href="/Suisse/Payerne">Notre Dame de Payerne</a></li>
 								<li><a href="/Suisse/Zillis">Saint Martin de Zillis</a></li>
@@ -1135,7 +1228,7 @@
 							</ul>
 
 							<h5 class="title">
-								Norvège romane
+								Norvege romane
 							</h5>
 							<ul>
 								<li><a href="/Norvege/Gol/">Stavkirke de Gol</a></li>
@@ -1158,7 +1251,7 @@
 							<li><a href="/email.html">Au sujet du site</a></li>
 							<li><a href="/email.html">Au sujet des images</a></li>
 							<li><a href="http://romanes.blogspot.com/">Blog des visites</a></li>	
-							<li><a href="/copyright.html">Informations légales</a></li>
+							<li><a href="/copyright.html">Informations legales</a></li>
                         </ul>
                     </nav>
                 </div>
@@ -1169,7 +1262,7 @@
                             <li><a href="/romanes_map.html">Europe Romane</a></li>
 							<li><a href="/map_hist.html">Cartes historiques</a></li>
 							<li><a href="/medieval_history_fr.html">Chronologie historique</a></li>
-							<li><a href="/biblio/">Bibliothèque générale</a></li>
+							<li><a href="/biblio/">Bibliotheque generale</a></li>
 							<li><a href="/biblio/zodiaque_fr.html">Editions Zodiaque</a></li>
 							<li><a href="/biblio/musiques_fr.html">Musiques</a></li>
                         </ul>
@@ -1214,8 +1307,8 @@
 							<li><a href="/Arts/sculpture_romane.html">sculpture romane</a></li>
 							<li><a href="/Arts/vitraux_romans.html">vitraux romans</a></li>
 							<li><a href="/Arts/manuscrits_romans.html">manuscrits romans</a></li>
-							<li><a href="/voyages_fr.html">itinéraires et voyages</a></li>
-							<li><a href="/medieval_history_fr.html">chronologie médiévale</a></li>
+							<li><a href="/voyages_fr.html">itineraires et voyages</a></li>
+							<li><a href="/medieval_history_fr.html">chronologie medievale</a></li>
 						</ul>
 					</nav>
                  </div>
@@ -1246,7 +1339,7 @@
 	<script src="/assets/js/get-shit-done.js"></script>
 
     <!--  Get Shit Done Kit PRO methods used for demo purpose      -->
-    <script src="/assets/js/r3.js"></script>
+    <script src="/../assets/js/r3.js"></script>
     	
     <script type="text/javascript">
         $().ready(function(){
@@ -1311,4 +1404,15 @@
     }, 4);
         
 </script>
+
+
+
+<!-- Slider script and styles -->
+
+<style>
+
+
+
+</style>
+<!-- end of Slider script and styles -->
 </html>

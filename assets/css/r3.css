@@ -170,7 +170,7 @@ body > .navbar-collapse .navbar-nav .open .dropdown-menu > li > a:focus {
     display: block;
 }
 .space-50{
-    height: 50px;
+    height: 59px; //epi for header which ios 59px
     display: block;
 }
 .space-70{
@@ -1778,6 +1778,7 @@ span.proximo {
     transform: translate(-50%,-50%) !important;
 }
 }
+ /*End 768*/
 #current_img{
 	display:none;
 }
@@ -2541,8 +2542,8 @@ a.slide-labelbox {
     margin-left: 3px;
 }
 .four_blocks .col-sm-3 a{
-	display:block;
-	overflow:hidden;
+    display:block;
+    overflow:hidden;
     position: absolute;
     left: 3px;
     top: 0;
@@ -3110,6 +3111,9 @@ body .navbar-nav .open .dropdown-menu{
     float: none !important;
 }
 @media (max-width:1199px){
+.card .title {
+	text-align: center;
+}
 .list-page .row > .col-md-2:nth-child(4n+1){
 	clear:none;
 }
@@ -3128,6 +3132,9 @@ body .navbar-nav .open .dropdown-menu{
 }
 }
 @media (max-width:991px){
+.card .title {
+	text-align: center;
+}
 .list-page .row > .col-md-2:nth-child(3n+1){
 	clear:none;
 }
@@ -3147,6 +3154,9 @@ body .navbar-nav .open .dropdown-menu{
 }
 }
 @media (max-width:767px){
+.card .title {
+	text-align: left;
+}
 .list-page .col-md-2{
 	width:100%;
 	margin:10px 0;
@@ -3155,15 +3165,26 @@ body .navbar-nav .open .dropdown-menu{
 }
 .list-page .col-md-2 .pull-right {
     float: none !important;
+    margin-bottom: -20px;
+    text-align: center;
 }
 .list-page .col-md-2 .image {
     width: 30%;
     float: left;
-	margin-right:20px;
+    margin-right:20px;
+    min-width: 190px;
+}
+.list-page .col-md-2 .image2 {
+    width: 30%;
+    float: left;
+    margin-right:20px;
     min-width: 190px;
 }
 }
 @media (max-width:400px){
+.card .title {
+	text-align: left;
+}
 .list-page .col-md-2 .image {
     width: 100%;
     clear:both;
@@ -3171,4 +3192,30 @@ body .navbar-nav .open .dropdown-menu{
 .list-page .col-md-2 .content {
     overflow: hidden;
 }
+}
+//EPI
+.footer-big {
+    padding-top: 30px;
+    vertical-align: middle;
+} 
+.footer-transparent {
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: right; 
+}
+
+.card .image {
+	    height: 260px;
+}
+.four_blocks .teaser-text .teaser-label2 {
+    display: block;
+    font-weight: bold;
+    font-size: 35px;
+    line-height: 1;
+    margin-bottom: .4em;
+	color:#fff;
+}
+.columnlists h3  a {
+	    color: #337ab7;
 }

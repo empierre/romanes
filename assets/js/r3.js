@@ -452,14 +452,18 @@ $(document).ready(function(){
 			$(".info-project.info-closed.related2").slideToggle("medium");
 			$("body").toggleClass("open_info");
 		});*/
-		var h1 = $('a.homeProjects')[0].clientHeight;
-		var h3 = $('.related-projects')[0].clientHeight;
-		var wH = $(window).height();
-		if ($('.body-gallery').height() != null){
-			var h4 = $('.navbar')[0].clientHeight;
-			$('.body-gallery .content-descricao').height(wH - h1 - h3 - 30 - h4);
-		} else {
-			$('.content-descricao').height(wH - h1 - h3 - 30);
+		try{
+			var h1 = $('a.homeProjects')[0].clientHeight;
+			var h3 = $('.related-projects')[0].clientHeight;
+			var wH = $(window).height();
+			if ($('.body-gallery').height() != null){
+				var h4 = $('.navbar')[0].clientHeight;
+				$('.body-gallery .content-descricao').height(wH - h1 - h3 - 30 - h4);
+			} else {
+				$('.content-descricao').height(wH - h1 - h3 - 30);
+			}
+		} catch(error){
+			
 		}
 		//
 		/*$('.closed').click(function () {

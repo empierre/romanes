@@ -10,7 +10,6 @@
 #$local_tmpl/index$lang_param.tmpl.html
 # 'lst_cister','lst_roman','lst_gothic','lst_medieval
 
-#use lib qw (/usr/local/etc/httpd/sites/e-nef.com/htdocs/cgibin/);
 #use strict;
 use DBI();
 #2.10.1 seulement !!!
@@ -118,6 +117,7 @@ my %web_host_img=(
     "6" => "http://aaea.free.fr/",
     "7" => "http://aaea2.free.fr/",
     "11" => "http://romanes11.free.fr/",
+    #"11" => "http://romanes.pagesperso-orange.fr/",
     "12" => "http://romanes12.free.fr/"
 );
 my %web_host_thb=(
@@ -676,164 +676,13 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 #
 
 
-if ($photo_nr<1) {
-	print STDERR  "ok No index to generate\nexiting...\n";
-	exit;
-	}
-	#if (! $lang_param) {print  STDERR "ok ($photo_nr generated) Generating index ";}
-	print STDERR "($photo_nr) ";
-	if ($debug) {print "$photo_nr files:index ";}
-
-	# Header
-	#
-	my $t_header_index=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1, utf8=>1);
-	if ($lang_param eq '_en') {
-		$t_header_index->param('doc_title',"Romanes.com: Romanesque Art and Architecture, $photo_name by $first_name $last_name");
-		$t_header_index->param('doc_description',"$photo_name of $place_town by $first_name $last_name");
-		$photo_keywords="romanesque, art, architecture, gothic, church, abbey, cathedral, cistercian, medieval, middle-age, patrimoiny, sculpture";
-	} elsif ($lang_param eq '_es') {
-		$t_header_index->param('doc_title',"Romanes.com: Romanica, G&oacute;tico Arte y Arquitectura, $photo_name por $first_name $last_name");
-		$t_header_index->param('doc_description',"$photo_name de $place_town por $first_name $last_name");
-		$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
-	} else {
-		$t_header_index->param('doc_title',"Romanes.com: Art et Architecture Romane, $photo_name par $first_name $last_name");
-		$t_header_index->param('doc_description',"$photo_name de $place_town par $first_name $last_name");
-	}
-	$t_header_index->param('doc_keywords',$photo_keywords);
-
-	# Europe / France / Ile de France / Etampes / Notre Dame du Fort
-
-	#POS header index
-	my $ncountry;
-	my @POS_loop;
-	($g_region_name,$region_id,$g_department_name)=&get_region($album_id,$lang_param);
-	
-	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/France'.($lang_param||'_fr').'.html','name'=>'Europa'};
-	if ($country==250) {$ncountry=&get_country($country,$lang_param);}
-	if ($country==756) {$ncountry=&get_country($country,$lang_param);}
-	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.&get_country($country,'').($lang_param||'_fr').'.html','name'=>$ncountry};
-	if ($country==250) {
-		my $ptitle=$g_region_name;
-		chomp($ptitle);
-		$ptitle=~s/\s/_/g;
-		$ptitle=~s/__/_/g;
-		$ptitle=~s/\'/_/g;
-		$ptitle=~s/_$//;
-		$ptitle=~s/éèâï/eeai/g;
-		$ptitle=unidecode($ptitle);
-		push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.$ptitle.($lang_param||'_fr').'.html#','name'=>$g_region_name};
-		push @POS_loop,{'url'=>'index'.$lang_param.'.html','name'=>$place_town};
-	} else {
-		push @POS_loop,{'url'=>'/'.$ncountry.$lang_param.'.html','name'=>$place_town};
-	}
-	push @POS_loop,{'url'=>'index'.$lang_param.'.html','name'=>$place_name};
-	if ($debug) {print STDERR "POS: $album_id $place_town $place_name\n";}
-	#$t_header_index->param('POS_loop',\@POS_loop);
-
-	$photo_name_file_head="index";
-	$photo_name_file="index";
-
-        my @lang_lst=split(/:/,$lang_lst_param);
-            if ($debug) {print STDERR "$lang_lst_param:$file_out ";}
-        foreach $lang_show (@lang_lst) {
-            if ($debug) {print STDERR "$lang_show";}
-            $lang_show=lc($lang_show);
-            $fo_lang=$photo_name_file;
-            $fo_lang=~s/out/$lang_show/;
-	    if ($lang_show eq 'fr') { # default naming for french
-		  $t_header_index->param("doc_local_fr","$photo_name_file_head.html");
-              	  $t_header_index->param("lang_$lang_show","/".$fo_lang);
-	    } else {
-		  $t_header_index->param("doc_local_$lang_show",$photo_name_file_head.'_'.$lang_show.".html");
-                  $t_header_index->param("lang_$lang_show","/".$fo_lang);
-	    }
-	   if ($debug) {print STDERR "lang_$lang_show->$fo_lang\n ";}
-        }
-
-		#
-		# Index page body
-		#
-        $t_index=HTML::Template->new(filename=>"$local_tmpl/index$lang_param.tmpl.html",die_on_bad_params=>0, utf8=>1);
-
-		# Get the Album List
-	
-
-	# Images index
-	$t_index->param('album_title',$album_title);
- 	$t_index->param('album_creation',$album_creation);
-
-	my $sql="SELECT DISTINCT photo.id,photo.thumb_file,photo.site_img,photo.site_thb FROM photo,album_photo where photo.id=album_photo.photo_id AND album_id=$album_id and album_photo.publish=1  ORDER BY album_photo.display_order";
-
-        my $sth = $dbh->prepare($sql);
-        $sth->execute();
-
-        my ($id,$tf,$cnt,$loop_ix,$site_img,$site_thb);
-        $sth->bind_columns(\$id,\$tf,\$site_img,\$site_thb);
-
-
-	my $photo_nr=1;
-        while ($sth->fetch()) {
-		$tf=~s/\\//g; 
-		my $urlphoto=$tf;$urlphoto=~s/^thb-//;
-		$urlphoto=~s/\\//g;
-                my $photo_dir=$web_host_img{$site_img}; 
-		my $photo_thumb_dir = $web_host_thb{$site_thb};
-		my $photo_name_file_thb=$titlestrip."$lang_param.html";
-		my $iid=$id;
-		$photo_name_file_thb=~s/îéèàâ/ieeaa/;
-
-		my %ix=('photo_fic'=>$photo_name_file_thb,'photo_url'=>"$photo_dir/$urlphoto",'photo_id'=>"$iid",'doc_title'=>$place_name." ".$place_town);
-		#print STDERR "$id-$tf-$photo_url\n";
-		push  @loop_ix,\%ix;
-		$photo_nr++;
-	}
-	#print STDERR "test$photo_nr";
-	$sth->finish();
-	$t_index->param('photo_list_idx',\@loop_ix);
-
-	# Menu list
-	foreach $fic ('lst_cister','lst_roman','lst_gothic','lst_medieval') {	
-		open(F1,"$local_tmpl/$fic$lang_param.html")|| die "Error: $!\n";
-		my $lst;
-		while(<F1>) {
-			$lst.=$_;
-		}
-		close(F1);
-		$t_index->param("$fic",$lst);
-	}
-
-	# Site Map
-	#
-	if ($map) {
-		$t_index->param('map',1);
-		$t_index->param('map_url',$map_url);
-		$t_index->param('map_img_low',$map_img_low);
-		$t_index->param('map_source_text',$map_source_text);
-		$t_index->param('map_source_url',$map_source_url);
-		$t_index->param('map_source_book_id',$map_source_book_id);
-	}
-
-	# Other infos
-	$t_index->param('photo_place',$place_name);
-	$t_index->param('photo_city',$place_town);
-	$t_index->param('photo_when',$creation);
-	$t_index->param('photo_author',"$first_name $last_name");
-	$t_index->param('photo_comment',$photo_description);
-	$t_index->param('photo_comment',$album_comment);
-
-	#Sites proximité
-        $t_index->param('site_region_next',\@tab_site_region_next);
-        $t_index->param('site_region_id',\@tab_site_region_id);
-
 
 
 	# Save to file
 	if ($debug) {print STDERR "Creating:".$relocation_path.$out_dir."/".$photo_album_file." ";}
 	open  FIC,">".$relocation_path.$out_dir."/".$photo_album_file || die "Error: $!\n";
-	print FIC $t_index->output;
-	#print FIC Encode::encode("UTF-8",$t_index->output);
+	print FIC "<HTML><HEAD><SCRIPT language=\"javascript1.3\">window.location.href=\"$photo_name_file\";</SCRIPT></HEAD></HTML>";
 	close(FIC);
-
 
 
 $dbh->disconnect;

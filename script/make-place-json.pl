@@ -51,16 +51,16 @@ $sth->bind_columns(\$pid,\$ptitle);
 while ($sth->fetch()) {
 	$country_list{$pid}=$ptitle;
 }
-	print "[\n";
+	print "[";
 foreach $country (keys %country_list) {
 
 		#Generate per region section
 		#
 		my $sql="select id,title from region_state where country=$country order by title";
 		my $sth = $dbh->prepare($sql);
-		$sth->execute();my $rowc;
+		$sth->execute();my $rowc=0;
 		if ($sth->rows>1) {
-			my $st="{\t\"name\":\"".$country_list{$country}."\",\n";
+			my $st="{\"country\":\"".$country_list{$country}."\",";
 			my ($pid,@t_region,$ptitle);
 			$sth->bind_columns(\$pid,\$ptitle);
 			while ($sth->fetch()) {
@@ -69,17 +69,20 @@ foreach $country (keys %country_list) {
 					$ptitle=~s/\s/_/g;
 					$ptitle=~s/\'/_/g;
 					$ptitle=~tr/???????/eeeaaoo/;
+					if (&sql_get_size($dbh,"select distinct album.id from album,album_place,place where album.id=album_place.album_id  and album_place.place_id=place.id and place.region_id=$pid and place.country=$country")>0) {
 					&generate_region($country,$pid,$ptitle,$st);
 				$rowc++;
-				print ',' unless ($rowc==$sth->rows);
+				#print ','.$rowc.' '.$sth->rows." ".$country." ".$pid." ".$ptitle unless ($rowc&&($rowc==$sth->rows));
+				print ',' unless ($rowc&&($rowc==$sth->rows));
+					} else {$rowc++;};
 			}
 		} elsif ($sth->rows==1) {
-			my $st="{\t\"name\":".$country_list{$country}."\"\n";
+			my $st="{\"country\":".$country_list{$country}."\"";
 			&generate_region($country,0,0,$st);
 		}
 }
 
-	print "]\n";
+	print "]";
 
 $dbh->disconnect;
 $dbh2->disconnect;
@@ -102,18 +105,19 @@ sub generate_region {
 			$sql="select distinct album.id from album,album_place,place where album.id=album_place.album_id  and album_place.place_id=place.id and place.country=$country_id";
 		}
 		my $sth = $dbh->prepare($sql);
-		$sth->execute();my $rowc;
+		$sth->execute();my $rowc=0;
 		if ($sth->rows>0) {
-			if ($region_id) {$st.="\t\"region\":\"".$region_name."\",\n";}
+			if ($region_id) {$st.="\"region\":\"".$region_name."\",";}
 			my ($pid,@t_department);
 			$sth->bind_columns(\$pid);
 			while ($sth->fetch()) {
 				&get_album_from_id($pid,$st);
 				$rowc++;
+				#print ','.$rowc.' '.$sth->rows unless ($rowc==$sth->rows);
 				print ',' unless ($rowc==$sth->rows);
 			}
 			if ($region_id) {print "";}
-		}
+		} 
 }
 
 
@@ -129,8 +133,8 @@ sub get_album_from_id($) {
 	$sth2->bind_columns(\$pid,\$tf,\$nm,\$album_url,\$town_name,\$epoch_str,\$epoch_style,\$place_lng,\$place_lat,\$onsite);
 	while ($sth2->fetch()) {
 			print $st;
-			print "\t\"site\":\"$nm\",\n";
-			print "\t\"popup_html\":\"$nm, $town_name";
+			print "\"title\":\"$nm\",";
+			print "\"popup_html\":\"$nm, $town_name";
 
 	my $thb_fic=&sql_get($dbh2,"select photo.thumb_file from photo,album_photo where album_photo.album_id=$album_id and photo.id=album_photo.photo_id and album_photo.display_order=1");
 
@@ -138,13 +142,14 @@ sub get_album_from_id($) {
         print "<img align=\\\"right\\\" src=\\\"http://www.romanes.org/thumb/$thb_fic\\\"/>";
     }
 
-    print "<br/><br/>Voir l'album: <a href=\\\"$web_host_album{$onsite}$album_url\\\">$nm</a>";
+    print "<br/><br/>Voir l album: <a href=\\\"$web_host_album{$onsite}$album_url\\\">$nm</a>";
 
 
-			print "\",\n";
-			print "\t\"lon\":\"$place_lng\",\n";
-			print "\t\"lat\":\"$place_lat\"\n";
-			print "}\n";
+			print "\",";
+			print "\"lon\":\"$place_lng\",";
+			print "\"lat\":\"$place_lat\",";
+			print "\"icon\":\"/favicon.png\"";
+			print "}";
 	}
 }
 
@@ -178,6 +183,17 @@ sub sql_get {
     $sth->finish();
 
     return($r);
+}
+sub sql_get_size {
+    my ($dbh,$sql) = @_;
+
+    my $sth = $dbh->prepare($sql);
+    $sth->execute();
+
+    my $res;my $r;
+    $sth->bind_columns(\$res);
+    return($sth->rows);
+    $sth->finish();
 }
 
 sub sql_update {

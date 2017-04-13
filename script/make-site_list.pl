@@ -12,10 +12,14 @@ use Image::Info qw(image_info);
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
-use Encode;
 use URI::Escape;
+use Encode;
 use Unicode::Normalize;
 use Text::Unaccent::PurePerl qw(unac_string);
+use open IO => ":utf8",":std";
+use Encode;
+use Text::Unidecode;
+
 
 #use strict;
 
@@ -90,9 +94,9 @@ my $t_header;
 my $t_content;
 my $t_footer;
 
-my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-my $dbh1 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh1->errstr\n";
-my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh2->errstr\n";
+my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
+my $dbh1 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh1->errstr\n";
+my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh2->errstr\n";
 &sql_update($dbh, "SET NAMES utf8");
 &sql_update($dbh1,"SET NAMES utf8");
 &sql_update($dbh2,"SET NAMES utf8");
@@ -152,9 +156,12 @@ $sth->bind_columns(\$pid,\$ptitle);
 while ($sth->fetch()) {
 	push @f_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
-	$ptitle=~s/\'/\\\'/g;
+	$ptitle=~s/\'/'/g;
 	$ptitle=~s/_/ /g;
-	$ptitle=decode_utf8($ptitle);
+	#if ( $ptitle =~ /[\x80-\xff]/ ) {
+	 	#$ptitle=decode_utf8($ptitle);
+		#print STDERR "1 $pid-$ptitle\n";
+	#}
 	push @tab_menu,{'region_url'=>'#F'.$pid,"region_name_fr"=>$ptitle};
 	#print STDERR "$pid-$ptitle\n";
 }
@@ -174,15 +181,15 @@ push @tab_menu,{'region_url'=>"/France$lang_param.html",'region_name_fr'=>&get_c
 while ($sth->fetch()) {
 	push @f_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
-		$phtitle=decode_utf8($phtitle);
+		#$phtitle=decode_utf8($phtitle);
 	   	my $phtitle=$ptitle;
 		chomp($phtitle);
 		$phtitle=~s/\s/_/g;
 		$phtitle=~s/__/_/g;
 		$phtitle=~s/\'/_/g;
 		$phtitle=~s/_$//;
-		#$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		$phtitle=unac_string("UTF-8",$phtitle);
+		$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		$phtitle=unac_string($phtitle);
 		push @tab_menu,{'region_url'=>"/".$phtitle."$lang_param.html",'region_name_fr'=>$ptitle};
 }	
 my $sql="select id,title from region_state order by title";
@@ -195,15 +202,16 @@ while ($sth->fetch()) {
 	#push @l_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
 	#$ptitle=encode("iso-8859-1",decode("utf8", $ptitle));
-	Encode::_utf8_off($ptitle);
-	$ptitle=decode_utf8($ptitle);
+	#Encode::_utf8_off($ptitle);
+	#$ptitle=decode_utf8($ptitle);
 	#print STDERR "$ptitle ";
 	$ptitle=~s/\s/_/g;
 	$ptitle=~s/__/_/g;
 	$ptitle=~s/\'/_/g;
 	$ptitle=~s/_$//;
-	#$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-	$ptitle=unac_string("UTF-8",$ptitle);
+	$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+	#$ptitle=unac_string("UTF-8",$ptitle);
+	$ptitle=unac_string($ptitle);
 	print STDERR "$ptitle ";
 	&generate_region("$local_tmpl/pages/region$lang_param.tmpl.html",$ptitle,$pid,2,250,@l_region);
 	#print STDERR ". ok\n";
@@ -235,13 +243,13 @@ sub generate_region {
 			$sth->bind_columns(\$pid);
 			while ($sth->fetch()) {
 				$l_department{$dpt}.="$pid,";
-				if ($debug) {print STDERR "reg:$pid\n";}
+				#if ($debug) {print STDERR "reg:$pid\n";}
 			}
 		}
 
 
 		my @tab_site_loop;my @site_loop;
-		if ($debug) {print STDERR "tab_site_loop".join(':',@tab_site_loop)."\n";}
+		#if ($debug) {print STDERR "tab_site_loop".join(':',@tab_site_loop)."\n";}
 		#foreach (@tab_site_loop) { shift @tab_site_loop;}
 		my $odd_even=0;my %tab={};#my @tab_menu;
 		foreach my $k (@t_region) {
@@ -345,8 +353,8 @@ sub generate_region {
 		$ptitle=~s/_$//;
 		#$ptitle=~tr/éèêëàâôöùñóí_/eeeeaaoounoi /;
         	$ptitle=~tr/_/ /;
-		$ptitle=decode_utf8($ptitle);
-		$ptitle=unac_string("UTF-8",$ptitle);
+		#$ptitle=decode_utf8($ptitle);
+		$ptitle=unac_string($ptitle);
 		push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.$g_region_name.($lang_param||'_fr').'.html#','name'=>$ptitle};		  
 	}
 	if ($debug) {print STDERR "POS: $album_id $place_town $place_name\n";}
@@ -365,14 +373,17 @@ sub generate_region {
 		#Include regional text
 		my $region_intro;
 		my $r_l=&get_region($region_id,'fr');$r_l=~tr/ 'éè/__ee/;
+	print STDERR "R: $_l ". $local_tmpl."pages/regions/".$r_l."$lang_param.html". "\n";
 		if (($region_name eq 'Centre')||($region_name =~/Picardie/)) {
 		    if (-e $local_tmpl."pages/regions/Ile_de_France$lang_param.html") {
 			open(REG,$local_tmpl."pages/regions/Ile_de_France$lang_param.html");
 			while(<REG>) { $region_intro.=$_; }
+			close(REG);
 		  }
 		} elsif (-e $local_tmpl."pages/regions/".$r_l."$lang_param.html") {
-			open(REG,$local_tmpl."pages/regions/".$r_l."$lang_param.html");
+			open(REG,$local_tmpl."pages/regions/".$r_l."$lang_param.html")||warn "$!";
 			while(<REG>) { $region_intro.=$_; }
+			close(REG);
 		}
 
 		# language flags
@@ -388,9 +399,9 @@ sub generate_region {
 		$ptitle=~s/__/_/g;
 		$ptitle=~s/\'/_/g;
 		$ptitle=~s/_$//;
-		#$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		$ptitle=decode_utf8($ptitle);
-		$ptitle=unac_string("UTF-8",$ptitle);
+		$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		#$ptitle=decode_utf8($ptitle);
+		$ptitle=unac_string($ptitle);
 		$t_header->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
             	$t_header->param("lang_$lang_show","/".$fo_lang);
 		if ($debug) {print STDERR "lang_$lang_show->$fo_lang\n ";}
@@ -402,6 +413,7 @@ sub generate_region {
 		my $t_content;
 		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0);
 		$ptitle=~s/_/ /g;
+	        $ptitle=&get_region($region_id,$lang_param);
 		$t_content->param('region_name_fr',$ptitle);
 		$t_content->param('site_region',$region_name);
 		$t_content->param('site_loop',\@site_loop);
@@ -410,17 +422,17 @@ sub generate_region {
 		$t_content->param('region_name_categ_fr',$region_name);
 		#my $rn_esc=uri_escape($rn{&get_region($region_id,"fr")});
 		my $rn_esc=&get_region($region_id,"fr");
-		#$rn_esc=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		$rn_esc=decode_utf8($rn_esc);
-		$rn_esc=unac_string("UTF-8",$rn_esc);
+		$rn_esc=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		#$rn_esc=decode_utf8($rn_esc);
+		$rn_esc=unac_string($rn_esc);
 		$rn_esc=~tr/ '/__/;
 		$t_content->param('rss_region_fr',$rn_esc);
 		#print STDERR 'rss_region_fr'.'='.$rn_esc."\n";
 
 		#$region_name=~tr/éèêëàâôöùñóí '/eeeeaaoounoi__/;
         	$region_name=~tr/ '/__/;
-		$region_name=decode_utf8($region_name);
-		$region_name=unac_string("UTF-8",$region_name);
+		#$region_name=decode_utf8($region_name);
+		$region_name=unac_string($region_name);
 		open(FIC,">".$region_name."$lang_param.html")|| warn "ERR:$region_name $!\n";
 		#print FIC $t_header->output;
 		print FIC $t_content->output;
@@ -481,7 +493,7 @@ sub get_region() {
 	chomp($cstring);
 	$cstring=~s/ $//;
 	#$cstring=encode("iso-8859-1",decode("utf8", $cstring));	
-	$cstring=decode_utf8($cstring);
+	#$cstring=decode_utf8($cstring);
 	return ($cstring);
 }
 

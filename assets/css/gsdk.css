@@ -4223,9 +4223,9 @@ body > .navbar-collapse.collapse {
   margin-bottom: 20px;
 }
 .card .image {
-  //width: 100%;
+  width: 100%;
   overflow: hidden;
-  height: 260px;
+  height: 160px;
   border-radius: 6px 6px 0 0;
   position: relative;
   -webkit-transform-style: preserve-3d;

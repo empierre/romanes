@@ -205,11 +205,26 @@
 </nav>
 
 <div class="space-50"></div>
+<div class="section">
+    <div class="container tim-container" style="padding-bottom:30px">
+        <h1 class="text-center">Territoires romans</h1>
+    </div>
+    <div class="separator separator-gray"></div>
+    <div class="container tim-container" style="padding-bottom:30px">
+        <div class="columnlists">
+            <ul>
+                <TMPL_LOOP NAME="region_list"><li><a href="<TMPL_VAR NAME="region_url">"><TMPL_VAR NAME="region_name_fr"></a></li></TMPL_LOOP>
+            </ul>
+        </div>
+
+    </div>
+</div>
 
 <div class="section">
+    <TMPL_LOOP NAME="site_loop">
+        <div class="separator separator-gray"><TMPL_IF NAME="title_name_fr"><a name="<TMPL_VAR NAME="title_id_fr">"> </a></TMPL_IF></div>
     <div class="container">
 
-            <TMPL_LOOP NAME="site_loop">
                 <TMPL_IF NAME="title_name_fr"><h2 class="section-title"><TMPL_VAR NAME="title_name_fr"></h2></TMPL_IF>
                 <TMPL_LOOP NAME="thb_site_loop_line">
                     <div class="row">
@@ -233,7 +248,7 @@
                         </a>
                         <div class="footer">
                             <div class="author">
-                                <a class="card-link" href="#"></a>
+                                <TMPL_VAR NAME="town_name_fr_1">
                             </div>
                             <div class="stats pull-right">
                                 <TMPL_VAR NAME="epoch">
@@ -247,8 +262,9 @@
                         </TMPL_LOOP>
                         </div>
                 </TMPL_LOOP>
+    </div>
             </TMPL_LOOP>
-        </div>
+
     </div>
 </div>
 

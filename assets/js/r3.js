@@ -206,8 +206,8 @@ function initMorphingButtons(){
 
 }
 */
-/*
-function initGoogleMaps(){
+
+/*function initGoogleMaps(){
     var myLatlng = new google.maps.LatLng(44.433530, 26.093928);
     var mapOptions = {
       zoom: 14,

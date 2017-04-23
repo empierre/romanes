@@ -43,7 +43,7 @@ print STDERR "Generating Google Earth Json Markers \n";
 
 #Generate Countries
 my %country_list;
-my $sql="select id,name from country order by name";
+my $sql="select id,name from country order by id";
 my $sth = $dbh->prepare($sql);
 $sth->execute();
 my ($pid,@f_region,$ptitle);
@@ -52,14 +52,18 @@ while ($sth->fetch()) {
 	$country_list{$pid}=$ptitle;
 }
 	print "[";
-foreach $country (keys %country_list) {
+		my $c=0;
+foreach $country (sort keys %country_list) {
+		$c++;my $rc;
 
 		#Generate per region section
 		#
-		my $sql="select id,title from region_state where country=$country order by title";
+		my $sql="select id,title from region_state where country=$country order by id";
+		#print STDERR $sql;
+		print STDERR "$country\n";
 		my $sth = $dbh->prepare($sql);
 		$sth->execute();my $rowc=0;
-		if ($sth->rows>1) {
+		if ($sth->rows>=1) {
 			my $st="{\"country\":\"".$country_list{$country}."\",";
 			my ($pid,@t_region,$ptitle);
 			$sth->bind_columns(\$pid,\$ptitle);
@@ -70,15 +74,23 @@ foreach $country (keys %country_list) {
 					$ptitle=~s/\'/_/g;
 					$ptitle=~tr/???????/eeeaaoo/;
 					if (&sql_get_size($dbh,"select distinct album.id from album,album_place,place where album.id=album_place.album_id  and album_place.place_id=place.id and place.region_id=$pid and place.country=$country")>0) {
-					&generate_region($country,$pid,$ptitle,$st);
+					$rc=&generate_region($country,$pid,$ptitle,$st);
 				$rowc++;
-				#print ','.$rowc.' '.$sth->rows." ".$country." ".$pid." ".$ptitle unless ($rowc&&($rowc==$sth->rows));
-				print ',' unless ($rowc&&($rowc==$sth->rows));
+				if (($rowc&&(($rowc+1)!=$sth->rows))) {
+					print STDERR "COMA00 $rowc ".$sth->rows."\n";
+					print ',';
+				}
 					} else {$rowc++;};
 			}
-		} elsif ($sth->rows==1) {
-			my $st="{\"country\":".$country_list{$country}."\"";
-			&generate_region($country,0,0,$st);
+		} else {
+			my $st="{\"country\":\"".$country_list{$country}."\",";
+			$rc=&generate_region($country,0,$country_list{$country},$st);
+		}
+	print STDERR "RC $rc\n";
+		if (( $c < keys %country_list)&&($rc>=1)) {
+			print STDERR "\nCOMA0";
+			print STDERR " \t $c ".(keys %country_list)."\n";
+                	print ',';
 		}
 }
 
@@ -99,7 +111,7 @@ sub generate_region {
 
 		my (%l_department);
 		my $sql;
-		if ($region_id) {
+		if ($region_id>0) {
 			$sql="select distinct album.id from album,album_place,place where album.id=album_place.album_id  and album_place.place_id=place.id and place.region_id=$region_id and place.country=$country_id";
 		} else {
 			$sql="select distinct album.id from album,album_place,place where album.id=album_place.album_id  and album_place.place_id=place.id and place.country=$country_id";
@@ -113,11 +125,18 @@ sub generate_region {
 			while ($sth->fetch()) {
 				&get_album_from_id($pid,$st);
 				$rowc++;
-				#print ','.$rowc.' '.$sth->rows unless ($rowc==$sth->rows);
-				print ',' unless ($rowc==$sth->rows);
+				if ($rowc!=$sth->rows) {
+					#print STDERR "COMA1 $rowc ".$sth->rows." \n";
+					print ",";
+				}
 			}
-			if ($region_id) {print "";}
-		} 
+			if (($region_id==0)&&($rowc!=$sth->rows)) {
+				#print STDERR "COMA2";
+				print ",";}
+		} else {
+
+		}
+	return $rowc;
 }
 
 
@@ -133,6 +152,7 @@ sub get_album_from_id($) {
 	$sth2->bind_columns(\$pid,\$tf,\$nm,\$album_url,\$town_name,\$epoch_str,\$epoch_style,\$place_lng,\$place_lat,\$onsite);
 	while ($sth2->fetch()) {
 			print $st;
+print STDERR "$nm\t";
 			print "\"title\":\"$nm\",";
 			print "\"popup_html\":\"$nm, $town_name";
 

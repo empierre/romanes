@@ -109,37 +109,35 @@ my $hosting="";
 
 
 my %web_host_img=(
-	"9" => "http://www.romanes.org/",
-	"8" => "http://www.romanes.com/",
-	#"1" => "http://romanes.free.fr/",
-	"1" => "http://romanes.pagesperso-orange.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/",
-    "11" => "http://romanes11.free.fr/",
-    #"11" => "http://romanes.pagesperso-orange.fr/",
-    "12" => "http://romanes12.free.fr/"
+    "1" => "/media/",
+    "2" => "/media/",
+    "3" => "/media/",
+    "4" => "/media/",
+    "5" => "/media/",
+    "6" => "/media/",
+    "7" => "/media/",
+    "8" => "/media/",
+    "9" => "/media/",
+    "10" => "/media/",
+    "11" => "/media/",
+    "12" => "/media/"
 );
 my %web_host_thb=(
-	"1" => "http://romanes.pagesperso-orange.fr/"
-	#"1" => "http://www.romanes.org/"
+	"1" => "/media/"
 );
 my %web_host_album=(
-	"11" => "http://romanes11.free.fr/",
-	"12" => "http://romanes12.free.fr/",
-	"9" => "http://www.romanes.org/",
-	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.pagesperso-orange.fr/",
-	#"1" => "http://romanes.free.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/"
+    "1" => "/",
+    "2" => "/",
+    "3" => "/",
+    "4" => "/",
+    "5" => "/",
+    "6" => "/",
+    "7" => "/",
+    "8" => "/",
+    "9" => "/",
+    "10" => "/",
+    "11" => "/",
+    "12" => "/"
 );
 
 my $reference_onsite=8;
@@ -314,7 +312,7 @@ sub generate_region {
 
 		}
 
-		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1);
+		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1,utf8     => 1);
 		if ($lang_param eq '_en') {
 				$t_header->param('doc_title',"Romanes.com: Romanesque Art and Architecture, $region_name");
 				$t_header->param('doc_description',"$region_name");
@@ -363,7 +361,7 @@ sub generate_region {
 		#
 		# Footer
 		#
-		$t_footer=HTML::Template->new(filename=>"$local_tmpl/footer$lang_param.tmpl.html",die_on_bad_params=>0);
+		$t_footer=HTML::Template->new(filename=>"$local_tmpl/footer$lang_param.tmpl.html",die_on_bad_params=>0,utf8     => 1);
         	my $marqueur=$album_title;
 		$marqueur=~s/\s/_/g;
 		$marqueur=~s/\'/_/g;
@@ -411,7 +409,7 @@ sub generate_region {
 		#Publish
 		#
 		my $t_content;
-		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0);
+		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8     => 1);
 		$ptitle=~s/_/ /g;
 	        $ptitle=&get_region($region_id,$lang_param);
 		$t_content->param('region_name_fr',$ptitle);

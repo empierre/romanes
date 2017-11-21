@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/perl 
 #
-# (c) 2002-2010 Emmanuel PIERRE
+# (c) 2002-2017 Emmanuel PIERRE
 #          epierre@romanes.com
 #          http://www.e-nef.com/users/epierre
 #
@@ -106,37 +106,35 @@ my $t_footer;
 #my $photo_wp1024x768_dir="http://romanes2.free.fr/wp-1024x768/";
 
 my %web_host_img=(
-	"9" => "http://www.romanes.org/",
-	"8" => "http://www.romanes.com/",
-	#"1" => "http://romanes.free.fr/",
-	"1" => "http://romanes.pagesperso-orange.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/",
-    "11" => "http://romanes11.free.fr/",
-    #"11" => "http://romanes.pagesperso-orange.fr/",
-    "12" => "http://romanes12.free.fr/"
+    "1" => "/media/",
+    "2" => "/media/",
+    "3" => "/media/",
+    "4" => "/media/",
+    "5" => "/media/",
+    "6" => "/media/",
+    "7" => "/media/",
+    "8" => "/media/",
+    "9" => "/media/",
+    "10" => "/media/",
+    "11" => "/media/",
+    "12" => "/media/"
 );
 my %web_host_thb=(
-	"1" => "http://romanes.pagesperso-orange.fr/"
-	#"1" => "http://www.romanes.org/"
+	"1" => "/media/"
 );
 my %web_host_album=(
-	"11" => "http://romanes11.free.fr/",
-	"12" => "http://romanes12.free.fr/",
-	"9" => "http://www.romanes.org/",
-	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.pagesperso-orange.fr/",
-	#"1" => "http://romanes.free.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/"
+    "1" => "",
+    "2" => "",
+    "3" => "",
+    "4" => "",
+    "5" => "",
+    "6" => "",
+    "7" => "",
+    "8" => "",
+    "9" => "",
+    "10" => "",
+    "11" => "",
+    "12" => ""
 );
 my $reference_onsite=8;
 
@@ -167,7 +165,7 @@ while ($sth->fetch()) {
 $sth->finish();
 
 if ($album_onsite!=8) {
-  $relocation_path='/mnt/data/prod/romanes.org/';
+#  $relocation_path='/mnt/data/prod/romanes.org/';
 }
 
 my $sql="SELECT text FROM strings where id_l=$comment_id";
@@ -516,13 +514,13 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 	
 		#####EXTRA
 		my %loop='';
-		my $sql="SELECT DISTINCT photo.id,photo.thumb_file,photo.site_img,photo.site_thb,photo.sernum FROM photo,album_photo where photo.id=album_photo.photo_id AND album_id=$album_id and album_photo.publish=1  ORDER BY album_photo.display_order";
+		my $sql="SELECT DISTINCT photo.id,photo.thumb_file,photo.site_img,photo.site_thb,photo.sernum,album_photo.display_order FROM photo,album_photo where photo.id=album_photo.photo_id AND album_id=$album_id and album_photo.publish=1  ORDER BY album_photo.display_order";
 
 		my $sth = $dbh->prepare($sql);
 		$sth->execute();
 
-		my ($id,$tf,$cnt,@loop1,$loop,$site_img,$site_thb,$pr);
-		$sth->bind_columns(\$id,\$tf,\$site_img,\$site_thb,\$pr);
+		my ($id,$tf,$cnt,@loop1,$loop,$site_img,$site_thb,$pr,$do);
+		$sth->bind_columns(\$id,\$tf,\$site_img,\$site_thb,\$pr,\$do);
 		while ($sth->fetch()) {
 			 $tf=~s/\\//g;
 	  		my $urlphoto=$tf;$urlphoto=~s/^thb-//;
@@ -530,7 +528,9 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 	                my $photo_dir=$web_host_img{$site_img};
 	                #$urlphoto=~s/ /%20/g;
 			my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$pr);
-			push  @loop,\%ix;
+			if (-e '/home/data/prod/r3/media/'.$urlphoto) {
+				push  @loop,\%ix;
+			}
 		}
 		$sth->finish();
         	$t_content->param('photo_list',\@loop);
@@ -581,7 +581,7 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 
 	#LO:book_related
 	my (@tab_book_link);
-        $sql = "select distinct cross_classification_book.book_id,book.title,book.author,book.url_picture,book.url,book.lang from cross_classification_book,book,cross_classification where cross_classification_book.classification_id=cross_classification.id_rel and cross_classification.photo_id=$photo_id and cross_classification_book.book_id=book.id ORDER BY book.editor";
+        $sql = "select distinct cross_classification_book.book_id,book.title,book.author,book.url_picture,book.url,book.lang from cross_classification_book,book,cross_classification where cross_classification_book.classification_id=cross_classification.id_rel and cross_classification.photo_id=$photo_id and cross_classification_book.book_id=book.id ORDER BY book.author";
 	if ($debug) {print $sql."\n"}
         $sth = $dbh->prepare($sql);
         $sth->execute();

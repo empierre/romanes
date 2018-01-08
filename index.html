@@ -42,7 +42,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" />
 		<link href="/assets/css/gsdk.css" rel="stylesheet"/>      
-		<link href="/assets/css/r3.css" rel="stylesheet" /> 
+		<link href="/assets/css/r3b.css" rel="stylesheet" /> 
         
     <!--     Fonts and icons     -->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
@@ -178,13 +178,13 @@
 		   </div>
 		 <ul class="nav navbar-nav navbar-right nav_list_lng">
 				<li class="active">
-					<a href="#">
+					<a href="index_fr.html">
 				<img src="/assets/img/flags/FR.png"/></a> 
-					<a href="#">
+					<a href="index_en.html">
 				<img src="/assets/img/flags/US.png"/></a>
-					<a href="#">
+					<a href="index_it.html">
 				<img src="/assets/img/flags/IT.png"/></a>
-					<a href="#">
+					<a href="index_es.html">
 				<img src="/assets/img/flags/ES.png"/></a>
 				</li>     
 		  </ul>
@@ -193,12 +193,17 @@
             <li class="dropdown active">                
                  <a href="javascript:void(0);" data-toggle="search" class=""><i class="fa fa-search"></i></a>
             </li>                      
-            <form class="navbar-form navbar-left navbar-search-form" role="search">
+            <form class="navbar-form navbar-left navbar-search-form" role="search" id="searchform" method="get" action="/search_fr.html">
                 <div class="form-group">
-                    <input type="text" value="" class="form-control" placeholder="Search...">
-                </div>
+		    <input type="text"  class="form-control" placeholder="Search..." name="q" id="s" size="18" value="chercher..." onblur="if(this.value=='') this.value='chercher...';" onfocus="if(this.value=='chercher...') this.value='';" />
+		    <input type="hidden" name="cx" value="partner-pub-9572068145045929:cvginc45qvg" />
+		    <input type="hidden" name="cof" value="FORID:10" />
+		    <input type="hidden" name="ie" value="UTF8" />
+		</div>
             </form>
 	  </ul>
+<!--script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=fr"></script-->
+  <!-- SiteSearch Google -->
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -282,7 +287,7 @@
 								<a class="slide-labelbox" href="/Saint-Michel-de-Cuixa">
 
 									<h3 class="slide-label">
-										<span class="slide-label-1">Saint Martin du Cuixa</span>
+										<span class="slide-label-1">Saint Martin du Cuxa</span>
 									</h3>
 
 									<p class="slide-action">
@@ -321,7 +326,7 @@
 					</div> 
 					<div class="col-sm-3"> 
 						<a href="/art_cistercien.html">
-							<img class="four_col_img" src="/assets/img/carousel/orig/FR-Valmagne-DSCF8594.jpg">
+							<img class="four_col_img" src="/assets/img/carousel/optim/FR-Valmagne-DSCF8594.jpg">
 							<div class="teaser-text">
 								<span class="teaser-label">Art Cistercien</span>
 								<span class="teaser-btn btn-hollow">Découvrir</span>
@@ -330,7 +335,7 @@
 					</div> 
 					<div class="col-sm-3"> 
 						<a href="/art_gothique.html">
-							<img class="four_col_img" src="/assets/img/carousel/orig/FR-Amiens-Notre_Dame-T0024-0015.jpg">
+							<img class="four_col_img" src="/assets/img/carousel/optim/FR-Amiens-Notre_Dame-T0024-0015.jpg">
 							<div class="teaser-text">
 								<span class="teaser-label">Art Gothique (arte francigenum)</span>
 								<span class="teaser-btn btn-hollow">Découvrir</span>
@@ -391,7 +396,7 @@
  		<div class="col-md-4 introduction_a_lart_roman">
                         <div class="card card-plain">
                             <div class="image">
-                                <img src="/assets/img/carousel/FR-La_Sauve-La_Sauve_Majeure-3322-0027.png" alt="..." />
+                                <img src="/assets/img/carousel/FR-La_Sauve-La_Sauve_Majeure-3322-0027.jpg" alt="La Sauve Majeur" />
                             </div>
                             <div class="content">
                                 <a class="card-link" href="#">
@@ -478,7 +483,7 @@
                 <div class="col-md-4">
                     <div class="card card-plain">
                         <div class="image">
-                            <img src="http://romanes4.free.fr/FR-Tallano-San_Giovanni_Battista_Poggio-tz1_2009-05-23-120824_pt.jpg" alt="San Giovanni Battista Poggio di Tallano">
+                            <img src="/media/FR-Tallano-San_Giovanni_Battista_Poggio-tz1_2009-05-23-120824_pt.jpg" alt="San Giovanni Battista Poggio di Tallano">
                             <div class="filter">
                                 <button type="button" class="btn btn-neutral btn-simple">
                                     <i class="fa fa-align-left"></i> <a href="/Corse/Tallano/index.html">Voir l'album</a>
@@ -508,7 +513,7 @@
                     <div class="col-md-4">
                         <div class="card card-plain">
                             <div class="image">
-                                <img src="http://romanes4.free.fr/FR-Olcani-San_Quilico-tz1_2009-05-25-163207.jpg" alt="San Quilico Olcani">
+                                <img src="/media/FR-Olcani-San_Quilico-tz1_2009-05-25-163207.jpg" alt="San Quilico Olcani">
                                 <div class="filter">
                                     <button type="button" class="btn btn-neutral btn-simple">
                                         <i class="fa fa-align-left"></i> <a href="/Corse/Olcani/index.html">Voir l'album</a>
@@ -538,7 +543,7 @@
                         <div class="col-md-4">
                             <div class="card card-plain">
                                 <div class="image">
-                                    <img src="http://romanes4.free.fr/FR-Santa_Maria_Figaniella-Santa_Maria_Figaniella-tz1_2009-05-23-135004_pt.jpg" alt="Santa Maria Figaniella">
+                                    <img src="/media/FR-Santa_Maria_Figaniella-Santa_Maria_Figaniella-tz1_2009-05-23-135004_pt.jpg" alt="Santa Maria Figaniella">
                                     <div class="filter">
                                         <button type="button" class="btn btn-neutral btn-simple">
                                             <i class="fa fa-align-left"></i> <a href="/Corse/Santa-Maria-Figaniella/index.html">Voir l'album</a>
@@ -570,7 +575,7 @@
                 <div class="col-md-4">
                     <div class="card card-plain">
                         <div class="image">
-                            <img src="http://romanes4.free.fr/FR-Carbini-San_Giovanni_Battista-tz1_2009-05-23-094636_pt.jpg" alt="San Giovanni Battista Carbini">
+                            <img src="/media/FR-Carbini-San_Giovanni_Battista-tz1_2009-05-23-094636_pt.jpg" alt="San Giovanni Battista Carbini">
                             <div class="filter">
                                 <button type="button" class="btn btn-neutral btn-simple">
                                     <i class="fa fa-align-left"></i> <a href="/Corse/Carbini/index.html">Voir l'album</a>
@@ -600,7 +605,7 @@
                 <div class="col-md-4">
                     <div class="card card-plain">
                         <div class="image">
-                            <img src="http://romanes4.free.fr/FR-Saint_Florent-Santa_Maria_Assunta_Nebio-tz1_2009-05-25-145356.jpg" alt="Santa Maria Assunta Nebbio">
+                            <img src="/media/FR-Saint_Florent-Santa_Maria_Assunta_Nebio-tz1_2009-05-25-145356.jpg" alt="Santa Maria Assunta Nebbio">
                             <div class="filter">
                                 <button type="button" class="btn btn-neutral btn-simple">
                                     <i class="fa fa-align-left"></i> <a href="/Corse/Saint-Florent/index.html">Voir l'album</a>
@@ -630,7 +635,7 @@
                 <div class="col-md-4">
                     <div class="card card-plain">
                         <div class="image">
-                            <img src="http://romanes4.free.fr/FR-Aregno-Trinite-tz1_2009-05-17-190947.jpg" alt="Trinite d'Aregno">
+                            <img src="/media/FR-Aregno-Trinite-tz1_2009-05-17-190947.jpg" alt="Trinite d'Aregno">
                             <div class="filter">
                                 <button type="button" class="btn btn-neutral btn-simple">
                                     <i class="fa fa-align-left"></i> <a href="/Corse/Aregno/index.html">Voir l'album</a>
@@ -680,7 +685,7 @@
 											<div class="col-md-4">
 															<div class="card card-plain">
 																<div class="image" style="max-height:180px;">
-																	<img src="http://romanes2.free.fr//Arles-StTrophime-Facade-7621-0008.1.jpg" alt="..." />
+																	<img src="/media/Arles-StTrophime-Facade-7621-0008.1.jpg" alt="Arles" />
 																</div>															
 															</div> <!-- end card -->
 											</div>
@@ -720,7 +725,7 @@
 										<div class="col-md-4">
 															<div class="card card-plain">
 																<div class="image" style="max-height:180px;">
-																	<img src="http://romanes3.free.fr//FR-Cruas-Notre_Dame-E5D_2010-08-13_9731.jpg" alt="..." />
+																	<img src="/media/FR-Cruas-Notre_Dame-E5D_2010-08-13_9731.jpg" alt="Cruas" />
 																</div>															
 															</div> <!-- end card -->
 										</div>
@@ -750,7 +755,7 @@
 									<div class="col-md-4">
 															<div class="card card-plain">
 																<div class="image" style="max-height:180px;">
-																	<img src="http://romanes.free.fr//Abbaye_de_St_Leu033.jpg" alt="..." />
+																	<img src="/media/Abbaye_de_St_Leu033.jpg" alt="..." />
 																</div>															
 															</div> <!-- end card -->
 											</div>
@@ -794,7 +799,7 @@
 									<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes3.free.fr//FR-Blet-Saint_Germain-4235-0005.jpg" alt="..." />
+												<img src="/media/FR-Blet-Saint_Germain-4235-0005.jpg" alt="blet" />
 											</div>															
 										</div> <!-- end card -->
 									</div>
@@ -830,7 +835,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes.free.fr//St_Pierre_Aulnay_Saintonge_4046-0013.jpg" alt="..." />
+												<img src="/media/St_Pierre_Aulnay_Saintonge_4046-0013.jpg" alt="Aulnay" />
 											</div>															
 										</div> <!-- end card -->
 							</div>
@@ -870,7 +875,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://emmanuel.pierre2.free.fr//FR-fontevraud-Notre_Dame-7889-0009.jpg" alt="..." />
+												<img src="/media/FR-fontevraud-Notre_Dame-7889-0009.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 							</div>
@@ -905,7 +910,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes.free.fr//FR-Cadouin-Notre-Dame-f100_2009-07-16-165031_5563_pt.jpg" alt="..." />
+												<img src="/media/FR-Cadouin-Notre-Dame-f100_2009-07-16-165031_5563_pt.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 							</div>
@@ -943,7 +948,7 @@
 								<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes2.free.fr//FR-Jumiege-Notre_dame-3839-0035_pt.jpg" alt="..." />
+												<img src="/media/FR-Jumiege-Notre_dame-3839-0035_pt.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -971,7 +976,7 @@
 								<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes3.free.fr//FR-Clermont-ND_Port-4685-0015.jpg" alt="..." />
+												<img src="/media/FR-Clermont-ND_Port-4685-0015.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1007,7 +1012,7 @@
 								<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes2.free.fr//FR-Saint_Gilles_du_Gard-Saint_Gilles-7294-0025.jpg" alt="..." />
+												<img src="/media/FR-Saint_Gilles_du_Gard-Saint_Gilles-7294-0025.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>								
@@ -1038,7 +1043,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes4.free.fr//FR-Sainte_Trinite-Anzy_le_Duc-7305-0029.jpg" alt="..." />
+												<img src="/media/FR-Sainte_Trinite-Anzy_le_Duc-7305-0029.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>	
@@ -1081,7 +1086,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes.free.fr//FR-Moirax-Sainte_Marie-7298-0023.jpg" alt="..." />
+												<img src="/media/FR-Moirax-Sainte_Marie-7298-0023.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>	
@@ -1111,7 +1116,7 @@
 								<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes11.free.fr//FR-Marmoutier-Saint_Etienne-E5D_2011-08-08_1367_pt.jpg" alt="..." />
+												<img src="/media/FR-Marmoutier-Saint_Etienne-E5D_2011-08-08_1367_pt.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1137,7 +1142,7 @@
 								<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes4.free.fr//FR-Valle_di_Campoloro-Santa_Cristina-tz1_2009-05-25-103137_pt.jpg" alt="..." />
+												<img src="/media/FR-Valle_di_Campoloro-Santa_Cristina-tz1_2009-05-25-103137_pt.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1170,6 +1175,35 @@
 				</div>
 			</div>
 			
+
+			<div class="row">
+				<div class="col-md-12">
+								<div class="columnlists">
+							<h3 class="title">
+								Italie romane
+							</h3>
+							<div class="col-md-4">
+										<div class="card card-plain">
+											<div class="image" style="max-height:180px;">
+												<img src="/media/IT-Firenze-SanMiniatoAlMonte-E5D_2013-08-21_3341.jpg" alt="Italia" />
+											</div>															
+										</div> <!-- end card -->
+								</div>
+							<ul>
+								<li><a href="/Italia/Como/SantAbbondio/">Sant Abbondio de Come</a></li>
+								<li><a href="/Italia/Firenze/SanMiniatoAlMonte/">San Miniato Al Monte de Florence</a></li>
+								<li><a href="/Italia/Chiusdino/SanGalgano">Abbaye San Galgano</a></li>
+								<li><a href="/Italia/Firenze/Baptistere">Baptistère de Florence</a></li>
+								<li><a href="/Italia/Lucca/SanMartino">San Martino de Lucques</a></li>
+								<li><a href="/Italia/Milano/SantAmbrogio/">Sant Ambrogio de Milan</a></li>
+								<li><a href="/Italia/Murano/SantiMaria_Donato">Santi Maria e Donato de Murano</a></li>
+								<li><a href="/Italia/Ravenna/San_Vital">San Vital de Ravenne</a></li>
+								<li><a href="/Italia/Verona/SanZeno">San Zeno de Vérone</a></li>
+							</ul>
+								</div>
+				</div>
+			</div>
+
 			<div class="row">
 				<div class="col-md-12">
 								<div class="columnlists">
@@ -1179,7 +1213,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes2.free.fr//CH-Zillis-Saint_Martin-E550_2011-06-03_000003.jpg" alt="..." />
+												<img src="/media/CH-Zillis-Saint_Martin-E550_2011-06-03_000003.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1203,7 +1237,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes2.free.fr//ES-Silos-Santo_Domingo-a350_2011-08-20_00063.jpg" alt="..." />
+												<img src="/media/ES-Silos-Santo_Domingo-a350_2011-08-20_00063.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1223,7 +1257,7 @@
 							<div class="col-md-4">
 										<div class="card card-plain">
 											<div class="image" style="max-height:180px;">
-												<img src="http://romanes2.free.fr//NO-Gol-Stavkirke-Gol_01.jpg" alt="..." />
+												<img src="/media/NO-Gol-Stavkirke-Gol_01.jpg" alt="..." />
 											</div>															
 										</div> <!-- end card -->
 								</div>
@@ -1321,20 +1355,12 @@
 
 </body>
 
-    <!--  jQuery and Bootstrap core files    -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1/jquery-ui.min.js"></script>
-
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
-
-    <!--  Get Shit Done Kit PRO Core javascript 	 -->
 	<script src="/assets/js/get-shit-done.js"></script>
-
-    <!--  Get Shit Done Kit PRO methods used for demo purpose      -->
-    <script src="/assets/js/r3.js"></script>
-    	
-    <script type="text/javascript">
+        <script src="/assets/js/r3.js"></script>
+        <script type="text/javascript">
         $().ready(function(){
             $(window).on('scroll', gsdk.checkScrollForTransparentNavbar);
         });       
@@ -1393,6 +1419,28 @@
 
 
 <!-- Slider script and styles -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "url": "http://www.romanes.com",
+  "sameAs": [
+    "https://www.facebook.com/Structor.et.Pictor",
+    "https://instagram.com/yourProfile",
+    "https://twitter.com/Pierres_Romanes",
+    "https://plus.google.com/+Romanes",
+	"https://romanes.blogspot.fr/",
+	"https://www.pinterest.fr/epierre/art-roman/"
+  ],
+  "logo": "http://romanes.com/images/Front_Page.jpg",
+  "name": "Pierres Romanes",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "http://romanes.com/search_fr.html?cx=partner-pub-9572068145045929%3Acvginc45qvg&cof=FORID%3A10&ie=UTF8&q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
 
 <style>
 </style>

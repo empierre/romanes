@@ -10,7 +10,7 @@ use Fcntl;
 #use strict;
 
 #version
-my $version_dev="1.0.5d";
+my $version_dev="3.0.0";
 
 my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
 my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
@@ -18,22 +18,25 @@ my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Un
 &sql_update($dbh2,"SET NAMES utf8");
 
 
-my $local_tmpl='/mnt/data/web/dev/romanes2.com/templates/';
+my $local_tmpl='/mnt/data/prod/r3/templates/';
 #my $local_tmpl='/cygdrive/c/Documents and Settings/Emmanuel PIERRE/romanes/templates/';
 #my $hosting="http://www.romanes.com/";
 my $hosting="";
 my $debug=0;
 
 my %web_host_album=(
-	"9" => "http://www.romanes.org/",
+	"1" => "http://www.romanes.com/",
+	"2" => "http://www.romanes.com/",
+	"3" => "http://www.romanes.com/",
+	"4" => "http://www.romanes.com/",
+	"5" => "http://www.romanes.com/",
+	"6" => "http://www.romanes.com/",
+	"7" => "http://www.romanes.com/",
 	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.free.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/"
+	"9" => "http://www.romanes.com/",
+	"10" => "http://www.romanes.com/",
+	"11" => "http://www.romanes.com/",
+	"12" => "http://www.romanes.com/"
 );
 my $reference_onsite=8;
 
@@ -159,7 +162,7 @@ print STDERR "$nm\t";
 	my $thb_fic=&sql_get($dbh2,"select photo.thumb_file from photo,album_photo where album_photo.album_id=$album_id and photo.id=album_photo.photo_id and album_photo.display_order=1");
 
     if ($thb_fic) {
-        print "<img align=\\\"right\\\" src=\\\"http://www.romanes.org/thumb/$thb_fic\\\"/>";
+        print "<img align=\\\"right\\\" src=\\\"http://www.romanes.com/media/thumb/$thb_fic\\\"/>";
     }
 
     print "<br/><br/>Voir l album: <a href=\\\"$web_host_album{$onsite}$album_url\\\">$nm</a>";

@@ -43,7 +43,7 @@
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" />
 		<link href="/assets/css/gsdk.css" rel="stylesheet"/>      
-		<link href="/assets/css/r3.css" rel="stylesheet" /> 
+		<link href="/assets/css/r3b.css" rel="stylesheet" /> 
         
     <!--     Fonts and icons     -->
 		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
@@ -177,28 +177,35 @@
 			   </ul>
 		   </div>
 		 <ul class="nav navbar-nav navbar-right nav_list_lng">
-				<li class="active">
-					<a href="#">
-				<img src="/assets/img/flags/FR.png"/></a> 
-					<a href="#">
-				<img src="/assets/img/flags/US.png"/></a>
-					<a href="#">
-				<img src="/assets/img/flags/IT.png"/></a>
-					<a href="#">
-				<img src="/assets/img/flags/ES.png"/></a>
+                        <li class="active">
+                                        <a href="index_fr.html">
+                                <img src="/assets/img/flags/FR.png"/></a>
+                                        <a href="index_en.html">
+                                <img src="/assets/img/flags/US.png"/></a>
+                                        <a href="index_it.html">
+                                <img src="/assets/img/flags/IT.png"/></a>
+                                        <a href="index_es.html">
+                                <img src="/assets/img/flags/ES.png"/></a>
+
 				</li>     
 		  </ul>
 	  </div>
       <ul class="nav navbar-nav navbar-right nav_list_search">
-            <li class="dropdown active">                
+            <li class="dropdown active">
                  <a href="javascript:void(0);" data-toggle="search" class=""><i class="fa fa-search"></i></a>
-            </li>                      
-            <form class="navbar-form navbar-left navbar-search-form" role="search">
+            </li>
+            <form class="navbar-form navbar-left navbar-search-form" role="search" id="searchform" method="get" action="/search_fr.html">
                 <div class="form-group">
-                    <input type="text" value="" class="form-control" placeholder="Search...">
+                    <input type="text"  class="form-control" placeholder="Search..." name="q" id="s" size="18" value="chercher..." onblur="if(this.value=='') this.value='chercher...';" onfocus="if(this.value=='chercher...') this.value='';" />
+                    <input type="hidden" name="cx" value="partner-pub-9572068145045929:cvginc45qvg" />
+                    <input type="hidden" name="cof" value="FORID:10" />
+                    <input type="hidden" name="ie" value="UTF8" />
                 </div>
             </form>
-	  </ul>
+          </ul>
+<!--script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=fr"></script-->
+  <!-- SiteSearch Google -->
+
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
@@ -227,7 +234,7 @@
                             </div>
                             <div class="content"  style="padding:2px 5px 0px 5px;">
                                 <a class="card-link" href="#">
-                                    <p style="margin:0 0 5px;">Abbaye de Senanque</p>
+                                    <p style="margin:0 0 5px;">Notre Dame d'Amiens</p>
                                 </a>
                             </div>
                         </div> <!-- end card -->

@@ -1,5 +1,5 @@
 ﻿#!/usr/bin/perl
-# (c) 2002-2010 Emmanuel PIERRE
+# (c) 2002-2017 Emmanuel PIERRE
 #
 # uses templates:
 #	$local_tmpl/pages/liste_site_fr.tmpl.html
@@ -27,7 +27,7 @@ use Text::Unidecode;
 # Make a list of site per regions
 
 #version
-my $version_dev="1.0.9r3";
+my $version_dev="3.0.0";
 my $debug=0;
 my $regenerate=0;
 
@@ -126,18 +126,18 @@ my %web_host_thb=(
 	"1" => "/media/"
 );
 my %web_host_album=(
-    "1" => "/",
-    "2" => "/",
-    "3" => "/",
-    "4" => "/",
-    "5" => "/",
-    "6" => "/",
-    "7" => "/",
-    "8" => "/",
-    "9" => "/",
-    "10" => "/",
-    "11" => "/",
-    "12" => "/"
+    "1" => "",
+    "2" => "",
+    "3" => "",
+    "4" => "",
+    "5" => "",
+    "6" => "",
+    "7" => "",
+    "8" => "",
+    "9" => "",
+    "10" => "",
+    "11" => "",
+    "12" => ""
 );
 
 my $reference_onsite=8;
@@ -384,6 +384,12 @@ sub generate_region {
 			close(REG);
 		}
 
+		#
+		#Publish
+		#
+		my $t_content;
+		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8     => 1);
+
 		# language flags
 		my @lang_lst=split(/:/,$lang_lst_param);
         if ($debug) {print STDERR "$lang_lst_param:$file_out ";}
@@ -400,16 +406,11 @@ sub generate_region {
 		$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
 		#$ptitle=decode_utf8($ptitle);
 		$ptitle=unac_string($ptitle);
-		$t_header->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
-            	$t_header->param("lang_$lang_show","/".$fo_lang);
+		$t_content->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
+            	$t_content->param("lang_$lang_show","/".$fo_lang);
 		if ($debug) {print STDERR "lang_$lang_show->$fo_lang\n ";}
         }
 	
-		#
-		#Publish
-		#
-		my $t_content;
-		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8     => 1);
 		$ptitle=~s/_/ /g;
 	        $ptitle=&get_region($region_id,$lang_param);
 		$t_content->param('region_name_fr',$ptitle);

@@ -94,9 +94,9 @@
 	<type>branch</type>
 	<lat>46.02303</lat>
 	<lng>-0.35563</lng>
-	<url>www.romanes.com//Aulnay/</url>
+	<url>http://www.romanes.com//Aulnay/</url>
 	<addr_city>Aulnay de Saintonge</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-St_Pierre_Aulnay_Saintonge_4046-0013.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-St_Pierre_Aulnay_Saintonge_4046-0013.jpg</thumb>
 </site>
 <site>
 	<id>2</id>
@@ -104,9 +104,9 @@
 	<type>branch</type>
 	<lat>43.9973</lat>
 	<lng>2.6246</lng>
-	<url>www.romanes.com//Brousse/</url>
+	<url>http://www.romanes.com//Brousse/</url>
 	<addr_city>Brousse le Château</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Brousse-589264-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Brousse-589264-0034.jpg</thumb>
 </site>
 <site>
 	<id>3</id>
@@ -114,9 +114,9 @@
 	<type>branch</type>
 	<lat>49.1841</lat>
 	<lng>-0.36081</lng>
-	<url>www.romanes.com//Caen/</url>
+	<url>http://www.romanes.com//Caen/</url>
 	<addr_city>Caen</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Caen_0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Caen_0002.jpg</thumb>
 </site>
 <site>
 	<id>4</id>
@@ -124,9 +124,9 @@
 	<type>branch</type>
 	<lat>48.4478</lat>
 	<lng>1.48738</lng>
-	<url>www.romanes.com//Chartres/</url>
+	<url>http://www.romanes.com//Chartres/</url>
 	<addr_city>Chartres</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chartres-Notre_Dame-P0004-0018_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chartres-Notre_Dame-P0004-0018_pt.jpg</thumb>
 </site>
 <site>
 	<id>5</id>
@@ -134,9 +134,9 @@
 	<type>branch</type>
 	<lat>45.76994</lat>
 	<lng>-0.45861</lng>
-	<url>www.romanes.com//Fontdouce/</url>
+	<url>http://www.romanes.com//Fontdouce/</url>
 	<addr_city>Saint Bris des Bois</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Fontdouce-4060-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Fontdouce-4060-0002.jpg</thumb>
 </site>
 <site>
 	<id>6</id>
@@ -144,9 +144,9 @@
 	<type>branch</type>
 	<lat>46.57056</lat>
 	<lng>0.64837</lng>
-	<url>www.romanes.com//Chauvigny/</url>
+	<url>http://www.romanes.com//Chauvigny/</url>
 	<addr_city>Chauvigny</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chauvigny-Saint_Pierre-943612-0027.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chauvigny-Saint_Pierre-943612-0027.jpg</thumb>
 </site>
 <site>
 	<id>7</id>
@@ -154,9 +154,9 @@
 	<type>branch</type>
 	<lat>47.1147</lat>
 	<lng>5.0549</lng>
-	<url>www.romanes.com//Citeaux/</url>
+	<url>http://www.romanes.com//Citeaux/</url>
 	<addr_city>Saint Nicolas les Cîteaux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Citeaux-Notre_Dame-163162-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Citeaux-Notre_Dame-163162-0016.jpg</thumb>
 </site>
 <site>
 	<id>11</id>
@@ -164,9 +164,9 @@
 	<type>branch</type>
 	<lat>49.3</lat>
 	<lng>2.6407</lng>
-	<url>www.romanes.com//Moncel/</url>
+	<url>http://www.romanes.com//Moncel/</url>
 	<addr_city>Pontpoint</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Pontpoint-Abbaye_Royale_Moncel-793536-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Pontpoint-Abbaye_Royale_Moncel-793536-0010.jpg</thumb>
 </site>
 <site>
 	<id>12</id>
@@ -174,9 +174,9 @@
 	<type>branch</type>
 	<lat>46.148</lat>
 	<lng>0.29676</lng>
-	<url>www.romanes.com//Civray/</url>
+	<url>http://www.romanes.com//Civray/</url>
 	<addr_city>Civray</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Nicolas_de_Civray_2943-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Nicolas_de_Civray_2943-0022.jpg</thumb>
 </site>
 <site>
 	<id>15</id>
@@ -184,9 +184,9 @@
 	<type>branch</type>
 	<lat>46.0662</lat>
 	<lng>-0.4136</lng>
-	<url>www.romanes.com//Dampierre/</url>
+	<url>http://www.romanes.com//Dampierre/</url>
 	<addr_city>Dampierre sur Boutonne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Dampierre_sur_Boutonne-4069-0005_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Dampierre_sur_Boutonne-4069-0005_pt.jpg</thumb>
 </site>
 <site>
 	<id>16</id>
@@ -194,9 +194,9 @@
 	<type>branch</type>
 	<lat>49.2342</lat>
 	<lng>2.3059</lng>
-	<url>www.romanes.com//Ercuis/</url>
+	<url>http://www.romanes.com//Ercuis/</url>
 	<addr_city>Ercuis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Ercuis001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Ercuis001.jpg</thumb>
 </site>
 <site>
 	<id>17</id>
@@ -204,9 +204,9 @@
 	<type>branch</type>
 	<lat>46.3714</lat>
 	<lng>-0.7391</lng>
-	<url>www.romanes.com//Maillezais/Abbaye/</url>
+	<url>http://www.romanes.com//Maillezais/Abbaye/</url>
 	<addr_city>Maillezais</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Maillezais_752-778-0014.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Maillezais_752-778-0014.jpg</thumb>
 </site>
 <site>
 	<id>18</id>
@@ -214,9 +214,9 @@
 	<type>branch</type>
 	<lat>45.8675</lat>
 	<lng>-0.32</lng>
-	<url>www.romanes.com//Marestay/</url>
+	<url>http://www.romanes.com//Marestay/</url>
 	<addr_city>Matha</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Matha-Saint_Pierre-a80_2007-04-19_0032.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Matha-Saint_Pierre-a80_2007-04-19_0032.jpg</thumb>
 </site>
 <site>
 	<id>19</id>
@@ -224,9 +224,9 @@
 	<type>branch</type>
 	<lat>45.8605</lat>
 	<lng>-0.32334</lng>
-	<url>www.romanes.com//Matha/</url>
+	<url>http://www.romanes.com//Matha/</url>
 	<addr_city>Matha</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Matha-Saint_Herie-4069-0033.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Matha-Saint_Herie-4069-0033.jpg</thumb>
 </site>
 <site>
 	<id>20</id>
@@ -234,7 +234,7 @@
 	<type>branch</type>
 	<lat>46.3714</lat>
 	<lng>-0.7391</lng>
-	<url>www.romanes.com//Maillezais/St_Nicolas/</url>
+	<url>http://www.romanes.com//Maillezais/St_Nicolas/</url>
 	<addr_city>Maillezais</addr_city>
 </site>
 <site>
@@ -243,9 +243,9 @@
 	<type>branch</type>
 	<lat>46.426</lat>
 	<lng>0.8667</lng>
-	<url>www.romanes.com//Montmorillon/</url>
+	<url>http://www.romanes.com//Montmorillon/</url>
 	<addr_city>Montmorillon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Montmorillon_943-612-0030.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Montmorillon_943-612-0030.jpg</thumb>
 </site>
 <site>
 	<id>22</id>
@@ -253,9 +253,9 @@
 	<type>branch</type>
 	<lat>48.8625</lat>
 	<lng>2.3365</lng>
-	<url>www.romanes.com//Paris/Notre_Dame_de_Paris/</url>
+	<url>http://www.romanes.com//Paris/Notre_Dame_de_Paris/</url>
 	<addr_city>Paris</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Notre_Dame_de_Paris0036-2.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Notre_Dame_de_Paris0036-2.jpg</thumb>
 </site>
 <site>
 	<id>26</id>
@@ -263,9 +263,9 @@
 	<type>branch</type>
 	<lat>46.3643</lat>
 	<lng>-0.6072</lng>
-	<url>www.romanes.com//Benet/</url>
+	<url>http://www.romanes.com//Benet/</url>
 	<addr_city>Benet</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Benet_943-612-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Benet_943-612-0016.jpg</thumb>
 </site>
 <site>
 	<id>27</id>
@@ -273,9 +273,9 @@
 	<type>branch</type>
 	<lat>46.4362</lat>
 	<lng>0.12327</lng>
-	<url>www.romanes.com//Lusignan</url>
+	<url>http://www.romanes.com//Lusignan</url>
 	<addr_city>Lusignan</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Lusignan002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Lusignan002.jpg</thumb>
 </site>
 <site>
 	<id>28</id>
@@ -283,9 +283,9 @@
 	<type>branch</type>
 	<lat>46.3424</lat>
 	<lng>-0.7889</lng>
-	<url>www.romanes.com//Maille/</url>
+	<url>http://www.romanes.com//Maille/</url>
 	<addr_city>Maillé</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Maille014.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Maille014.jpg</thumb>
 </site>
 <site>
 	<id>29</id>
@@ -293,9 +293,9 @@
 	<type>branch</type>
 	<lat>46.5107</lat>
 	<lng>0.4134</lng>
-	<url>www.romanes.com//Nouaille_Mauperthuis/</url>
+	<url>http://www.romanes.com//Nouaille_Mauperthuis/</url>
 	<addr_city>Nouaillé-Maupertuis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_Saint_Junien_de_Nouaille_Mauperthuis_943-612-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_Saint_Junien_de_Nouaille_Mauperthuis_943-612-0022.jpg</thumb>
 </site>
 <site>
 	<id>30</id>
@@ -303,9 +303,9 @@
 	<type>branch</type>
 	<lat>46.5833</lat>
 	<lng>0.34401</lng>
-	<url>www.romanes.com//Poitiers/</url>
+	<url>http://www.romanes.com//Poitiers/</url>
 	<addr_city>Poitiers</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-ND_La_Grande_Saintes002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-ND_La_Grande_Saintes002.jpg</thumb>
 </site>
 <site>
 	<id>31</id>
@@ -313,9 +313,9 @@
 	<type>branch</type>
 	<lat>48.8625</lat>
 	<lng>2.3365</lng>
-	<url>www.romanes.com//Paris/Sainte_Chapelle/</url>
+	<url>http://www.romanes.com//Paris/Sainte_Chapelle/</url>
 	<addr_city>Paris</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Paris_Sainte_Chapelle_0043.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Paris_Sainte_Chapelle_0043.jpg</thumb>
 </site>
 <site>
 	<id>32</id>
@@ -323,9 +323,9 @@
 	<type>branch</type>
 	<lat>49.2037</lat>
 	<lng>2.36862</lng>
-	<url>www.romanes.com//Precy/</url>
+	<url>http://www.romanes.com//Precy/</url>
 	<addr_city>Précy sur Oise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Precy001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Precy001.jpg</thumb>
 </site>
 <site>
 	<id>33</id>
@@ -333,9 +333,9 @@
 	<type>branch</type>
 	<lat>49.2171</lat>
 	<lng>2.417</lng>
-	<url>www.romanes.com//Saint_Leu/</url>
+	<url>http://www.romanes.com//Saint_Leu/</url>
 	<addr_city>Saint Leu d'Esserent</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_St_Leu033.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_St_Leu033.jpg</thumb>
 </site>
 <site>
 	<id>34</id>
@@ -343,9 +343,9 @@
 	<type>branch</type>
 	<lat>49.1146</lat>
 	<lng>2.399</lng>
-	<url>www.romanes.com//Royaumont/</url>
+	<url>http://www.romanes.com//Royaumont/</url>
 	<addr_city>Asnière sur Oise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Asniere-Abbaye_de_Royaumont-a80_2005-05-08_0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Asniere-Abbaye_de_Royaumont-a80_2005-05-08_0001.jpg</thumb>
 </site>
 <site>
 	<id>35</id>
@@ -353,9 +353,9 @@
 	<type>branch</type>
 	<lat>49.2068</lat>
 	<lng>2.58617</lng>
-	<url>www.romanes.com//Senlis/</url>
+	<url>http://www.romanes.com//Senlis/</url>
 	<addr_city>Senlis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Senlis-Notre_Dame-872872-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Senlis-Notre_Dame-872872-0020.jpg</thumb>
 </site>
 <site>
 	<id>36</id>
@@ -363,9 +363,9 @@
 	<type>branch</type>
 	<lat>47.4663</lat>
 	<lng>3.74867</lng>
-	<url>www.romanes.com//Vezelay/</url>
+	<url>http://www.romanes.com//Vezelay/</url>
 	<addr_city>Vézelay</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Vezelay-Basilique-4797-0004.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Vezelay-Basilique-4797-0004.jpg</thumb>
 </site>
 <site>
 	<id>38</id>
@@ -373,9 +373,9 @@
 	<type>branch</type>
 	<lat>48.5608</lat>
 	<lng>3.29079</lng>
-	<url>www.romanes.com//Provins/</url>
+	<url>http://www.romanes.com//Provins/</url>
 	<addr_city>Provins</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Provins-5465-0033.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Provins-5465-0033.jpg</thumb>
 </site>
 <site>
 	<id>39</id>
@@ -383,9 +383,9 @@
 	<type>branch</type>
 	<lat>49.2534</lat>
 	<lng>4.03402</lng>
-	<url>www.romanes.com//Reims/</url>
+	<url>http://www.romanes.com//Reims/</url>
 	<addr_city>Reims</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Reims-Notre_Dame-190-475-0021.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Reims-Notre_Dame-IMG_0948.jpg</thumb>
 </site>
 <site>
 	<id>40</id>
@@ -393,9 +393,9 @@
 	<type>branch</type>
 	<lat>45.7454</lat>
 	<lng>-0.62314</lng>
-	<url>www.romanes.com//Saintes/</url>
+	<url>http://www.romanes.com//Saintes/</url>
 	<addr_city>Saintes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbayes_Aux_Dames_Saintes_1.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbayes_Aux_Dames_Saintes_1.jpg</thumb>
 </site>
 <site>
 	<id>41</id>
@@ -403,9 +403,9 @@
 	<type>branch</type>
 	<lat>46.56515</lat>
 	<lng>0.86583</lng>
-	<url>www.romanes.com//Saint_Savin/</url>
+	<url>http://www.romanes.com//Saint_Savin/</url>
 	<addr_city>Saint Savin sur Gartempe</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Savin_943-612-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Savin_943-612-0029.jpg</thumb>
 </site>
 <site>
 	<id>42</id>
@@ -413,9 +413,9 @@
 	<type>branch</type>
 	<lat>43.9112</lat>
 	<lng>5.2011</lng>
-	<url>www.romanes.com//Senanque/</url>
+	<url>http://www.romanes.com//Senanque/</url>
 	<addr_city>Gordes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Senanque-Notre_Dame-584-179-00011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Senanque-Notre_Dame-584-179-00011.jpg</thumb>
 </site>
 <site>
 	<id>43</id>
@@ -423,9 +423,9 @@
 	<type>branch</type>
 	<lat>43.7164</lat>
 	<lng>5.3101</lng>
-	<url>www.romanes.com//Silvacane/</url>
+	<url>http://www.romanes.com//Silvacane/</url>
 	<addr_city>La Roque-d'Anthéron</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Silvacane-Notre_Dame-585779-0027_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Silvacane-Notre_Dame-585779-0027_pt.jpg</thumb>
 </site>
 <site>
 	<id>44</id>
@@ -433,9 +433,9 @@
 	<type>branch</type>
 	<lat>43.8338</lat>
 	<lng>2.9593</lng>
-	<url>www.romanes.com//Sylvanes/</url>
+	<url>http://www.romanes.com//Sylvanes/</url>
 	<addr_city>Sylvanès</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sylvanes-Notre_Dame-589264-0007.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sylvanes-Notre_Dame-589264-0007.jpg</thumb>
 </site>
 <site>
 	<id>45</id>
@@ -443,9 +443,9 @@
 	<type>branch</type>
 	<lat>43.4501</lat>
 	<lng>6.3081</lng>
-	<url>www.romanes.com//Thoronet/</url>
+	<url>http://www.romanes.com//Thoronet/</url>
 	<addr_city>Le Thoronet</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Thoronet-Notre_Dame-7630-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Thoronet-Notre_Dame-7630-0023.jpg</thumb>
 </site>
 <site>
 	<id>46</id>
@@ -453,9 +453,9 @@
 	<type>branch</type>
 	<lat>46.0239</lat>
 	<lng>-0.3031</lng>
-	<url>www.romanes.com//Saint_Mande_sur_Bredoire/</url>
+	<url>http://www.romanes.com//Saint_Mande_sur_Bredoire/</url>
 	<addr_city>St Mandé sur Brédoire</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-St_Mande_de_Bredoire_4046-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-St_Mande_de_Bredoire_4046-0016.jpg</thumb>
 </site>
 <site>
 	<id>48</id>
@@ -463,9 +463,9 @@
 	<type>branch</type>
 	<lat>47.8098</lat>
 	<lng>2.3056</lng>
-	<url>www.romanes.com//Saint_Benoit_sur_Loire/</url>
+	<url>http://www.romanes.com//Saint_Benoit_sur_Loire/</url>
 	<addr_city>Saint-Benoît-sur-Loire</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Fleury-Saint_Benoit-4243-0035_dpp.JPG</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Fleury-Saint_Benoit-4243-0035_dpp.JPG</thumb>
 </site>
 <site>
 	<id>49</id>
@@ -473,9 +473,9 @@
 	<type>branch</type>
 	<lat>46.4225</lat>
 	<lng>-0.6807</lng>
-	<url>www.romanes.com//Nieul/</url>
+	<url>http://www.romanes.com//Nieul/</url>
 	<addr_city>Nieul sur l'Autise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_Royale_de_Nieul_752-778-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_Royale_de_Nieul_752-778-0020.jpg</thumb>
 </site>
 <site>
 	<id>50</id>
@@ -483,9 +483,9 @@
 	<type>branch</type>
 	<lat>46.5724</lat>
 	<lng>-0.7692</lng>
-	<url>www.romanes.com//Vouvant</url>
+	<url>http://www.romanes.com//Vouvant</url>
 	<addr_city>Vouvant</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Vouvant012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Vouvant012.jpg</thumb>
 </site>
 <site>
 	<id>51</id>
@@ -493,9 +493,9 @@
 	<type>branch</type>
 	<lat>45.7474</lat>
 	<lng>-0.6371</lng>
-	<url>www.romanes.com//St_Eutrope_Eglise_Basse/</url>
+	<url>http://www.romanes.com//St_Eutrope_Eglise_Basse/</url>
 	<addr_city>Saintes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saintes-Saint_Eutrope-4066-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saintes-Saint_Eutrope-4066-0016.jpg</thumb>
 </site>
 <site>
 	<id>52</id>
@@ -503,9 +503,9 @@
 	<type>branch</type>
 	<lat>45.7474</lat>
 	<lng>-0.6371</lng>
-	<url>www.romanes.com//St_Eutrope_Eglise_Haute/</url>
+	<url>http://www.romanes.com//St_Eutrope_Eglise_Haute/</url>
 	<addr_city>Saintes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saintes-Saint_Eutrope-4066-00011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saintes-Saint_Eutrope-4066-00011.jpg</thumb>
 </site>
 <site>
 	<id>53</id>
@@ -513,9 +513,9 @@
 	<type>branch</type>
 	<lat>47.0241</lat>
 	<lng>4.83653</lng>
-	<url>www.romanes.com//Beaune/</url>
+	<url>http://www.romanes.com//Beaune/</url>
 	<addr_city>Beaune</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Beaunes-Hospice-618992-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Beaunes-Hospice-618992-0022.jpg</thumb>
 </site>
 <site>
 	<id>54</id>
@@ -523,9 +523,9 @@
 	<type>branch</type>
 	<lat>43.9129</lat>
 	<lng>3.3162</lng>
-	<url>www.romanes.com//Couvertoirade/</url>
+	<url>http://www.romanes.com//Couvertoirade/</url>
 	<addr_city>La Couvertoirade</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Couvertoirade-589269-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Couvertoirade-589269-0022.jpg</thumb>
 </site>
 <site>
 	<id>55</id>
@@ -533,9 +533,9 @@
 	<type>branch</type>
 	<lat>48.8482</lat>
 	<lng>2.40624</lng>
-	<url>www.romanes.com//Paris/Saint_Eustache/</url>
+	<url>http://www.romanes.com//Paris/Saint_Eustache/</url>
 	<addr_city>Paris</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Paris-Saint_Eustache-1572-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Paris-Saint_Eustache-1572-0001.jpg</thumb>
 </site>
 <site>
 	<id>56</id>
@@ -543,9 +543,9 @@
 	<type>branch</type>
 	<lat>45.0633</lat>
 	<lng>1.2475</lng>
-	<url>www.romanes.com//StAmanddeColy/</url>
+	<url>http://www.romanes.com//StAmanddeColy/</url>
 	<addr_city>Saint-Amand de Coly</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Amand_de_Coly-Saint_Amand-9118-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Amand_de_Coly-Saint_Amand-9118-0022.jpg</thumb>
 </site>
 <site>
 	<id>57</id>
@@ -553,9 +553,9 @@
 	<type>branch</type>
 	<lat>45.4197</lat>
 	<lng>0.754</lng>
-	<url>www.romanes.com//Boschaud/</url>
+	<url>http://www.romanes.com//Boschaud/</url>
 	<addr_city>Villars</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Villars-Notre_Dame_de_Boschaud-9070-0028.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Villars-Notre_Dame_de_Boschaud-9070-0028.jpg</thumb>
 </site>
 <site>
 	<id>58</id>
@@ -563,9 +563,9 @@
 	<type>branch</type>
 	<lat>44.8439</lat>
 	<lng>0.9086</lng>
-	<url>www.romanes.com//Cadouin/</url>
+	<url>http://www.romanes.com//Cadouin/</url>
 	<addr_city>Le Buisson de Cadouin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cadouin-Notre-Dame-f100_2009-07-16-165057_5565_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cadouin-Notre-Dame-f100_2009-07-16-165057_5565_pt.jpg</thumb>
 </site>
 <site>
 	<id>60</id>
@@ -573,9 +573,9 @@
 	<type>branch</type>
 	<lat>44.9051</lat>
 	<lng>0.8588</lng>
-	<url>www.romanes.com//Paunat/</url>
+	<url>http://www.romanes.com//Paunat/</url>
 	<addr_city>Paunat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Paunat-Saint_Etienne-9077-0019.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Paunat-Saint_Etienne-9077-0019.jpg</thumb>
 </site>
 <site>
 	<id>61</id>
@@ -583,9 +583,9 @@
 	<type>branch</type>
 	<lat>45.3647</lat>
 	<lng>0.64714</lng>
-	<url>www.romanes.com//Brantome/</url>
+	<url>http://www.romanes.com//Brantome/</url>
 	<addr_city>Brantome</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Brantome-Saint_Pierre-9036-0032_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Brantome-Saint_Pierre-9036-0032_pt.jpg</thumb>
 </site>
 <site>
 	<id>62</id>
@@ -593,9 +593,9 @@
 	<type>branch</type>
 	<lat>44.7987</lat>
 	<lng>1.2042</lng>
-	<url>www.romanes.com//Cenac/</url>
+	<url>http://www.romanes.com//Cenac/</url>
 	<addr_city>Cenac et Saint Julien</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cenac-Nativite-9036-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cenac-Nativite-9036-0012.jpg</thumb>
 </site>
 <site>
 	<id>63</id>
@@ -603,9 +603,9 @@
 	<type>branch</type>
 	<lat>45.0101</lat>
 	<lng>1.08831</lng>
-	<url>www.romanes.com//SaintLeonsurVezere/</url>
+	<url>http://www.romanes.com//SaintLeonsurVezere/</url>
 	<addr_city>Saint-Léon-sur-Vézère</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Leon_sur_Vezere-Saint_Leon-9044-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Leon_sur_Vezere-Saint_Leon-9044-0002.jpg</thumb>
 </site>
 <site>
 	<id>65</id>
@@ -613,9 +613,9 @@
 	<type>branch</type>
 	<lat>45.4144</lat>
 	<lng>0.9209</lng>
-	<url>www.romanes.com//Thiviers/</url>
+	<url>http://www.romanes.com//Thiviers/</url>
 	<addr_city>Thiviers</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Thiviers-Notre_Dame-9045-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Thiviers-Notre_Dame-9045-0012.jpg</thumb>
 </site>
 <site>
 	<id>66</id>
@@ -623,9 +623,9 @@
 	<type>branch</type>
 	<lat>44.8807</lat>
 	<lng>0.9473</lng>
-	<url>www.romanes.com//Audrix/</url>
+	<url>http://www.romanes.com//Audrix/</url>
 	<addr_city>Audrix</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Audrix-Notre_Dame-9046-0015_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Audrix-Notre_Dame-9046-0015_pt.jpg</thumb>
 </site>
 <site>
 	<id>67</id>
@@ -633,9 +633,9 @@
 	<type>branch</type>
 	<lat>49.0712</lat>
 	<lng>2.1772</lng>
-	<url>www.romanes.com//Auvers/</url>
+	<url>http://www.romanes.com//Auvers/</url>
 	<addr_city>Auvers sur Oise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Auvers_sur_Oise_0034-2.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Auvers_sur_Oise_0034-2.jpg</thumb>
 </site>
 <site>
 	<id>68</id>
@@ -643,9 +643,9 @@
 	<type>branch</type>
 	<lat>49.4326</lat>
 	<lng>2.08157</lng>
-	<url>www.romanes.com//Beauvais/</url>
+	<url>http://www.romanes.com//Beauvais/</url>
 	<addr_city>Beauvais</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Beauvais-Saint_Pierre-5474-0008.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Beauvais-Saint_Pierre-5474-0008.jpg</thumb>
 </site>
 <site>
 	<id>69</id>
@@ -653,9 +653,9 @@
 	<type>branch</type>
 	<lat>44.7762</lat>
 	<lng>1.00252</lng>
-	<url>www.romanes.com//Belves/</url>
+	<url>http://www.romanes.com//Belves/</url>
 	<addr_city>Belvès</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Belves-Notre_Dame-9036-0003.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Belves-Notre_Dame-9036-0003.jpg</thumb>
 </site>
 <site>
 	<id>70</id>
@@ -663,9 +663,9 @@
 	<type>branch</type>
 	<lat>49.0452</lat>
 	<lng>2.1072</lng>
-	<url>www.romanes.com//Maubuisson/</url>
+	<url>http://www.romanes.com//Maubuisson/</url>
 	<addr_city>Saint-Ouen-l'Aumône</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_cistercienne_de_Maubuisson_0006-2.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_cistercienne_de_Maubuisson_0006-2.jpg</thumb>
 </site>
 <site>
 	<id>72</id>
@@ -673,9 +673,9 @@
 	<type>branch</type>
 	<lat>45.2072</lat>
 	<lng>0.66692</lng>
-	<url>www.romanes.com//Chancelade/</url>
+	<url>http://www.romanes.com//Chancelade/</url>
 	<addr_city>Chancelade</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chancelade-Abbaye-9058-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chancelade-Abbaye-9058-0020.jpg</thumb>
 </site>
 <site>
 	<id>73</id>
@@ -683,9 +683,9 @@
 	<type>branch</type>
 	<lat>45.21</lat>
 	<lng>0.6553</lng>
-	<url>www.romanes.com//Merlande/</url>
+	<url>http://www.romanes.com//Merlande/</url>
 	<addr_city>Merlande</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Merlande-Prieure-9077-0008_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Merlande-Prieure-9077-0008_pt.jpg</thumb>
 </site>
 <site>
 	<id>74</id>
@@ -693,9 +693,9 @@
 	<type>branch</type>
 	<lat>49.0638</lat>
 	<lng>2.186</lng>
-	<url>www.romanes.com//Mery/</url>
+	<url>http://www.romanes.com//Mery/</url>
 	<addr_city>Méry sur Oise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Denis_Mery_sur_Oise0021-2.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Denis_Mery_sur_Oise0021-2.jpg</thumb>
 </site>
 <site>
 	<id>75</id>
@@ -703,9 +703,9 @@
 	<type>branch</type>
 	<lat>44.6822</lat>
 	<lng>0.8944</lng>
-	<url>www.romanes.com//Monpazier/</url>
+	<url>http://www.romanes.com//Monpazier/</url>
 	<addr_city>Monpazier</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Monpazier-Bastide-9120-0021.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Monpazier-Bastide-9120-0021.jpg</thumb>
 </site>
 <site>
 	<id>76</id>
@@ -713,9 +713,9 @@
 	<type>branch</type>
 	<lat>44.8761</lat>
 	<lng>0.8309</lng>
-	<url>www.romanes.com//Tremolat/</url>
+	<url>http://www.romanes.com//Tremolat/</url>
 	<addr_city>Trémolat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Tremolat-Notre_Dame-9046-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Tremolat-Notre_Dame-9046-0002.jpg</thumb>
 </site>
 <site>
 	<id>77</id>
@@ -723,9 +723,9 @@
 	<type>branch</type>
 	<lat>49.4434</lat>
 	<lng>1.7806</lng>
-	<url>www.romanes.com//StGermerdeFly/</url>
+	<url>http://www.romanes.com//StGermerdeFly/</url>
 	<addr_city>Saint-Germer-de-Fly</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Germer_de_Fly_0047.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Germer_de_Fly_0047.jpg</thumb>
 </site>
 <site>
 	<id>85</id>
@@ -733,9 +733,9 @@
 	<type>branch</type>
 	<lat>46.22025</lat>
 	<lng>-0.14973</lng>
-	<url>www.romanes.com//Melle/</url>
+	<url>http://www.romanes.com//Melle/</url>
 	<addr_city>Melle</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Melle-Saint_Hilaire-T001-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Melle-Saint_Hilaire-T001-0001.jpg</thumb>
 </site>
 <site>
 	<id>86</id>
@@ -743,9 +743,9 @@
 	<type>branch</type>
 	<lat>44.4763</lat>
 	<lng>4.8522</lng>
-	<url>www.romanes.com//Aiguebelle/</url>
+	<url>http://www.romanes.com//Aiguebelle/</url>
 	<addr_city>Montjoyer</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_d_Aiguebelle-7628-0008.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_d_Aiguebelle-7628-0008.jpg</thumb>
 </site>
 <site>
 	<id>87</id>
@@ -753,9 +753,9 @@
 	<type>branch</type>
 	<lat>43.6766</lat>
 	<lng>4.6278</lng>
-	<url>www.romanes.com//Arles/StTrophime/Facade/</url>
+	<url>http://www.romanes.com//Arles/StTrophime/Facade/</url>
 	<addr_city>Arles</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Arles-StTrophime-Facade-7621-0008.1.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Arles-StTrophime-Facade-7621-0008.1.jpg</thumb>
 </site>
 <site>
 	<id>88</id>
@@ -763,9 +763,9 @@
 	<type>branch</type>
 	<lat>43.6766</lat>
 	<lng>4.6278</lng>
-	<url>www.romanes.com//Arles/StTrophime/Facade/</url>
+	<url>http://www.romanes.com//Arles/StTrophime/Facade/</url>
 	<addr_city>Arles</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Arles-StTrophime-Eglise-7632-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Arles-StTrophime-Eglise-7632-0001.jpg</thumb>
 </site>
 <site>
 	<id>89</id>
@@ -773,9 +773,9 @@
 	<type>branch</type>
 	<lat>43.6766</lat>
 	<lng>4.62819</lng>
-	<url>www.romanes.com//Arles/StTrophime/Cloitre/</url>
+	<url>http://www.romanes.com//Arles/StTrophime/Cloitre/</url>
 	<addr_city>Arles</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Arles-StTrophime-Cloitre-7639-0032.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Arles-StTrophime-Cloitre-7639-0032.jpg</thumb>
 </site>
 <site>
 	<id>90</id>
@@ -783,9 +783,9 @@
 	<type>branch</type>
 	<lat>43.6766</lat>
 	<lng>4.6278</lng>
-	<url>www.romanes.com//Arles/StHonorat/</url>
+	<url>http://www.romanes.com//Arles/StHonorat/</url>
 	<addr_city>Arles</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Arles-StHonoratdesAlyscamps-7632-0024.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Arles-StHonoratdesAlyscamps-7632-0024.jpg</thumb>
 </site>
 <site>
 	<id>92</id>
@@ -793,9 +793,9 @@
 	<type>branch</type>
 	<lat>43.5476</lat>
 	<lng>4.6615</lng>
-	<url>www.romanes.com//Montmajour/</url>
+	<url>http://www.romanes.com//Montmajour/</url>
 	<addr_city>Montmajour</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Montmajour-7638-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Montmajour-7638-0016.jpg</thumb>
 </site>
 <site>
 	<id>93</id>
@@ -803,9 +803,9 @@
 	<type>branch</type>
 	<lat>44.3932</lat>
 	<lng>4.7557</lng>
-	<url>www.romanes.com//LaGardeAdhemar/</url>
+	<url>http://www.romanes.com//LaGardeAdhemar/</url>
 	<addr_city>La Garde Adhmar</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-La_Garde_Adhemar-7628-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-La_Garde_Adhemar-7628-0022.jpg</thumb>
 </site>
 <site>
 	<id>94</id>
@@ -813,9 +813,9 @@
 	<type>branch</type>
 	<lat>44.3496</lat>
 	<lng>4.7663</lng>
-	<url>www.romanes.org//SaintPaultroischateaux/</url>
+	<url>http://www.romanes.com//SaintPaultroischateaux/</url>
 	<addr_city>Saint Paul des Trois Chateaux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Paul_des_trois_Chateaux-7637-0031.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Paul_des_trois_Chateaux-7637-0031.jpg</thumb>
 </site>
 <site>
 	<id>95</id>
@@ -823,9 +823,9 @@
 	<type>branch</type>
 	<lat>44.241</lat>
 	<lng>5.074</lng>
-	<url>www.romanes.com//VaisonLaRomaine/</url>
+	<url>http://www.romanes.com//VaisonLaRomaine/</url>
 	<addr_city>Vaison la Romaine</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Vaison-la-romaine-7635-0017.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Vaison-la-romaine-7635-0017.jpg</thumb>
 </site>
 <site>
 	<id>96</id>
@@ -833,7 +833,7 @@
 	<type>branch</type>
 	<lat>43.9486</lat>
 	<lng>4.806</lng>
-	<url>www.romanes.com//Montfavet</url>
+	<url>http://www.romanes.com//Montfavet</url>
 	<addr_city>Montfavet</addr_city>
 </site>
 <site>
@@ -842,9 +842,9 @@
 	<type>branch</type>
 	<lat>48.0362</lat>
 	<lng>2.3827</lng>
-	<url>www.romanes.com//Boiscommun/</url>
+	<url>http://www.romanes.com//Boiscommun/</url>
 	<addr_city>Boiscommun</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Eglise_de_Boiscommun-9580-0025.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Eglise_de_Boiscommun-9580-0025.jpg</thumb>
 </site>
 <site>
 	<id>98</id>
@@ -852,9 +852,9 @@
 	<type>branch</type>
 	<lat>48.5147</lat>
 	<lng>2.63528</lng>
-	<url>www.romanes.com//Le_Lys/</url>
+	<url>http://www.romanes.com//Le_Lys/</url>
 	<addr_city>Dammarie-les-Lys</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Le_Lys-9580-0036.1.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Le_Lys-9580-0036.1.jpg</thumb>
 </site>
 <site>
 	<id>99</id>
@@ -862,7 +862,7 @@
 	<type>branch</type>
 	<lat>43.9486</lat>
 	<lng>4.806</lng>
-	<url>www.romanes.com//Avignon/Palais_des_Papes</url>
+	<url>http://www.romanes.com//Avignon/Palais_des_Papes</url>
 	<addr_city>Avignon</addr_city>
 </site>
 <site>
@@ -871,9 +871,9 @@
 	<type>branch</type>
 	<lat>43.9508</lat>
 	<lng>4.81362</lng>
-	<url>www.romanes.com//Avignon/SaintBenezet/</url>
+	<url>http://www.romanes.com//Avignon/SaintBenezet/</url>
 	<addr_city>Avignon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Avignon-Saint_Benezet-7627-0019.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Avignon-Saint_Benezet-7627-0019.jpg</thumb>
 </site>
 <site>
 	<id>101</id>
@@ -881,9 +881,9 @@
 	<type>branch</type>
 	<lat>44.0108</lat>
 	<lng>4.41848</lng>
-	<url>www.romanes.com//Uzes/</url>
+	<url>http://www.romanes.com//Uzes/</url>
 	<addr_city>Uzes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Uzes-7627-0036.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Uzes-7627-0036.jpg</thumb>
 </site>
 <site>
 	<id>102</id>
@@ -891,9 +891,9 @@
 	<type>branch</type>
 	<lat>45.1838</lat>
 	<lng>0.72287</lng>
-	<url>www.romanes.com//Saint_Front/</url>
+	<url>http://www.romanes.com//Saint_Front/</url>
 	<addr_city>Perigueux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Perigueux-Saint_Front-9058-0003.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Perigueux-Saint_Front-9058-0003.jpg</thumb>
 </site>
 <site>
 	<id>103</id>
@@ -901,9 +901,9 @@
 	<type>branch</type>
 	<lat>44.8888</lat>
 	<lng>1.21693</lng>
-	<url>www.romanes.com//Sarlat/</url>
+	<url>http://www.romanes.com//Sarlat/</url>
 	<addr_city>Sarlat-la-Caneda</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sarlat-Saint_Sardos-9118-0039.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sarlat-Saint_Sardos-9118-0039.jpg</thumb>
 </site>
 <site>
 	<id>104</id>
@@ -911,9 +911,9 @@
 	<type>branch</type>
 	<lat>44.9466</lat>
 	<lng>0.8077</lng>
-	<url>www.romanes.com//Sainte_Alvere/</url>
+	<url>http://www.romanes.com//Sainte_Alvere/</url>
 	<addr_city>Sainte Alvere</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sainte_Alvere-9077-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sainte_Alvere-9077-0015.jpg</thumb>
 </site>
 <site>
 	<id>105</id>
@@ -921,9 +921,9 @@
 	<type>branch</type>
 	<lat>45.1817</lat>
 	<lng>0.71473</lng>
-	<url>www.romanes.com//Perigueux/StEtienne/</url>
+	<url>http://www.romanes.com//Perigueux/StEtienne/</url>
 	<addr_city>Perigueux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Perigueux-Saint_Front-9058-0018.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Perigueux-Saint_Front-9058-0018.jpg</thumb>
 </site>
 <site>
 	<id>106</id>
@@ -931,9 +931,9 @@
 	<type>branch</type>
 	<lat>46.8025</lat>
 	<lng>7.1513</lng>
-	<url>www.romanes.org//Suisse/Maigrauge/</url>
+	<url>http://www.romanes.com//Suisse/Maigrauge/</url>
 	<addr_city>FRIBOURG</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_ND_de_la_Maigrauge-744085-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_ND_de_la_Maigrauge-744085-0005.jpg</thumb>
 </site>
 <site>
 	<id>108</id>
@@ -941,9 +941,9 @@
 	<type>branch</type>
 	<lat>48.8543</lat>
 	<lng>2.3577</lng>
-	<url>www.romanes.com//Ourscamp/Maison/</url>
+	<url>http://www.romanes.com//Ourscamp/Maison/</url>
 	<addr_city>Paris</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Paris-Maison_Ourscamps-6718-0032.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Paris-Maison_Ourscamps-6718-0032.jpg</thumb>
 </site>
 <site>
 	<id>109</id>
@@ -951,9 +951,9 @@
 	<type>branch</type>
 	<lat>46.6934</lat>
 	<lng>6.4608</lng>
-	<url>www.romanes.org//Suisse/Romainmotier/</url>
+	<url>http://www.romanes.com//Suisse/Romainmotier/</url>
 	<addr_city>Romainmôtier</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Romainmotier_00008.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Romainmotier_00008.jpg</thumb>
 </site>
 <site>
 	<id>110</id>
@@ -961,9 +961,9 @@
 	<type>branch</type>
 	<lat>46.1433</lat>
 	<lng>0.40445</lng>
-	<url>www.romanes.com//Charroux/</url>
+	<url>http://www.romanes.com//Charroux/</url>
 	<addr_city>Charroux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Charroux-Saint_Sauveur-2942-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Charroux-Saint_Sauveur-2942-0010.jpg</thumb>
 </site>
 <site>
 	<id>112</id>
@@ -971,9 +971,9 @@
 	<type>branch</type>
 	<lat>46.0729</lat>
 	<lng>0.4323</lng>
-	<url>www.romanes.com//Chatain/</url>
+	<url>http://www.romanes.com//Chatain/</url>
 	<addr_city>Châtain</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saint_Pierre_de_Chatain_2942-0008.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saint_Pierre_de_Chatain_2942-0008.jpg</thumb>
 </site>
 <site>
 	<id>114</id>
@@ -981,9 +981,9 @@
 	<type>branch</type>
 	<lat>46.445</lat>
 	<lng>0.6644</lng>
-	<url>www.romanes.com//Civaux/</url>
+	<url>http://www.romanes.com//Civaux/</url>
 	<addr_city>Civaux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Civaux-Saint_Gervais_Saint_Protais-2941-0017_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Civaux-Saint_Gervais_Saint_Protais-2941-0017_pt.jpg</thumb>
 </site>
 <site>
 	<id>115</id>
@@ -991,9 +991,9 @@
 	<type>branch</type>
 	<lat>48.0137</lat>
 	<lng>0.2714</lng>
-	<url>www.romanes.com//Epau/</url>
+	<url>http://www.romanes.com//Epau/</url>
 	<addr_city>Yvré l'Evêque</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_Cistercienne_La_Pitie_Dieu_de_l_Epau_0-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_Cistercienne_La_Pitie_Dieu_de_l_Epau_0-0001.jpg</thumb>
 </site>
 <site>
 	<id>116</id>
@@ -1001,9 +1001,9 @@
 	<type>branch</type>
 	<lat>46.1072</lat>
 	<lng>0.337</lng>
-	<url>www.romanes.com//Genouille/</url>
+	<url>http://www.romanes.com//Genouille/</url>
 	<addr_city>Genouillé</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Notre_Dame_de_Genouille_2943-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Notre_Dame_de_Genouille_2943-0029.jpg</thumb>
 </site>
 <site>
 	<id>117</id>
@@ -1011,9 +1011,9 @@
 	<type>branch</type>
 	<lat>46.19509</lat>
 	<lng>0.54897</lng>
-	<url>www.romanes.com//LaReau/</url>
+	<url>http://www.romanes.com//LaReau/</url>
 	<addr_city>Saint Martin de l'Ars</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_la_Reau_2942-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_la_Reau_2942-0022.jpg</thumb>
 </site>
 <site>
 	<id>118</id>
@@ -1021,9 +1021,9 @@
 	<type>branch</type>
 	<lat>48.0092</lat>
 	<lng>0.19885</lng>
-	<url>www.romanes.com//LeMans/</url>
+	<url>http://www.romanes.com//LeMans/</url>
 	<addr_city>Le Mans</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Cathedrale_Saint_Julien_de_Le_Mans_2944-0030.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Cathedrale_Saint_Julien_de_Le_Mans_2944-0030.jpg</thumb>
 </site>
 <site>
 	<id>119</id>
@@ -1031,9 +1031,9 @@
 	<type>branch</type>
 	<lat>46.37695</lat>
 	<lng>0.41054</lng>
-	<url>www.romanes.com//SaintMauricelaClouere/</url>
+	<url>http://www.romanes.com//SaintMauricelaClouere/</url>
 	<addr_city>Saint Maurice la Clouère</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Saintt_Maurice_la_Clouere_2942-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Saintt_Maurice_la_Clouere_2942-0020.jpg</thumb>
 </site>
 <site>
 	<id>120</id>
@@ -1041,9 +1041,9 @@
 	<type>branch</type>
 	<lat>46.1502</lat>
 	<lng>0.2704</lng>
-	<url>www.romanes.com//SaintPierredExideuil/</url>
+	<url>http://www.romanes.com//SaintPierredExideuil/</url>
 	<addr_city>Saint Pierre d'Exideuil</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Exideuil-Saint_Pierre-2947-0013.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Exideuil-Saint_Pierre-2947-0013.jpg</thumb>
 </site>
 <site>
 	<id>121</id>
@@ -1051,9 +1051,9 @@
 	<type>branch</type>
 	<lat>46.27856</lat>
 	<lng>0.52907</lng>
-	<url>www.romanes.com//Usson/</url>
+	<url>http://www.romanes.com//Usson/</url>
 	<addr_city>Usson de Poitou</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Usson_de_Poitou_0-0031.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Usson_de_Poitou_0-0031.jpg</thumb>
 </site>
 <site>
 	<id>122</id>
@@ -1061,9 +1061,9 @@
 	<type>branch</type>
 	<lat>48.9927</lat>
 	<lng>2.0933</lng>
-	<url>www.romanes.com//Conflans/</url>
+	<url>http://www.romanes.com//Conflans/</url>
 	<addr_city>Conflans Sainte Honorine</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Conflans-Saint_Maclou-0579-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Conflans-Saint_Maclou-0579-0010.jpg</thumb>
 </site>
 <site>
 	<id>123</id>
@@ -1071,9 +1071,9 @@
 	<type>branch</type>
 	<lat>43.9159</lat>
 	<lng>5.0864</lng>
-	<url>www.romanes.com//Isle-sur-Sorgue/</url>
+	<url>http://www.romanes.com//Isle-sur-Sorgue/</url>
 	<addr_city>Isle sur la Sorgue</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Ile_sur_la_sorgue-crop0038.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Ile_sur_la_sorgue-crop0038.jpg</thumb>
 </site>
 <site>
 	<id>124</id>
@@ -1081,9 +1081,9 @@
 	<type>branch</type>
 	<lat>49.2983</lat>
 	<lng>2.92199</lng>
-	<url>www.romanes.com//Morienval/</url>
+	<url>http://www.romanes.com//Morienval/</url>
 	<addr_city>Morienval</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Morienval-Notre_Dame-3213-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Morienval-Notre_Dame-3213-0001.jpg</thumb>
 </site>
 <site>
 	<id>125</id>
@@ -1091,9 +1091,9 @@
 	<type>branch</type>
 	<lat>47.9096</lat>
 	<lng>3.71344</lng>
-	<url>www.romanes.com//Pontigny/</url>
+	<url>http://www.romanes.com//Pontigny/</url>
 	<addr_city>Pontigny</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_cistercienne_de_Pontigny-8939-0003.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_cistercienne_de_Pontigny-8939-0003.jpg</thumb>
 </site>
 <site>
 	<id>126</id>
@@ -1101,9 +1101,9 @@
 	<type>branch</type>
 	<lat>47.9036</lat>
 	<lng>3.60089</lng>
-	<url>www.romanes.org//Seignelay/</url>
+	<url>http://www.romanes.com//Seignelay/</url>
 	<addr_city>Seignelay</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Eglise_de_Seigneley-8939-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Eglise_de_Seigneley-8939-0001.jpg</thumb>
 </site>
 <site>
 	<id>127</id>
@@ -1111,9 +1111,9 @@
 	<type>branch</type>
 	<lat>47.1781</lat>
 	<lng>4.9639</lng>
-	<url>www.romanes.com//Clos-Vougeot/</url>
+	<url>http://www.romanes.com//Clos-Vougeot/</url>
 	<addr_city>Vougeot</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Clos-Vougeot-8941-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Clos-Vougeot-8941-0012.jpg</thumb>
 </site>
 <site>
 	<id>128</id>
@@ -1121,9 +1121,9 @@
 	<type>branch</type>
 	<lat>48.8891</lat>
 	<lng>2.15974</lng>
-	<url>www.romanes.com//Chatou/</url>
+	<url>http://www.romanes.com//Chatou/</url>
 	<addr_city>Chatou</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Notre_Dame_de_Chatou_8439-0025.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Notre_Dame_de_Chatou_8439-0025.jpg</thumb>
 </site>
 <site>
 	<id>129</id>
@@ -1131,9 +1131,9 @@
 	<type>branch</type>
 	<lat>48.9299</lat>
 	<lng>2.03811</lng>
-	<url>www.romanes.com//Poissy/</url>
+	<url>http://www.romanes.com//Poissy/</url>
 	<addr_city>Poissy</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Collegiale_de_Poissy_7828-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Collegiale_de_Poissy_7828-0001.jpg</thumb>
 </site>
 <site>
 	<id>130</id>
@@ -1141,7 +1141,7 @@
 	<type>branch</type>
 	<lat>46.8094</lat>
 	<lng>6.646</lng>
-	<url>www.romanes.com//Suisse/Grandson/</url>
+	<url>http://www.romanes.com//Suisse/Grandson/</url>
 	<addr_city>Grandson</addr_city>
 </site>
 <site>
@@ -1150,9 +1150,9 @@
 	<type>branch</type>
 	<lat>47.2483</lat>
 	<lng>4.5246</lng>
-	<url>www.romanes.com//Chateauneuf-Pouilly/</url>
+	<url>http://www.romanes.com//Chateauneuf-Pouilly/</url>
 	<addr_city>Pouilly-en-Auxois</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Chateauneuf-Pouilly-en-Auxois-8940-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Chateauneuf-Pouilly-en-Auxois-8940-0001.jpg</thumb>
 </site>
 <site>
 	<id>132</id>
@@ -1160,9 +1160,9 @@
 	<type>branch</type>
 	<lat>48.8635</lat>
 	<lng>2.14035</lng>
-	<url>www.romanes.com//Bougival/</url>
+	<url>http://www.romanes.com//Bougival/</url>
 	<addr_city>Bougival</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bougival-Notre_Dame-2507-0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bougival-Notre_Dame-2507-0011.jpg</thumb>
 </site>
 <site>
 	<id>133</id>
@@ -1170,9 +1170,9 @@
 	<type>branch</type>
 	<lat>45.6364</lat>
 	<lng>-0.371</lng>
-	<url>www.romanes.com//Gimeux/</url>
+	<url>http://www.romanes.com//Gimeux/</url>
 	<addr_city>Gimeux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Gimeux_00033.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Gimeux_00033.jpg</thumb>
 </site>
 <site>
 	<id>137</id>
@@ -1180,9 +1180,9 @@
 	<type>branch</type>
 	<lat>43.99819</lat>
 	<lng>5.90749</lng>
-	<url>www.romanes.com//Ganagobie/</url>
+	<url>http://www.romanes.com//Ganagobie/</url>
 	<addr_city>Ganagobie</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Abbaye_de_Ganagobie-2644-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Abbaye_de_Ganagobie-2644-0022.jpg</thumb>
 </site>
 <site>
 	<id>138</id>
@@ -1190,9 +1190,9 @@
 	<type>branch</type>
 	<lat>43.433</lat>
 	<lng>6.7365</lng>
-	<url>www.romanes.com//Frejus/</url>
+	<url>http://www.romanes.com//Frejus/</url>
 	<addr_city>Fréjus</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Frejus_Saint_Leonce_00001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Frejus_Saint_Leonce_00001.jpg</thumb>
 </site>
 <site>
 	<id>139</id>
@@ -1200,9 +1200,9 @@
 	<type>branch</type>
 	<lat>45.6939</lat>
 	<lng>-0.2579</lng>
-	<url>www.romanes.com//Chatres/</url>
+	<url>http://www.romanes.com//Chatres/</url>
 	<addr_city>Saint Brice</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Notre_Dame_Chatres-4406-0028.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Notre_Dame_Chatres-4406-0028.jpg</thumb>
 </site>
 <site>
 	<id>140</id>
@@ -1210,9 +1210,9 @@
 	<type>branch</type>
 	<lat>46.5658</lat>
 	<lng>4.90893</lng>
-	<url>www.romanes.com//Tournus/</url>
+	<url>http://www.romanes.com//Tournus/</url>
 	<addr_city>Tournus</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Tournus-Saint_Philibert-4988-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Tournus-Saint_Philibert-4988-0016.jpg</thumb>
 </site>
 <site>
 	<id>141</id>
@@ -1220,9 +1220,9 @@
 	<type>branch</type>
 	<lat>46.8264</lat>
 	<lng>-0.1381</lng>
-	<url>www.romanes.com//Airvault/</url>
+	<url>http://www.romanes.com//Airvault/</url>
 	<addr_city>Airvault</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Airvault-4858-0019.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Airvault-4858-0019.jpg</thumb>
 </site>
 <site>
 	<id>142</id>
@@ -1230,9 +1230,9 @@
 	<type>branch</type>
 	<lat>46.5476</lat>
 	<lng>4.7966</lng>
-	<url>www.romanes.com//Brancion/</url>
+	<url>http://www.romanes.com//Brancion/</url>
 	<addr_city>BRancion</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Briancon-Saint_Pierre-tz1_2008-10-21_0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Briancon-Saint_Pierre-tz1_2008-10-21_0002.jpg</thumb>
 </site>
 <site>
 	<id>143</id>
@@ -1240,9 +1240,9 @@
 	<type>branch</type>
 	<lat>46.5566</lat>
 	<lng>4.7368</lng>
-	<url>www.romanes.com//Chapaize/</url>
+	<url>http://www.romanes.com//Chapaize/</url>
 	<addr_city>Chapaize</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chapaize-Saint_Martin-2953-0009.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chapaize-Saint_Martin-2953-0009.jpg</thumb>
 </site>
 <site>
 	<id>144</id>
@@ -1250,9 +1250,9 @@
 	<type>branch</type>
 	<lat>46.9451</lat>
 	<lng>4.29886</lng>
-	<url>www.romanes.com//Autun/</url>
+	<url>http://www.romanes.com//Autun/</url>
 	<addr_city>Autun</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Autun-Saint_Lazare-2778-0032.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Autun-Saint_Lazare-2778-0032.jpg</thumb>
 </site>
 <site>
 	<id>145</id>
@@ -1260,9 +1260,9 @@
 	<type>branch</type>
 	<lat>46.4337</lat>
 	<lng>4.6582</lng>
-	<url>www.romanes.com//Cluny/</url>
+	<url>http://www.romanes.com//Cluny/</url>
 	<addr_city>Cluny</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cluny-Abbaye-2952-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cluny-Abbaye-2952-0012.jpg</thumb>
 </site>
 <site>
 	<id>146</id>
@@ -1270,9 +1270,9 @@
 	<type>branch</type>
 	<lat>47.6252</lat>
 	<lng>4.338</lng>
-	<url>www.romanes.com//Fontenay/</url>
+	<url>http://www.romanes.com//Fontenay/</url>
 	<addr_city>Montbard</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Fontenay_Abbaye-4807-0024.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Fontenay_Abbaye-4807-0024.jpg</thumb>
 </site>
 <site>
 	<id>147</id>
@@ -1280,9 +1280,9 @@
 	<type>branch</type>
 	<lat>45.649</lat>
 	<lng>0.1515</lng>
-	<url>www.romanes.com//Angouleme/</url>
+	<url>http://www.romanes.com//Angouleme/</url>
 	<addr_city>Angoulème</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Angouleme-Saint_Pierre-617392-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Angouleme-Saint_Pierre-617392-0001.jpg</thumb>
 </site>
 <site>
 	<id>148</id>
@@ -1290,9 +1290,9 @@
 	<type>branch</type>
 	<lat>49.0805</lat>
 	<lng>2.20658</lng>
-	<url>www.romanes.org//Le_val/</url>
+	<url>http://www.romanes.com//Le_val/</url>
 	<addr_city>Mériel</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR_Meriel-Le_Val-VV-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR_Meriel-Le_Val-VV-0001.jpg</thumb>
 </site>
 <site>
 	<id>150</id>
@@ -1300,9 +1300,9 @@
 	<type>branch</type>
 	<lat>48.8818</lat>
 	<lng>2.07802</lng>
-	<url>www.romanes.org//Mareil-Marly/</url>
+	<url>http://www.romanes.com//Mareil-Marly/</url>
 	<addr_city>Mareil-Marly</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mareil_Marly-Saint_Etienne-VV-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mareil_Marly-Saint_Etienne-VV-0005.jpg</thumb>
 </site>
 <site>
 	<id>151</id>
@@ -1310,9 +1310,9 @@
 	<type>branch</type>
 	<lat>46.8835</lat>
 	<lng>-0.1375</lng>
-	<url>www.romanes.org//Saint_Generoux/</url>
+	<url>http://www.romanes.com//Saint_Generoux/</url>
 	<addr_city>Saint-Généroux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Generoux-4858-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Generoux-4858-0015.jpg</thumb>
 </site>
 <site>
 	<id>152</id>
@@ -1320,9 +1320,9 @@
 	<type>branch</type>
 	<lat>46.8815</lat>
 	<lng>-0.0529</lng>
-	<url>www.romanes.org//Saint_Jouin_de_Marnes/</url>
+	<url>http://www.romanes.com//Saint_Jouin_de_Marnes/</url>
 	<addr_city>Saint Jouin de Marnes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Jouin_de_Marnes-Saint_Jean-4640-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Jouin_de_Marnes-Saint_Jean-4640-0034.jpg</thumb>
 </site>
 <site>
 	<id>153</id>
@@ -1330,9 +1330,9 @@
 	<type>branch</type>
 	<lat>46.4197</lat>
 	<lng>4.6287</lng>
-	<url>www.romanes.org//Jalogny/</url>
+	<url>http://www.romanes.com//Jalogny/</url>
 	<addr_city>Jalogny</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Jalogny-2644-0014.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Jalogny-2644-0014.jpg</thumb>
 </site>
 <site>
 	<id>154</id>
@@ -1340,9 +1340,9 @@
 	<type>branch</type>
 	<lat>43.607</lat>
 	<lng>5.7569</lng>
-	<url>www.romanes.org//Rians/</url>
+	<url>http://www.romanes.com//Rians/</url>
 	<addr_city>Rians</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Rians-Notre_Dame_de_Nazareth-4796-0019.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Rians-Notre_Dame_de_Nazareth-4796-0019.jpg</thumb>
 </site>
 <site>
 	<id>155</id>
@@ -1350,9 +1350,9 @@
 	<type>branch</type>
 	<lat>46.0279</lat>
 	<lng>0.20261</lng>
-	<url>www.romanes.org//Ruffec/</url>
+	<url>http://www.romanes.com//Ruffec/</url>
 	<addr_city>Ruffec</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ruffec-Saint_Andre-4639-0035.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ruffec-Saint_Andre-4639-0035.jpg</thumb>
 </site>
 <site>
 	<id>156</id>
@@ -1360,9 +1360,9 @@
 	<type>branch</type>
 	<lat>48.861</lat>
 	<lng>2.114</lng>
-	<url>www.romanes.org//Louveciennes/</url>
+	<url>http://www.romanes.com//Louveciennes/</url>
 	<addr_city>Louveciennes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Louvecienne-Notre_Dame-2507-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Louvecienne-Notre_Dame-2507-0012.jpg</thumb>
 </site>
 <site>
 	<id>157</id>
@@ -1370,9 +1370,9 @@
 	<type>branch</type>
 	<lat>48.9337</lat>
 	<lng>2.3595</lng>
-	<url>www.romanes.com//Saint_Denis/</url>
+	<url>http://www.romanes.com//Saint_Denis/</url>
 	<addr_city>Saint Denis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Denis_Basilique-3197-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Denis_Basilique-3197-0002.jpg</thumb>
 </site>
 <site>
 	<id>158</id>
@@ -1380,9 +1380,9 @@
 	<type>branch</type>
 	<lat>47.337</lat>
 	<lng>-0.2341</lng>
-	<url>www.romanes.org//Treves/</url>
+	<url>http://www.romanes.com//Treves/</url>
 	<addr_city>Trêves</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Treves-Saint_Aubin-7748-0019.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Treves-Saint_Aubin-7748-0019.jpg</thumb>
 </site>
 <site>
 	<id>159</id>
@@ -1390,9 +1390,9 @@
 	<type>branch</type>
 	<lat>47.337</lat>
 	<lng>-0.2341</lng>
-	<url>www.romanes.org//Chenehutte/</url>
+	<url>http://www.romanes.com//Chenehutte/</url>
 	<addr_city>Chenehutte-les-Tuffeaux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chenehutte-Notre_Dame_de_la_pree_des_tuffeaux-7888-0025.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chenehutte-Notre_Dame_de_la_pree_des_tuffeaux-7888-0025.jpg</thumb>
 </site>
 <site>
 	<id>160</id>
@@ -1400,9 +1400,9 @@
 	<type>branch</type>
 	<lat>47.2113</lat>
 	<lng>0.0745</lng>
-	<url>www.romanes.org//Candes/</url>
+	<url>http://www.romanes.com//Candes/</url>
 	<addr_city>Candes-Saint-Martin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Candes-Saint_Martin-7886-0030.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Candes-Saint_Martin-7886-0030.jpg</thumb>
 </site>
 <site>
 	<id>161</id>
@@ -1410,9 +1410,9 @@
 	<type>branch</type>
 	<lat>48.7241</lat>
 	<lng>2.0876</lng>
-	<url>www.romanes.org//Port_Royal/</url>
+	<url>http://www.romanes.com//Port_Royal/</url>
 	<addr_city>Magny les Hameaux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Port_Royal-Notre_Dame-2507-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Port_Royal-Notre_Dame-2507-0029.jpg</thumb>
 </site>
 <site>
 	<id>162</id>
@@ -1420,9 +1420,9 @@
 	<type>branch</type>
 	<lat>49.2967</lat>
 	<lng>2.8642</lng>
-	<url>www.romanes.org//Gilocourt/</url>
+	<url>http://www.romanes.com//Gilocourt/</url>
 	<addr_city>Gilocourt</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Gilocourt-Saint_Martin_et_Saint_Priest-3512-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Gilocourt-Saint_Martin_et_Saint_Priest-3512-0015.jpg</thumb>
 </site>
 <site>
 	<id>163</id>
@@ -1430,9 +1430,9 @@
 	<type>branch</type>
 	<lat>49.2845</lat>
 	<lng>2.878</lng>
-	<url>www.romanes.org//Bethancourt/</url>
+	<url>http://www.romanes.com//Bethancourt/</url>
 	<addr_city>Béthancourt en Valois</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bethancourt-Saint_Sulpice-3214-0030.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bethancourt-Saint_Sulpice-3214-0030.jpg</thumb>
 </site>
 <site>
 	<id>164</id>
@@ -1440,9 +1440,9 @@
 	<type>branch</type>
 	<lat>46.4022</lat>
 	<lng>8.8766</lng>
-	<url>www.romanes.org//Suisse/Giornico/</url>
+	<url>http://www.romanes.com//Suisse/Giornico/</url>
 	<addr_city>Giornico</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-giornico-0001-4.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-giornico-0001-4.jpg</thumb>
 </site>
 <site>
 	<id>165</id>
@@ -1450,9 +1450,9 @@
 	<type>branch</type>
 	<lat>48.68411</lat>
 	<lng>1.93605</lng>
-	<url>www.romanes.org//Vaux_de_Cernay/</url>
+	<url>http://www.romanes.com//Vaux_de_Cernay/</url>
 	<addr_city>Cernay la ville</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Vaux_de_Cernay-Notre_Dame-2509-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Vaux_de_Cernay-Notre_Dame-2509-0023.jpg</thumb>
 </site>
 <site>
 	<id>166</id>
@@ -1460,9 +1460,9 @@
 	<type>branch</type>
 	<lat>47.337</lat>
 	<lng>-0.2341</lng>
-	<url>www.romanes.org//Cunault/</url>
+	<url>http://www.romanes.com//Cunault/</url>
 	<addr_city>Cunault</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cunault-Notre_Dame-7748-0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cunault-Notre_Dame-7748-0011.jpg</thumb>
 </site>
 <site>
 	<id>167</id>
@@ -1470,9 +1470,9 @@
 	<type>branch</type>
 	<lat>47.182</lat>
 	<lng>0.0502</lng>
-	<url>www.romanes.org//Fontevraud/</url>
+	<url>http://www.romanes.com//Fontevraud/</url>
 	<addr_city>Fontevraud</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-fontevraud-Notre_Dame-7881-0006.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-fontevraud-Notre_Dame-7881-0006.jpg</thumb>
 </site>
 <site>
 	<id>168</id>
@@ -1480,9 +1480,9 @@
 	<type>branch</type>
 	<lat>48.435</lat>
 	<lng>2.1639</lng>
-	<url>www.romanes.org//Etampes/Notre_Dame_du_Fort/</url>
+	<url>http://www.romanes.com//Etampes/Notre_Dame_du_Fort/</url>
 	<addr_city>Etampes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Etampes-Notre_Dame_du_Fort-3412-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Etampes-Notre_Dame_du_Fort-3412-0034.jpg</thumb>
 </site>
 <site>
 	<id>169</id>
@@ -1490,9 +1490,9 @@
 	<type>branch</type>
 	<lat>48.4262</lat>
 	<lng>2.13911</lng>
-	<url>www.romanes.org//Etampes/Saint_Martin/</url>
+	<url>http://www.romanes.com//Etampes/Saint_Martin/</url>
 	<addr_city>Etampes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Etampes-Saint_Martin-4640-0024.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Etampes-Saint_Martin-4640-0024.jpg</thumb>
 </site>
 <site>
 	<id>170</id>
@@ -1500,9 +1500,9 @@
 	<type>branch</type>
 	<lat>48.4359</lat>
 	<lng>2.16112</lng>
-	<url>www.romanes.org//Etampes/Saint_Basile/</url>
+	<url>http://www.romanes.com//Etampes/Saint_Basile/</url>
 	<addr_city>Etampes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Etampes-Saint_Basile-3412-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Etampes-Saint_Basile-3412-0023.jpg</thumb>
 </site>
 <site>
 	<id>171</id>
@@ -1510,9 +1510,9 @@
 	<type>branch</type>
 	<lat>50.0779</lat>
 	<lng>3.2566</lng>
-	<url>www.romanes.com//Vaucelles/</url>
+	<url>http://www.romanes.com//Vaucelles/</url>
 	<addr_city>Les Rues des Vignes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Les_Rues_Des_Vignes-Notre_Dame-a80_2005-07-15_47.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Les_Rues_Des_Vignes-Notre_Dame-a80_2005-07-15_47.jpg</thumb>
 </site>
 <site>
 	<id>172</id>
@@ -1520,9 +1520,9 @@
 	<type>branch</type>
 	<lat>45.3187</lat>
 	<lng>3.17002</lng>
-	<url>www.romanes.com//Blesle/</url>
+	<url>http://www.romanes.com//Blesle/</url>
 	<addr_city>Blesle</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Blesle-Saint_Pierre-4698-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Blesle-Saint_Pierre-4698-0010.jpg</thumb>
 </site>
 <site>
 	<id>173</id>
@@ -1530,9 +1530,9 @@
 	<type>branch</type>
 	<lat>45.1601</lat>
 	<lng>3.8152</lng>
-	<url>www.romanes.com//StPaulien/</url>
+	<url>http://www.romanes.com//StPaulien/</url>
 	<addr_city>Saint Paulien</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-StPaulien-Saint_Georges-4686-0013.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-StPaulien-Saint_Georges-4686-0013.jpg</thumb>
 </site>
 <site>
 	<id>174</id>
@@ -1540,9 +1540,9 @@
 	<type>branch</type>
 	<lat>45.4489</lat>
 	<lng>3.3414</lng>
-	<url>www.romanes.com//Mailhat/</url>
+	<url>http://www.romanes.com//Mailhat/</url>
 	<addr_city>Lamontgie</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mailhat-Notre_Dame-4680-0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mailhat-Notre_Dame-4680-0011.jpg</thumb>
 </site>
 <site>
 	<id>175</id>
@@ -1550,9 +1550,9 @@
 	<type>branch</type>
 	<lat>45.2937</lat>
 	<lng>3.38452</lng>
-	<url>www.romanes.com//Brioude/</url>
+	<url>http://www.romanes.com//Brioude/</url>
 	<addr_city>Brioude</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Brioude-Saint_Julien-4696-0014.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Brioude-Saint_Julien-4696-0014.jpg</thumb>
 </site>
 <site>
 	<id>176</id>
@@ -1560,9 +1560,9 @@
 	<type>branch</type>
 	<lat>45.5435</lat>
 	<lng>3.25008</lng>
-	<url>www.romanes.com//Issoire/</url>
+	<url>http://www.romanes.com//Issoire/</url>
 	<addr_city>Issoire</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Issoire-Saint_Austremoine-4680-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Issoire-Saint_Austremoine-4680-0015.jpg</thumb>
 </site>
 <site>
 	<id>177</id>
@@ -1570,9 +1570,9 @@
 	<type>branch</type>
 	<lat>45.9094</lat>
 	<lng>3.1247</lng>
-	<url>www.romanes.com//Mozac/</url>
+	<url>http://www.romanes.com//Mozac/</url>
 	<addr_city>Mozac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mozac-Saint_Pierre-4641-0035.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mozac-Saint_Pierre-4641-0035.jpg</thumb>
 </site>
 <site>
 	<id>178</id>
@@ -1580,9 +1580,9 @@
 	<type>branch</type>
 	<lat>46.5817</lat>
 	<lng>3.0578</lng>
-	<url>www.romanes.com//Bourbon/</url>
+	<url>http://www.romanes.com//Bourbon/</url>
 	<addr_city>Bourbon l'Archambault</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bourbon_Larchambault-Saint_Georges-T008-0021.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bourbon_Larchambault-Saint_Georges-T008-0021.jpg</thumb>
 </site>
 <site>
 	<id>179</id>
@@ -1590,9 +1590,9 @@
 	<type>branch</type>
 	<lat>46.9139</lat>
 	<lng>1.9459</lng>
-	<url>www.romanes.com//La_Pree/</url>
+	<url>http://www.romanes.com//La_Pree/</url>
 	<addr_city>Ségry</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-La_Pree-Notre_Dame-4639-0035.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Pree-Notre_Dame-4639-0035.jpg</thumb>
 </site>
 <site>
 	<id>180</id>
@@ -1600,9 +1600,9 @@
 	<type>branch</type>
 	<lat>45.7649</lat>
 	<lng>3.04947</lng>
-	<url>www.romanes.com//Royat/</url>
+	<url>http://www.romanes.com//Royat/</url>
 	<addr_city>Royat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Royat-Saint_Leger-4672-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Royat-Saint_Leger-4672-0005.jpg</thumb>
 </site>
 <site>
 	<id>181</id>
@@ -1610,9 +1610,9 @@
 	<type>branch</type>
 	<lat>45.7041</lat>
 	<lng>2.8466</lng>
-	<url>www.romanes.com//Orcival/</url>
+	<url>http://www.romanes.com//Orcival/</url>
 	<addr_city>Orcival</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Orcival-Notre_Dame-4712-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Orcival-Notre_Dame-4712-0005.jpg</thumb>
 </site>
 <site>
 	<id>182</id>
@@ -1620,9 +1620,9 @@
 	<type>branch</type>
 	<lat>45.9061</lat>
 	<lng>3.2354</lng>
-	<url>www.romanes.com//Ennezat/</url>
+	<url>http://www.romanes.com//Ennezat/</url>
 	<addr_city>Ennezat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ennezat-Saint_Victor_et_Sainte_Couronne-4646-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ennezat-Saint_Victor_et_Sainte_Couronne-4646-0002.jpg</thumb>
 </site>
 <site>
 	<id>183</id>
@@ -1630,9 +1630,9 @@
 	<type>branch</type>
 	<lat>45.7808</lat>
 	<lng>3.0897</lng>
-	<url>www.romanes.com//Clermont/ND_Port/</url>
+	<url>http://www.romanes.com//Clermont/ND_Port/</url>
 	<addr_city>Clermont-Ferrand</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Clermont-ND_Port-4685-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Clermont-ND_Port-4685-0016.jpg</thumb>
 </site>
 <site>
 	<id>184</id>
@@ -1640,9 +1640,9 @@
 	<type>branch</type>
 	<lat>45.6023</lat>
 	<lng>2.9726</lng>
-	<url>www.romanes.com//Saint_Nectaire</url>
+	<url>http://www.romanes.com//Saint_Nectaire</url>
 	<addr_city>Saint Nectaire</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Nectaire-Notre_Dame-4702-0026.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Nectaire-Notre_Dame-4702-0026.jpg</thumb>
 </site>
 <site>
 	<id>185</id>
@@ -1650,9 +1650,9 @@
 	<type>branch</type>
 	<lat>45.6588</lat>
 	<lng>3.083</lng>
-	<url>www.romanes.com//Saint_Saturnin/</url>
+	<url>http://www.romanes.com//Saint_Saturnin/</url>
 	<addr_city>Saint Saturnin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Saturnin-Notre_Dame-4699-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Saturnin-Notre_Dame-4699-0005.jpg</thumb>
 </site>
 <site>
 	<id>186</id>
@@ -1660,9 +1660,9 @@
 	<type>branch</type>
 	<lat>46.77662</lat>
 	<lng>2.28939</lng>
-	<url>www.romanes.com//Ineuil/</url>
+	<url>http://www.romanes.com//Ineuil/</url>
 	<addr_city>Ineuil</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ineuil-Saint_Martin-4642-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ineuil-Saint_Martin-4642-0020.jpg</thumb>
 </site>
 <site>
 	<id>187</id>
@@ -1670,9 +1670,9 @@
 	<type>branch</type>
 	<lat>46.6104</lat>
 	<lng>3.0196</lng>
-	<url>www.romanes.com//Ygrande/</url>
+	<url>http://www.romanes.com//Ygrande/</url>
 	<addr_city>Ygrande</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ygrande-Saint_Martin-T009-0018.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ygrande-Saint_Martin-T009-0018.jpg</thumb>
 </site>
 <site>
 	<id>188</id>
@@ -1680,9 +1680,9 @@
 	<type>branch</type>
 	<lat>45.0565</lat>
 	<lng>3.8646</lng>
-	<url>www.romanes.org//Le_Puy/Notre_Dame/</url>
+	<url>http://www.romanes.com//Le_Puy/Notre_Dame/</url>
 	<addr_city>Le Puy en Velay</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Le_Puy-Notre_Dame-4688-0017.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Le_Puy-Notre_Dame-4688-0017.jpg</thumb>
 </site>
 <site>
 	<id>189</id>
@@ -1690,9 +1690,9 @@
 	<type>branch</type>
 	<lat>45.0565</lat>
 	<lng>3.8646</lng>
-	<url>www.romanes.org//Le_Puy/Saint_Michel/</url>
+	<url>http://www.romanes.com//Le_Puy/Saint_Michel/</url>
 	<addr_city>Le Puy en Velay</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Le_Puy-Saint_Michel-4709-0028.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Le_Puy-Saint_Michel-4709-0028.jpg</thumb>
 </site>
 <site>
 	<id>190</id>
@@ -1700,9 +1700,9 @@
 	<type>branch</type>
 	<lat>45.0391</lat>
 	<lng>4.0511</lng>
-	<url>www.romanes.org//Saint-Julien-Chapteuil/</url>
+	<url>http://www.romanes.com//Saint-Julien-Chapteuil/</url>
 	<addr_city>Saint-Julien-Chapteuil</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Julien_Chapteuil-Saint_Julien-4689-0009.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Julien_Chapteuil-Saint_Julien-4689-0009.jpg</thumb>
 </site>
 <site>
 	<id>191</id>
@@ -1710,9 +1710,9 @@
 	<type>branch</type>
 	<lat>46.745794</lat>
 	<lng>2.459393</lng>
-	<url>www.romanes.org//Noirlac/</url>
+	<url>http://www.romanes.com//Noirlac/</url>
 	<addr_city>Bruere-Allichamps</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Noirlac-Notre_Dame-4636-0006.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Noirlac-Notre_Dame-4636-0006.jpg</thumb>
 </site>
 <site>
 	<id>192</id>
@@ -1720,9 +1720,9 @@
 	<type>branch</type>
 	<lat>45.2689</lat>
 	<lng>3.3646</lng>
-	<url>www.romanes.org//Lavaudieu/</url>
+	<url>http://www.romanes.com//Lavaudieu/</url>
 	<addr_city>Lavaudieu</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lavaudieu-Notre_Dame-4669-0021.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lavaudieu-Notre_Dame-4669-0021.jpg</thumb>
 </site>
 <site>
 	<id>193</id>
@@ -1730,9 +1730,9 @@
 	<type>branch</type>
 	<lat>47.0824</lat>
 	<lng>2.39894</lng>
-	<url>www.romanes.org//Bourges/</url>
+	<url>http://www.romanes.com//Bourges/</url>
 	<addr_city>Bourges</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bourges-Saint_Etienne-4639-0006.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bourges-Saint_Etienne-4639-0006.jpg</thumb>
 </site>
 <site>
 	<id>194</id>
@@ -1740,9 +1740,9 @@
 	<type>branch</type>
 	<lat>43.5509</lat>
 	<lng>7.0106</lng>
-	<url>www.romanes.org//Lerins/</url>
+	<url>http://www.romanes.com//Lerins/</url>
 	<addr_city>Cannes</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lerins-Notre_Dame-5318-0024.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lerins-Notre_Dame-5318-0024.jpg</thumb>
 </site>
 <site>
 	<id>195</id>
@@ -1750,9 +1750,9 @@
 	<type>branch</type>
 	<lat>45.7964</lat>
 	<lng>3.1148</lng>
-	<url>www.romanes.org//Clermont/ND_Assomption/</url>
+	<url>http://www.romanes.com//Clermont/ND_Assomption/</url>
 	<addr_city>Clermont-ferrand</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-ClermontFerrand-Notre_Dame_de_l_Assomption-4699-0028.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-ClermontFerrand-Notre_Dame_de_l_Assomption-4699-0028.jpg</thumb>
 </site>
 <site>
 	<id>196</id>
@@ -1760,9 +1760,9 @@
 	<type>branch</type>
 	<lat>49.2757</lat>
 	<lng>-0.70382</lng>
-	<url>www.romanes.org//Bayeux/</url>
+	<url>http://www.romanes.com//Bayeux/</url>
 	<addr_city>Bayeux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bayeux-Notre_Dame-T011-0013.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bayeux-Notre_Dame-T011-0013.jpg</thumb>
 </site>
 <site>
 	<id>197</id>
@@ -1770,9 +1770,9 @@
 	<type>branch</type>
 	<lat>49.4442</lat>
 	<lng>0.9633</lng>
-	<url>www.romanes.org//Saint-Martin-de-Boscherville/</url>
+	<url>http://www.romanes.com//Saint-Martin-de-Boscherville/</url>
 	<addr_city>Saint-Martin-de-Boscherville</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Martin_de_Boscherville-Saint_Georges-T013-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Martin_de_Boscherville-Saint_Georges-T013-0001.jpg</thumb>
 </site>
 <site>
 	<id>198</id>
@@ -1780,9 +1780,9 @@
 	<type>branch</type>
 	<lat>49.1476</lat>
 	<lng>2.68615</lng>
-	<url>www.romanes.org//Chaalis/</url>
+	<url>http://www.romanes.com//Chaalis/</url>
 	<addr_city>Fontaine-Chaalis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Chaalis-Notre_Dame-2043-0018.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Chaalis-Notre_Dame-2043-0018.jpg</thumb>
 </site>
 <site>
 	<id>199</id>
@@ -1790,9 +1790,9 @@
 	<type>branch</type>
 	<lat>49.19747</lat>
 	<lng>-0.93289</lng>
-	<url>www.romanes.org//Cerisy-la-Foret/</url>
+	<url>http://www.romanes.com//Cerisy-la-Foret/</url>
 	<addr_city>Cerisy-la-Forêt</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cerisy-Abbaye-T014-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cerisy-Abbaye-T014-0020.jpg</thumb>
 </site>
 <site>
 	<id>200</id>
@@ -1800,9 +1800,9 @@
 	<type>branch</type>
 	<lat>46.784311</lat>
 	<lng>2.423601</lng>
-	<url>www.romanes.org//Allichamps/</url>
+	<url>http://www.romanes.com//Allichamps/</url>
 	<addr_city>Bruère Allichamps</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Allichamps-Prieure-4642-0017.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Allichamps-Prieure-4642-0017.jpg</thumb>
 </site>
 <site>
 	<id>201</id>
@@ -1810,9 +1810,9 @@
 	<type>branch</type>
 	<lat>49.2576</lat>
 	<lng>-0.5838</lng>
-	<url>www.romanes.org//Rucqueville/</url>
+	<url>http://www.romanes.com//Rucqueville/</url>
 	<addr_city>Rucqueville</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Rucqueville-Saint_Pierre-T0019-0007.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Rucqueville-Saint_Pierre-T0019-0007.jpg</thumb>
 </site>
 <site>
 	<id>202</id>
@@ -1820,9 +1820,9 @@
 	<type>branch</type>
 	<lat>49.2576</lat>
 	<lng>-0.5838</lng>
-	<url>www.romanes.org//SaintGabrielBrecy/</url>
+	<url>http://www.romanes.com//SaintGabrielBrecy/</url>
 	<addr_city>Rucqueville</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Gabriel_Brecy-Saint_Gabriel-T0019-0004.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Gabriel_Brecy-Saint_Gabriel-T0019-0004.jpg</thumb>
 </site>
 <site>
 	<id>202</id>
@@ -1830,9 +1830,9 @@
 	<type>branch</type>
 	<lat>49.2767</lat>
 	<lng>-0.5647</lng>
-	<url>www.romanes.org//SaintGabrielBrecy/</url>
+	<url>http://www.romanes.com//SaintGabrielBrecy/</url>
 	<addr_city>Saint Grabriel Brécy</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Gabriel_Brecy-Saint_Gabriel-T0019-0004.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Gabriel_Brecy-Saint_Gabriel-T0019-0004.jpg</thumb>
 </site>
 <site>
 	<id>203</id>
@@ -1840,9 +1840,9 @@
 	<type>branch</type>
 	<lat>48.9195</lat>
 	<lng>1.97636</lng>
-	<url>www.romanes.org//Orgeval/</url>
+	<url>http://www.romanes.com//Orgeval/</url>
 	<addr_city>Orgeval</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Orgeval-Saint_Pierre_Saint_Paul-T0019-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Orgeval-Saint_Pierre_Saint_Paul-T0019-0010.jpg</thumb>
 </site>
 <site>
 	<id>204</id>
@@ -1850,9 +1850,9 @@
 	<type>branch</type>
 	<lat>48.8727</lat>
 	<lng>1.97226</lng>
-	<url>www.romanes.org//Feucherolles//</url>
+	<url>http://www.romanes.com//Feucherolles//</url>
 	<addr_city>Feucherolles</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Feucherolles-Sainte_Genevieve-T0019-0030.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Feucherolles-Sainte_Genevieve-T0019-0030.jpg</thumb>
 </site>
 <site>
 	<id>205</id>
@@ -1860,9 +1860,9 @@
 	<type>branch</type>
 	<lat>44.919</lat>
 	<lng>1.7318</lng>
-	<url>www.romanes.org//Carennac/</url>
+	<url>http://www.romanes.com//Carennac/</url>
 	<addr_city>Carennac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Carennac-Saint_Pierre-655433-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Carennac-Saint_Pierre-655433-0001.jpg</thumb>
 </site>
 <site>
 	<id>207</id>
@@ -1870,9 +1870,9 @@
 	<type>branch</type>
 	<lat>46.3487</lat>
 	<lng>4.7167</lng>
-	<url>www.romanes.org//Berze-la-Ville/</url>
+	<url>http://www.romanes.com//Berze-la-Ville/</url>
 	<addr_city>Berzé-la-Ville</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Berze-Chapelle-7311-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Berze-Chapelle-7311-0016.jpg</thumb>
 </site>
 <site>
 	<id>208</id>
@@ -1880,9 +1880,9 @@
 	<type>branch</type>
 	<lat>46.3516</lat>
 	<lng>4.0445</lng>
-	<url>www.romanes.org//Montceaux_l_Etoile/</url>
+	<url>http://www.romanes.com//Montceaux_l_Etoile/</url>
 	<addr_city>Montceaux-l'Etoile</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Montceaux_l_Etoile-Saints_Pierre_et_Paul-7313-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Montceaux_l_Etoile-Saints_Pierre_et_Paul-7313-0016.jpg</thumb>
 </site>
 <site>
 	<id>209</id>
@@ -1890,9 +1890,9 @@
 	<type>branch</type>
 	<lat>46.3448</lat>
 	<lng>3.8882</lng>
-	<url>www.romanes.org//Neuilly-en-Donjon/</url>
+	<url>http://www.romanes.com//Neuilly-en-Donjon/</url>
 	<addr_city>Neuilly-en-Donjon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Neuilly_en_Donjon-Sainte_Marie_Madeleine-7314-0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Neuilly_en_Donjon-Sainte_Marie_Madeleine-7314-0012.jpg</thumb>
 </site>
 <site>
 	<id>210</id>
@@ -1900,9 +1900,9 @@
 	<type>branch</type>
 	<lat>46.1587</lat>
 	<lng>4.1722</lng>
-	<url>www.romanes.org//Charlieu/Saint-Fortunat/</url>
+	<url>http://www.romanes.com//Charlieu/Saint-Fortunat/</url>
 	<addr_city>Charlieu</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Charlieu-Saint_Fortunat-7304-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Charlieu-Saint_Fortunat-7304-0001.jpg</thumb>
 </site>
 <site>
 	<id>211</id>
@@ -1910,9 +1910,9 @@
 	<type>branch</type>
 	<lat>46.3198</lat>
 	<lng>4.06</lng>
-	<url>www.romanes.org//Anzy-le-Duc/</url>
+	<url>http://www.romanes.com//Anzy-le-Duc/</url>
 	<addr_city>Anzy-le-Duc</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sainte_Trinite-Anzy_le_Duc-7305-0026.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sainte_Trinite-Anzy_le_Duc-7305-0026.jpg</thumb>
 </site>
 <site>
 	<id>212</id>
@@ -1920,9 +1920,9 @@
 	<type>branch</type>
 	<lat>46.4909</lat>
 	<lng>4.2772</lng>
-	<url>www.romanes.org//Baron/</url>
+	<url>http://www.romanes.com//Baron/</url>
 	<addr_city>Baron</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Baron-Saint_Nizier-7303-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Baron-Saint_Nizier-7303-0029.jpg</thumb>
 </site>
 <site>
 	<id>213</id>
@@ -1930,9 +1930,9 @@
 	<type>branch</type>
 	<lat>46.3943</lat>
 	<lng>4.6041</lng>
-	<url>www.romanes.org//Mazille/</url>
+	<url>http://www.romanes.com//Mazille/</url>
 	<addr_city>Mazille</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mazille-Saint_Blaise-7311-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mazille-Saint_Blaise-7311-0029.jpg</thumb>
 </site>
 <site>
 	<id>214</id>
@@ -1940,9 +1940,9 @@
 	<type>branch</type>
 	<lat>46.3383</lat>
 	<lng>4.1586</lng>
-	<url>www.romanes.org//Varenne-l-Arconce/</url>
+	<url>http://www.romanes.com//Varenne-l-Arconce/</url>
 	<addr_city>Varenne l'Arconce</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Varenne_l_Arconce-Saint_Pierre_aux_Liens-7303-0006.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Varenne_l_Arconce-Saint_Pierre_aux_Liens-7303-0006.jpg</thumb>
 </site>
 <site>
 	<id>215</id>
@@ -1950,9 +1950,9 @@
 	<type>branch</type>
 	<lat>49.8949</lat>
 	<lng>2.30121</lng>
-	<url>www.romanes.org//Amiens/</url>
+	<url>http://www.romanes.com//Amiens/</url>
 	<addr_city>Amiens</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Amiens-Notre_Dame-7362-0001_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Amiens-Notre_Dame-7362-0001_pt.jpg</thumb>
 </site>
 <site>
 	<id>216</id>
@@ -1960,9 +1960,9 @@
 	<type>branch</type>
 	<lat>46.2062</lat>
 	<lng>4.0778</lng>
-	<url>www.romanes.com//Iguerande/</url>
+	<url>http://www.romanes.com//Iguerande/</url>
 	<addr_city>Iguérande</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Iguerande-Saint-Marcel-7324-0017.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Iguerande-Saint-Marcel-7324-0017.jpg</thumb>
 </site>
 <site>
 	<id>217</id>
@@ -1970,9 +1970,9 @@
 	<type>branch</type>
 	<lat>46.4856</lat>
 	<lng>4.6042</lng>
-	<url>www.romanes.org//Massy/</url>
+	<url>http://www.romanes.com//Massy/</url>
 	<addr_city>Massy</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Massy-Saint_Denis-7319-0007.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Massy-Saint_Denis-7319-0007.jpg</thumb>
 </site>
 <site>
 	<id>218</id>
@@ -1980,9 +1980,9 @@
 	<type>branch</type>
 	<lat>46.6322</lat>
 	<lng>4.48023</lng>
-	<url>www.romanes.org//Mont-Saint-Vincent/</url>
+	<url>http://www.romanes.com//Mont-Saint-Vincent/</url>
 	<addr_city>Mont-Saint-Vincent</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mont_Saint_Vincent-Saint_Vincent-7319-0021.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mont_Saint_Vincent-Saint_Vincent-7319-0021.jpg</thumb>
 </site>
 <site>
 	<id>219</id>
@@ -1990,9 +1990,9 @@
 	<type>branch</type>
 	<lat>46.3509</lat>
 	<lng>4.2609</lng>
-	<url>www.romanes.org//Saint-Germain-en-Brionnais/</url>
+	<url>http://www.romanes.com//Saint-Germain-en-Brionnais/</url>
 	<addr_city>Saint-Germain-en-Brionnais</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Germain_en_Brionnais-Saint_Germain-7303-0025.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Germain_en_Brionnais-Saint_Germain-7303-0025.jpg</thumb>
 </site>
 <site>
 	<id>220</id>
@@ -2000,9 +2000,9 @@
 	<type>branch</type>
 	<lat>46.2632</lat>
 	<lng>4.0902</lng>
-	<url>www.romanes.org//Semur-en-Brionnais/</url>
+	<url>http://www.romanes.com//Semur-en-Brionnais/</url>
 	<addr_city>Sémur-en-Brionnais</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Semur_en_Brionnais-Saint_Hilaire-7302-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Semur_en_Brionnais-Saint_Hilaire-7302-0020.jpg</thumb>
 </site>
 <site>
 	<id>221</id>
@@ -2010,9 +2010,9 @@
 	<type>branch</type>
 	<lat>46.237</lat>
 	<lng>4.1425</lng>
-	<url>www.romanes.com//Saint-Julien-de-Jonzy/</url>
+	<url>http://www.romanes.com//Saint-Julien-de-Jonzy/</url>
 	<addr_city>Saint-Julien-de-Jonzy</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Julien_de_Jonzy-Saint_Julien-7302-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Julien_de_Jonzy-Saint_Julien-7302-0015.jpg</thumb>
 </site>
 <site>
 	<id>222</id>
@@ -2020,9 +2020,9 @@
 	<type>branch</type>
 	<lat>46.45</lat>
 	<lng>4.12129</lng>
-	<url>www.romanes.com//Paray-le-Monial/</url>
+	<url>http://www.romanes.com//Paray-le-Monial/</url>
 	<addr_city>Paray-le-Monial</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Paray_le_Monial-Notre_Dame-7323-0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Paray_le_Monial-Notre_Dame-7323-0011.jpg</thumb>
 </site>
 <site>
 	<id>223</id>
@@ -2030,9 +2030,9 @@
 	<type>branch</type>
 	<lat>46.6126</lat>
 	<lng>4.21515</lng>
-	<url>www.romanes.com//Perrecy-les-Forges/</url>
+	<url>http://www.romanes.com//Perrecy-les-Forges/</url>
 	<addr_city>Perrecy-les-Forges</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Perrecy_les_Forges-Saint_Pierre_et_Saint_Benoit-7323-0014.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Perrecy_les_Forges-Saint_Pierre_et_Saint_Benoit-7323-0014.jpg</thumb>
 </site>
 <site>
 	<id>224</id>
@@ -2040,9 +2040,9 @@
 	<type>branch</type>
 	<lat>46.6416</lat>
 	<lng>4.4466</lng>
-	<url>www.romanes.com//Gourdon/</url>
+	<url>http://www.romanes.com//Gourdon/</url>
 	<addr_city>Gourdon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Gourdon-Notre_Dame_de_l_Assomption-7322-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Gourdon-Notre_Dame_de_l_Assomption-7322-0023.jpg</thumb>
 </site>
 <site>
 	<id>225</id>
@@ -2050,9 +2050,9 @@
 	<type>branch</type>
 	<lat>47.2405</lat>
 	<lng>3.7559</lng>
-	<url>www.romanes.com//Cervon/</url>
+	<url>http://www.romanes.com//Cervon/</url>
 	<addr_city>Cervon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cervon-Saint_Barthelemy-9225-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cervon-Saint_Barthelemy-9225-0010.jpg</thumb>
 </site>
 <site>
 	<id>226</id>
@@ -2060,9 +2060,9 @@
 	<type>branch</type>
 	<lat>47.3661</lat>
 	<lng>3.111</lng>
-	<url>www.romanes.com//Donzy-le-Pre/</url>
+	<url>http://www.romanes.com//Donzy-le-Pre/</url>
 	<addr_city>Donzy-le-Pré</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Donzy-Notre_Dame_du_pre-9227-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Donzy-Notre_Dame_du_pre-9227-0034.jpg</thumb>
 </site>
 <site>
 	<id>227</id>
@@ -2070,9 +2070,9 @@
 	<type>branch</type>
 	<lat>47.2118</lat>
 	<lng>3.5021</lng>
-	<url>www.romanes.com//Saint-Reverien/</url>
+	<url>http://www.romanes.com//Saint-Reverien/</url>
 	<addr_city>Saint-Révérien</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Reverien-Saint_Reverien-9227-0029.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Reverien-Saint_Reverien-9227-0029.jpg</thumb>
 </site>
 <site>
 	<id>228</id>
@@ -2080,9 +2080,9 @@
 	<type>branch</type>
 	<lat>46.1536</lat>
 	<lng>4.122</lng>
-	<url>www.romanes.com//Charlieu/Cordeliers/</url>
+	<url>http://www.romanes.com//Charlieu/Cordeliers/</url>
 	<addr_city>Saint-Nizier-sous-Charlieu</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Charlieu-Cordelier-7312-0007.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Charlieu-Cordelier-7312-0007.jpg</thumb>
 </site>
 <site>
 	<id>229</id>
@@ -2090,9 +2090,9 @@
 	<type>branch</type>
 	<lat>45.8131</lat>
 	<lng>0.2851</lng>
-	<url>www.romanes.com//Coulgens/</url>
+	<url>http://www.romanes.com//Coulgens/</url>
 	<addr_city>Coulgens</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Coulgens-Saint_Jean_Baptiste-a80_2006-08-31_0000.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Coulgens-Saint_Jean_Baptiste-a80_2006-08-31_0000.jpg</thumb>
 </site>
 <site>
 	<id>230</id>
@@ -2100,9 +2100,9 @@
 	<type>branch</type>
 	<lat>45.61024</lat>
 	<lng>0.10153</lng>
-	<url>www.romanes.com//La-Couronne/</url>
+	<url>http://www.romanes.com//La-Couronne/</url>
 	<addr_city>La Couronne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-LA_COURONNE-Saint_Jean_Baptiste-a80_2006-08-31_0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-LA_COURONNE-Saint_Jean_Baptiste-a80_2006-08-31_0010.jpg</thumb>
 </site>
 <site>
 	<id>231</id>
@@ -2110,9 +2110,9 @@
 	<type>branch</type>
 	<lat>45.613</lat>
 	<lng>0.1818</lng>
-	<url>www.romanes.com//Puymoyen/</url>
+	<url>http://www.romanes.com//Puymoyen/</url>
 	<addr_city>Puymoyen</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Puymoyen-Saint_Vincent-a80_2006-08-10_0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Puymoyen-Saint_Vincent-a80_2006-08-10_0001.jpg</thumb>
 </site>
 <site>
 	<id>232</id>
@@ -2120,9 +2120,9 @@
 	<type>branch</type>
 	<lat>45.58362</lat>
 	<lng>0.04707</lng>
-	<url>www.romanes.com//Roullet/</url>
+	<url>http://www.romanes.com//Roullet/</url>
 	<addr_city>Roullet</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Roullet-Saint_Cybard-a80_2006-09-29_0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Roullet-Saint_Cybard-a80_2006-09-29_0011.jpg</thumb>
 </site>
 <site>
 	<id>233</id>
@@ -2130,9 +2130,9 @@
 	<type>branch</type>
 	<lat>47.2796</lat>
 	<lng>4.22989</lng>
-	<url>www.romanes.com//Saulieu/</url>
+	<url>http://www.romanes.com//Saulieu/</url>
 	<addr_city>Saulieu</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saulieu-Saint_Andoche-9225-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saulieu-Saint_Andoche-9225-0002.jpg</thumb>
 </site>
 <site>
 	<id>234</id>
@@ -2140,9 +2140,9 @@
 	<type>branch</type>
 	<lat>43.4249</lat>
 	<lng>6.7704</lng>
-	<url>www.romanes.com//Saint_Raphael/</url>
+	<url>http://www.romanes.com//Saint_Raphael/</url>
 	<addr_city>Saint Raphaël</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Raphael-ND_Templiers-7322-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Raphael-ND_Templiers-7322-0034.jpg</thumb>
 </site>
 <site>
 	<id>235</id>
@@ -2150,9 +2150,9 @@
 	<type>branch</type>
 	<lat>45.5844</lat>
 	<lng>4.8333</lng>
-	<url>www.romanes.com//Roullet-Saint_Estephe/</url>
+	<url>http://www.romanes.com//Roullet-Saint_Estephe/</url>
 	<addr_city>Roullet-Saint-Estèphe</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Roullet_Saint_Estephe-Saint_Estephe-a80_2006-09-29_0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Roullet_Saint_Estephe-Saint_Estephe-a80_2006-09-29_0001.jpg</thumb>
 </site>
 <site>
 	<id>236</id>
@@ -2160,9 +2160,9 @@
 	<type>branch</type>
 	<lat>45.64277</lat>
 	<lng>0.10722</lng>
-	<url>www.romanes.com//Saint-Michel-d-Entraygues/</url>
+	<url>http://www.romanes.com//Saint-Michel-d-Entraygues/</url>
 	<addr_city>Saint Michel d'Entraygues</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Michel_d_Entraygues-Saint_Michel-a80_2006-08-24_0006.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Michel_d_Entraygues-Saint_Michel-a80_2006-08-24_0006.jpg</thumb>
 </site>
 <site>
 	<id>237</id>
@@ -2170,9 +2170,9 @@
 	<type>branch</type>
 	<lat>45.83339</lat>
 	<lng>0.31874</lng>
-	<url>www.romanes.com//Sainte-Colombe/</url>
+	<url>http://www.romanes.com//Sainte-Colombe/</url>
 	<addr_city>Sainte-Colombe</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sainte_Colombe-Sainte_Colombe-a80_2006-09-05_0012.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sainte_Colombe-Sainte_Colombe-a80_2006-09-05_0012.jpg</thumb>
 </site>
 <site>
 	<id>238</id>
@@ -2180,9 +2180,9 @@
 	<type>branch</type>
 	<lat>45.64004</lat>
 	<lng>0.05595</lng>
-	<url>www.romanes.com//Trois-Palis/</url>
+	<url>http://www.romanes.com//Trois-Palis/</url>
 	<addr_city>Trois Palis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Trois_Palis-Notre_Dame-a80_2006-08-11_0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Trois_Palis-Notre_Dame-a80_2006-08-11_0011.jpg</thumb>
 </site>
 <site>
 	<id>239</id>
@@ -2190,9 +2190,9 @@
 	<type>branch</type>
 	<lat>48.5362</lat>
 	<lng>3.20902</lng>
-	<url>www.romanes.com//Saint-Loup-de-Naud/</url>
+	<url>http://www.romanes.com//Saint-Loup-de-Naud/</url>
 	<addr_city>Saint-Loup-de-Naud</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Loup_de_Naud-Saint_Loup-5470-0020.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Loup_de_Naud-Saint_Loup-5470-0020.jpg</thumb>
 </site>
 <site>
 	<id>240</id>
@@ -2200,9 +2200,9 @@
 	<type>branch</type>
 	<lat>49.43282</lat>
 	<lng>0.81954</lng>
-	<url>www.romanes.com//Jumiege/</url>
+	<url>http://www.romanes.com//Jumiege/</url>
 	<addr_city>Jumiège</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Jumiege-Notre_dame-3839-0035_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Jumiege-Notre_dame-3839-0035_pt.jpg</thumb>
 </site>
 <site>
 	<id>241</id>
@@ -2210,9 +2210,9 @@
 	<type>branch</type>
 	<lat>48.6352</lat>
 	<lng>-1.5105</lng>
-	<url>www.romanes.com//Mont-Saint-Michel/</url>
+	<url>http://www.romanes.com//Mont-Saint-Michel/</url>
 	<addr_city>Mont-Saint-Michel</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mont_Saint_Michel-Saint_Michel-3840-0022.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mont_Saint_Michel-Saint_Michel-3840-0022.jpg</thumb>
 </site>
 <site>
 	<id>242</id>
@@ -2220,9 +2220,9 @@
 	<type>branch</type>
 	<lat>45.88865</lat>
 	<lng>-0.31264</lng>
-	<url>www.romanes.com//Bagnizeau/</url>
+	<url>http://www.romanes.com//Bagnizeau/</url>
 	<addr_city>Bagnizeau</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bagnizeau-Saint_Vivien-a80_2007-04-19_0003.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bagnizeau-Saint_Vivien-a80_2007-04-19_0003.jpg</thumb>
 </site>
 <site>
 	<id>243</id>
@@ -2230,9 +2230,9 @@
 	<type>branch</type>
 	<lat>50.46633</lat>
 	<lng>1.7684</lng>
-	<url>www.romanes.com//Montreuil-sur-Mer/Saint-Saulve/</url>
+	<url>http://www.romanes.com//Montreuil-sur-Mer/Saint-Saulve/</url>
 	<addr_city>Montreuil-sur-Mer</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Montreuil_sur_Mer-Saint-Saulve-7360-0034.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Montreuil_sur_Mer-Saint-Saulve-7360-0034.jpg</thumb>
 </site>
 <site>
 	<id>244</id>
@@ -2240,9 +2240,9 @@
 	<type>branch</type>
 	<lat>45.51104</lat>
 	<lng>0.11895</lng>
-	<url>www.romanes.com//Voulgezac/</url>
+	<url>http://www.romanes.com//Voulgezac/</url>
 	<addr_city>Voulgézac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Voulgezac-Notre_Dame-a80_2007-04-02_0000.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Voulgezac-Notre_Dame-a80_2007-04-02_0000.jpg</thumb>
 </site>
 <site>
 	<id>245</id>
@@ -2250,9 +2250,9 @@
 	<type>branch</type>
 	<lat>45.9239</lat>
 	<lng>-0.42495</lng>
-	<url>www.romanes.com//Varaize/</url>
+	<url>http://www.romanes.com//Varaize/</url>
 	<addr_city>Varaize</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Varaize-Saint_Germain-a80_2007-04-19_0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Varaize-Saint_Germain-a80_2007-04-19_0011.jpg</thumb>
 </site>
 <site>
 	<id>246</id>
@@ -2260,9 +2260,9 @@
 	<type>branch</type>
 	<lat>45.51104</lat>
 	<lng>0.11895</lng>
-	<url>www.romanes.com//Lesterps/</url>
+	<url>http://www.romanes.com//Lesterps/</url>
 	<addr_city>Voulgézac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lesterps-Saint_Pierre-tz1_2007-09-06_0019_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lesterps-Saint_Pierre-tz1_2007-09-06_0019_pt.jpg</thumb>
 </site>
 <site>
 	<id>246</id>
@@ -2270,9 +2270,9 @@
 	<type>branch</type>
 	<lat>46.01012</lat>
 	<lng>0.77994</lng>
-	<url>www.romanes.com//Lesterps/</url>
+	<url>http://www.romanes.com//Lesterps/</url>
 	<addr_city>Lesterps</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lesterps-Saint_Pierre-tz1_2007-09-06_0019_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lesterps-Saint_Pierre-tz1_2007-09-06_0019_pt.jpg</thumb>
 </site>
 <site>
 	<id>247</id>
@@ -2280,9 +2280,9 @@
 	<type>branch</type>
 	<lat>45.75501</lat>
 	<lng>1.27515</lng>
-	<url>www.romanes.com//Solignac/</url>
+	<url>http://www.romanes.com//Solignac/</url>
 	<addr_city>Solignac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-Soli_4.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-Soli_4.jpg</thumb>
 </site>
 <site>
 	<id>248</id>
@@ -2290,9 +2290,9 @@
 	<type>branch</type>
 	<lat>44.14158</lat>
 	<lng>0.56153</lng>
-	<url>www.romanes.com//Aubiac/</url>
+	<url>http://www.romanes.com//Aubiac/</url>
 	<addr_city>Aubiac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Aubiac-Sainte_Marie-7295-0028_dpp.JPG</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Aubiac-Sainte_Marie-7295-0028_dpp.JPG</thumb>
 </site>
 <site>
 	<id>249</id>
@@ -2300,9 +2300,9 @@
 	<type>branch</type>
 	<lat>45.247778</lat>
 	<lng>0.339722</lng>
-	<url>www.romanes.com//Faye/</url>
+	<url>http://www.romanes.com//Faye/</url>
 	<addr_city>Faye</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Faye-Notre_Dame-7306-0025_dpp.JPG</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Faye-Notre_Dame-7306-0025_dpp.JPG</thumb>
 </site>
 <site>
 	<id>250</id>
@@ -2310,9 +2310,9 @@
 	<type>branch</type>
 	<lat>44.310833</lat>
 	<lng>0.825556</lng>
-	<url>www.romanes.com//Frespech/</url>
+	<url>http://www.romanes.com//Frespech/</url>
 	<addr_city>Frespech</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Frespech-Notre_Dame-7301-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Frespech-Notre_Dame-7301-0001.jpg</thumb>
 </site>
 <site>
 	<id>251</id>
@@ -2320,9 +2320,9 @@
 	<type>branch</type>
 	<lat>45.65104</lat>
 	<lng>-0.25244</lng>
-	<url>www.romanes.com//Gensac-la-Pallue/</url>
+	<url>http://www.romanes.com//Gensac-la-Pallue/</url>
 	<addr_city>Gensac-la-pallue</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Gensac_la_Pallue-Notre_Dame-tz1_2007-03-16_0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Gensac_la_Pallue-Notre_Dame-tz1_2007-03-16_0010.jpg</thumb>
 </site>
 <site>
 	<id>252</id>
@@ -2330,9 +2330,9 @@
 	<type>branch</type>
 	<lat>44.20796</lat>
 	<lng>0.89199</lng>
-	<url>www.romanes.com//Saint-Maurin</url>
+	<url>http://www.romanes.com//Saint-Maurin</url>
 	<addr_city>Saint Maurin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Maurin-Notre_dame-7281-0026.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Maurin-Notre_dame-7281-0026.jpg</thumb>
 </site>
 <site>
 	<id>253</id>
@@ -2340,9 +2340,9 @@
 	<type>branch</type>
 	<lat>44.398889</lat>
 	<lng>0.590278</lng>
-	<url>www.romanes.com//Sainte-Livrade/</url>
+	<url>http://www.romanes.com//Sainte-Livrade/</url>
 	<addr_city>Sainte-Livrade-sur-Lot</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sainte_Livrade_sur_Lot-Sainte_Livrade-7306-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sainte_Livrade_sur_Lot-Sainte_Livrade-7306-0005.jpg</thumb>
 </site>
 <site>
 	<id>254</id>
@@ -2350,9 +2350,9 @@
 	<type>branch</type>
 	<lat>44.105556</lat>
 	<lng>1.086111</lng>
-	<url>www.romanes.com//Moissac/Saint-Martin/</url>
+	<url>http://www.romanes.com//Moissac/Saint-Martin/</url>
 	<addr_city>Moissac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Moissac-Saint_Martin-3574-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Moissac-Saint_Martin-3574-0001.jpg</thumb>
 </site>
 <site>
 	<id>255</id>
@@ -2360,9 +2360,9 @@
 	<type>branch</type>
 	<lat>44.134722</lat>
 	<lng>0.6625</lng>
-	<url>www.romanes.com//Layrac/</url>
+	<url>http://www.romanes.com//Layrac/</url>
 	<addr_city>Layrac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Layrac-Saint_Martin-7298-0028.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Layrac-Saint_Martin-7298-0028.jpg</thumb>
 </site>
 <site>
 	<id>256</id>
@@ -2370,9 +2370,9 @@
 	<type>branch</type>
 	<lat>44.24964</lat>
 	<lng>0.98493</lng>
-	<url>www.romanes.com//Le-Bugat/</url>
+	<url>http://www.romanes.com//Le-Bugat/</url>
 	<addr_city>Le Bugat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Le_Bugat-Saint_Pierre-7281-0017_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Le_Bugat-Saint_Pierre-7281-0017_pt.jpg</thumb>
 </site>
 <site>
 	<id>257</id>
@@ -2380,9 +2380,9 @@
 	<type>branch</type>
 	<lat>43.67872</lat>
 	<lng>4.43299</lng>
-	<url>www.romanes.com//Saint-Gilles-du-Gard/</url>
+	<url>http://www.romanes.com//Saint-Gilles-du-Gard/</url>
 	<addr_city>Saint-Gilles-du-Gard</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Gilles_du_Gard-Saint_Gilles-7294-0024.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Gilles_du_Gard-Saint_Gilles-7294-0024.jpg</thumb>
 </site>
 <site>
 	<id>258</id>
@@ -2390,9 +2390,9 @@
 	<type>branch</type>
 	<lat>44.105556</lat>
 	<lng>1.086111</lng>
-	<url>www.romanes.org//Moissac/Saint-Pierre/</url>
+	<url>http://www.romanes.com//Moissac/Saint-Pierre/</url>
 	<addr_city>Moissac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Moissac-Saint_Pierre-3574-0010.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Moissac-Saint_Pierre-3574-0010.jpg</thumb>
 </site>
 <site>
 	<id>259</id>
@@ -2400,9 +2400,9 @@
 	<type>branch</type>
 	<lat>44.105556</lat>
 	<lng>1.086111</lng>
-	<url>www.romanes.org//Moissac/Saint-Pierre-Cloitre/</url>
+	<url>http://www.romanes.com//Moissac/Saint-Pierre-Cloitre/</url>
 	<addr_city>Moissac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Moissac-Saint_Pierre-7285-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Moissac-Saint_Pierre-7285-0002.jpg</thumb>
 </site>
 <site>
 	<id>260</id>
@@ -2410,9 +2410,9 @@
 	<type>branch</type>
 	<lat>44.204931</lat>
 	<lng>0.621153</lng>
-	<url>www.romanes.org//Agen/</url>
+	<url>http://www.romanes.com//Agen/</url>
 	<addr_city>Agen</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Agen-Sainte_Caprais-7295-0012_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Agen-Sainte_Caprais-7295-0012_pt.jpg</thumb>
 </site>
 <site>
 	<id>261</id>
@@ -2420,9 +2420,9 @@
 	<type>branch</type>
 	<lat>44.141667</lat>
 	<lng>0.609722</lng>
-	<url>www.romanes.org//Moirax/</url>
+	<url>http://www.romanes.com//Moirax/</url>
 	<addr_city>Moirax</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Moirax-Sainte_Marie-7298-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Moirax-Sainte_Marie-7298-0023.jpg</thumb>
 </site>
 <site>
 	<id>262</id>
@@ -2430,9 +2430,9 @@
 	<type>branch</type>
 	<lat>48.8558</lat>
 	<lng>2.33311</lng>
-	<url>www.romanes.org//Paris/Saint-Germain-des-Pres/</url>
+	<url>http://www.romanes.com//Paris/Saint-Germain-des-Pres/</url>
 	<addr_city>Paris</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Paris-Saint_Germain_des_Pres-T0027-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Paris-Saint_Germain_des_Pres-T0027-0001.jpg</thumb>
 </site>
 <site>
 	<id>263</id>
@@ -2440,9 +2440,9 @@
 	<type>branch</type>
 	<lat>49.281111</lat>
 	<lng>1.777222</lng>
-	<url>www.romanes.org//Gisors/</url>
+	<url>http://www.romanes.com//Gisors/</url>
 	<addr_city>Gisors</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Gisors-Chateau_Saint_Gervais_Saint_Protais-2703-0011.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Gisors-Chateau_Saint_Gervais_Saint_Protais-2703-0011.jpg</thumb>
 </site>
 <site>
 	<id>264</id>
@@ -2450,9 +2450,9 @@
 	<type>branch</type>
 	<lat>46.999167</lat>
 	<lng>2.455</lng>
-	<url>www.romanes.org//Plaimpied-Givaudins/</url>
+	<url>http://www.romanes.com//Plaimpied-Givaudins/</url>
 	<addr_city>Plaimpied-Givaudins</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Plaimpied_Givaudins-Saint_Martin-4232-0015.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Plaimpied_Givaudins-Saint_Martin-4232-0015.jpg</thumb>
 </site>
 <site>
 	<id>265</id>
@@ -2460,9 +2460,9 @@
 	<type>branch</type>
 	<lat>47.033889</lat>
 	<lng>2.654167</lng>
-	<url>www.romanes.org//Avord/</url>
+	<url>http://www.romanes.com//Avord/</url>
 	<addr_city>Avord</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Avord-Saint_Hugues-4243-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Avord-Saint_Hugues-4243-0001.jpg</thumb>
 </site>
 <site>
 	<id>266</id>
@@ -2470,9 +2470,9 @@
 	<type>branch</type>
 	<lat>46.986111</lat>
 	<lng>2.644722</lng>
-	<url>www.romanes.org//Jussy-Champagne/</url>
+	<url>http://www.romanes.com//Jussy-Champagne/</url>
 	<addr_city>Jussy-Champagne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Jussy_Champagne-Saint_Andre-4235-0036.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Jussy_Champagne-Saint_Andre-4235-0036.jpg</thumb>
 </site>
 <site>
 	<id>267</id>
@@ -2480,9 +2480,9 @@
 	<type>branch</type>
 	<lat>46.896111</lat>
 	<lng>2.732222</lng>
-	<url>www.romanes.org//Blet/</url>
+	<url>http://www.romanes.com//Blet/</url>
 	<addr_city>Blet</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Blet-Saint_Germain-4235-0017.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Blet-Saint_Germain-4235-0017.jpg</thumb>
 </site>
 <site>
 	<id>268</id>
@@ -2490,9 +2490,9 @@
 	<type>branch</type>
 	<lat>46.885556</lat>
 	<lng>2.5725</lng>
-	<url>www.romanes.org//Dun-sur-Auron/</url>
+	<url>http://www.romanes.com//Dun-sur-Auron/</url>
 	<addr_city>Dun-sur-Auron</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Dun_sur_auron-Saint_Etienne-tz1_2008-08-07_0000_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Dun_sur_auron-Saint_Etienne-tz1_2008-08-07_0000_pt.jpg</thumb>
 </site>
 <site>
 	<id>269</id>
@@ -2500,9 +2500,9 @@
 	<type>branch</type>
 	<lat>46.885556</lat>
 	<lng>2.5725</lng>
-	<url>www.romanes.org//Charite-sur-Loire/</url>
+	<url>http://www.romanes.com//Charite-sur-Loire/</url>
 	<addr_city>Dun-sur-Auron</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Charite_sur_Loire-Notre_Dame-4245-0027.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Charite_sur_Loire-Notre_Dame-4245-0027.jpg</thumb>
 </site>
 <site>
 	<id>269</id>
@@ -2510,9 +2510,9 @@
 	<type>branch</type>
 	<lat>47.177778</lat>
 	<lng>3.019722</lng>
-	<url>www.romanes.org//Charite-sur-Loire/</url>
+	<url>http://www.romanes.com//Charite-sur-Loire/</url>
 	<addr_city>La Charité-sur-Loire</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Charite_sur_Loire-Notre_Dame-4245-0027.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Charite_sur_Loire-Notre_Dame-4245-0027.jpg</thumb>
 </site>
 <site>
 	<id>270</id>
@@ -2520,9 +2520,9 @@
 	<type>branch</type>
 	<lat>44.448333</lat>
 	<lng>1.441389</lng>
-	<url>www.romanes.org//Cahors/Saint_Etienne/</url>
+	<url>http://www.romanes.com//Cahors/Saint_Etienne/</url>
 	<addr_city>Cahors</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cahors-Saint_Etienne-7299-0016_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cahors-Saint_Etienne-7299-0016_pt.jpg</thumb>
 </site>
 <site>
 	<id>271</id>
@@ -2530,9 +2530,9 @@
 	<type>branch</type>
 	<lat>44.4485</lat>
 	<lng>1.441389</lng>
-	<url>www.romanes.org//Cahors/Valentre/</url>
+	<url>http://www.romanes.com//Cahors/Valentre/</url>
 	<addr_city>Cahors</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cahors-Valentre-7290-0023.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cahors-Valentre-7290-0023.jpg</thumb>
 </site>
 <site>
 	<id>272</id>
@@ -2540,9 +2540,9 @@
 	<type>branch</type>
 	<lat>44.292778</lat>
 	<lng>0.948333</lng>
-	<url>www.romanes.org//Lacour/</url>
+	<url>http://www.romanes.com//Lacour/</url>
 	<addr_city>Lacour</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lacour-Eglise-7281-0018.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lacour-Eglise-7281-0018.jpg</thumb>
 </site>
 <site>
 	<id>273</id>
@@ -2550,9 +2550,9 @@
 	<type>branch</type>
 	<lat>44.292778</lat>
 	<lng>0.948333</lng>
-	<url>www.romanes.org//Lyon/Saint-Jean-Baptiste</url>
+	<url>http://www.romanes.com//Lyon/Saint-Jean-Baptiste</url>
 	<addr_city>Lacour</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lyon-Saint_Jean_Baptiste-E5D_2010-08-12_9814.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lyon-Saint_Jean_Baptiste-E5D_2010-08-12_9814.jpg</thumb>
 </site>
 <site>
 	<id>273</id>
@@ -2560,9 +2560,9 @@
 	<type>branch</type>
 	<lat>45.759723</lat>
 	<lng>4.842223</lng>
-	<url>www.romanes.org//Lyon/Saint-Jean-Baptiste</url>
+	<url>http://www.romanes.com//Lyon/Saint-Jean-Baptiste</url>
 	<addr_city>Lyon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lyon-Saint_Jean_Baptiste-E5D_2010-08-12_9814.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lyon-Saint_Jean_Baptiste-E5D_2010-08-12_9814.jpg</thumb>
 </site>
 <site>
 	<id>274</id>
@@ -2570,9 +2570,9 @@
 	<type>branch</type>
 	<lat>42.67212</lat>
 	<lng>2.61983</lng>
-	<url>www.romanes.org//Ille-sur-Tet/Casenoves/</url>
+	<url>http://www.romanes.com//Ille-sur-Tet/Casenoves/</url>
 	<addr_city>Ille-sur-têt</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ille_sur_Tet-Casenoves-f100_2008-08-11_1275_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ille_sur_Tet-Casenoves-f100_2008-08-11_1275_pt.jpg</thumb>
 </site>
 <site>
 	<id>275</id>
@@ -2580,9 +2580,9 @@
 	<type>branch</type>
 	<lat>42.50398</lat>
 	<lng>2.82084</lng>
-	<url>www.romanes.org//Fenollar/</url>
+	<url>http://www.romanes.com//Fenollar/</url>
 	<addr_city>Maureillas las Illas</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Fenollar-Saint_Martin-P0003-0016.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Fenollar-Saint_Martin-P0003-0016.jpg</thumb>
 </site>
 <site>
 	<id>276</id>
@@ -2590,9 +2590,9 @@
 	<type>branch</type>
 	<lat>42.66365</lat>
 	<lng>2.50058</lng>
-	<url>www.romanes.org//Marcevol/</url>
+	<url>http://www.romanes.com//Marcevol/</url>
 	<addr_city>Arbroussols</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Marcevol-Sainte_Marie-f100_2008-08-12_1484_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Marcevol-Sainte_Marie-f100_2008-08-12_1484_pt.jpg</thumb>
 </site>
 <site>
 	<id>277</id>
@@ -2600,9 +2600,9 @@
 	<type>branch</type>
 	<lat>42.681111</lat>
 	<lng>2.943333</lng>
-	<url>www.romanes.org//Cabestany/</url>
+	<url>http://www.romanes.com//Cabestany/</url>
 	<addr_city>Cabestany</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cabestany-Notre-Dame_des_Anges-f100_2008-08-15_2006_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cabestany-Notre-Dame_des_Anges-f100_2008-08-15_2006_pt.jpg</thumb>
 </site>
 <site>
 	<id>278</id>
@@ -2610,9 +2610,9 @@
 	<type>branch</type>
 	<lat>42.56683</lat>
 	<lng>2.38101</lng>
-	<url>www.romanes.org//Corneilla-de-Conflent/</url>
+	<url>http://www.romanes.com//Corneilla-de-Conflent/</url>
 	<addr_city>Corneilla-de-Conflent</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Corneilla_de_Conflent-Sainte_Marie-P0007-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Corneilla_de_Conflent-Sainte_Marie-P0007-0005.jpg</thumb>
 </site>
 <site>
 	<id>279</id>
@@ -2620,9 +2620,9 @@
 	<type>branch</type>
 	<lat>44.89451</lat>
 	<lng>1.47914</lng>
-	<url>www.romanes.org//Souillac/</url>
+	<url>http://www.romanes.com//Souillac/</url>
 	<addr_city>Souillac</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Souillac-Sainte_Marie-f100_2008-08-17_2341_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Souillac-Sainte_Marie-f100_2008-08-17_2341_pt.jpg</thumb>
 </site>
 <site>
 	<id>280</id>
@@ -2630,9 +2630,9 @@
 	<type>branch</type>
 	<lat>42.54256</lat>
 	<lng>2.92123</lng>
-	<url>www.romanes.org//Saint-Genis-des-fontaines/</url>
+	<url>http://www.romanes.com//Saint-Genis-des-fontaines/</url>
 	<addr_city>Saint-Genis-des-fontaines</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Genis_des_fontaines-Saint_Michel-P0008-0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Genis_des_fontaines-Saint_Michel-P0008-0002.jpg</thumb>
 </site>
 <site>
 	<id>281</id>
@@ -2640,9 +2640,9 @@
 	<type>branch</type>
 	<lat>43.11688</lat>
 	<lng>2.8835672</lng>
-	<url>www.romanes.org//Fontfroide/</url>
+	<url>http://www.romanes.com//Fontfroide/</url>
 	<addr_city>Narbonne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Fontfroide-Sainte_Marie-P0005-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Fontfroide-Sainte_Marie-P0005-0005.jpg</thumb>
 </site>
 <site>
 	<id>282</id>
@@ -2650,9 +2650,9 @@
 	<type>branch</type>
 	<lat>42.5835294444444</lat>
 	<lng>2.40027361111111</lng>
-	<url>www.romanes.org//Saint-Michel-de-Cuixa/</url>
+	<url>http://www.romanes.com//Saint-Michel-de-Cuixa/</url>
 	<addr_city>Codalet</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Michel_de_Cuixa-Saint_Michel-f100_2008-08-13_1690_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Michel_de_Cuixa-Saint_Michel-f100_2008-08-13_1690_pt.jpg</thumb>
 </site>
 <site>
 	<id>283</id>
@@ -2660,9 +2660,9 @@
 	<type>branch</type>
 	<lat>42.6000277777778</lat>
 	<lng>2.58352972222222</lng>
-	<url>www.romanes.org//Serrabone/</url>
+	<url>http://www.romanes.com//Serrabone/</url>
 	<addr_city>Boule-d'Amont</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Serrabonne-Sainte_Marie-f100_2008-08-11_1277_0001_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Serrabonne-Sainte_Marie-f100_2008-08-11_1277_0001_pt.jpg</thumb>
 </site>
 <site>
 	<id>284</id>
@@ -2670,9 +2670,9 @@
 	<type>branch</type>
 	<lat>42.5168616666667</lat>
 	<lng>2.40001527777778</lng>
-	<url>www.romanes.org//Saint-Martin-du-Canigou/</url>
+	<url>http://www.romanes.com//Saint-Martin-du-Canigou/</url>
 	<addr_city>Casteil</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Martin_du_Canigou-Saint_Martin-f100_2008-08-14_1907_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Martin_du_Canigou-Saint_Martin-f100_2008-08-14_1907_pt.jpg</thumb>
 </site>
 <site>
 	<id>285</id>
@@ -2680,9 +2680,9 @@
 	<type>branch</type>
 	<lat>50.637222</lat>
 	<lng>3.063333</lng>
-	<url>www.romanes.com//Lille/</url>
+	<url>http://www.romanes.com//Lille/</url>
 	<addr_city>Lille</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lille-Notre_Dame_de_la_treille-f100_2008-07-14_0652_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lille-Notre_Dame_de_la_treille-f100_2008-07-14_0652_pt.jpg</thumb>
 </site>
 <site>
 	<id>286</id>
@@ -2690,9 +2690,9 @@
 	<type>branch</type>
 	<lat>42.687222</lat>
 	<lng>2.723056</lng>
-	<url>www.romanes.com//San-Feliu-d-Amont/</url>
+	<url>http://www.romanes.com//San-Feliu-d-Amont/</url>
 	<addr_city>San Féliu d'Amont</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-San_Feliu_d_Amont-Notre_Dame-P0006-0005.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-San_Feliu_d_Amont-Notre_Dame-P0006-0005.jpg</thumb>
 </site>
 <site>
 	<id>287</id>
@@ -2700,9 +2700,9 @@
 	<type>branch</type>
 	<lat>45.8894555</lat>
 	<lng>-0.5965666</lng>
-	<url>www.romanes.org//Fenioux/</url>
+	<url>http://www.romanes.com//Fenioux/</url>
 	<addr_city>Fenioux</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Fenioux-Notre-Dame-tz1_2008-07-31-191056_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Fenioux-Notre-Dame-tz1_2008-07-31-191056_pt.jpg</thumb>
 </site>
 <site>
 	<id>288</id>
@@ -2710,9 +2710,9 @@
 	<type>branch</type>
 	<lat>42.5393</lat>
 	<lng>9.495513</lng>
-	<url>www.romanes.org//Corse/Canonica/</url>
+	<url>http://www.romanes.com//Corse/Canonica/</url>
 	<addr_city>Lucciana</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Canonica-Santa_Maria_Assunta-tz1_2009-05-18-170235_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Canonica-Santa_Maria_Assunta-tz1_2009-05-18-170235_pt.jpg</thumb>
 </site>
 <site>
 	<id>289</id>
@@ -2720,9 +2720,9 @@
 	<type>branch</type>
 	<lat>42.779718</lat>
 	<lng>9.459249</lng>
-	<url>www.romanes.org//Corse/Erbalunga/</url>
+	<url>http://www.romanes.com//Corse/Erbalunga/</url>
 	<addr_city>Erbalunga</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Erbalunga-Notre_Dame_des_Neiges-tz1_2009-05-26-133052.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Erbalunga-Notre_Dame_des_Neiges-tz1_2009-05-26-133052.jpg</thumb>
 </site>
 <site>
 	<id>290</id>
@@ -2730,9 +2730,9 @@
 	<type>branch</type>
 	<lat>41.679557</lat>
 	<lng>9.147543</lng>
-	<url>www.romanes.org//Corse/Carbini/</url>
+	<url>http://www.romanes.com//Corse/Carbini/</url>
 	<addr_city>Carbini</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Carbini-San_Giovanni_Battista-tz1_2009-05-23-094538_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Carbini-San_Giovanni_Battista-tz1_2009-05-23-094538_pt.jpg</thumb>
 </site>
 <site>
 	<id>291</id>
@@ -2740,9 +2740,9 @@
 	<type>branch</type>
 	<lat>41.697992</lat>
 	<lng>9.057637</lng>
-	<url>www.romanes.org//Corse/Tallano/</url>
+	<url>http://www.romanes.com//Corse/Tallano/</url>
 	<addr_city>Sainte-Lucie-de-Tallano</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Tallano-San_Giovanni_Battista_Poggio-tz1_2009-05-23-112727.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Tallano-San_Giovanni_Battista_Poggio-tz1_2009-05-23-112727.jpg</thumb>
 </site>
 <site>
 	<id>292</id>
@@ -2750,9 +2750,9 @@
 	<type>branch</type>
 	<lat>42.370404</lat>
 	<lng>9.14608</lng>
-	<url>www.romanes.org//Corse/Castirla/</url>
+	<url>http://www.romanes.com//Corse/Castirla/</url>
 	<addr_city>Castirla</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Castirla-San_Michele-tz1_2009-05-19-112647.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Castirla-San_Michele-tz1_2009-05-19-112647.jpg</thumb>
 </site>
 <site>
 	<id>293</id>
@@ -2760,9 +2760,9 @@
 	<type>branch</type>
 	<lat>42.58605</lat>
 	<lng>9.333464</lng>
-	<url>www.romanes.org//Corse/Murato/</url>
+	<url>http://www.romanes.com//Corse/Murato/</url>
 	<addr_city>Murato</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Murato-San_Michele-tz1_2009-05-18-155830.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Murato-San_Michele-tz1_2009-05-18-155830.jpg</thumb>
 </site>
 <site>
 	<id>294</id>
@@ -2770,9 +2770,9 @@
 	<type>branch</type>
 	<lat>42.818009</lat>
 	<lng>9.438552</lng>
-	<url>www.romanes.org//Corse/Sisco/</url>
+	<url>http://www.romanes.com//Corse/Sisco/</url>
 	<addr_city>Sisco</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sisco-San_Michele-tz1_2009-05-26-104503.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sisco-San_Michele-tz1_2009-05-26-104503.jpg</thumb>
 </site>
 <site>
 	<id>295</id>
@@ -2780,9 +2780,9 @@
 	<type>branch</type>
 	<lat>42.314958</lat>
 	<lng>9.266532</lng>
-	<url>www.romanes.org//Corse/Sermano/</url>
+	<url>http://www.romanes.com//Corse/Sermano/</url>
 	<addr_city>Sermano</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sermano-San_Nicolao-tz1_2009-05-19-164856.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sermano-San_Nicolao-tz1_2009-05-19-164856.jpg</thumb>
 </site>
 <site>
 	<id>296</id>
@@ -2790,9 +2790,9 @@
 	<type>branch</type>
 	<lat>42.67212</lat>
 	<lng>2.61983</lng>
-	<url>www.romanes.org//Corse/Aregno/</url>
+	<url>http://www.romanes.com//Corse/Aregno/</url>
 	<addr_city>Ille-sur-têt</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Aregno-Trinite-tz1_2009-05-17-190720_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Aregno-Trinite-tz1_2009-05-17-190720_pt.jpg</thumb>
 </site>
 <site>
 	<id>296</id>
@@ -2800,9 +2800,9 @@
 	<type>branch</type>
 	<lat>42.581944</lat>
 	<lng>8.895</lng>
-	<url>www.romanes.org//Corse/Aregno/</url>
+	<url>http://www.romanes.com//Corse/Aregno/</url>
 	<addr_city>Aregno</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Aregno-Trinite-tz1_2009-05-17-190720_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Aregno-Trinite-tz1_2009-05-17-190720_pt.jpg</thumb>
 </site>
 <site>
 	<id>297</id>
@@ -2810,9 +2810,9 @@
 	<type>branch</type>
 	<lat>41.39</lat>
 	<lng>9.15</lng>
-	<url>www.romanes.org//Corse/Bonifacio/</url>
+	<url>http://www.romanes.com//Corse/Bonifacio/</url>
 	<addr_city>Bonifacio</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Bonifacio-Santa_Reparata-tz1_2009-05-23-171412.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Bonifacio-Santa_Reparata-tz1_2009-05-23-171412.jpg</thumb>
 </site>
 <site>
 	<id>298</id>
@@ -2820,9 +2820,9 @@
 	<type>branch</type>
 	<lat>42.364273</lat>
 	<lng>9.296171</lng>
-	<url>www.romanes.org//Corse/Cambia/</url>
+	<url>http://www.romanes.com//Corse/Cambia/</url>
 	<addr_city>Cambia</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cambia-San_Quilico-tz1_2009-05-19-183149.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cambia-San_Quilico-tz1_2009-05-19-183149.jpg</thumb>
 </site>
 <site>
 	<id>299</id>
@@ -2830,9 +2830,9 @@
 	<type>branch</type>
 	<lat>42.846389</lat>
 	<lng>9.330833</lng>
-	<url>www.romanes.org//Corse/Canari/</url>
+	<url>http://www.romanes.com//Corse/Canari/</url>
 	<addr_city>Canari</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Canari-Santa_Maria_Assunta-tz1_2009-05-25-174336_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Canari-Santa_Maria_Assunta-tz1_2009-05-25-174336_pt.jpg</thumb>
 </site>
 <site>
 	<id>300</id>
@@ -2840,9 +2840,9 @@
 	<type>branch</type>
 	<lat>42.470841</lat>
 	<lng>9.487465</lng>
-	<url>www.romanes.org//Corse/Castellare-di-Casinca/</url>
+	<url>http://www.romanes.com//Corse/Castellare-di-Casinca/</url>
 	<addr_city>Castellare di Casinca</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Castellare_di_Casinca-San_Pancrazio-tz1_2009-05-25-122731.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Castellare_di_Casinca-San_Pancrazio-tz1_2009-05-25-122731.jpg</thumb>
 </site>
 <site>
 	<id>301</id>
@@ -2850,9 +2850,9 @@
 	<type>branch</type>
 	<lat>42.295278</lat>
 	<lng>9.27222</lng>
-	<url>www.romanes.org//Corse/Favalello/</url>
+	<url>http://www.romanes.com//Corse/Favalello/</url>
 	<addr_city>Favalello</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Favalello-Santa_Maria_Assunta-tz1_2009-05-19-153815.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Favalello-Santa_Maria_Assunta-tz1_2009-05-19-153815.jpg</thumb>
 </site>
 <site>
 	<id>302</id>
@@ -2860,9 +2860,9 @@
 	<type>branch</type>
 	<lat>41.488889</lat>
 	<lng>9.13</lng>
-	<url>www.romanes.org//Corse/Figari/</url>
+	<url>http://www.romanes.com//Corse/Figari/</url>
 	<addr_city>Figari</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Figari-San_Quilico-tz1_2009-05-24-133844.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Figari-San_Quilico-tz1_2009-05-24-133844.jpg</thumb>
 </site>
 <site>
 	<id>303</id>
@@ -2870,9 +2870,9 @@
 	<type>branch</type>
 	<lat>42.569504</lat>
 	<lng>8.832663</lng>
-	<url>www.romanes.org//Corse/Lumio/</url>
+	<url>http://www.romanes.com//Corse/Lumio/</url>
 	<addr_city>Lumio</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lumio-San_Pietro_San_Paolo-tz1_2009-05-17-160339.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lumio-San_Pietro_San_Paolo-tz1_2009-05-17-160339.jpg</thumb>
 </site>
 <site>
 	<id>304</id>
@@ -2880,9 +2880,9 @@
 	<type>branch</type>
 	<lat>42.539116</lat>
 	<lng>9.48548</lng>
-	<url>www.romanes.org//Corse/Mariana/</url>
+	<url>http://www.romanes.com//Corse/Mariana/</url>
 	<addr_city>Mariana</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Mariana-San_Parteo-tz1_2009-05-18-172507.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Mariana-San_Parteo-tz1_2009-05-18-172507.jpg</thumb>
 </site>
 <site>
 	<id>305</id>
@@ -2890,9 +2890,9 @@
 	<type>branch</type>
 	<lat>42.54333</lat>
 	<lng>9.48548</lng>
-	<url>www.romanes.org//Corse/Montegrosso/</url>
+	<url>http://www.romanes.com//Corse/Montegrosso/</url>
 	<addr_city>Montegrosso</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Montegrosso-San_Rinieru_Montemaggiore-tz1_2009-05-17-182451.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Montegrosso-San_Rinieru_Montemaggiore-tz1_2009-05-17-182451.jpg</thumb>
 </site>
 <site>
 	<id>306</id>
@@ -2900,9 +2900,9 @@
 	<type>branch</type>
 	<lat>42.810833</lat>
 	<lng>9.370833</lng>
-	<url>www.romanes.org//Corse/Olcani/</url>
+	<url>http://www.romanes.com//Corse/Olcani/</url>
 	<addr_city>Olcani</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Olcani-San_Quilico-tz1_2009-05-25-163207.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Olcani-San_Quilico-tz1_2009-05-25-163207.jpg</thumb>
 </site>
 <site>
 	<id>307</id>
@@ -2910,9 +2910,9 @@
 	<type>branch</type>
 	<lat>41.766667</lat>
 	<lng>9.139444</lng>
-	<url>www.romanes.org//Corse/Quenza/</url>
+	<url>http://www.romanes.com//Corse/Quenza/</url>
 	<addr_city>Quenza</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Quenza-Santa_Maria_Assunta-tz1_2009-05-22-182120.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Quenza-Santa_Maria_Assunta-tz1_2009-05-22-182120.jpg</thumb>
 </site>
 <site>
 	<id>308</id>
@@ -2920,9 +2920,9 @@
 	<type>branch</type>
 	<lat>42.679922</lat>
 	<lng>9.311051</lng>
-	<url>www.romanes.org//Corse/Saint-Florent/</url>
+	<url>http://www.romanes.com//Corse/Saint-Florent/</url>
 	<addr_city>Saint-Florent</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Florent-Santa_Maria_Assunta_Nebio-tz1_2009-05-25-145100_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Florent-Santa_Maria_Assunta_Nebio-tz1_2009-05-25-145100_pt.jpg</thumb>
 </site>
 <site>
 	<id>309</id>
@@ -2930,9 +2930,9 @@
 	<type>branch</type>
 	<lat>41.078056</lat>
 	<lng>9.005556</lng>
-	<url>www.romanes.org//Corse/Santa-Maria-Figaniella/</url>
+	<url>http://www.romanes.com//Corse/Santa-Maria-Figaniella/</url>
 	<addr_city>Santa-Maria-Figaniella</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Santa_Maria_Figaniella-Santa_Maria_Figaniella-tz1_2009-05-23-134710.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Santa_Maria_Figaniella-Santa_Maria_Figaniella-tz1_2009-05-23-134710.jpg</thumb>
 </site>
 <site>
 	<id>310</id>
@@ -2940,9 +2940,9 @@
 	<type>branch</type>
 	<lat>41.876944</lat>
 	<lng>8.978889</lng>
-	<url>www.romanes.org//Corse/Santa-Maria-Assunta-Sicche/</url>
+	<url>http://www.romanes.com//Corse/Santa-Maria-Assunta-Sicche/</url>
 	<addr_city>Santa-Maria-Siché</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Santa_Maria_Siche-Santa_Maria_Assunta-tz1_2009-05-22-162137_2137.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Santa_Maria_Siche-Santa_Maria_Assunta-tz1_2009-05-22-162137_2137.jpg</thumb>
 </site>
 <site>
 	<id>311</id>
@@ -2950,9 +2950,9 @@
 	<type>branch</type>
 	<lat>42.336667</lat>
 	<lng>9.494722</lng>
-	<url>www.romanes.org//Corse/Valle-di-Campoloro/</url>
+	<url>http://www.romanes.com//Corse/Valle-di-Campoloro/</url>
 	<addr_city>Valle-di-Campoloro</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Valle_di_Campoloro-Santa_Cristina-tz1_2009-05-25-103137_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Valle_di_Campoloro-Santa_Cristina-tz1_2009-05-25-103137_pt.jpg</thumb>
 </site>
 <site>
 	<id>312</id>
@@ -2960,9 +2960,9 @@
 	<type>branch</type>
 	<lat>44.658152795475</lat>
 	<lng>4.76248741149902</lng>
-	<url>www.romanes.com//Cruas/</url>
+	<url>http://www.romanes.com//Cruas/</url>
 	<addr_city>Cruas</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cruas-Notre_Dame-E5D_2010-08-13_9719_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cruas-Notre_Dame-E5D_2010-08-13_9719_pt.jpg</thumb>
 </site>
 <site>
 	<id>313</id>
@@ -2970,9 +2970,9 @@
 	<type>branch</type>
 	<lat>44.740556</lat>
 	<lng>0.831667</lng>
-	<url>www.romanes.com//Sainte-Croix-de-Beaumont/</url>
+	<url>http://www.romanes.com//Sainte-Croix-de-Beaumont/</url>
 	<addr_city>Sainte-Croix</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Sainte_Croix-Sainte_Croix_de_Beaumont-3320-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Sainte_Croix-Sainte_Croix_de_Beaumont-3320-0001.jpg</thumb>
 </site>
 <site>
 	<id>314</id>
@@ -2980,9 +2980,9 @@
 	<type>branch</type>
 	<lat>45.273</lat>
 	<lng>4.801</lng>
-	<url>www.romanes.com//Champagne/</url>
+	<url>http://www.romanes.com//Champagne/</url>
 	<addr_city>Champagne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Champagne-Saint_Pierre-E5D_2010-08-12_0115.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Champagne-Saint_Pierre-E5D_2010-08-12_0115.jpg</thumb>
 </site>
 <site>
 	<id>315</id>
@@ -2990,9 +2990,9 @@
 	<type>branch</type>
 	<lat>49.2037</lat>
 	<lng>2.36862</lng>
-	<url>www.romanes.com//LaSauveMajeure/</url>
+	<url>http://www.romanes.com//LaSauveMajeure/</url>
 	<addr_city>Précy sur Oise</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-La_Sauve-La_Sauve_Majeure-3321-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Sauve-La_Sauve_Majeure-3321-0001.jpg</thumb>
 </site>
 <site>
 	<id>315</id>
@@ -3000,9 +3000,9 @@
 	<type>branch</type>
 	<lat>44.768677</lat>
 	<lng>-0.31178</lng>
-	<url>www.romanes.com//LaSauveMajeure/</url>
+	<url>http://www.romanes.com//LaSauveMajeure/</url>
 	<addr_city>La Sauve</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-La_Sauve-La_Sauve_Majeure-3321-0001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Sauve-La_Sauve_Majeure-3321-0001.jpg</thumb>
 </site>
 <site>
 	<id>316</id>
@@ -3010,9 +3010,9 @@
 	<type>branch</type>
 	<lat>45.753713</lat>
 	<lng>4.827259</lng>
-	<url>www.romanes.com//Lyon/Ainey/</url>
+	<url>http://www.romanes.com//Lyon/Ainey/</url>
 	<addr_city>Lyon</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lyon-Saint_Martin_d_Ainey-E5D_2010-08-11_9703.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lyon-Saint_Martin_d_Ainey-E5D_2010-08-11_9703.jpg</thumb>
 </site>
 <site>
 	<id>317</id>
@@ -3020,9 +3020,9 @@
 	<type>branch</type>
 	<lat>47.178333</lat>
 	<lng>2.128611</lng>
-	<url>www.romanes.com//Brinay/</url>
+	<url>http://www.romanes.com//Brinay/</url>
 	<addr_city>Brinay</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Brinay-Saint_Aignan-tz1_2009-07-14_0002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Brinay-Saint_Aignan-tz1_2009-07-14_0002.jpg</thumb>
 </site>
 <site>
 	<id>318</id>
@@ -3030,9 +3030,9 @@
 	<type>branch</type>
 	<lat>44.8936</lat>
 	<lng>-0.154722</lng>
-	<url>www.romanes.com//Saint_Emilion/</url>
+	<url>http://www.romanes.com//Saint_Emilion/</url>
 	<addr_city>Saint Emilion</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Emilion-Collegiale_et_Trinite-f100_2010-07-15_8255.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Emilion-Collegiale_et_Trinite-f100_2010-07-15_8255.jpg</thumb>
 </site>
 <site>
 	<id>319</id>
@@ -3040,9 +3040,9 @@
 	<type>branch</type>
 	<lat>44.981831</lat>
 	<lng>-0.062828</lng>
-	<url>www.romanes.com//Petit_Palais/</url>
+	<url>http://www.romanes.com//Petit_Palais/</url>
 	<addr_city>Petit-Palais-et-Cornemps</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Petit_Palais-Saint_Pierre-f100_2010-07-17_8455.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Petit_Palais-Saint_Pierre-f100_2010-07-17_8455.jpg</thumb>
 </site>
 <site>
 	<id>321</id>
@@ -3050,9 +3050,9 @@
 	<type>branch</type>
 	<lat>49.334722</lat>
 	<lng>3.313611</lng>
-	<url>www.romanes.com//Berzy-le-sec/</url>
+	<url>http://www.romanes.com//Berzy-le-sec/</url>
 	<addr_city>Berzy-le-sec</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Berzy_le_sec-tz1_2009-08-11_0000.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Berzy_le_sec-tz1_2009-08-11_0000.jpg</thumb>
 </site>
 <site>
 	<id>323</id>
@@ -3060,9 +3060,9 @@
 	<type>branch</type>
 	<lat>46.7697</lat>
 	<lng>2.4472</lng>
-	<url>www.romanes.com//La-Celle/</url>
+	<url>http://www.romanes.com//La-Celle/</url>
 	<addr_city>La Celle</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-La_Celle-La_Celle_Bruere-tz1_2008-08-07_0003_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Celle-La_Celle_Bruere-tz1_2008-08-07_0003_pt.jpg</thumb>
 </site>
 <site>
 	<id>325</id>
@@ -3070,9 +3070,9 @@
 	<type>branch</type>
 	<lat>46.596389</lat>
 	<lng>2.234722</lng>
-	<url>www.romanes.com//Saint-Jeanvrin/</url>
+	<url>http://www.romanes.com//Saint-Jeanvrin/</url>
 	<addr_city>Saint Jeanvrin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Jeanvrin-Saint_Georges-tz1_2008-08-06_0000.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Jeanvrin-Saint_Georges-tz1_2008-08-06_0000.jpg</thumb>
 </site>
 <site>
 	<id>326</id>
@@ -3080,9 +3080,9 @@
 	<type>branch</type>
 	<lat>45.887222</lat>
 	<lng>0.901111</lng>
-	<url>www.romanes.com//Saint-Junien/</url>
+	<url>http://www.romanes.com//Saint-Junien/</url>
 	<addr_city>Saint Junien</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Junien-Saint_Junien-tz1_2007-09-06_0021_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Junien-Saint_Junien-tz1_2007-09-06_0021_pt.jpg</thumb>
 </site>
 <site>
 	<id>327</id>
@@ -3090,9 +3090,9 @@
 	<type>branch</type>
 	<lat>49.169167</lat>
 	<lng>3.354167</lng>
-	<url>www.romanes.com//La-Croix-sur-Ourcq/</url>
+	<url>http://www.romanes.com//La-Croix-sur-Ourcq/</url>
 	<addr_city></addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-La_Croix_sur_Ourcq-tz1_2009-08-11_00002.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Croix_sur_Ourcq-tz1_2009-08-11_00002.jpg</thumb>
 </site>
 <site>
 	<id>329</id>
@@ -3100,9 +3100,9 @@
 	<type>branch</type>
 	<lat>48.387222</lat>
 	<lng>7.418611</lng>
-	<url>www.romanes.com//Andlau/</url>
+	<url>http://www.romanes.com//Andlau/</url>
 	<addr_city>Andlau</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Andlau-Sainte_Richarde-E5D_2011-08-10_1542.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Andlau-Sainte_Richarde-E5D_2011-08-10_1542.jpg</thumb>
 </site>
 <site>
 	<id>330</id>
@@ -3110,9 +3110,9 @@
 	<type>branch</type>
 	<lat>48.359722</lat>
 	<lng>7.463889</lng>
-	<url>www.romanes.com//Epfig/</url>
+	<url>http://www.romanes.com//Epfig/</url>
 	<addr_city>Epfig</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Epfig-Sainte_Marguerite-E5D_2011-08-10_1563.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Epfig-Sainte_Marguerite-E5D_2011-08-10_1563.jpg</thumb>
 </site>
 <site>
 	<id>331</id>
@@ -3120,9 +3120,9 @@
 	<type>branch</type>
 	<lat>59.908007</lat>
 	<lng>10.683346</lng>
-	<url>www.romanes.com//Norvege/Gol</url>
+	<url>http://www.romanes.com//Norvege/Gol</url>
 	<addr_city>Oslo</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-NO-Gol-Stavkirke-Gol_01.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-NO-Gol-Stavkirke-Gol_01.jpg</thumb>
 </site>
 <site>
 	<id>332</id>
@@ -3130,9 +3130,9 @@
 	<type>branch</type>
 	<lat>41.961944</lat>
 	<lng>-3.419167</lng>
-	<url>www.romanes.com//Espagne/Silos/</url>
+	<url>http://www.romanes.com//Espagne/Silos/</url>
 	<addr_city>Silos</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-ES-Silos-Santo_Domingo-a350_2011-08-20_000001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-ES-Silos-Santo_Domingo-a350_2011-08-20_000001.jpg</thumb>
 </site>
 <site>
 	<id>333</id>
@@ -3140,9 +3140,9 @@
 	<type>branch</type>
 	<lat>45.634722</lat>
 	<lng>5.366389</lng>
-	<url>www.romanes.com//Saint-Chef/</url>
+	<url>http://www.romanes.com//Saint-Chef/</url>
 	<addr_city>Saint-Chef</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Chef-Notre_Dame-E5D_2011-08-11_1774.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Chef-Notre_Dame-E5D_2011-08-11_1774.jpg</thumb>
 </site>
 <site>
 	<id>334</id>
@@ -3150,9 +3150,9 @@
 	<type>branch</type>
 	<lat>46.63968</lat>
 	<lng>9.45103</lng>
-	<url>www.romanes.com//Suisse/Zillis/</url>
+	<url>http://www.romanes.com//Suisse/Zillis/</url>
 	<addr_city>Zillis</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-CH-Zillis-Saint_Martin-E550_2011-06-03_000003.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-CH-Zillis-Saint_Martin-E550_2011-06-03_000003.jpg</thumb>
 </site>
 <site>
 	<id>335</id>
@@ -3160,9 +3160,9 @@
 	<type>branch</type>
 	<lat>44.520331</lat>
 	<lng>2.762525</lng>
-	<url>www.romanes.com//Espalion/</url>
+	<url>http://www.romanes.com//Espalion/</url>
 	<addr_city>Espalion</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Espalion-Perse-E5D_2011-07-14_0718.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Espalion-Perse-E5D_2011-07-14_0718.jpg</thumb>
 </site>
 <site>
 	<id>336</id>
@@ -3170,9 +3170,9 @@
 	<type>branch</type>
 	<lat>44.599235</lat>
 	<lng>2.398103</lng>
-	<url>www.romanes.com//conques/</url>
+	<url>http://www.romanes.com//conques/</url>
 	<addr_city>Conques</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Conques-Sainte_Foy-E5D_2011-07-12_0237.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Conques-Sainte_Foy-E5D_2011-07-12_0237.jpg</thumb>
 </site>
 <site>
 	<id>337</id>
@@ -3180,9 +3180,9 @@
 	<type>branch</type>
 	<lat>43.73361</lat>
 	<lng>3.54889</lng>
-	<url>www.romanes.com//Saint-Guilhem/</url>
+	<url>http://www.romanes.com//Saint-Guilhem/</url>
 	<addr_city>Saint-Guilhem-le-Désert</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Guilhem_le-Desert-Gellone-E5D_2011-07-15_0853.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Guilhem_le-Desert-Gellone-E5D_2011-07-15_0853.jpg</thumb>
 </site>
 <site>
 	<id>342</id>
@@ -3190,9 +3190,9 @@
 	<type>branch</type>
 	<lat>49.24306</lat>
 	<lng>4.04194</lng>
-	<url>www.romanes.com//Reims/Saint-Remy/</url>
+	<url>http://www.romanes.com//Reims/Saint-Remy/</url>
 	<addr_city>Reims</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Reims-Saint_Remy-IMG_1234.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Reims-Saint_Remy-IMG_1234.jpg</thumb>
 </site>
 <site>
 	<id>342</id>
@@ -3200,9 +3200,9 @@
 	<type>branch</type>
 	<lat>6.93722</lat>
 	<lng>6.93722</lng>
-	<url>www.romanes.com//Reims/Saint-Remy/</url>
+	<url>http://www.romanes.com//Reims/Saint-Remy/</url>
 	<addr_city>Payerne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Reims-Saint_Remy-IMG_1234.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Reims-Saint_Remy-IMG_1234.jpg</thumb>
 </site>
 <site>
 	<id>343</id>
@@ -3210,9 +3210,9 @@
 	<type>branch</type>
 	<lat>48.5817</lat>
 	<lng>7.750555</lng>
-	<url>www.romanes.com//Strasbourg/</url>
+	<url>http://www.romanes.com//Strasbourg/</url>
 	<addr_city>Strasbourg</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Strabsourg-Notre_Dame-IMG_1424.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Strabsourg-Notre_Dame-IMG_1424.jpg</thumb>
 </site>
 <site>
 	<id>344</id>
@@ -3220,9 +3220,9 @@
 	<type>branch</type>
 	<lat>45.336027</lat>
 	<lng>2.454677</lng>
-	<url>www.romanes.com//Ydes/</url>
+	<url>http://www.romanes.com//Ydes/</url>
 	<addr_city>Ydes-bourg</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ydes-Saint_Georges-IMG_2255.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ydes-Saint_Georges-IMG_2255.jpg</thumb>
 </site>
 <site>
 	<id>345</id>
@@ -3230,9 +3230,9 @@
 	<type>branch</type>
 	<lat>49.1167</lat>
 	<lng>2.0167</lng>
-	<url>www.romanes.com//Cormeilles-en-Vexin/</url>
+	<url>http://www.romanes.com//Cormeilles-en-Vexin/</url>
 	<addr_city>Cormeilles-en-Vexin</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Cormeilles-Saint_Martin-tz1_2009-08-13_00003_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Cormeilles-Saint_Martin-tz1_2009-08-13_00003_pt.jpg</thumb>
 </site>
 <site>
 	<id>346</id>
@@ -3240,9 +3240,9 @@
 	<type>branch</type>
 	<lat>48.25944</lat>
 	<lng>7.45611</lng>
-	<url>www.romanes.com//Selestat/</url>
+	<url>http://www.romanes.com//Selestat/</url>
 	<addr_city>Sélestat</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Selestat-Sainte_Foy-E5D_2011-08-10_1587_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Selestat-Sainte_Foy-E5D_2011-08-10_1587_pt.jpg</thumb>
 </site>
 <site>
 	<id>347</id>
@@ -3250,9 +3250,9 @@
 	<type>branch</type>
 	<lat>48.4967</lat>
 	<lng>7.47056</lng>
-	<url>www.romanes.com//Rosheim/</url>
+	<url>http://www.romanes.com//Rosheim/</url>
 	<addr_city>Rosheim</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Rosheim-Saints_Pierre_Paul-E5D_2011-08-08_1266.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Rosheim-Saints_Pierre_Paul-E5D_2011-08-08_1266.jpg</thumb>
 </site>
 <site>
 	<id>348</id>
@@ -3260,9 +3260,9 @@
 	<type>branch</type>
 	<lat>6.93722</lat>
 	<lng>6.93722</lng>
-	<url>www.romanes.com//Suisse/Payerne/</url>
+	<url>http://www.romanes.com//Suisse/Payerne/</url>
 	<addr_city>Payerne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-CH-Payerne-Notre_Dame-i980_2011-04-01_000001.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-CH-Payerne-Notre_Dame-i980_2011-04-01_000001.jpg</thumb>
 </site>
 <site>
 	<id>349</id>
@@ -3270,9 +3270,9 @@
 	<type>branch</type>
 	<lat>45.52417</lat>
 	<lng>4.87306</lng>
-	<url>www.romanes.com//Vienne/</url>
+	<url>http://www.romanes.com//Vienne/</url>
 	<addr_city>Vienne</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Maurice-Vienne-E5D_2010-08-12_0055.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Maurice-Vienne-E5D_2010-08-12_0055.jpg</thumb>
 </site>
 <site>
 	<id>350</id>
@@ -3280,9 +3280,9 @@
 	<type>branch</type>
 	<lat>48.690556</lat>
 	<lng>7.382222</lng>
-	<url>www.romanes.com//Marmoutier/</url>
+	<url>http://www.romanes.com//Marmoutier/</url>
 	<addr_city>Marmoutier</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Marmoutier-Saint_Etienne-E5D_2011-08-08_1338_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Marmoutier-Saint_Etienne-E5D_2011-08-08_1338_pt.jpg</thumb>
 </site>
 <site>
 	<id>351</id>
@@ -3290,9 +3290,9 @@
 	<type>branch</type>
 	<lat>47.787324</lat>
 	<lng>7.507538</lng>
-	<url>www.romanes.com//Ottmarsheim/</url>
+	<url>http://www.romanes.com//Ottmarsheim/</url>
 	<addr_city>Ottmarsheim</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Ottmarshiem-Saint_Pierre_Saint_Paul-E5D_2011-08-10_1641_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Ottmarshiem-Saint_Pierre_Saint_Paul-E5D_2011-08-10_1641_pt.jpg</thumb>
 </site>
 <site>
 	<id>352</id>
@@ -3300,9 +3300,9 @@
 	<type>branch</type>
 	<lat>48.490327</lat>
 	<lng>7.716103</lng>
-	<url>www.romanes.com//Eschau/</url>
+	<url>http://www.romanes.com//Eschau/</url>
 	<addr_city>Eschau</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Eschau-Sainte_Trophime-E5D_2011-08-09_1444.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Eschau-Sainte_Trophime-E5D_2011-08-09_1444.jpg</thumb>
 </site>
 <site>
 	<id>353</id>
@@ -3310,9 +3310,9 @@
 	<type>branch</type>
 	<lat>44.4873</lat>
 	<lng>2.8635</lng>
-	<url>www.romanes.com//Lassouts/</url>
+	<url>http://www.romanes.com//Lassouts/</url>
 	<addr_city>Lassouts</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Lassouts-Saint_Jacques-E5D_2011-07-14_0533.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Lassouts-Saint_Jacques-E5D_2011-07-14_0533.jpg</thumb>
 </site>
 <site>
 	<id>354</id>
@@ -3320,9 +3320,9 @@
 	<type>branch</type>
 	<lat>44.097222</lat>
 	<lng>6.2425</lng>
-	<url>www.romanes.com//Digne/</url>
+	<url>http://www.romanes.com//Digne/</url>
 	<addr_city>Digne les Bains</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Digne-Notre_Dame_du_Bourg-E5D_2011-08-12_1784.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Digne-Notre_Dame_du_Bourg-E5D_2011-08-12_1784.jpg</thumb>
 </site>
 <site>
 	<id>355</id>
@@ -3330,9 +3330,9 @@
 	<type>branch</type>
 	<lat>49.3042</lat>
 	<lng>3.9644</lng>
-	<url>www.romanes.com//Saint-Thierry/</url>
+	<url>http://www.romanes.com//Saint-Thierry/</url>
 	<addr_city>Saint-Thierry</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Saint_Thierry-Saint_Hilaire-E5D_2011-08-07_1246_pt.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Saint_Thierry-Saint_Hilaire-E5D_2011-08-07_1246_pt.jpg</thumb>
 </site>
 <site>
 	<id>356</id>
@@ -3340,8 +3340,88 @@
 	<type>branch</type>
 	<lat>46.535</lat>
 	<lng>3.193333</lng>
-	<url>www.romanes.com//Souvigny/</url>
+	<url>http://www.romanes.com//Souvigny/</url>
 	<addr_city>Souvigny</addr_city>
-	<thumb>http://www.romanes.org/thumb/thb-FR-Souvigny-Saint_Pierre_et_Saint_Paul-E5D_2012-09-02_2527.jpg</thumb>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Souvigny-Saint_Pierre_et_Saint_Paul-E5D_2012-09-02_2527.jpg</thumb>
+</site>
+<site>
+	<id>357</id>
+	<name>San Miniato Al Monte</name>
+	<type>branch</type>
+	<lat>43.759758</lat>
+	<lng>11.264731</lng>
+	<url>http://www.romanes.com//Italia/Firenze/SanMiniatoAlMonte/</url>
+	<addr_city>Firenze</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Firenze-SanMiniatoAlMonte-E6D_2015-08-25_6913.jpg</thumb>
+</site>
+<site>
+	<id>358</id>
+	<name>Sant'Ambrogio</name>
+	<type>branch</type>
+	<lat>45.462425</lat>
+	<lng>9.175806</lng>
+	<url>http://www.romanes.com//Italia/Milano/SantAmbrogio</url>
+	<addr_city>Milano</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Milano-SantAmbrogio-E6D_2016-08-14_9359.jpg</thumb>
+</site>
+<site>
+	<id>360</id>
+	<name>Abbaye de San Galgano</name>
+	<type>branch</type>
+	<lat>43.1456</lat>
+	<lng>11.1824</lng>
+	<url>http://www.romanes.com//Italia/Chiusdino/SanGalgano</url>
+	<addr_city>Chiusdino</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Chiusdino-SanGalgano-E6D_2017-08-08_2011.jpg</thumb>
+</site>
+<site>
+	<id>361</id>
+	<name>Basilique Santi Maria e Donato</name>
+	<type>branch</type>
+	<lat>45.454</lat>
+	<lng>12.3572</lng>
+	<url>http://www.romanes.com//Italia/Murano/SantiMaria_Donato</url>
+	<addr_city>Murato</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Murano-SantiMaria_Donato-E6D_2017-08-05_1805.jpg</thumb>
+</site>
+<site>
+	<id>362</id>
+	<name>Basilique Saint-Vital de Ravenne</name>
+	<type>branch</type>
+	<lat>44.417</lat>
+	<lng>12.2235</lng>
+	<url>http://www.romanes.com//Italia/Ravenna/San_Vital</url>
+	<addr_city>Ravenna</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Ravenna-SanVitale-E5D_2014-08-18_4006.jpg</thumb>
+</site>
+<site>
+	<id>363</id>
+	<name>Cathédrale Saint-Martin de Lucques</name>
+	<type>branch</type>
+	<lat>43.837</lat>
+	<lng>10.534</lng>
+	<url>http://www.romanes.com//Italia/Lucca/SanMartino</url>
+	<addr_city>Lucca</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Lucca-SanMartino-E5D_2013-08-22_3465.jpg</thumb>
+</site>
+<site>
+	<id>364</id>
+	<name>Baptistère Saint-Jean de Florence</name>
+	<type>branch</type>
+	<lat>43.7697</lat>
+	<lng>11.2821</lng>
+	<url>http://www.romanes.com//Italia/Firenze/Baptistere</url>
+	<addr_city>Firenze</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Firenze-Baptistere-E5D_2013-08-20_3018.jpg</thumb>
+</site>
+<site>
+	<id>365</id>
+	<name>Basilique San Zeno de Vérone</name>
+	<type>branch</type>
+	<lat>45.4391</lat>
+	<lng>11.0065</lng>
+	<url>http://www.romanes.com//Italia/Verona/SanZeno</url>
+	<addr_city>Verona</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Verona-SanZeno-E6D_2015-08-21_6081.jpg</thumb>
 </site>
 </romanes_worldwide>

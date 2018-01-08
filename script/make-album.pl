@@ -78,7 +78,7 @@ if ($opts{'l'}) {
 		if ($debug) {print STDERR "./script/make-album.pl $album_id $out_dir $lang_show $lang_lst_param\n";}
 		`perl ./script/make-album.pl $album_id $out_dir $lang_show $lang_lst_param`;
 	}
-	print STDERR "ok\n";
+	print STDERR " ok\n";
 	exit 0;
 }
 #mysql> select count(distinct original_file) from photo;
@@ -200,7 +200,7 @@ while ($sth->fetch()) {
 $sth->finish();
 
 if (! $lang_param) {
-	print STDERR "Generating pages ".($lang_param||'_fr');
+	print STDERR "- generating pages ".($lang_param||'_fr');
 } else {
 	print STDERR ($lang_param||'_fr');
 }
@@ -420,15 +420,15 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 
 		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1, utf8=>1);
 		if ($lang_param eq '_en') {
-				$t_header->param('doc_title',"Romanes.com: Romanesque Art and Architecture, $photo_name by $first_name $last_name");
+				$t_header->param('doc_title',"$photo_name by $first_name $last_name");
 				$t_header->param('doc_description',"$photo_name of $place_town by $first_name $last_name");
 				$photo_keywords="romanesque, art, architecture, gothic, church, abbey, cathedral, cistercian, medieval, middle-age, patrimoiny, sculpture";
 		} elsif ($lang_param eq '_es') {
-				$t_header->param('doc_title',"Romanes.com: Romanica, G&oacute;tico Arte y Arquitectura, $photo_name por $first_name $last_name");
+				$t_header->param('doc_title',"$photo_name por $first_name $last_name");
 				$t_header->param('doc_description',"$photo_name de $place_town por $first_name $last_name");
 				$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
 		} else {
-				$t_header->param('doc_title',"Romanes.com: Art et Architecture Romane, $photo_name par $first_name $last_name");
+				$t_header->param('doc_title',"$photo_name par $first_name $last_name");
 				$t_header->param('doc_description',"$photo_name de $place_town par $first_name $last_name");
 		}
 		$t_header->param('doc_keywords',$photo_keywords);
@@ -471,11 +471,11 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
             $fo_lang=$photo_name_file;
             $fo_lang=~s/out/$lang_show/;
 	    if ($lang_show eq 'fr') { # default naming for french
-		   $t_header->param("doc_local_fr","$photo_name_file_head.html");
-           $t_header->param("lang_$lang_show","/".$fo_lang);
+		#$t_content->param("doc_local_fr","$photo_name_file_head.html");
+           	#$t_content->param("lang_$lang_show","/".$fo_lang);
 	    } else {
-		   $t_header->param("doc_local_$lang_show",$photo_name_file_head.'_'.$lang_show.".html");
-           $t_header->param("lang_$lang_show","/".$fo_lang);
+		#$t_content->param("doc_local_$lang_show",$photo_name_file_head.'_'.$lang_show.".html");
+           	#$t_content->param("lang_$lang_show","/".$fo_lang);
 	    }
 	   if ($debug) {print STDERR "lang_$lang_show->$fo_lang\n ";}
         }
@@ -505,7 +505,7 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 			my $res_x_cm=int($res_x/120*100)/100;
 			my $res_y_cm=int($res_y/120*100)/100;
 			
-			$t_content->param('doc_title',"R-".$photo_ref." ".$res_x."px x ".$res_y."px - $res_x_cm cm x $res_y_cm cm @ 300 ppp RGB");
+			#$t_content->param('doc_title',"R-".$photo_ref." ".$res_x."px x ".$res_y."px - $res_x_cm cm x $res_y_cm cm @ 300 ppp RGB");
 			$t_content->param('photo_res',$res_x."px x ".$res_y."px - $res_x_cm cm x $res_y_cm cm @ 300 ppp RGB");
 		} else {
 			$t_content->param('doc_title',"Ref R-".$photo_ref." résolution sur demande");
@@ -536,6 +536,52 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
         	$t_content->param('photo_list',\@loop);
 
 		#####EXTRA
+		# multilinguisme links
+		my @lang_lst=split(/:/,$lang_lst_param);
+		if ($debug) {print STDERR "\nLP: $lang_lst_param:$file_out \n ";}
+		foreach $lang_show (@lang_lst) {
+		    if ($debug) {print STDERR "LS: $lang_show";}
+		    $lang_show=lc($lang_show);
+		    $fo_lang=$photo_name_file;
+		    $fo_lang=~s/out/$lang_show/;
+			my $ptitle=$photo_name_file;
+			$ptitle=~s/_fr//g;
+			$ptitle=~s/_en//g;
+			$ptitle=~s/_it//g;
+			$ptitle=~s/_es//g;
+			$ptitle=~s/.html//g;
+			$ptitle=~s/\s/_/g;
+			$ptitle=~s/__/_/g;
+			$ptitle=~s/\'/_/g;
+			$ptitle=~s/_$//;
+			$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+			#$ptitle=decode_utf8($ptitle);
+                $ptitle=unac_string($ptitle);
+
+		    if ($lang_show eq 'fr') { # default naming for french
+			$t_content->param("doc_local_fr",$ptitle.".html");
+			$t_content->param("lang_$lang_show","/".$fo_lang);
+		    } else {
+			$t_content->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
+			$t_content->param("lang_$lang_show","/".$fo_lang);
+		    }
+		   if ($debug) {print STDERR " $ptitle  lang_$lang_show->$fo_lang\n ";}
+		}
+
+  		## doc_title
+		if ($lang_param eq '_en') {
+				$t_content->param('doc_title',"$photo_name by $first_name $last_name");
+				$t_content->param('doc_description',"$photo_name of $place_town by $first_name $last_name");
+				$photo_keywords="romanesque, art, architecture, gothic, church, abbey, cathedral, cistercian, medieval, middle-age, patrimoiny, sculpture";
+		} elsif ($lang_param eq '_es') {
+				$t_content->param('doc_title',"$photo_name por $first_name $last_name");
+				$t_content->param('doc_description',"$photo_name de $place_town por $first_name $last_name");
+				$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
+		} else {
+				$t_content->param('doc_title',"$photo_name par $first_name $last_name");
+				$t_content->param('doc_description',"$photo_name de $place_town par $first_name $last_name");
+		}
+		$t_header->param('doc_keywords',$photo_keywords);
 
 
 		$t_content->param('photo_place',$place_name);
@@ -679,14 +725,14 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 
 
 	# Save to file
-	if ($debug) {print STDERR "Creating:".$relocation_path.$out_dir."/".$photo_album_file." ";}
+	if ($debug) {print STDERR "Generating:".$relocation_path.$out_dir."/".$photo_album_file." \n";}
 	open  FIC,">".$relocation_path.$out_dir."/".$photo_album_file || die "Error: $!\n";
 	print FIC "<HTML><HEAD><SCRIPT language=\"javascript1.3\">window.location.href=\"$photo_name_file\";</SCRIPT></HEAD></HTML>";
 	close(FIC);
 
 
 $dbh->disconnect;
-#print STDERR "ok\n";
+#print STDERR " ok\n";
 exit;
 
 

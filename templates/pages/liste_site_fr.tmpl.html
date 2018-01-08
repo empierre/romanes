@@ -35,6 +35,10 @@
     <meta itemprop="image" content="/assets/img/Front_Page.jpg"/>
     <!-- END SOCIAL NETWORK SNIPPETS -->
 
+<TMPL_IF NAME="lang_fr"> <link rel="alternate" hreflang="fr" href="<TMPL_VAR NAME="doc_local_fr">" /></TMPL_IF>
+<TMPL_IF NAME="lang_es"> <link rel="alternate" hreflang="es" href="<TMPL_VAR NAME="doc_local_es">" /></TMPL_IF>
+<TMPL_IF NAME="lang_it"> <link rel="alternate" hreflang="it" href="<TMPL_VAR NAME="doc_local_it">" /></TMPL_IF>
+<TMPL_IF NAME="lang_en"> <link rel="alternate" hreflang="en" href="<TMPL_VAR NAME="doc_local_en">" /></TMPL_IF>
 
     <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -42,7 +46,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.css" rel="stylesheet" />
     <link href="/assets/css/gsdk.css" rel="stylesheet"/>
-    <link href="/assets/css/r3.css" rel="stylesheet" />
+    <link href="/assets/css/r3b.css" rel="stylesheet" />
 
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet">
@@ -177,28 +181,38 @@
                     </ul>
                 </div>
                 <ul class="nav navbar-nav navbar-right nav_list_lng">
-                    <li class="active">
-                        <a href="#">
-                            <img src="/assets/img/flags/FR.png"/></a>
-                        <a href="#">
-                            <img src="/assets/img/flags/US.png"/></a>
-                        <a href="#">
-                            <img src="/assets/img/flags/IT.png"/></a>
-                        <a href="#">
-                            <img src="/assets/img/flags/ES.png"/></a>
+                        <li class="active">
+	  		    <TMPL_IF NAME="lang_fr">
+                               <a href="<TMPL_VAR NAME="doc_local_fr">">
+                               <img src="/assets/img/flags/FR.png"/></a></TMPL_IF>
+	  		    <TMPL_IF NAME="lang_en">
+                               <a href="<TMPL_VAR NAME="doc_local_en">">
+                               <img src="/assets/img/flags/US.png"/></a></TMPL_IF>
+	  		    <TMPL_IF NAME="lang_it">
+                               <a href="<TMPL_VAR NAME="doc_local_it">">
+                               <img src="/assets/img/flags/IT.png"/></a></TMPL_IF>
+	  		    <TMPL_IF NAME="lang_es">
+                               <a href="<TMPL_VAR NAME="doc_local_es">">
+                               <img src="/assets/img/flags/ES.png"/></a></TMPL_IF>
                     </li>
                 </ul>
             </div>
-            <ul class="nav navbar-nav navbar-right nav_list_search">
-                <li class="dropdown active">
-                    <a href="javascript:void(0);" data-toggle="search" class=""><i class="fa fa-search"></i></a>
-                </li>
-                <form class="navbar-form navbar-left navbar-search-form" role="search">
-                    <div class="form-group">
-                        <input type="text" value="" class="form-control" placeholder="Search...">
-                    </div>
-                </form>
-            </ul>
+      <ul class="nav navbar-nav navbar-right nav_list_search">
+            <li class="dropdown active">
+                 <a href="javascript:void(0);" data-toggle="search" class=""><i class="fa fa-search"></i></a>
+            </li>
+            <form class="navbar-form navbar-left navbar-search-form" role="search" id="searchform" method="get" action="/search_fr.html">
+                <div class="form-group">
+                    <input type="text"  class="form-control" placeholder="Search..." name="q" id="s" size="18" value="chercher..." onblur="if(this.value=='') this.value='chercher...';" onfocus="if(this.value=='chercher...') this.value='';" />
+                    <input type="hidden" name="cx" value="partner-pub-9572068145045929:cvginc45qvg" />
+                    <input type="hidden" name="cof" value="FORID:10" />
+                    <input type="hidden" name="ie" value="UTF8" />
+                </div>
+            </form>
+          </ul>
+<!--script type="text/javascript" src="https://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=fr"></script-->
+  <!-- SiteSearch Google -->
+
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>
@@ -242,7 +256,7 @@
                     <div class="content">
                         <p class="category text-info">
                         </p>
-                        <a class="card-link" href="#">
+                        <a class="card-link" href="<TMPL_VAR NAME="album_url">">
                             <h4 class="title"><TMPL_VAR NAME="place_name_fr"></h4>
                         </a>
                         <div class="footer">

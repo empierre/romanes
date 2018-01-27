@@ -25,14 +25,14 @@
 		<meta property="og:description" content="<TMPL_VAR NAME="doc_description">" />
 		<meta property="og:site_name" content="Romanes.com" />
         	<meta property="og:locale" content="fr_FR">
-		<meta property="og:image" content="/assets//img/Front_Page.jpg" />
+		<meta property="og:image" content="/assets/img/Front_Page.jpg" />
 		<meta property="fb:page_id" content="219631694779739" />
 		<meta property="fb:app_id" content="240279752710069" />
 		<!-- GOOGLE PLUS -->
 		<meta itemprop="url" content="http://www.romanes.com"/>
 		<meta itemprop="name" content="<TMPL_VAR NAME="doc_title">"/>
 		<meta itemprop="description" content="<TMPL_VAR NAME="doc_description">"/>
-		<meta itemprop="image" content="/assets/img/Front_Page.jpg"/>
+		<meta itemprop="image" content="http://romanes.com/assets/img/Front_Page.jpg"/>
  <!-- END SOCIAL NETWORK SNIPPETS -->		
 
 <TMPL_IF NAME="lang_fr"> <link rel="alternate" hreflang="fr" href="<TMPL_VAR NAME="doc_local_fr">" /></TMPL_IF>
@@ -147,7 +147,7 @@
 						  </a>
 						  <ul class="dropdown-menu">
 					<li><a href="/romanes_map.html">Carte de l'Europe Romane</a></li>
-								<li><a href="/voyages_fr.html" title="Itinéraires et voyages">Itinéraires et voyages</a></li>
+					<li><a href="/voyages_fr.html" title="Itinéraires et voyages">Itinéraires et voyages</a></li>
 					<li><a href="/France_fr.html">Sites par regions </a></li>
 					<li><a href="/map_list.html">Sites par plan</a></li>
 					<li><a href="/romanes_map.html">Carte interactive</a></li>
@@ -175,10 +175,10 @@
 						  </a>
 						  <ul class="dropdown-menu">
 							<li><a href="/biblio/">Bibliothèque générale</a></li>
-						<li><a href="/biblio/zodiaque_fr.html">Editions Zodiaque</a></li>
-						<li><a href="/biblio/musiques_fr.html">Musique médiévale</a></li>
-						<li><a href="/news/artisanat_fr.html">Artisanat d'Art</a></li>
-						<li><a href="/biblio/index_en.html">English books</a></li>
+							<li><a href="/biblio/zodiaque_fr.html">Editions Zodiaque</a></li>
+							<li><a href="/biblio/musiques_fr.html">Musique médiévale</a></li>
+							<li><a href="/news/artisanat_fr.html">Artisanat d'Art</a></li>
+							<li><a href="/biblio/index_en.html">English books</a></li>
 						  </ul>
 					</li>		
 			   </ul>
@@ -256,17 +256,17 @@
 		<div class="socialNetwork-projects">
 			<div class="pinterest bloco">
 				<a href="#">
-					<img src="/img/bt-projetos-pinterest.jpg">
+					<img src="/assets/img/bt-projects-pinterest.jpg">
 				</a>
 			</div>
 			<div class="facebook bloco">
 				<a href="#" target="_blank">
-					<img src="/img/bt-projetos-facebook.jpg">
+					<img src="/assets/img/bt-projects-facebook.jpg">
 				</a>
 			</div>
 			<div class="twitter bloco">
 				<a href="#" target="_blank">
-					<img src="/img/bt-projetos-twitter.jpg">
+					<img src="/assets/img/bt-projects-twitter.jpg">
 				</a>
 			</div>
 		</div>-->
@@ -296,10 +296,10 @@
 	</div>
 
 		<div class="preloader hidden">
-			 <img src="/img/45.gif" alt="please wait...">
+			 <img src="/assets/img/45.gif" alt="veuillez patienter...">
 		</div>
 <div class="gallery_wrapp">
-	<h2 class="gallery_title">Sainte Richarde d'Andlau</h2>
+	<h2 class="gallery_title"><TMPL_VAR NAME="photo_place"></h2>
 	<a href="../" class="go_upper">
 		<i class="fa fa-arrow-up" aria-hidden="true"></i>
 	</a>
@@ -312,7 +312,7 @@
 					
 		<TMPL_LOOP NAME="photo_list">		
 		<div class="grid-item"><a href="">	
-		<img src="<TMPL_VAR NAME="photo_url">" alt="<TMPL_VAR NAME="doc_title">" title="<TMPL_VAR NAME="doc_title">" id=""></a>
+		<img src="<TMPL_VAR NAME="photo_url">" alt="<TMPL_VAR NAME="doc_title">" title="<TMPL_VAR NAME="doc_title">" id="<TMPL_VAR NAME="photo_id">"></a>
 		</div>	
 		</TMPL_LOOP>
 		
@@ -622,5 +622,33 @@ $(document).ready(function(){
 
 </style>
 <!-- end of Slider script and styles -->
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "NewsArticle",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://google.com/article"
+  },
+  "headline": "<TMPL_VAR NAME="photo_place">",
+  "image": "http://romanes.com/images/Front_Page.jpg",
+  "datePublished": "2018-01-01T08:00:00+08:00",
+  "dateModified": "2018-01-10T09:20:00+08:00",
+  "author": {
+    "@type": "Person",
+    "name": "Emmanuel PIERRE"
+  },
+   "publisher": {
+    "@type": "Organization",
+    "name": "Romanes.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "http://romanes.com/images/Front_Page.jpg"
+    }
+  },
+  "description": "<TMPL_VAR NAME="photo_comment">"
+}
+</script>
+
 
 </html>

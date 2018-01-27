@@ -27,7 +27,7 @@ use Encode;
 use Text::Unidecode;
 
 #version
-my $version_dev="1.1r3";
+my $version_dev="3.0.0";
 my $debug=0;
 my $regenerate=0;
 my $relocation_path;
@@ -106,18 +106,18 @@ my $t_footer;
 #my $photo_wp1024x768_dir="http://romanes2.free.fr/wp-1024x768/";
 
 my %web_host_img=(
-    "1" => "/media/",
-    "2" => "/media/",
-    "3" => "/media/",
-    "4" => "/media/",
-    "5" => "/media/",
-    "6" => "/media/",
-    "7" => "/media/",
-    "8" => "/media/",
-    "9" => "/media/",
-    "10" => "/media/",
-    "11" => "/media/",
-    "12" => "/media/"
+    "1" => "/media",
+    "2" => "/media",
+    "3" => "/media",
+    "4" => "/media",
+    "5" => "/media",
+    "6" => "/media",
+    "7" => "/media",
+    "8" => "/media",
+    "9" => "/media",
+    "10" => "/media",
+    "11" => "/media",
+    "12" => "/media"
 );
 my %web_host_thb=(
 	"1" => "/media/"
@@ -138,14 +138,14 @@ my %web_host_album=(
 );
 my $reference_onsite=8;
 
-my $local_tmpl="/mnt/data/web/prod/r3/templates/";
+my $local_tmpl="/mnt/data/web/prod/r2/templates/";
 my $photo_album_file="index$lang_param.html";
 
 my @tab_site_region_next=();
 my @tab_site_region_id=();
 
 # DB Connection
-my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
 #
 #
 # Get the Album data
@@ -498,6 +498,7 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 		#if ($photo_ref) {$t_content->param('photo_ref',"R-".$photo_ref);} else {$t_content->param('photo_ref','NA');};
 		$t_content->param('photo_ref',"R-".$photo_ref);
 		$t_content->param('photo_id',$photo_id);
+
 		#Dimension
 		my $res_x=&sql_get($dbh,"select resolution_x from photo where id=$photo_id");
 		my $res_y=&sql_get($dbh,"select resolution_y from photo where id=$photo_id");
@@ -508,7 +509,8 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 			#$t_content->param('doc_title',"R-".$photo_ref." ".$res_x."px x ".$res_y."px - $res_x_cm cm x $res_y_cm cm @ 300 ppp RGB");
 			$t_content->param('photo_res',$res_x."px x ".$res_y."px - $res_x_cm cm x $res_y_cm cm @ 300 ppp RGB");
 		} else {
-			$t_content->param('doc_title',"Ref R-".$photo_ref." résolution sur demande");
+			$t_content->param('doc_title',$photo_name);
+			##$t_content->param('doc_title',"Ref R-".$photo_ref." résolution sur demande");
 			$t_content->param('photo_res',"résolution sur demande");
 		}
 	
@@ -527,8 +529,8 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 	                $urlphoto=~s/\\//g;
 	                my $photo_dir=$web_host_img{$site_img};
 	                #$urlphoto=~s/ /%20/g;
-			my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$pr);
-			if (-e '/home/data/prod/r3/media/'.$urlphoto) {
+			my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$photo_name,'photo_id'=>"R-".$pr);
+			if (-e '/home/data/prod/r2/media/'.$urlphoto) {
 				push  @loop,\%ix;
 			}
 		}

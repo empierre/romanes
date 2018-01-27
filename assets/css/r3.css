@@ -1228,7 +1228,7 @@ body > .navbar-collapse .navbar-nav .open .dropdown-menu > li > a:focus {
 }
 #wowslider-container1 a.ws_prev {
     height: 351px;
-    background: url(/img/bg-over-top.png) repeat-x left top;
+    background: url(/assets/img/bg-over-top.png) repeat-x left top;
     display: block;
     opacity: 0;
     /* background: rgba(0,0,0,0.5); */
@@ -1247,7 +1247,7 @@ body > .navbar-collapse .navbar-nav .open .dropdown-menu > li > a:focus {
 #wowslider-container1 a.ws_next {
     height: 351px;
 	max-height:none;
-    background: url(/img/bg-over-bottom.png) repeat-x left bottom;
+    background: url(/assets/img/bg-over-bottom.png) repeat-x left bottom;
     display: block;
     opacity: 0;
     /* background: rgba(0,0,0,0.5); */
@@ -1394,7 +1394,7 @@ body > .navbar-collapse .navbar-nav .open .dropdown-menu > li > a:focus {
     height: 44px;
     top: 0;
 	cursor:pointer;
-    background: url(/img/bt-projetos-up.jpg) no-repeat left top;
+    background: url(/assets/img/bt-projects-up.jpg) no-repeat left top;
 }
 #scroll_top:hover {
     background-position: 0 -44px;
@@ -1411,7 +1411,7 @@ body > .navbar-collapse .navbar-nav .open .dropdown-menu > li > a:focus {
     height: 43px;
 	cursor:pointer;
     bottom: 0;
-    background: url(/img/bt-projetos-down.jpg) no-repeat left top;
+    background: url(/assets/img/bt-projects-down.jpg) no-repeat left top;
 }
 #scroll_top:hover {
     background-position: 0 -44px;
@@ -1670,11 +1670,11 @@ body.body-slider.body-gallery {
     padding-right: 10px;
 }
 .info-project .anterior a{
-	background: url(/img/bt-projetos-anterior.jpg) no-repeat left top;
+	background: url(/assets/img/bt-projects-prev.jpg) no-repeat left top;
 }
 .info-project span.proximo a{
 	width:47px;
-	background: url(/img/bt-projetos-proximo.jpg) no-repeat left top;
+	background: url(/assets/img/bt-projects-next.jpg) no-repeat left top;
     font-size: 0;
 }
 .info-project a:hover{
@@ -1695,7 +1695,7 @@ body.body-slider.body-gallery {
 	height: 37px;
 	text-indent: 0;
 	padding: 7px 0 0 40px;
-	background: url(/img/grid-bt-projetos.png) no-repeat 20px 10px;
+	background: url(/assets/img/grid-bt-projects.png) no-repeat 20px 10px;
 	font-size: 20px;
 	color:#f2f2f2;
 	font-family: 'gotham_htfbook_condensed'; 
@@ -1707,7 +1707,7 @@ body.body-slider.body-gallery {
 	text-decoration: none;
 }/*
 .info-project a:hover.homeProjects{
-	background: url(/img/grid-bt-projetos.png) no-repeat 20px 10px;
+	background: url(/assets/img/grid-bt-projects.png) no-repeat 20px 10px;
 }*/
 .info-project a.majorhomeProjects{
 	width: 171px;
@@ -1836,7 +1836,7 @@ body.body-slider {
 .closed{
     width: 55px;
     height: 37px;
-    background: url(/img/bt-fechar-mobi.jpg) no-repeat left top;
+    background: url(/assets/img/bt-get-mobi.jpg) no-repeat left top;
     display: block;
     right: 0;
 	float:right;
@@ -1906,11 +1906,11 @@ body.body-slider {
 	width:20px;
 	height:10px;
 	margin-left:10px;
-    background: url(/assets/img/bg-filtro.png) no-repeat 0px 0px;
+    background: url(/assets/img/bg-filter.png) no-repeat 0px 0px;
     margin-top: 2px;
 }
 .open_info .details:after{
-    background: url(/assets/img/bg-filtro.png) no-repeat 0px -10px;
+    background: url(/assets/img/bg-filter.png) no-repeat 0px -10px;
 }
 .info-project.info-closed.related2{
 	border:none;
@@ -1923,7 +1923,7 @@ body.body-slider {
     height: 10px;
     line-height: 10px;
     padding: 0 17px 0 0;
-    background: url(/img/bg-filtro.png) no-repeat right -10px;
+    background: url(/assets/img/bg-filter.png) no-repeat right -10px;
     margin: 0 auto;
     -webkit-transform: translate(0%,-50%);
     -ms-transform: translate(0%,-50%);
@@ -2077,7 +2077,7 @@ div#wowslider-container1 {
     display: block;
     width: 47px;
     height: 37px;
-    background: url(/img/bt-projetos-proximo.jpg) no-repeat left top !important;
+    background: url(/assets/img/bt-projects-next.jpg) no-repeat left top !important;
 	opacity:1 !important;
     left: 46px;
 }
@@ -2087,7 +2087,7 @@ div#wowslider-container1 {
     top: 0;
     display: block;
     height: 37px;
-    background: url(/img/bt-projetos-anterior.jpg) no-repeat left top !important;
+    background: url(/assets/img/bt-projects-prev.jpg) no-repeat left top !important;
 	opacity:1 !important;
 }
 #wowslider-container1 a.ws_next:before , #wowslider-container1 a.ws_prev:before{

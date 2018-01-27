@@ -1,5 +1,5 @@
 ﻿#!/usr/bin/perl
-# (c) 2002-2017 Emmanuel PIERRE
+# (c) 2002-2010 Emmanuel PIERRE
 #
 # uses templates:
 #	$local_tmpl/pages/liste_site_fr.tmpl.html
@@ -12,14 +12,10 @@ use Image::Info qw(image_info);
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
-use URI::Escape;
 use Encode;
+use URI::Escape;
 use Unicode::Normalize;
 use Text::Unaccent::PurePerl qw(unac_string);
-use open IO => ":utf8",":std";
-use Encode;
-use Text::Unidecode;
-
 
 #use strict;
 
@@ -27,7 +23,7 @@ use Text::Unidecode;
 # Make a list of site per regions
 
 #version
-my $version_dev="3.0.0";
+my $version_dev="1.0.8";
 my $debug=0;
 my $regenerate=0;
 
@@ -94,52 +90,53 @@ my $t_header;
 my $t_content;
 my $t_footer;
 
-my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-my $dbh1 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh1->errstr\n";
-my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh2->errstr\n";
+my $dbh = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
+my $dbh1 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh1->errstr\n";
+my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh2->errstr\n";
 &sql_update($dbh, "SET NAMES utf8");
 &sql_update($dbh1,"SET NAMES utf8");
 &sql_update($dbh2,"SET NAMES utf8");
 
 
-my $local_tmpl='/mnt/data/web/prod/r3/templates/';
+my $local_tmpl='/mnt/data/web/prod/romanes2.com/templates/';
 #my $local_tmpl='/cygdrive/c/Documents and Settings/Emmanuel PIERRE/romanes/templates/';
 #my $hosting="http://www.romanes.com/";
 my $hosting="";
 
-
 my %web_host_img=(
-    "1" => "/media/",
-    "2" => "/media/",
-    "3" => "/media/",
-    "4" => "/media/",
-    "5" => "/media/",
-    "6" => "/media/",
-    "7" => "/media/",
-    "8" => "/media/",
-    "9" => "/media/",
-    "10" => "/media/",
-    "11" => "/media/",
-    "12" => "/media/"
+        "1"=>"/media/",
+        "2"=>"/media/",
+        "3"=>"/media/",
+        "4"=>"/media/",
+        "5"=>"/media/",
+        "6"=>"/media/",
+        "7"=>"/media/",
+        "8"=>"/media/",
+        "9"=>"/media/",
+        "10"=>"/media/",
+        "11"=>"/media/",
+        "12"=>"/media/"
 );
 my %web_host_thb=(
-	"1" => "/media/"
+	#"1" => "http://perso.orange.fr/e-nef/"
+	#"1" => "http://www.romanes.org/"
+        "1"=>"/media/"
+
 );
 my %web_host_album=(
-    "1" => "",
-    "2" => "",
-    "3" => "",
-    "4" => "",
-    "5" => "",
-    "6" => "",
-    "7" => "",
-    "8" => "",
-    "9" => "",
-    "10" => "",
-    "11" => "",
-    "12" => ""
+        "1"=>"",
+        "2"=>"",
+        "3"=>"",
+        "4"=>"",
+        "5"=>"",
+        "6"=>"",
+        "7"=>"",
+        "8"=>"",
+        "9"=>"",
+        "10"=>"",
+        "11"=>"",
+        "12"=>""
 );
-
 my $reference_onsite=8;
 
 #Generate site list
@@ -154,12 +151,9 @@ $sth->bind_columns(\$pid,\$ptitle);
 while ($sth->fetch()) {
 	push @f_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
-	$ptitle=~s/\'/'/g;
+	$ptitle=~s/\'/\\\'/g;
 	$ptitle=~s/_/ /g;
-	#if ( $ptitle =~ /[\x80-\xff]/ ) {
-	 	#$ptitle=decode_utf8($ptitle);
-		#print STDERR "1 $pid-$ptitle\n";
-	#}
+	$ptitle=decode_utf8($ptitle);
 	push @tab_menu,{'region_url'=>'#F'.$pid,"region_name_fr"=>$ptitle};
 	#print STDERR "$pid-$ptitle\n";
 }
@@ -179,15 +173,15 @@ push @tab_menu,{'region_url'=>"/France$lang_param.html",'region_name_fr'=>&get_c
 while ($sth->fetch()) {
 	push @f_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
-		#$phtitle=decode_utf8($phtitle);
+		$phtitle=decode_utf8($phtitle);
 	   	my $phtitle=$ptitle;
 		chomp($phtitle);
 		$phtitle=~s/\s/_/g;
 		$phtitle=~s/__/_/g;
 		$phtitle=~s/\'/_/g;
 		$phtitle=~s/_$//;
-		$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		$phtitle=unac_string($phtitle);
+		#$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		$phtitle=unac_string("UTF-8",$phtitle);
 		push @tab_menu,{'region_url'=>"/".$phtitle."$lang_param.html",'region_name_fr'=>$ptitle};
 }	
 my $sql="select id,title from region_state order by title";
@@ -200,16 +194,15 @@ while ($sth->fetch()) {
 	#push @l_region,$pid;
 	$ptitle=&get_region($pid,$lang_param);
 	#$ptitle=encode("iso-8859-1",decode("utf8", $ptitle));
-	#Encode::_utf8_off($ptitle);
-	#$ptitle=decode_utf8($ptitle);
+	Encode::_utf8_off($ptitle);
+	$ptitle=decode_utf8($ptitle);
 	#print STDERR "$ptitle ";
 	$ptitle=~s/\s/_/g;
 	$ptitle=~s/__/_/g;
 	$ptitle=~s/\'/_/g;
 	$ptitle=~s/_$//;
-	$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-	#$ptitle=unac_string("UTF-8",$ptitle);
-	$ptitle=unac_string($ptitle);
+	#$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+	$ptitle=unac_string("UTF-8",$ptitle);
 	print STDERR "$ptitle ";
 	&generate_region("$local_tmpl/pages/region$lang_param.tmpl.html",$ptitle,$pid,2,250,@l_region);
 	#print STDERR ". ok\n";
@@ -241,13 +234,13 @@ sub generate_region {
 			$sth->bind_columns(\$pid);
 			while ($sth->fetch()) {
 				$l_department{$dpt}.="$pid,";
-				#if ($debug) {print STDERR "reg:$pid\n";}
+				if ($debug) {print STDERR "reg:$pid\n";}
 			}
 		}
 
 
 		my @tab_site_loop;my @site_loop;
-		#if ($debug) {print STDERR "tab_site_loop".join(':',@tab_site_loop)."\n";}
+		if ($debug) {print STDERR "tab_site_loop".join(':',@tab_site_loop)."\n";}
 		#foreach (@tab_site_loop) { shift @tab_site_loop;}
 		my $odd_even=0;my %tab={};#my @tab_menu;
 		foreach my $k (@t_region) {
@@ -256,12 +249,12 @@ sub generate_region {
 
 			foreach my $v (@l) {
 
-				my $sql="select photo.id,photo.place_id,photo.thumb_file,photo.site_img,album.title,photo.resolution_x,photo.resolution_y,album.url,place.town,album.epoch_str,album.epoch_style,album.onsite from photo,place,album,album_photo where album.id=album_photo.album_id and album_photo.photo_id=photo.id and photo.place_id=place.id and place.postcode rlike '^$v' AND album_photo.publish=1 order by album_photo.display_order";
+				my $sql="select photo.id,photo.place_id,photo.thumb_file,album.title,photo.resolution_x,photo.resolution_y,album.url,place.town,album.epoch_str,album.epoch_style,album.onsite from photo,place,album,album_photo where album.id=album_photo.album_id and album_photo.photo_id=photo.id and photo.place_id=place.id and place.postcode rlike '^$v' AND album_photo.publish=1 order by album_photo.display_order";
 				my $sth = $dbh->prepare($sql);
 				$sth->execute();
-				my ($pid,$plid,$nm,$tf,$si,$rx,$ry,$album_url,$place_name,$epoch_str,$epoch_style,$px,$py,$town_name,$album_onsite);
+				my ($pid,$plid,$nm,$tf,$rx,$ry,$album_url,$place_name,$epoch_str,$epoch_style,$px,$py,$town_name,$album_onsite);
 				my %mem_dep;
-				$sth->bind_columns(\$pid,\$plid,\$tf,\$si,\$nm,\$px,\$py,\$album_url,\$town_name,\$epoch_str,\$epoch_style,\$album_onsite);
+				$sth->bind_columns(\$pid,\$plid,\$tf,\$nm,\$px,\$py,\$album_url,\$town_name,\$epoch_str,\$epoch_style,\$album_onsite);
 				while ($sth->fetch()) {
 					if ($cnt==0) {
 						my @loop2;
@@ -275,9 +268,8 @@ sub generate_region {
 						#print STDERR "$k $nm<img src=\"http://perso.orange.fr/e-nef/thumb/$tf\"><br/>\n";
 						my %ix=();
 						my $lp=$lang_param;if ($lp eq '_fr') {$lp='';}
-						my $thb=$tf;$thb=~s/^thb-//;
-						$thb=$web_host_img{$si}.$thb;
-						%ix=('thb_url'=>$thb,'place_name_fr'=>$nm,'album_url'=>$web_host_album{$album_onsite}.$album_url."/index$lp.html",'town_name_fr_1'=>$town_name,'epoch'=>$epoch_str,'style'=>$epoch_style,'BGC'=>'#E6E6D2');
+#{						%ix=('thb_url'=>"/media/thumb/$tf",'place_name_fr'=>$nm,'album_url'=>$web_host_album{$album_onsite}.'/'.$album_url."/index$lp.html",'town_name_fr_1'=>$town_name,'epoch'=>$epoch_str,'style'=>$epoch_style,'BGC'=>'#E6E6D2');
+						%ix=('thb_url'=>"/media/thumb/$tf",'place_name_fr'=>$nm,'album_url'=>$album_url."/index$lp.html",'town_name_fr_1'=>$town_name,'epoch'=>$epoch_str,'style'=>$epoch_style,'BGC'=>'#E6E6D2');
 						if ($cnt>=$item_per_line) {
 							push  @{$loop},\%ix;
 							#print STDERR "push 1 $v".\%ix." ".\@loop0." ".$loop."\n";
@@ -312,7 +304,7 @@ sub generate_region {
 
 		}
 
-		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1,utf8     => 1);
+		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1);
 		if ($lang_param eq '_en') {
 				$t_header->param('doc_title',"Romanes.com: Romanesque Art and Architecture, $region_name");
 				$t_header->param('doc_description',"$region_name");
@@ -338,7 +330,8 @@ sub generate_region {
 	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/France'.$lang_param.'.html','name'=>'Europa'};
 	if ($country==250) {$ncountry=&get_country($country,$lang_param);}
 	if ($country==756) {$ncountry=&get_country($country,$lang_param);}
-	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.&get_country($country,'fr').$lang_param.'.html','name'=>$ncountry};
+	#push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.&get_country($country,'fr').$lang_param.'.html','name'=>$ncountry};
+	push @POS_loop,{'url'=>'/'.&get_country($country,'fr').$lang_param.'.html','name'=>$ncountry};
 
 	#if ($region_name ne &get_country($country,$lang_param)) 
 	if ($region_id) {
@@ -351,9 +344,10 @@ sub generate_region {
 		$ptitle=~s/_$//;
 		#$ptitle=~tr/éèêëàâôöùñóí_/eeeeaaoounoi /;
         	$ptitle=~tr/_/ /;
-		#$ptitle=decode_utf8($ptitle);
-		$ptitle=unac_string($ptitle);
-		push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.$g_region_name.($lang_param||'_fr').'.html#','name'=>$ptitle};		  
+		$ptitle=decode_utf8($ptitle);
+		$ptitle=unac_string("UTF-8",$ptitle);
+		#push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.$g_region_name.($lang_param||'_fr').'.html#','name'=>$ptitle};		  
+		push @POS_loop,{'url'=>$g_region_name.($lang_param||'_fr').'.html#','name'=>$ptitle};		  
 	}
 	if ($debug) {print STDERR "POS: $album_id $place_town $place_name\n";}
 	$t_header->param('POS_loop',\@POS_loop);
@@ -361,7 +355,7 @@ sub generate_region {
 		#
 		# Footer
 		#
-		$t_footer=HTML::Template->new(filename=>"$local_tmpl/footer$lang_param.tmpl.html",die_on_bad_params=>0,utf8     => 1);
+		$t_footer=HTML::Template->new(filename=>"$local_tmpl/footer$lang_param.tmpl.html",die_on_bad_params=>0);
         	my $marqueur=$album_title;
 		$marqueur=~s/\s/_/g;
 		$marqueur=~s/\'/_/g;
@@ -371,24 +365,15 @@ sub generate_region {
 		#Include regional text
 		my $region_intro;
 		my $r_l=&get_region($region_id,'fr');$r_l=~tr/ 'éè/__ee/;
-	print STDERR "R: $_l ". $local_tmpl."pages/regions/".$r_l."$lang_param.html". "\n";
 		if (($region_name eq 'Centre')||($region_name =~/Picardie/)) {
 		    if (-e $local_tmpl."pages/regions/Ile_de_France$lang_param.html") {
 			open(REG,$local_tmpl."pages/regions/Ile_de_France$lang_param.html");
 			while(<REG>) { $region_intro.=$_; }
-			close(REG);
 		  }
 		} elsif (-e $local_tmpl."pages/regions/".$r_l."$lang_param.html") {
-			open(REG,$local_tmpl."pages/regions/".$r_l."$lang_param.html")||warn "$!";
+			open(REG,$local_tmpl."pages/regions/".$r_l."$lang_param.html");
 			while(<REG>) { $region_intro.=$_; }
-			close(REG);
 		}
-
-		#
-		#Publish
-		#
-		my $t_content;
-		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8     => 1);
 
 		# language flags
 		my @lang_lst=split(/:/,$lang_lst_param);
@@ -403,16 +388,20 @@ sub generate_region {
 		$ptitle=~s/__/_/g;
 		$ptitle=~s/\'/_/g;
 		$ptitle=~s/_$//;
-		$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		#$ptitle=decode_utf8($ptitle);
-		$ptitle=unac_string($ptitle);
-		$t_content->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
-            	$t_content->param("lang_$lang_show","/".$fo_lang);
+		#$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		$ptitle=decode_utf8($ptitle);
+		$ptitle=unac_string("UTF-8",$ptitle);
+		$t_header->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
+            	$t_header->param("lang_$lang_show","/".$fo_lang);
 		if ($debug) {print STDERR "lang_$lang_show->$fo_lang\n ";}
         }
 	
+		#
+		#Publish
+		#
+		my $t_content;
+		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0);
 		$ptitle=~s/_/ /g;
-	        $ptitle=&get_region($region_id,$lang_param);
 		$t_content->param('region_name_fr',$ptitle);
 		$t_content->param('site_region',$region_name);
 		$t_content->param('site_loop',\@site_loop);
@@ -421,21 +410,21 @@ sub generate_region {
 		$t_content->param('region_name_categ_fr',$region_name);
 		#my $rn_esc=uri_escape($rn{&get_region($region_id,"fr")});
 		my $rn_esc=&get_region($region_id,"fr");
-		$rn_esc=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
-		#$rn_esc=decode_utf8($rn_esc);
-		$rn_esc=unac_string($rn_esc);
+		#$rn_esc=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+		$rn_esc=decode_utf8($rn_esc);
+		$rn_esc=unac_string("UTF-8",$rn_esc);
 		$rn_esc=~tr/ '/__/;
 		$t_content->param('rss_region_fr',$rn_esc);
 		#print STDERR 'rss_region_fr'.'='.$rn_esc."\n";
 
 		#$region_name=~tr/éèêëàâôöùñóí '/eeeeaaoounoi__/;
         	$region_name=~tr/ '/__/;
-		#$region_name=decode_utf8($region_name);
-		$region_name=unac_string($region_name);
+		$region_name=decode_utf8($region_name);
+		$region_name=unac_string("UTF-8",$region_name);
 		open(FIC,">".$region_name."$lang_param.html")|| warn "ERR:$region_name $!\n";
-		#print FIC $t_header->output;
+		print FIC $t_header->output;
 		print FIC $t_content->output;
-		#print FIC $t_footer->output;
+		print FIC $t_footer->output;
 		close(FIC);
 }
 
@@ -492,7 +481,7 @@ sub get_region() {
 	chomp($cstring);
 	$cstring=~s/ $//;
 	#$cstring=encode("iso-8859-1",decode("utf8", $cstring));	
-	#$cstring=decode_utf8($cstring);
+	$cstring=decode_utf8($cstring);
 	return ($cstring);
 }
 

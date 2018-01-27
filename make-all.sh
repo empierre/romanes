@@ -420,4 +420,19 @@ if [ ! -d Italia/Milano ]; then
         chmod 0755 Italia/Milano
 fi
 perl ./script/make-album.pl -l 358 Italia/Milano/SantAmbrogio/ fr fr:en:es:it
+if [ ! -d Italia/Como ]; then
+        mkdir Italia/Como
+        chmod 0755 Italia/Como
+fi
+perl ./script/make-album.pl -l 359 Italia/Como/SantAbbondio/ fr fr:en:es:it
+if [ ! -d Italia/Chiusdino ]; then
+        mkdir Italia/Chiusdino
+        chmod 0755 Italia/Chiusdino
+fi
+perl ./script/make-album.pl -l 360 Italia/Chiusdino/SanGalgano/ fr fr:en:es:it
+perl ./script/make-album.pl -l 361 Italia/Murano/SantiMaria_Donato/ fr fr:en:es:it
+perl ./script/make-album.pl -l 362 Italia/Ravenna/San_Vital/ fr fr:en:es:it
+perl ./script/make-album.pl -l 363 Italia/Lucca/SanMartino/ fr fr:en:es:it
+perl ./script/make-album.pl -l 364 Italia/Firenze/Baptistere/ fr fr:en:es:it
+perl ./script/make-album.pl -l 365 Italia/Verona/SanZeno/ fr fr:en:es:it
 

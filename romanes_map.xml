@@ -2928,8 +2928,8 @@
 	<id>309</id>
 	<name>Santa Maria Figaniella</name>
 	<type>branch</type>
-	<lat>41.078056</lat>
-	<lng>9.005556</lng>
+	<lat>41.7088</lat>
+	<lng>9.0073</lng>
 	<url>http://www.romanes.com//Corse/Santa-Maria-Figaniella/</url>
 	<addr_city>Santa-Maria-Figaniella</addr_city>
 	<thumb>http://www.romanes.com/media/thumb/thb-FR-Santa_Maria_Figaniella-Santa_Maria_Figaniella-tz1_2009-05-23-134710.jpg</thumb>
@@ -3093,6 +3093,16 @@
 	<url>http://www.romanes.com//La-Croix-sur-Ourcq/</url>
 	<addr_city></addr_city>
 	<thumb>http://www.romanes.com/media/thumb/thb-FR-La_Croix_sur_Ourcq-tz1_2009-08-11_00002.jpg</thumb>
+</site>
+<site>
+	<id>328</id>
+	<name>Saint Martin de Vic</name>
+	<type>branch</type>
+	<lat>46.639444</lat>
+	<lng>1.960556</lng>
+	<url>http://www.romanes.com//Nohan-Vic/</url>
+	<addr_city>Nohan Vic</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-FR-Nohant_Vic-Saint_Guillaume-a350_2010-08-24_0000.jpg</thumb>
 </site>
 <site>
 	<id>329</id>
@@ -3363,6 +3373,16 @@
 	<url>http://www.romanes.com//Italia/Milano/SantAmbrogio</url>
 	<addr_city>Milano</addr_city>
 	<thumb>http://www.romanes.com/media/thumb/thb-IT-Milano-SantAmbrogio-E6D_2016-08-14_9359.jpg</thumb>
+</site>
+<site>
+	<id>359</id>
+	<name>Sant'Abbondio di Como</name>
+	<type>branch</type>
+	<lat>45.802519</lat>
+	<lng>9.080394</lng>
+	<url>http://www.romanes.com//Italia/Como/SantAbbondio</url>
+	<addr_city>Como</addr_city>
+	<thumb>http://www.romanes.com/media/thumb/thb-IT-Como-SantAbbondio-8778.jpg</thumb>
 </site>
 <site>
 	<id>360</id>

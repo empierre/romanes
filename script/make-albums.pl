@@ -86,7 +86,7 @@ if (! -d $out_dir) {
 	mkdir $out_dir;
 }
 
-my $local_tmpl="/mnt/data/web/r3/templates/";
+my $local_tmpl="/mnt/data/web/dev/romanes2.com/templates/";
 my $photo_album_file="index.html";
 
 my @tab_site_region_next=();

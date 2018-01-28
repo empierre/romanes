@@ -3411,3 +3411,24 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, .btn-s
 .wrapper {
   background-color: black;
 }
+
+img#sculpture {
+  width:100%;
+  left:55%;
+  top:70%;
+}
+img#vitrail {
+  width:100%;
+  left:70%;
+  top:50%;
+}
+img#manuscrit {
+  width:100%;
+  left:50%;
+  top:90%;
+}
+img#ivoires {
+  width:100%;
+  left:55%;
+  top:95%;
+}

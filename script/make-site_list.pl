@@ -102,7 +102,7 @@ my $dbh2 = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_ena
 &sql_update($dbh2,"SET NAMES utf8");
 
 
-my $local_tmpl='/mnt/data/web/prod/r3/templates/';
+my $local_tmpl='/mnt/data/web/prod/r2/templates/';
 #my $local_tmpl='/cygdrive/c/Documents and Settings/Emmanuel PIERRE/romanes/templates/';
 #my $hosting="http://www.romanes.com/";
 my $hosting="";
@@ -372,6 +372,7 @@ sub generate_region {
 		my $region_intro;
 		my $r_l=&get_region($region_id,'fr');$r_l=~tr/ 'éè/__ee/;
 	print STDERR "R: $_l ". $local_tmpl."pages/regions/".$r_l."$lang_param.html". "\n";
+        	if ($debug) {print STDERR "template region ".$r_l."$lang_param.html\n";}
 		if (($region_name eq 'Centre')||($region_name =~/Picardie/)) {
 		    if (-e $local_tmpl."pages/regions/Ile_de_France$lang_param.html") {
 			open(REG,$local_tmpl."pages/regions/Ile_de_France$lang_param.html");

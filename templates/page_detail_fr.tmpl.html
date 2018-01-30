@@ -618,37 +618,34 @@ $(document).ready(function(){
 
 });
 </script>
-<style>
 
-
-</style>
 <!-- end of Slider script and styles -->
 <script type="application/ld+json">
 {
-  "@context": "http://schema.org",
-  "@type": "NewsArticle",
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": "https://google.com/article"
-  },
-  "headline": "<TMPL_VAR NAME="photo_place">",
-  "image": "http://romanes.com/images/Front_Page.jpg",
-  "datePublished": "2018-01-01T08:00:00+08:00",
-  "dateModified": "2018-01-10T09:20:00+08:00",
-  "author": {
-    "@type": "Person",
-    "name": "Emmanuel PIERRE"
-  },
-   "publisher": {
-    "@type": "Organization",
-    "name": "Romanes.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "http://romanes.com/images/Front_Page.jpg"
-    }
-  },
-  "description": "<TMPL_VAR NAME="photo_comment">"
-}
+    "@context": "http://schema.org",
+    "@type": "NewsArticle",
+    "mainEntityOfPage": "http://google.com/article",
+    "headline": "<TMPL_VAR NAME="photo_city">",
+    "datePublished": "2018-01-30T12:02:41Z",
+    "dateModified": "2018-01-30T12:02:41Z",
+    "description": "<TMPL_VAR NAME="doc_title">",
+    "author": {
+      "@type": "Person",
+      "name": "<TMPL_VAR NAME="photo_author">"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "romanes.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "http://romanes.com/images/Front_Page.jpg"
+      }
+    },
+    "image": {
+      "@type": "ImageObject",
+      "url": "http://www.romanes.com<TMPL_VAR NAME="photo_photo">"
+    }
+  }
 </script>
 
 <script src="/assets/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l’utilisation des cookies.', 'J’accepte', 'En savoir plus', 'http://www.romanes.com/copyright.html');});</script>

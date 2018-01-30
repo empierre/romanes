@@ -593,7 +593,11 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 		}
 		$t_header->param('doc_keywords',$photo_keywords);
 
-
+		my $thb_fic=&sql_get($dbh,"SELECT photo.thumb_file FROM photo,album_photo where photo.id=album_photo.photo_id AND album_id=$album_id and album_photo.publish=1 LIMIT 1");
+	  	my $alb_photo=$thb_fic;$alb_photo=~s/^thb-//;
+	        $alb_photo=~s/\\//g;
+		$alb_photo="/media/".$alb_photo;
+		$t_content->param('photo_photo',$alb_photo);
 		$t_content->param('photo_place',$place_name);
 		$t_content->param('photo_city',$place_town);
 		$t_content->param('photo_when',$creation);

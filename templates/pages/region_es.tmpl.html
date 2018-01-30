@@ -442,6 +442,21 @@
 
     </script>
 
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+  <TMPL_LOOP NAME="region_list">
+    {
+      "@type": "ListItem",
+      "position": <TMPL_VAR NAME="__counter__">,
+      "url": "http://www.romanes.com/France_es.html<TMPL_VAR NAME="region_url">"
+    }<TMPL_IF NAME="__inner__">,</TMPL_IF> <TMPL_IF NAME="__first__">,</TMPL_IF>
+  </TMPL_LOOP>]
+}</script>
+
+
 <script src="/assets/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Este sitio utiliza cookies para ofrecerle el mejor servicio. Al continuar su navegación, acepta el uso de cookies.', 'Acepto', 'Más información', 'http://www.romanes.com/copyright.html');});</script>
 
     </html>

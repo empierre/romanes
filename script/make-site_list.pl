@@ -389,7 +389,7 @@ sub generate_region {
 		#Publish
 		#
 		my $t_content;
-		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8     => 1);
+		$t_content=HTML::Template->new(filename=>$tmpl_name,die_on_bad_params=>0,utf8 => 1,loop_context_vars =>1);
 
 		# language flags
 		my @lang_lst=split(/:/,$lang_lst_param);

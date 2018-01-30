@@ -1,0 +1,172 @@
+<!-- Start LH-COL -->
+<div id="lh-col">
+
+<!-- Title -->
+<div class="divboxtext"><h2>Sitios en <TMPL_VAR NAME="region_name_fr"></h2></div>
+<!-- /Title -->
+
+
+<!-- Menu -->
+<div class="divboxtext" style="border: 1px solid steelblue;padding: 2px; margin-left: 8px;margin-top: 10px;">
+<p style="display:block;">
+<ul style="font-size: 10px;">
+<TMPL_LOOP NAME="region_list"><a href="<TMPL_VAR NAME="region_url">"><TMPL_VAR NAME="region_name_fr"></a><br/></TMPL_LOOP>
+
+</ul></p>
+</div>
+<!-- /Menu -->
+<br/>
+<!-- RIGHTtable -->
+<div class="divboxtext" style="border: 1px solid steelblue;padding: 2px; margin-left: 8px;margin-top: 10px;">
+<p style="display:block;">
+    Un libro...
+<hr/>
+</p>
+<center>
+<!-- AdsNews -->
+<div id="book_dyn"></div>
+<!-- /AdsNews-->
+
+</center>
+</div>
+<br/>
+<!-- /RIGHTtable -->
+
+</div>
+
+<!-- End LH-COL -->
+
+<!-- Start Content -->
+<div id="c-col">
+
+
+<div class="divboxtext" style="">
+
+<TMPL_LOOP NAME="site_loop">
+	<TMPL_IF NAME="title_name_fr"><a name="<TMPL_VAR NAME="title_id_fr">"> </a><tr><td colspan="6" class="divboxtext"><h2><TMPL_VAR NAME="title_name_fr"></h2></td></tr></TMPL_IF>
+
+
+<center><table border="0">
+<TMPL_LOOP NAME="thb_site_loop_line">
+        <tr>
+<TMPL_LOOP NAME="thb_site_loop_td">
+	<TMPL_IF NAME="album_url">
+                    <td width="107" height="84" valign="middle" align="center" bgcolor="#E6E6D2"><a href="<TMPL_VAR NAME="album_url">"><img src="<TMPL_VAR NAME="thb_url">" width="100" alt="<TMPL_VAR NAME="place_name_fr">" border="0"></a></td>
+                    <td width="5" height="82">&nbsp;</td>
+                    <td width="300" class="divboxtext" height="84" valign="middle" align="left"><a href="<TMPL_VAR NAME="album_url">"><TMPL_VAR NAME="place_name_fr"></a></font><br/><p><TMPL_VAR NAME="epoch"></p><p><TMPL_VAR NAME="town_name_fr"></p></td>
+	<TMPL_ELSE>
+                    <td width="107" height="84">&nbsp;</td>
+                    <td width="5" height="82">&nbsp;</td>
+                    <td width="300" class="divboxtext" height="84" valign="middle" align="left">&nbsp;</td>
+
+	</TMPL_IF>
+</TMPL_LOOP>
+        </tr>
+        <tr><td height="6px" colspan="6"></td></tr>
+</TMPL_LOOP>
+        <tr><td height="16px" colspan="6"></td></tr>
+</table></center>
+</TMPL_LOOP>
+
+</div>
+
+</div>
+
+<!-- Aggreg Type -->
+<script type="text/javascript">
+var xmlhttp=false;
+/*@cc_on @*/ 
+/*@if (@_jscript_version >= 5)
+// JScript gives us Conditional compilation, we can cope with old IE versions.
+// and security blocked creation of the objects.
+ try {
+  xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+ } catch (e) {
+  try {
+   xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+  } catch (E) {
+   xmlhttp = false;
+  }
+ }
+@end @*/
+if (!xmlhttp && typeof XMLHttpRequest!='undefined') {
+    try {
+        xmlhttp = new XMLHttpRequest();
+    } catch (e) {
+        xmlhttp=false;
+    }
+}
+if (!xmlhttp && window.createRequest) {
+    try {
+        xmlhttp = window.createRequest();
+    } catch (e) {
+        xmlhttp=false;
+    }
+}
+if (xmlhttp) {
+    var url;
+    var x=1;
+        if (x==1) { url="/dyn/aggreg_type.php?r=Normandie";}
+        xmlhttp.open("GET",url,true);
+        xmlhttp.onreadystatechange=function() {
+            if (xmlhttp.readyState==4) {
+            var eltid="rss_categ"+x
+              var mondoc=document.getElementById(eltid)
+              mondoc.innerHTML=xmlhttp.responseText
+            }
+        }
+        xmlhttp.send(null)
+}
+</script>
+<!-- /Aggreg Type -->
+
+<!-- book_dyn -->
+<script type="text/javascript">
+var xmlhttp_book=false;
+/*@cc_on @*/
+/*@if (@_jscript_version >= 5)
+// JScript gives us Conditional compilation, we can cope with old IE versions.
+// and security blocked creation of the objects.
+ try {
+  xmlhttp_book = new ActiveXObject("Msxml2.XMLHTTP");
+ } catch (e) {
+  try {
+   xmlhttp_book = new ActiveXObject("Microsoft.XMLHTTP");
+  } catch (E) {
+   xmlhttp_book = false;
+  }
+ }
+@end @*/
+if (!xmlhttp_book && typeof XMLHttpRequest!='undefined') {
+    try {
+        xmlhttp_book = new XMLHttpRequest();
+    } catch (e) {
+        xmlhttp_book=false;
+    }
+}
+if (!xmlhttp_book && window.createRequest) {
+    try {
+        xmlhttp_book = window.createRequest();
+    } catch (e) {
+        xmlhttp_book=false;
+    }
+}
+
+if (xmlhttp_book) {
+    var url_book="/dyn/adsnews2u.php?idx=2";
+        xmlhttp_book.open("GET",url_book,true);
+        xmlhttp_book.onreadystatechange=function() {
+            if (xmlhttp_book.readyState==4) {
+              var eltid_book="book_dyn"
+              var mondoc_book=document.getElementById(eltid_book)
+              mondoc_book.innerHTML=xmlhttp_book.responseText
+            }
+        }
+        xmlhttp_book.send(null)
+}
+
+</script>
+<!-- /book_dyn -->
+
+
+<!-- End Content -->

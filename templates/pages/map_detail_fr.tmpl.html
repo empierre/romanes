@@ -1,0 +1,79 @@
+<div id="pagecell2">
+
+<!-- Start LH-COL -->
+<div id="lh-col2">
+<!-- Title -->
+<div class="divboxtext"><h2>Sites en <TMPL_VAR NAME="region_name_fr"></h2></div>
+<!-- /Title -->
+
+
+<!-- Menu -->
+<div class="divboxtext" style="border: 1px solid steelblue;padding: 2px; margin-left: 8px;margin-top: 10px;">
+<p style="display:block;">
+<ul style="font-size: 10px;">
+<TMPL_LOOP NAME="region_list"><a href="<TMPL_VAR NAME="region_url">"><TMPL_VAR NAME="region_name_fr"></a><br/></TMPL_LOOP>
+
+</ul></p>
+</div>
+<!-- /Menu -->
+<br/>
+<!-- RIGHTtable -->
+<div class="divboxtext" style="border: 1px solid steelblue;padding: 2px; margin-left: 8px;margin-top: 10px;">
+<p style="display:block;">
+    Un livre...
+<hr/>
+</p>
+<center>
+<!-- AdsNews -->
+<div id="book_dyn"></div>
+<!-- /AdsNews-->
+
+</center>
+</div>
+<br/>
+<!-- /RIGHTtable -->
+
+</div>
+
+<!-- End LH-COL -->
+
+<!-- Start Content -->
+<div id="c-col2">
+
+
+<div class="divboxtext" style="">
+
+<TMPL_LOOP NAME="site_loop">
+	<TMPL_IF NAME="title_name_fr"><a name="<TMPL_VAR NAME="title_id_fr">"> </a><tr><td colspan="6" class="divboxtext"><h2><TMPL_VAR NAME="title_name_fr"></h2></td></tr></TMPL_IF>
+
+
+<center><table border="0">
+<TMPL_LOOP NAME="thb_site_loop_line">
+        <tr>
+<TMPL_LOOP NAME="thb_site_loop_td">
+	<TMPL_IF NAME="album_url">
+                    <td width="107" height="84" valign="middle" align="center" bgcolor="#E6E6D2"><a href="<TMPL_VAR NAME="album_url">"><img src="<TMPL_VAR NAME="thb_url">" width="100" alt="<TMPL_VAR NAME="place_name_fr">" border="0"></a></td>
+                    <td width="5" height="82">&nbsp;</td>
+                    <td width="300" class="divboxtext" height="84" valign="middle" align="left"><a href="<TMPL_VAR NAME="album_url">"><TMPL_VAR NAME="place_name_fr"></a></font><br/><p><TMPL_VAR NAME="epoch"></p><p><TMPL_VAR NAME="town_name_fr"></p></td>
+	<TMPL_ELSE>
+                    <td width="107" height="84">&nbsp;</td>
+                    <td width="5" height="82">&nbsp;</td>
+                    <td width="300" class="divboxtext" height="84" valign="middle" align="left">&nbsp;</td>
+
+	</TMPL_IF>
+</TMPL_LOOP>
+        </tr>
+        <tr><td height="6px" colspan="6"></td></tr>
+</TMPL_LOOP>
+        <tr><td height="16px" colspan="6"></td></tr>
+</table></center>
+</TMPL_LOOP>
+
+</div>
+
+</div>
+
+<script type="text/javascript" src="/js/dyn_pages.js"/> 
+	<br/><br/>
+<!-- End Content -->
+

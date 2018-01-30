@@ -1,6 +1,6 @@
 ﻿#!/usr/bin/perl 
 #
-# (c) 2002-2017 Emmanuel PIERRE
+# (c) 2002-2018 Emmanuel PIERRE
 #          epierre@romanes.com
 #          http://www.e-nef.com/users/epierre
 #
@@ -27,7 +27,7 @@ use Encode;
 use Text::Unidecode;
 
 #version
-my $version_dev="3.0.0";
+my $version_dev="3.0.1";
 my $debug=0;
 my $regenerate=0;
 my $relocation_path;
@@ -427,9 +427,13 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 				$t_header->param('doc_title',"$photo_name por $first_name $last_name");
 				$t_header->param('doc_description',"$photo_name de $place_town por $first_name $last_name");
 				$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
+		} elsif ($lang_param eq '_it') {
+				$t_header->param('doc_title',"$photo_name por $first_name $last_name");
+				$t_header->param('doc_description',"$photo_name por $place_town por $first_name $last_name");
+				$photo_keywords= "roman, art, architecture, gothique, chiesa, Abbazia, cathédrale, cisterciense, cisterciensene, medioevale, moyen-age, romanica, patrimoine, scultura, romanicas, romanicasque";
 		} else {
-				$t_header->param('doc_title',"$photo_name par $first_name $last_name");
-				$t_header->param('doc_description',"$photo_name de $place_town par $first_name $last_name");
+				$t_header->param('doc_title',"$place_name de $place_town par $first_name $last_name");
+				$t_header->param('doc_description',"$place_name de $place_town par $first_name $last_name");
 		}
 		$t_header->param('doc_keywords',$photo_keywords);
 
@@ -471,7 +475,7 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
             $fo_lang=$photo_name_file;
             $fo_lang=~s/out/$lang_show/;
 	    if ($lang_show eq 'fr') { # default naming for french
-		#$t_content->param("doc_local_fr","$photo_name_file_head.html");
+		#$t_content->param("doc_local_fr",out_dir."$photo_name_file_head.html");
            	#$t_content->param("lang_$lang_show","/".$fo_lang);
 	    } else {
 		#$t_content->param("doc_local_$lang_show",$photo_name_file_head.'_'.$lang_show.".html");
@@ -561,10 +565,10 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
                 $ptitle=unac_string($ptitle);
 
 		    if ($lang_show eq 'fr') { # default naming for french
-			$t_content->param("doc_local_fr",$ptitle.".html");
+			$t_content->param("doc_local_fr","/".$out_dir.$ptitle.".html");
 			$t_content->param("lang_$lang_show","/".$fo_lang);
 		    } else {
-			$t_content->param("doc_local_$lang_show",$ptitle.'_'.$lang_show.".html");
+			$t_content->param("doc_local_$lang_show","/".$out_dir.$ptitle.'_'.$lang_show.".html");
 			$t_content->param("lang_$lang_show","/".$fo_lang);
 		    }
 		   if ($debug) {print STDERR " $ptitle  lang_$lang_show->$fo_lang\n ";}
@@ -572,16 +576,20 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 
   		## doc_title
 		if ($lang_param eq '_en') {
-				$t_content->param('doc_title',"$photo_name by $first_name $last_name");
-				$t_content->param('doc_description',"$photo_name of $place_town by $first_name $last_name");
+				$t_content->param('doc_title',"$place_name by $first_name $last_name");
+				$t_content->param('doc_description',"$place_name of $place_town by $first_name $last_name");
 				$photo_keywords="romanesque, art, architecture, gothic, church, abbey, cathedral, cistercian, medieval, middle-age, patrimoiny, sculpture";
 		} elsif ($lang_param eq '_es') {
-				$t_content->param('doc_title',"$photo_name por $first_name $last_name");
-				$t_content->param('doc_description',"$photo_name de $place_town por $first_name $last_name");
+				$t_content->param('doc_title',"$place_name por $first_name $last_name");
+				$t_content->param('doc_description',"$place_name de $place_town por $first_name $last_name");
 				$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
+		} elsif ($lang_param eq '_it') {
+				$t_header->param('doc_title',"$place_name por $first_name $last_name");
+				$t_header->param('doc_description',"$place_name por $place_town por $first_name $last_name");
+				$photo_keywords= "roman, art, architecture, gothique, chiesa, Abbazia, cathédrale, cisterciense, cisterciensene, medioevale, moyen-age, romanica, patrimoine, scultura, romanicas, romanicasque";
 		} else {
-				$t_content->param('doc_title',"$photo_name par $first_name $last_name");
-				$t_content->param('doc_description',"$photo_name de $place_town par $first_name $last_name");
+				$t_content->param('doc_title',"$place_name par $first_name $last_name");
+				$t_content->param('doc_description',"$place_name de $place_town par $first_name $last_name");
 		}
 		$t_header->param('doc_keywords',$photo_keywords);
 

@@ -27,7 +27,7 @@ use Encode;
 use Text::Unidecode;
 
 #version
-my $version_dev="3.0.1";
+my $version_dev="3.0.2";
 my $debug=0;
 my $regenerate=0;
 my $relocation_path;
@@ -584,14 +584,14 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 				$t_content->param('doc_description',"$place_name de $place_town por $first_name $last_name");
 				$photo_keywords= "romanico, arte, architectura, gothico, iglesia, monasterio, catedral, cistercian, medieval, esculptura";
 		} elsif ($lang_param eq '_it') {
-				$t_header->param('doc_title',"$place_name por $first_name $last_name");
-				$t_header->param('doc_description',"$place_name por $place_town por $first_name $last_name");
+				$t_content->param('doc_title',"$place_name por $first_name $last_name");
+				$t_content->param('doc_description',"$place_name por $place_town por $first_name $last_name");
 				$photo_keywords= "roman, art, architecture, gothique, chiesa, Abbazia, cathédrale, cisterciense, cisterciensene, medioevale, moyen-age, romanica, patrimoine, scultura, romanicas, romanicasque";
 		} else {
 				$t_content->param('doc_title',"$place_name par $first_name $last_name");
 				$t_content->param('doc_description',"$place_name de $place_town par $first_name $last_name");
 		}
-		$t_header->param('doc_keywords',$photo_keywords);
+		$t_content->param('doc_keywords',$photo_keywords);
 
 		my $thb_fic=&sql_get($dbh,"SELECT photo.thumb_file FROM photo,album_photo where photo.id=album_photo.photo_id AND album_id=$album_id and album_photo.publish=1 LIMIT 1");
 	  	my $alb_photo=$thb_fic;$alb_photo=~s/^thb-//;

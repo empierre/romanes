@@ -12,13 +12,17 @@ use Image::Info qw(image_info);
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
-use Encode;
+use Text::Unaccent::PurePerl qw(unac_string);
+#my $encoding = 'utf8';
+binmode(STDOUT, ":utf8");
+#binmode(STDIN, ":utf8");
 use Unicode::Normalize;
 use Text::Unaccent::PurePerl qw(unac_string);
 use open IO => ":utf8",":std";
 use utf8;
 use Encode;
 use Text::Unidecode;
+
 
 
 #version
@@ -52,35 +56,37 @@ my $t_footer;
 #my $photo_wp1024x768_dir="http://romanes2.free.fr/wp-1024x768/";
 
 my %web_host_img=(
-	"9" => "http://www.romanes.org/",
-	"8" => "http://www.romanes.com/",
-	"1" => "http://romanes.free.fr/",
-	"2" => "http://romanes2.free.fr/",
-	"3" => "http://romanes3.free.fr/",
-	"4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/",
-    "11" => "http://romanes11.free.fr/",
-    "12" => "http://romanes12.free.fr/"
+    "1" => "/media",
+    "2" => "/media",
+    "3" => "/media",
+    "4" => "/media",
+    "5" => "/media",
+    "6" => "/media",
+    "7" => "/media",
+    "8" => "/media",
+    "9" => "/media",
+    "10" => "/media",
+    "11" => "/media",
+    "12" => "/media"
 );
 my %web_host_thb=(
-	#"1" => "http://perso.orange.fr/e-nef/"
-        "1" => "http://www.romanes.org/"
+        "1" => "/media/"
 );
 my %web_host_album=(
-        "11" => "http://romanes11.free.fr/",
-        "12" => "http://romanes12.free.fr/",
-        "9" => "http://www.romanes.org/",
-        "8" => "http://www.romanes.com/",
-        "1" => "http://romanes.free.fr/",
-        "2" => "http://romanes2.free.fr/",
-        "3" => "http://romanes3.free.fr/",
-        "4" => "http://romanes4.free.fr/",
-    "5" => "http://emmanuel.pierre2.free.fr/",
-    "6" => "http://aaea.free.fr/",
-    "7" => "http://aaea2.free.fr/"
+    "1" => "",
+    "2" => "",
+    "3" => "",
+    "4" => "",
+    "5" => "",
+    "6" => "",
+    "7" => "",
+    "8" => "",
+    "9" => "",
+    "10" => "",
+    "11" => "",
+    "12" => ""
 );
+
 
 if (! -d $out_dir) {
 	mkdir $out_dir;
@@ -93,7 +99,10 @@ my @tab_site_region_next=();
 my @tab_site_region_id=();
 
 # DB Connection
-my $dbh2 = DBI->connect("DBI:mysql:ROMANES3;127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
+
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4mb4} = 1;
 
 #
 # Get the Album data

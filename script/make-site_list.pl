@@ -19,6 +19,7 @@ use Text::Unaccent::PurePerl qw(unac_string);
 use open IO => ":utf8",":std";
 use Encode;
 use Text::Unidecode;
+binmode(STDOUT, ":utf8");
 
 
 #use strict;

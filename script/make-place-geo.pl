@@ -9,6 +9,11 @@ use Image::Info qw(image_info);
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
+binmode(STDOUT, ":utf8");
+use utf8;
+use Encode;
+use Text::Unidecode;
+
 
 #version
 my $version_dev="3.0.0";
@@ -33,12 +38,14 @@ my %web_host_album=(
 my $reference_onsite=8;
 
 # DB Connection
-my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
-my $dbh2 = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
 
-&sql_update($dbh,"SET NAMES utf8");
-&sql_update($dbh2,"SET NAMES utf8");
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4mb4} = 1;
+my $dbh2 = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
 
+&sql_update($dbh2,"SET NAMES utf8mb4");
+$dbh2->{mysql_enable_utf8mb4mb4} = 1;
 
 open(FIC,$local_tmpl."romanes_map_tmpl.xml");
 while(<FIC>) {

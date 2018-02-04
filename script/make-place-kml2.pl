@@ -7,16 +7,18 @@ use Image::Info qw(image_info);
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
+binmode(STDOUT, ":utf8");
+use utf8;
+use Encode;
+use Text::Unidecode;
 #use strict;
 
 #version
 my $version_dev="3.0.0";
 
-my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
-my $dbh2 = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
+my $dbh2 = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Contacts Database: ". $DBI::errst."\n";
 
-&sql_update($dbh,"SET NAMES utf8");
-&sql_update($dbh2,"SET NAMES utf8");
 
 
 my $local_tmpl='/mnt/data/prod/r2/templates/';

@@ -7,12 +7,21 @@
 #
 use Image::Info qw(image_info);
 use DBI();
-#use misc;
+binmode(STDOUT, ":utf8");
+#binmode(STDIN, ":utf8");
+use Unicode::Normalize;
+use Text::Unaccent::PurePerl qw(unac_string);
+use open IO => ":utf8",":std";
+use utf8;
+use Encode;
+use Text::Unidecode;
 
-$debug=1;
+#$debug=1;
 
-$dbh = DBI->connect("DBI:mysql:ROMANES3:127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-&sql_update($dbh,"SET NAMES utf8");
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
+
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4} = 1;
 
 
 # Get command line parameter
@@ -100,20 +109,20 @@ foreach $lang ('fr','en','es','de') {
 	     #Key exist
 		if (!($newind{$key}==$ind{$key})) {
 		# Order has changed
-			print "$key#".$ref{$key}." update from ".$ind{$key}." to ".$newind{$key}."\n";
+			print "KEY $key#".$ref{$key}." update from ".$ind{$key}." to ".$newind{$key}."\n";
 			my $sql="UPDATE link_album SET display_order=".$newind{$key}.",publish=1 WHERE link_id=" .$ref{$key};
 			if ($debug) {print STDERR "$sql\n";}
 			&sql_update($dbh,$sql);
 		} # else no change
 	     } else {
 			#NEW 
-			print "$key new at ".$newind{$key}."\n";
+			print "KEY $key new at ".$newind{$key}."\n";
 			&link_insert($key,$out_dir,$newind{$key},$newtxt{$key});
 	     }
 	}
 	foreach $key (keys %ind) {
 		if (!$newind{$key} ne '') {
-			print "$key#".$ref{$key}." removed from ".$ind{$key}."\n";
+			print "KEY $key#".$ref{$key}." removed from ".$ind{$key}."\n";
 			my $sql="UPDATE link_album SET display_order=0,publish=0 WHERE link_id=".$ref{$key}." AND album_id=$album_id";
 			if ($debug) {print STDERR "$sql\n";}
 			&sql_update($dbh,$sql);

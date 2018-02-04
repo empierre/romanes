@@ -15,6 +15,8 @@ use Encode;
 use Unicode::Normalize;
 use Text::Unaccent::PurePerl qw(unac_string);
 #use open IO => ":utf8",":std";
+use open IO => ":utf8",":std";
+binmode(STDOUT, ":utf8");
 use utf8;
 use Encode;
 use Text::Unidecode;
@@ -23,8 +25,10 @@ use Text::Unidecode;
 my $version_dev="1.0.1utf8";
 #$debug=1;
 
-$dbh = DBI->connect("DBI:mysql:ROMANES3:127.0.0.1",'root',undef)  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-&sql_update($dbh,"SET NAMES utf8");
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
+
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4} = 1;
 
 
 # Get command line parameter
@@ -143,7 +147,7 @@ next if ($key eq '');
 				if ($debug) {print STDERR "$sql\n";}
 				&sql_update($dbh,$sql);
 				my $sql="UPDATE photo SET site_img=$onsite_img,site_thb=$onsite_thb where id=" .$ref{$key};
-				#if ($debug) {print STDERR "$sql\n";}
+				if ($debug) {print STDERR "$sql\n";}
 				&sql_update($dbh,$sql);
 		} else {
 				# else no change ?
@@ -152,13 +156,13 @@ next if ($key eq '');
 				my $digest = $md5->hexdigest;
 
 				my $sql="select md5 from photo where id=" .$ref{$key};
-				#if ($debug) {print STDERR "$sql\n";}
+				if ($debug) {print STDERR "$sql\n";}
 				my $photo_md5=&sql_get($dbh,$sql);
 	
 				if ($digest ne $photo_md5) {
 						if ($debug) {print STDERR "$key has changed\n";}
 						my $sql="UPDATE photo SET site_img=$onsite_img,site_thb=$onsite_thb,md5='$digest' where id=" .$ref{$key};
-						#if ($debug) {print STDERR "$sql\n";}
+						if ($debug) {print STDERR "$sql\n";}
 						&sql_update($dbh,$sql);
 				}
 		}

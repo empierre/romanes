@@ -20,8 +20,11 @@ my $version_dev="1.0.1utf8decode";
 my $debug=1;
 my $onsite_default=8;
 
-$dbh = DBI->connect("DBI:mysql:ROMANES3:127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-#&sql_update($dbh,"SET NAMES utf8");
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
+
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4} = 1;
+
 
 
 # Get command line parameter

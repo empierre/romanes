@@ -8,14 +8,14 @@ use DBI();
 use Date::Manip;
 use Getopt::Std;
 use Fcntl;
-use Encode;
 #my $encoding = 'utf8';
-#binmode(STDOUT, ":utf8");
+binmode(STDOUT, ":utf8");
 #binmode(STDIN, ":utf8");
 use Unicode::Normalize;
 use Text::Unaccent::PurePerl qw(unac_string);
-#use open IO => ":utf8",":std";
+use open IO => ":utf8",":std";
 use utf8;
+use Encode;
 use Text::Unidecode;
 
 
@@ -27,10 +27,12 @@ $TZ='GMT';
 $Date::Manip::TZ="GMT";
 my $date_now=&UnixDate("today","%Y-%m-%e");
 
-$debug=1;
+#$debug=1;
 
-$dbh = DBI->connect("DBI:mysql:ROMANES3:127.0.0.1",'root',undef,{mysql_enable_utf8 => 1})  or die "Unable to connect to Contacts Database: $dbh->errstr\n";
-&sql_update($dbh,"SET NAMES utf8");
+my $dbh = DBI->connect('DBI:mysql:ROMANES3;localhost','r2','romanes',{mysql_enable_utf8mb4 => 1})  or die "Unable to connect to Database: ". $DBI::errst."\n";
+
+&sql_update($dbh,"SET NAMES utf8mb4");
+$dbh->{mysql_enable_utf8mb4mb4} = 1;
 
 
 
@@ -127,6 +129,7 @@ $description=~s/^"//;
 $description=~s/"$//;
 if ($description) {
 	my $sql="UPDATE strings SET text=\'$description\' WHERE id_l=$comment_id and lang='fr'";
+	open(FI,">res.txt");print FI $sql;close(FI);
 	if ($debug) { print STDERR $sql."\n";}
 	&sql_update($dbh,$sql);
 }

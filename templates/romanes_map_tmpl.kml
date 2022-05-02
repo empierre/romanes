@@ -6,11 +6,11 @@
 		<IconStyle>
 			<scale>0.9</scale>
 			<Icon>
-				<href>http://www.romanes.com/favicon.png</href>
+				<href>https://www.romanes.com/favicon.png</href>
 			</Icon>
 		</IconStyle>
 		<BalloonStyle>
-			<text>&lt;a href=&quot;http://www.romanes.com/&quot;&gt;&lt;img src=&quot;http://www.romanes.com/img/romanes2-logo-white.jpg&quot;&gt;&lt;/a&gt;
+			<text>&lt;a href=&quot;https://www.romanes.com/&quot;&gt;&lt;img src=&quot;https://www.romanes.com/img/romanes2-logo-white.jpg&quot;&gt;&lt;/a&gt;
 			&lt;h2&gt;$[name]&lt;/h2&gt;
 			&lt;font&gt;$[description]&lt;/font&gt;
 			&lt;br&gt;&lt;br&gt;&lt;p&gt;&lt;font color=&quot;#666666&quot;&gt;All content and images &amp;copy; Romanes.com. See article for image credits.&lt;/font&gt;&lt;/p&gt;</text>

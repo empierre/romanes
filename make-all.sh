@@ -139,7 +139,7 @@ perl ./script/make-album.pl -l 115 Epau/ fr fr:en:es:it
 perl ./script/make-album.pl -l 116 Genouille/ fr fr:en:es:it
 perl ./script/make-album.pl -l 117 LaReau/ fr fr:en:es:it
 perl ./script/make-album.pl -l 118 LeMans/ fr fr:en:es:it
-perl ./script/make-album.pl -l 119 StMauricelaClouere/ fr fr:en:es:it
+perl ./script/make-album.pl -l 119 SaintMauricelaClouere/ fr fr:en:es:it
 perl ./script/make-album.pl -l 120 StPierredExideuil/ fr fr:en:es:it
 perl ./script/make-album.pl -l 121 Usson/ fr fr:en:es:it
 perl ./script/make-album.pl -l 122 Conflans/ fr fr:en:es:it
@@ -435,4 +435,30 @@ perl ./script/make-album.pl -l 362 Italia/Ravenna/San_Vital/ fr fr:en:es:it
 perl ./script/make-album.pl -l 363 Italia/Lucca/SanMartino/ fr fr:en:es:it
 perl ./script/make-album.pl -l 364 Italia/Firenze/Baptistere/ fr fr:en:es:it
 perl ./script/make-album.pl -l 365 Italia/Verona/SanZeno/ fr fr:en:es:it
+perl ./script/make-album.pl -l 366 Italia/Torri/ fr fr:en:es:it
+perl ./script/make-album.pl -l 367 Italia/Pisa/Cattedrale/ fr fr:en:es:it
+perl ./script/make-album.pl -l 368 Italia/Sienna/SantaMariaAssunta/ fr fr:en:es:it
+perl ./script/make-album.pl -l 369 Italia/SantAntimo/ fr fr:en:es:it
+perl ./script/make-album.pl -l 370 Italia/Orvieto/Cattedrale/ fr fr:en:es:it
+perl ./script/make-album.pl -l 371 Italia/SantApollinareinClasse/ fr fr:en:es:it
+if [ ! -d Toulouse ]; then
+        mkdir Toulouse
+        chmod 0755 Toulouse
+fi
+perl ./script/make-album.pl -l 372 Toulouse/Saint_Cernin/ fr fr:en:es:it
+perl ./script/make-album.pl -l 373 Toulouse/Saint_Etienne/ fr fr:en:es:it
+perl ./script/make-album.pl -l 374 Saint-Gildas-de-Rhuys/ fr fr:en:es:it
+perl ./script/make-album.pl -l 375 Riom-es-Montagnes/ fr fr:en:es:it
+perl ./script/make-album.pl -l 376 Mauriac/ fr fr:en:es:it
+perl ./script/make-album.pl -l 377 Nantes/ fr fr:en:es:it
+if [ ! -d Belgique ]; then
+       mkdir Belgique
+       chmod 0755 Belgique
+fi
+perl ./script/make-album.pl -l 378 Belgique/Nivelles/ fr fr:en:es:it
+perl ./script/make-album.pl -l 379 Belgique/Villers/ fr fr:en:es:it
+perl ./script/make-album.pl -l 380 Italia/Pavia/ fr fr:en:es:it
+perl ./script/make-album.pl -l 381 Italia/Torino/ fr fr:en:es:it
+perl ./script/make-album.pl -l 382 Italia/Firenze/Cattedrale/ fr fr:en:es:it
+perl ./script/make-album.pl -l 383 Italia/Carrara/ fr fr:en:es:it
 

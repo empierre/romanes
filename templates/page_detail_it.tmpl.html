@@ -5,6 +5,11 @@
 	<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon.png">
 	<link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com">
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="dns-prefetch" href="//ajax.googleapis.com">
+        <link rel="dns-prefetch" href="//www.googletagmanager.com">
+
 	
 	<title>Pierres Romanes: <TMPL_VAR NAME="doc_title"></title>
 	<meta name="Author" content="Romanes.com"/>
@@ -17,10 +22,10 @@
 		<meta name="twitter:title" content="Romanes.com Art roman">
 		<meta name="twitter:description" content="Art et Architecture Romane">
 		<meta name="twitter:image:src" content="/assets/img/Front_Page.jpg">
-		<link rel="preconnect" href="http://www.romanes.com">
+		<link rel="preconnect" href="https://www.romanes.com">
 	<!-- FACEBOOK & LINKEDIN -->
         	<meta property="og:type" content="website">
-		<meta property="og:url" content="http://www.romanes.com/" />
+		<meta property="og:url" content="https://www.romanes.com/" />
 		<meta property="og:title" content="<TMPL_VAR NAME="doc_title">" />
 		<meta property="og:description" content="<TMPL_VAR NAME="doc_description">" />
 		<meta property="og:site_name" content="Romanes.com" />
@@ -29,16 +34,19 @@
 		<meta property="fb:page_id" content="219631694779739" />
 		<meta property="fb:app_id" content="240279752710069" />
 		<!-- GOOGLE PLUS -->
-		<meta itemprop="url" content="http://www.romanes.com"/>
+		<meta itemprop="url" content="https://www.romanes.com"/>
 		<meta itemprop="name" content="<TMPL_VAR NAME="doc_title">"/>
 		<meta itemprop="description" content="<TMPL_VAR NAME="doc_description">"/>
 		<meta itemprop="image" content="/assets/img/Front_Page.jpg"/>
  <!-- END SOCIAL NETWORK SNIPPETS -->		
 
-<TMPL_IF NAME="lang_fr"> <link rel="alternate" hreflang="fr" href="http://www.romanes.com<TMPL_VAR NAME="doc_local_fr">" /></TMPL_IF>
-<TMPL_IF NAME="lang_es"> <link rel="alternate" hreflang="es" href="http://www.romanes.com<TMPL_VAR NAME="doc_local_es">" /></TMPL_IF>
-<TMPL_IF NAME="lang_it"> <link rel="alternate" hreflang="it" href="http://www.romanes.com<TMPL_VAR NAME="doc_local_it">" /></TMPL_IF>
-<TMPL_IF NAME="lang_en"> <link rel="alternate" hreflang="en" href="http://www.romanes.com<TMPL_VAR NAME="doc_local_en">" /></TMPL_IF>
+<TMPL_IF NAME="lang_fr">                <link rel="alternate" hreflang="x-default" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_fr">" />
+        <link rel="canonical" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_fr">" />
+                <link rel="alternate" hreflang="fr" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_fr">" /></TMPL_IF>
+
+<TMPL_IF NAME="lang_es"> <link rel="alternate" hreflang="es" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_es">" /></TMPL_IF>
+<TMPL_IF NAME="lang_it"> <link rel="alternate" hreflang="it" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_it">" /></TMPL_IF>
+<TMPL_IF NAME="lang_en"> <link rel="alternate" hreflang="en" href="https://www.romanes.com<TMPL_VAR NAME="doc_local_en">" /></TMPL_IF>
 
 
 		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -50,14 +58,14 @@
 		<link href="/assets/css/r3b.css" rel="stylesheet" /> 
         
     <!--     Fonts and icons     -->
-		<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
+		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
 		<link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Open+Sans:400,300' rel='stylesheet' type='text/css'>  
 		<link href="/assets/css/pe-icon-7-stroke.css" rel="stylesheet" />  
-		<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 	<meta name="theme-color" content="#EEEEEE">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#EEEEEE">
@@ -69,12 +77,12 @@
 	<meta name="PBO.auth" content="b6c674368c270ffc8b2d8a07c43d34ac" >
 	<meta name="edgeio-key" content="3c26f18b0a2a8c61beade2c6cffdbab7ab5da8b9" >
 	<meta name="google-site-verification" content="7o56YVir2DjaDgd2-vcJYKbxA_2An5k3tL8GZX5-UHY" />
-	<meta name="pics-label" content='(pics-1.1 "http://www.icra.org/ratingsv02.html" comment "ICRAonline FR v2.0" l gen true for "http://www.romanes.com" r (nz 1 vz 1 lz 1 oz 1 cz 1) "http://www.rsac.org/ratingsv01.html" l gen true for "http://www.romanes.com" r (n 0 s 0 v 0 l 0))' >
+	<meta name="pics-label" content='(pics-1.1 "https://www.icra.org/ratingsv02.html" comment "ICRAonline FR v2.0" l gen true for "https://www.romanes.com" r (nz 1 vz 1 lz 1 oz 1 cz 1) "https://www.rsac.org/ratingsv01.html" l gen true for "https://www.romanes.com" r (n 0 s 0 v 0 l 0))' >
 	<meta name="document-classification" content="internet">
 	<meta name="document-type" content="Public">
 	<meta name="document-rating" content="Safe for Kids">
 	<meta name="rating" content="General">
-	<meta name="copyright" content="Copyright (c) 2000-2017 Romanes.com. All Rights Reserved.">
+	<meta name="copyright" content="Copyright (c) 2000-2022 Romanes.com. All Rights Reserved.">
 	<meta name="rights" content="/copyright.html">
 	<meta name="language" content="fr, eng, es, it">
 
@@ -621,9 +629,9 @@ $(document).ready(function(){
 
 <script type="application/ld+json">
 {
-    "@context": "http://schema.org",
+    "@context": "https://schema.org",
     "@type": "NewsArticle",
-    "mainEntityOfPage": "http://google.com/article",
+    "mainEntityOfPage": "https://google.com/article",
     "headline": "<TMPL_VAR NAME="photo_city">",
     "datePublished": "2018-01-30T12:02:41Z",
     "dateModified": "2018-01-30T12:02:41Z",
@@ -637,18 +645,18 @@ $(document).ready(function(){
       "name": "romanes.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "http://romanes.com/images/Front_Page.jpg"
+        "url": "https://romanes.com/images/Front_Page.jpg"
       }
     },
     "image": {
       "@type": "ImageObject",
-      "url": "http://www.romanes.com<TMPL_VAR NAME="photo_photo">"
+      "url": "https://www.romanes.com<TMPL_VAR NAME="photo_photo">"
     }
   }
 </script>
 
 
-<script src="/assets/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Questo sito utilizza i cookie per offrirti il miglior servizio. Continuando la navigazione, accetti l'uso dei cookie.', 'Acetto', 'Saperne di più', 'http://www.romanes.com/copyright.html');});</script>
+<script src="/assets/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Questo sito utilizza i cookie per offrirti il miglior servizio. Continuando la navigazione, accetti l'uso dei cookie.', 'Acetto', 'Saperne di più', 'https://www.romanes.com/copyright.html');});</script>
 
 
 

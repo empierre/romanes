@@ -22,18 +22,18 @@ my $version_dev="3.0.0";
 my $local_tmpl="/mnt/data/web/prod/r2/templates/";
 
 my %web_host_album=(
-        "1"=>"http://www.romanes.com/",
-        "2"=>"http://www.romanes.com/",
-        "3"=>"http://www.romanes.com/",
-        "4"=>"http://www.romanes.com/",
-        "5"=>"http://www.romanes.com/",
-        "6"=>"http://www.romanes.com/",
-        "7"=>"http://www.romanes.com/",
-        "8"=>"http://www.romanes.com/",
-        "9"=>"http://www.romanes.com/",
-        "10"=>"http://www.romanes.com/",
-        "11"=>"http://www.romanes.com/",
-        "12"=>"http://www.romanes.com/"
+        "1"=>"https://www.romanes.com/",
+        "2"=>"https://www.romanes.com/",
+        "3"=>"https://www.romanes.com/",
+        "4"=>"https://www.romanes.com/",
+        "5"=>"https://www.romanes.com/",
+        "6"=>"https://www.romanes.com/",
+        "7"=>"https://www.romanes.com/",
+        "8"=>"https://www.romanes.com/",
+        "9"=>"https://www.romanes.com/",
+        "10"=>"https://www.romanes.com/",
+        "11"=>"https://www.romanes.com/",
+        "12"=>"https://www.romanes.com/"
 );
 my $reference_onsite=8;
 
@@ -74,7 +74,7 @@ while ($sth->fetch()) {
 	my $thb_fic=&sql_get($dbh2,"select photo.thumb_file from photo,album_photo where album_photo.album_id=$album_id and photo.id=album_photo.photo_id and album_photo.display_order=1");
 
 	if ($thb_fic) {
-		print "\t<thumb>http://www.romanes.com/media/thumb/$thb_fic</thumb>\n";
+		print "\t<thumb>https://www.romanes.com/media/thumb/$thb_fic</thumb>\n";
 	}	
 
     print "</site>\n";

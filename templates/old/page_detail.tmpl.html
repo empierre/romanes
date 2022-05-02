@@ -1,0 +1,156 @@
+<!-- Start Content -->
+<div id="pagecell2">
+
+<div id="content-one2">
+<table border="0" cellpadding="2" cellspacing="2" width="100%"><tbody>
+	<tr><td valign="top" width="260px">
+
+<!-- RIGHTtable -->
+    <div class="boxheader" style=""><a> <h1> <TMPL_VAR NAME="album_title"></h1> </a></div>
+<!-- /RIGHTtable -->
+
+<!-- RIGHTtable -->
+	<div class="boxheader"><h1>Lieu :<TMPL_VAR NAME="photo_place"></h1>,&nbsp; <TMPL_VAR NAME="photo_city"></div>
+	<div><TMPL_VAR NAME="photo_comment"></div>
+<!-- /RIGHTtable -->
+
+<TMPL_IF NAME="map">
+<!-- RIGHTtable -->
+
+<br/><center>        <a href="<TMPL_VAR NAME="map_url">"><img src="<TMPL_VAR NAME="map_img_low">" title="plan" alt="plan"/> </a><br/><font size="-1" class="GlobalNavBlack"><a href="<TMPL_VAR NAME="map_source_url">">source:<TMPL_VAR NAME="map_source_text"></a></font></center>
+
+<!-- /RIGHTtable -->
+</TMPL_IF>
+
+
+<!-- RIGHTtable -->
+    <div class="boxheader" style="border-top-width: 1px; border-top-style: solid; border-top-color: #d5d5d5; clear: left; margin-top: 20px; padding-top: 20px;"><a> <h1> Un livre...</h1></a></div>
+   <table cellspacing="0" cellpadding="0" width="100%">
+   <tbody><tr><td class="boxtext" align="center" valign="middle">
+<center>
+<!-- AdsNews -->
+<div id="book_dyn"></div>
+<!-- /AdsNews-->
+</center>
+</td></tr></tbody></table>
+<!-- /RIGHTtable -->
+
+<!-- RIGHTtable -->
+    <div class="boxheader" style="border-top-width: 1px; border-top-style: solid; border-top-color: #d5d5d5; clear: left; margin-top: 20px; padding-top: 20px;"><a> <h1> Articles et nouveautés</h1> </a></div>
+   <table cellspacing="0" cellpadding="0" width="100%">
+	<tbody><tr><td class="boxlist" width="50%">
+<!-- AdsNews -->
+<div id="rss_hist2"></div>
+<!-- /AdsNews-->
+<div style="border-top-width: 1px; border-top-style: solid; border-top-color: #d5d5d5; clear: left;"/>
+<!-- AdsNews -->
+<div id="rss_hist1"></div>
+<!-- /AdsNews -->
+</td></tr></tbody></table>
+<!-- /RIGHTtable -->
+
+<!-- RIGHTtable -->
+<div>
+	<TMPL_IF NAME="photo_ref">SR: <TMPL_VAR NAME="photo_ref"><br/></TMPL_IF>
+	<TMPL_VAR NAME="photo_res"><br/>
+	Page generated on: <TMPL_VAR NAME="date_now">
+</div>
+<!-- /RIGHTtable -->
+
+<!-- RIGHTtable -->
+<div class="boxheader" style="border-top-width: 1px; border-top-style: solid; border-top-color: #d5d5d5; clear: left; margin-top: 20px; padding-top: 20px;"><h1> <a href="/bookmarks_fr.html">Bookmarks</a></h1></div>
+   <table cellspacing="0" cellpadding="0" width="100%">
+	<tbody><tr><td class="boxtext">
+				<a href="/bookmarks_fr.html">Accéder à tous les liens</a>
+				<ul  class="boxtext">
+<li>    <a href="http://www.art-roman.net?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Art-roman.net</a><br/></li>
+<li>    <a href="http://architecture.relig.free.fr?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Architecture Religieuse</a><br/></li>
+<li>    <a href="http://terres-romanes.lu?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Terres Romanes</a><br/></li>
+<li>    <a href="http://notes.romanes.free.fr?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Notes Romanes</a><br/></li>
+<li>    <a href="http://pmarecha.free.fr/roman/indexr.htm?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Art Roman en Noir et Blanc</a><br/></li>
+<li>    <a href="http://www.bourgogneromane.com?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Bourgogne romane</a><br/></li>
+<li>    <a href="http://www.amigosdelromanico.org?utm_source%3Dromanes%26utm_medium%3DCPC%26utm_campaign%3Dtheme_roman_fr">Amigos del Romanico (ES)</a><br/></li>
+
+<li>    <a href="http://www.claustro.com">Claustro (ES)</a><br/></li>
+<li>    <a href="http://www.romanicoennavarra.info/">Romanico en Navarra (ES)</a><br/></li>
+
+</ul>
+</td></tr>
+</tbody></table>
+<!-- /RIGHTtable -->
+</td>
+
+<td style="width:5px;"></td>
+<td style="border-left-width:1px;border-left-style:solid;border-left-color: #d5d5d5;width:5px;">
+&nbsp;
+</td>
+
+<td align="left" valign="top" style="padding:0;">
+
+<!-- Main two-tier -->
+
+<div align="center">
+<a href="<TMPL_VAR NAME="next">">
+<img id="main_pic" onload="thumb_resize('main_pic')" border="0" src="<TMPL_VAR NAME="photo_url">" title="<TMPL_VAR NAME="doc_title">" alt="<TMPL_VAR NAME="doc_title">"/>
+</a></div>
+
+<!-- next/prev -->
+<center><table width="100%" border="0"><tbody><tr> 
+    <td height="19" valign="middle" align="center" width="42%"> 
+      <div align="right"><font size="1"><a href="<TMPL_VAR NAME="prev">"><img src="http://www.romanes.com/img/bts_n_05.gif" width="79" height="14" border="0" title="précédent" alt="précédent"/></a></font></div>
+      <div align="right"></div>
+      <div align="right"></div>
+    </td>
+
+    <td height="19" valign="middle" align="center" width="15%"> <font size="1"><a href="<TMPL_VAR NAME="index">"><img src="http://www.romanes.com/img/b_n_thumbnail.gif" width="95" height="13" border="0" title="index" alt="index"/></a></font></td>
+    <td height="19" valign="middle" align="center" width="43%"> 
+      <div align="left"><font size="1"><a href="<TMPL_VAR NAME="next">"><img src="http://www.romanes.com/img/bts_n_07.gif" width="79" height="14" border="0" title="suivant" alt="suivant"/></a></font></div>
+    </td>
+  </tr></tbody></table></center>
+<!-- /next/prev -->
+
+<!-- RIGHTtable -->
+               <div class="boxheader"><h1>&nbsp;Liens externes sur ce site...</h1></div>
+<ul class="boxtext">
+<TMPL_LOOP NAME="photo_related">
+<li><a href="<TMPL_VAR NAME="photo_related_link">"> <TMPL_VAR NAME="photo_related_description"></a>
+<TMPL_IF NAME="photo_related_lang_fr"><img src="http://www.romanes.com/img/flag_french.gif" alt="fr"/></TMPL_IF><TMPL_IF NAME="photo_related_lang_en"><img src="http://www.romanes.com/img/flag_english.gif" alt="en"/></TMPL_IF><TMPL_IF NAME="photo_related_lang_de"><img src="http://www.romanes.com/img/flag_german.gif" alt="de"/></TMPL_IF><TMPL_IF NAME="photo_related_lang_es"><img src="http://www.romanes.com/img/flag_spanish.gif" alt="es"/></TMPL_IF><TMPL_IF NAME="photo_related_lang_pt"><img src="http://www.romanes.com/img/flag_portugese.gif" alt="pt"/></TMPL_IF><br/></li>
+</TMPL_LOOP>
+</ul>
+<div class="boxheader" style="border-top-width: 1px; border-top-style: solid; border-top-color: #d5d5d5; clear: left; margin-top: 20px; padding-top: 20px;">&nbsp;</div>
+<table border="0" width="100%">
+    <tr>
+		<td class="boxtext">
+<div class="boxheader"><h1>&nbsp;Dans la même région...</h1></div>
+<ul>
+<TMPL_LOOP NAME="site_region_id">
+<li><a href="<TMPL_VAR NAME="site_url">"> <TMPL_VAR NAME="site_title"></a></li>
+</TMPL_LOOP>
+</ul>
+		</td>
+		<td class="boxtext">
+<div class="boxheader"><h1>&nbsp;Dans les alentours...</h1></div>
+<TMPL_LOOP NAME="site_region_next">
+<p><TMPL_VAR NAME="site_region_next_name"></p>
+<ul>
+<TMPL_LOOP NAME="site_region_next_loop">
+<li><a href="<TMPL_VAR NAME="site_url">"> <TMPL_VAR NAME="site_title"></a></li>
+</TMPL_LOOP>
+</ul>
+</TMPL_LOOP>
+		</td>
+	</tr></tbody></table>
+<!-- /RIGHTtable -->
+
+			
+<!-- /Main two-tier -->
+
+</td>
+</tr>
+</tbody></table>
+
+<script type="text/javascript" src="http://www.romanes.com/js/dyn_pages.js"> </script>
+</div>
+<!-- End Content -->
+
+

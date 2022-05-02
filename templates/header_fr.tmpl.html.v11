@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title><TMPL_VAR NAME="doc_title"></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"/>
+	<meta content="<TMPL_VAR NAME="doc_title">" name="title">
+	<meta content="<TMPL_VAR NAME="doc_description">" name= "description">
+	<meta content="<TMPL_VAR NAME="doc_keywords">" name= "keywords">
+
+<meta name="ROBOTS" content="ALL"/>
+    <meta name="publicationDate" content=""/>
+    <meta name="reply-to" content="webmaster@romanes.com"/>
+    <meta name="contributor" content=""/>
+    <meta name="copyright" content="Copyright (c) 2001 Romanes.com. All Rights
+Reserved"/>
+    <meta name="rights" content="https://www.romanes.com/copyright"/>
+    <meta name="language" content="fr, eng, es"/> 
+    <meta name="resource-type" content="document"/>
+    <meta name="type" content="Unrefereed Article"/>
+    <meta name="rating" content="General"/>
+    <meta name="publisher" content="webmaster at romanes.com"/>
+    <meta name="source" content="webmaster at romanes.com"/>
+    <meta name="Classification" content="commercial, non commercial"/>
+    <meta name="PUBLISHED_DATE" content="Wen, 1 Apr 2000 01:00:00 PDT"/>
+    <meta name="content-language" content="F, E"/>
+    <meta http-equiv="pics-label" content='(pics-1.1 "https://www.icra.org/ratingsv02.html" comment "ICRAonline FR v2.0" l gen true for "https://www.romanes.com" r (nz 1 vz 1 lz 1 oz 1 cz 1) "https://www.rsac.org/ratingsv01.html" l gen true for "https://www.romanes.com" r (n 0 s 0 v 0 l 0))'>
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="expires" content="Never"/>
+    <meta http-equiv="expires" content="0"/>
+    <meta http-equiv="revisit-after" content="10 days"/>
+    <meta http-equiv="pragma" content="no-cache"/>
+    <meta http-equiv="cache-control" content="no-cache">
+    <meta name="robots" content="INDEX, FOLLOW"/>
+	<link href="/css/styles2.css" rel="stylesheet" type="text/css">
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.png" type="image/png" />
+</head>
+<body>
+<!-- begin banner -->
+<table border="0" cellpadding="0" summary="" cellspacing="0" width="100%">
+<!-- Start Ad bar -->
+<tbody>
+<!-- start global header -->
+<tr>
+<td><!-- Global romanes.com header -->
+<div align="left">
+<table bgcolor="#000000" border="0" cellpadding="6" cellspacing="0" summary=""
+width="100%">
+<tbody>
+<tr>
+<td>
+<table bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" summary=""
+width="100%">
+<tbody>
+<tr>
+<td valign="bottom">
+<div><a href="/" title=
+"Clicker pour atteindre le sommaire de Romanes.com."><img alt=
+"romanes.com logo" border="0" height="24" src=
+"/images/meta_logo.gif" width="260"></a></div>
+</td>
+</tr>
+</tbody></table>
+
+<table bgcolor="#000000" border="0" cellpadding="0" cellspacing="0" width="100%"summary="">
+<tbody>
+<tr valign="bottom">
+<td>
+<div class="GlobalNavBlack" style="MARGIN-LEFT: 25px">
+<a href="/" title="Cliquer pour atteindre l'accueil de Romanes.com">Home</A> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/search.html" title="Cliquer pour rechercher des informations sur le site">Chercher</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/news" title="Cliquer pour atteindre les nouveautés de ce site">Nouveautés</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/news/annonce.html" title="Cliquer pour atteindre les annonces de ce site">Annonces</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/biblio/" title="Cliquer pour visiter la bibliothèque de Romanes.com">Bibliothèque</A>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="/news/annonce_fr.html" title="Cliquer pour consulter les annonces de Romanes.com">Annonces</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+<a href="https://romanes.com/cgi-bin/mailman/listinfo/roman" title="Cliquer pour vous inscrire à la mailing liste de Romanes.com">Newsletter</a>&nbsp;&nbsp;&nbsp;&nbsp;
+</div></td>
+<td align="right">
+<div align="right" class="GlobalNavBlack" style="MARGIN-RIGHT: 5px; MARGIN-TOP: 4px">
+	<!-- bar ext -->
+
+<TMPL_IF NAME="lang_fr"><a href="<TMPL_VAR NAME="lang_fr">"><img
+src="/img/flag_french.gif" border="0"></a></TMPL_IF>
+<TMPL_IF NAME="lang_en"><a href="<TMPL_VAR NAME="lang_en">"><img
+src="/img/flag_english.gif" border="0"></a></TMPL_IF>
+<TMPL_IF NAME="lang_es"><a href="<TMPL_VAR NAME="lang_es">"><img
+src="/img/flag_spanish.gif" border="0"></a></TMPL_IF>
+
+
+</div></td></tr></tbody></table>
+</td></tr></tbody></table></div>
+<!-- end header --></td></tr>
+<!-- end global header --></tbody></table>
+<!-- end banner -->
+

@@ -1,0 +1,17 @@
+# Ce fichier est un fichier de configuration example du programme merge_ttpoi.pl
+
+[MacDonald]
+getpoi ov2 1 http://www.gpspassion.com/poi/Mac_Donalds.ov2
+getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/McDonald_s.ov2
+getzip http://www.tomtom.com/support/ce/support/ov2/mcdonalds_france.zip
+getpoi ov2 1 file:POIs/www.tomtom.com/support/ce/support/ov2/mcdonalds_france.ov2
+deldup 200m
+savepoi ov2 ov2\macdonald.ov2
+
+[Cinemas]
+getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Cinema.ov2
+getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Gaumont.ov2
+getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Pathe.ov2
+getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/UGC.ov2
+deldup 100m
+savepoi ov2 ov2\cinemas.ov2

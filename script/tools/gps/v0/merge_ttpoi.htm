@@ -1,0 +1,196 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<title>Document sans titre</title>
+<style type="text/css">
+<!--
+.MainTitre {
+	font-size: 36px;
+}
+.motclé {
+	font-family: "Courier New", Courier, mono;
+	font-weight: bold;
+	text-decoration: underline;
+}
+-->
+</style>
+</head>
+
+<body>
+<p class="MainTitre">Concatenation de POIs</p>
+<p>Ce programme a pour objet de concatener des fichiers de POIs utilis&eacute;s entre autre par Tomtom Navigator 2/3.</p>
+<p>Les POIs sont des points d'interets sur des th&egrave;mes divers, localis&eacute;s par leurs coordonn&eacute;es GPS (latitude, longitude), et associ&eacute;s eventuellement &agrave; une description. <BR>
+Vous trouverez toute l'information concernant les POIs <a href="http://www.gpspassion.com/forumsen/forum.asp?FORUM_ID=49">ici</a>. </p>
+<p>J'ai &eacute;crit ce programme pour les raisons suivantes :</p>
+<ul>
+  <li> Il existe de nombreuses bases de donn&eacute;es sur Internet, sur des th&egrave;mes identiques. Par exemple, une liste des MacDonalds fran&ccedil;ais existe de fa&ccedil;on ind&eacute;pendante sur plusieurs sites, chaque liste &eacute;tant mise &agrave; jour de fa&ccedil;on ind&eacute;pendante. Une liste des radars peut &eacute;galement &ecirc;tre constitu&eacute;e &agrave; partir de plusieurs projets distincts. </li>
+  <li>Il existe sur certains sites des listes d&eacute;taill&eacute;es de POIs, mais trop d&eacute;taill&eacute;es &agrave; mon gout. Par exemple, il existe des listes d'enseignes de cin&eacute;mas (Path&eacute;, Gaumont...), alors qu'une seule cat&eacute;gorie &quot;Cin&eacute;mas&quot; me conviendrait mieux. </li>
+  <li>Depuis la version 3 de Tomtom Navigator, une nouvelle carte est apparu : la carte &quot;Major Road of Europe&quot;. Il peut &ecirc;tre utile de consituer automatiquement des bases de POIs pour cette carte, issus de la fusion des diff&eacute;rentes projets nationaux. Ce programme peut &ecirc;tre utilis&eacute; &agrave; cette fin, permettant la g&eacute;n&eacute;ration automatique de ces bases.</li>
+</ul>
+<p>D'autres programme permettent d&eacute;j&agrave; de fusionner des bases (POI edit, POI manager...). Toutefois, ils fonctionnent tous &agrave; partir d'une interface graphique, la fusion &eacute;tant effectu&eacute;e manuellement, et est donc fastidieuse. </p>
+<p>J'avais dans l'id&eacute;e d'un programme fonctionnant en batch, une fois par jour de fa&ccedil;on automatique et autonome. Ainsi, une fois le programme configur&eacute; et &quot;sch&eacute;dul&eacute;&quot; (crontab linux, planificateur de t&acirc;ches windows), il ne reste plus qu'&agrave; venir chercher r&eacute;guli&egrave;rement les fichiers dans le r&eacute;pertoire cible, et les copier dans le r&eacute;pertoire carte du Pocket PC. Plus besoin d'aller voir r&eacute;gulierement sur chaque site si le fichier a &eacute;t&eacute; mis &agrave; jour. Vous &ecirc;tes assur&eacute; d'avoir dans le r&eacute;pertoire cible une version &agrave; jour des bases. <br>
+  Ensuite, ce programme devait tourner sur ma machine Linux, connect&eacute; &agrave; internet. Le programme a donc &eacute;t&eacute; &eacute;crit en Perl, permettant de le faire tourner sous Windows comme sous Linux.<br>
+  Sous Windows, il sera necessaire d'installer un interpreteur Perl.
+Je vous conseille <a href="http://aspn.activestate.com/ASPN/Perl">ActivePerl</a> (gratuit). </p>
+<p>Les fonctions actuellement support&eacute;es sont : </p>
+<ul>
+  <li>support des formats &quot;asc&quot; et &quot;ov2&quot; en entr&eacute;e et et sortie</li>
+  <li>fusion de fichiers</li>
+  <li>d&eacute;tection de doublon, bas&eacute; sur un rayon (en m&egrave;tres ou en yard)</li>
+  <li>exclusion de POIs au moment de la fusion</li>
+  <li>g&eacute;n&eacute;ration de statistiques sur l'&eacute;loignement des POIs </li>
+</ul>
+<p>&nbsp;</p>
+<h3>Fichier de configuration </h3>
+<p>Le programme fonctionne &agrave; partir d'un fichier de configuration, compos&eacute; de mots cl&eacute;s.<br>
+Voici un exemple de fichier de configuration :</p>
+<pre>  [MacDonald]
+  getpoi ov2 1 http://www.gpspassion.com/poi/Mac_Donalds.ov2
+  getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/McDonald_s.ov2
+  getzip http://www.tomtom.com/support/ce/support/ov2/mcdonalds_france.zip
+  getpoi ov2 1 file:POIs/www.tomtom.com/support/ce/support/ov2/mcdonalds_france.ov2
+  deldup 200m
+  savepoi ov2 ov2\macdonald.ov2
+  
+  [Cinemas]<br>  getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Cinema.ov2<br>  getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Gaumont.ov2<br>  getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/Pathe.ov2<br>  getpoi ov2 1 http://poiplace.oabsoftware.nl/Overlays/France/UGC.ov2<br>  deldup 100m<br>  savepoi ov2 ov2\cinemas.ov2
+ </pre>
+<p>Ce fichier permet de cr&eacute;er deux fichiers POIs au format ov2 (macdonald et cin&eacute;mas). Le premier est compos&eacute; de 3 sources en provenance de sites distincts. Le second permet de fusionner des bases d'enseignes diff&eacute;rentes.<br>
+Les donn&eacute;es sont charg&eacute;es en m&eacute;moire, jusqu'au moment o&ugrave; ils seront sauvegard&eacute;s. </p>
+<h3>Syntaxe du fichier de configuration</h3>
+<p>Le fichier de configuration est un fichier texte, &agrave; &eacute;diter manuellement.<br>
+  Les lignes commen&ccedil;ants par le caract&egrave;re # sont ignor&eacute;es. Les lignes blanches sont ignor&eacute;es.<br>
+  Le mot cl&eacute; <span class="motcl&eacute;">suspend</span> permet de suspendre le traitement jusqu'au prochain mot cl&eacute; <span class="motcl&eacute;"><strong>resume</strong></span>. Cela est utile en phase de mise au point d'un fichier de configuration, pour exclure une partie du traitement d&eacute;j&agrave; mis au point. En gros, cela permet de mettre en commentaire tout un bloc de lignes. <br>
+  Le mot cl&eacute; <span class="motcl&eacute;">exit</span> permet d'arreter le traitement &agrave; ce point, en ignorant les lignes qui suivent.</p>
+<p>Un fichier de configuration permet de g&eacute;rer plusieurs cat&eacute;gories. Une nouvelle cat&eacute;gorie est d&eacute;finie par un debut de chapitre :<br>
+  [titre]<br>
+Le nom fourni comme titre est (pour le moment) totalement libre, et consitue une zone de commentaire. La d&eacute;finition d'une nouvelle cat&eacute;gorie purge la m&eacute;moire des POIs pr&eacute;alablement charg&eacute;s. </p>
+<p><span class="motcl&eacute;">getpoi</span></p>
+<p>Ce mot cl&eacute; permet de t&eacute;l&eacute;charger et de lire en m&eacute;moire un fichier contenant des POIs. Les formats ov2 et asc sont support&eacute;s. La lecture du fichier peux se faire depuis internet (url de type http://) ou depuis un disque local (url de type file:). Dans le cas d'un fichier sur internet, le fichier sera stock&eacute; de fa&ccedil;on permanente sur le disque local apr&egrave;s traitement. Cela permettra d'&eacute;viter de le t&eacute;l&eacute;charger lors du prochain traitement si celui-n'a pas &eacute;t&eacute; modifi&eacute;. Cela permet &eacute;galement d'en avoir une copie locale si jamais le fichier est indisponible lors du prochain traitement (fichier relog&eacute;, r&eacute;seau HS...).</p>
+<p>Il est &eacute;galement possible de preciser comment le champ description du POI sera rensign&eacute;. Le mode 1 devrait &ecirc;tre utilis&eacute; dans la majorit&eacute; des cas. </p>
+<pre>Syntaxe :<br><strong>  getpoi format mode url</strong>
+
+avec 
+
+  format : ov2 | asc
+  mode   : 0   le champ description est laiss&eacute; tel quel
+           1   le champ description, s'il est vide, est renseign&eacute; avec le nom du fichier
+           2   le champ descrpition est remplac&eacute; par le nom du fichier (dans tous les cas)
+           3   le nom du fichier est concaten&eacute; au champ description existant
+           4   le champ description est effac&eacute;
+  url    : http://www.monsite.fr/file.ov2
+           file:mydir/file.ov2
+           file:c:/file.asc
+       A noter l'utilsisation du caractere /, m&ecirc;me sous Windows.
+
+exemple :
+  getpoi ov2 1 http://www.monsite.fr/file.ov2
+  getpoi asc 0 http://www.monsite.fr/file.asc</pre>
+<p class="motcl&eacute;">getzip</p>
+<p>Ce mot cl&eacute; permet de t&eacute;l&eacute;charger et de dezipper un fichier &agrave; partir d'une URL. De nombreuses bases de POIs &eacute;tant disponibles sur internet sous forme de fichier ZIP (1 fichier ov2 et un fichier bmp le plus souvent), ce mot cl&eacute; permet d'effectuer le traitement de download/unzip dans le cadre du traitement batch.</p>
+<p>Ce mot cl&eacute; doit &ecirc;tre suivi d'un getpoi, car le chargement en m&eacute;moire des POIs n'est pas assur&eacute;.</p>
+<p>L'op&eacute;ration de dezippage est effectu&eacute; par un programme externe. Sous linux, l'utilitaire unzip est utilis&eacute;. Sous Windows, le binaire unzip issu du projet cygwin est utilis&eacute;, et joint au package. </p>
+<pre>Syntaxe :<br><strong>  getzip url</strong>
+
+avec 
+
+  url    : http://www.monsite.fr/file.zip
+           file:mydir/file.zip
+       A noter l'utilsisation du caractere /, m&ecirc;me sous Windows.
+
+exemple :
+  getzip http://www.monsite.fr/file.zip
+  getpoi ov2 1 file:POIs/www.monsite.fr/file/file.ov2</pre>
+<p class="motcl&eacute;">getexcept</p>
+<p>Ce mot cl&eacute; permet de t&eacute;l&eacute;charger et de lire en m&eacute;moire un fichier contenant des POIs qui seront g&eacute;r&eacute;s comme des exceptions. Cela signifie que ces POIs seront supprim&eacute;s de la liste des POIs sauvegard&eacute;s.<br>
+Les formats ov2 et asc sont support&eacute;s. La lecture du fichier peux se faire depuis internet (url de type http://) ou depuis un disque local (url de type file:). Dans le cas d'un fichier sur internet, le fichier sera stock&eacute; de fa&ccedil;on permanente sur le disque local apr&egrave;s traitement. Cela permettra d'&eacute;viter de le t&eacute;l&eacute;charger lors du prochain traitement si celui-n'a pas &eacute;t&eacute; modifi&eacute;. Cela permet &eacute;galement d'en avoir une copie locale si jamais le fichier est indisponible lors du prochain traitement (fichier relog&eacute;, r&eacute;seau HS...).</p>
+<pre>Syntaxe :
+ <strong> getpoi format mode url</strong>
+
+avec 
+  format : ov2 | asc
+  url : http://www.monsite.fr/file.ov2
+        file:mydir/file.ov2 
+        file:c:/file.asc
+    A noter l'utilsisation du caractere /, m&ecirc;me sous Windows.
+
+exemple : 
+  getexcept ov2 http://www.monsite.fr/exceptfile.ov2
+  getexcept asc http://www.monsite.fr/exceptfile.asc
+</pre>
+<p>Le mot cl&eacute; <span class="motcl&eacute;">getexcept</span> doit &ecirc;tre utilis&eacute; en combinaison avec <span class="motcl&eacute;">delexcept</span>. </p>
+<p>    <span class="motcl&eacute;">delexcept</span></p>
+<p>Ce mot cl&eacute; permet d'appliquer les exceptions charg&eacute;es en m&eacute;moire, c'est &agrave; dire de supprimer les POIs d'exception de la liste des POIs charg&eacute;s en m&eacute;moire par <span class="motcl&eacute;">getpoi</span>. Un rayon d'action peut &ecirc;tre pr&eacute;cis&eacute;, permettant de supprimer les POIs proches de l'exception.</p>
+<p>Ce traitement doit &ecirc;tre appliqu&eacute; avant la sauvegarde du fichier avec <span class="motcl&eacute;">savepoi</span>.</p>
+<pre>Syntaxe :
+ <strong> delexcept rayon</strong>
+
+avec 
+  rayon : le rayon, exprim&eacute; en m&egrave;tres (m) ou en yard (y)
+   
+exemple : 
+  delexcept 25m
+  delexcept 33y</pre>
+<p><span class="motcl&eacute;">deldup</span></p>
+<p>Ce mot cl&eacute; permet de supprimer les POIs en double. Les POIs en double sont ceux se situant dans un m&ecirc;me cercle, dont le rayon est fourni en param&egrave;tre. Un rayon de 0 signifie que les 2 POIs ont exactement les m&ecirc;me coordonn&eacute;es longitude/latitude.<br>Si les decriptions des POIs diff&egrave;rent, elles seront concaten&eacute;es, c'est &agrave; dire que la description du POI restant sera compos&eacute; des descriptions des deux POIs proches.</p>
+<p>Ce traitement doit &ecirc;tre appliqu&eacute; avant la sauvegarde du fichier avec <span class="motcl&eacute;">savepoi</span>.</p>
+<pre>Syntaxe :
+ <strong> deldup rayon</strong>
+
+avec 
+  rayon : le rayon, exprim&eacute; en m&egrave;tres (m) ou en yard (y)
+   
+exemple : 
+  deldup 25m
+  deldup 33y</pre>
+<p><span class="motcl&eacute;">savestat</span></p>
+
+<p>Ce mot cl&eacute; permet de g&eacute;n&eacute;rer des statistiques d'&eacute;loignements des POIs en m&eacute;moire. Il est ainsi possible de savoir combien de points sont &eacute;loign&eacute;s de moins de 100m par exemple. Le r&eacute;sultat est affich&eacute;, ou sauvegard&eacute; dans un fichier si celui-ci est pr&eacute;cis&eacute;. Cette option peut &ecirc;tre utilis&eacute;e avant deldup, pour &eacute;valuer le rayon le plus appropri&eacute;.</p>
+<pre>Syntaxe :
+ <strong> savestat distance_1 ... distance_n [filename</strong>]
+
+avec 
+  distance_n : le distance entre 2 points, exprim&eacute; en m&egrave;tres (m) ou en yard (y)
+  filename  : nom d'un fichier local 
+
+exemple : 
+  savestat 10m 20m 50m 100m 200m 500m 1000m
+  savestat 10m 20y 50m c:\stat.txt
+</pre>
+
+<p><span class="motcl&eacute;">savepoi</span></p>
+<p>Ce mot cl&eacute; permet de sauvegarder les POIs pr&eacute;alablement charg&eacute;s en m&eacute;moire dans un fichier sur disque. Les formats en sortie sont asc et ov2.</p>
+<pre>Syntaxe :
+ <strong> savepoi format filename</strong>
+
+avec 
+  format   : ov2 | asc
+  filename : nom d'un fichier local
+
+exemple : 
+  savepoi ov2 ov2\outfile.ov2
+  savepoi asc c:\outfile.asc</pre>
+<p>&nbsp;</p>
+<h3>Syntaxe</h3>
+<PRE>
+perl merge_ttpoi.pl -f &lt;configfile&gt; [-w &lt;dir&gt;] 
+
+avec
+  -f &lt;file&gt; : fichier de configuration
+  -w &lt;dir&gt;  : r&eacute;pertoire o&ugrave; seront download&eacute;s et conserv&eacute;s les fichiers POIs
+              (par defaut, le r&eacute;pertoire &quot;POIs&quot; est utilis&eacute;)
+
+exemple :
+  perl merge_ttpoi.pl -f poi.cfg </PRE>
+<P> 
+<h3>Download</h3>
+<p> <a href="merge_ttpoi.pl">merge_ttpoi.zip</a>&nbsp;&nbsp;&nbsp;v1.0&nbsp;&nbsp;&nbsp;30/04/2004 </p>
+<HR>
+Derni&egrave;re mise &agrave; jour :
+<!-- #BeginDate format:En2 -->01-Mai-2004<!-- #EndDate -->
+<br>
+Laurent Licour - laurent at licour.com
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

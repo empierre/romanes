@@ -1,0 +1,300 @@
+"Id";;"Editeur";"Collection/Ref";"Lang";"Titre";"Auteur";"Année";"ISBN";"Image";"URL"
+1;;"Zodiaque";"INT 1";"FR;EN";"Glossaire des termes techniques de l'art roman";;;;;
+2;;"Zodiaque";"INT 2";"FR";"Bayeux (La tapisserie - édition 2002)";;;;;
+3;"G2";"Zodiaque";"INT 3";"FR";"Symboles (Introduction au monde des)";"Gérard de Champeaux";;2736900545;"http://images-eu.amazon.com/images/P/2736900545.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900545/ref=ase_enef-21/402-5551720-9281739"
+4;;"Zodiaque";"INT 4";"FR";"Evocation";;;;;
+5;"G1";"Zodiaque";"INT 6 ";"FR";"Invention de l'architecture romane";"Raymond Oursel";;2736900219;"http://images-eu.amazon.com/images/P/2736900219.08.MZZZZZZZ.jpg";
+6;"G2";"Zodiaque";"INT 7 ";"FR";"Floraison de la sculpture romane I";;;2736900936;"http://images-eu.amazon.com/images/P/2736900936.08.MZZZZZZZ.jpg";
+7;"G2";"Zodiaque";"INT 8 ";"FR";"Floraison de la sculpture romane II";;;2736900928;"http://images-eu.amazon.com/images/P/2736900928.08.MZZZZZZZ.jpg";
+8;;"Zodiaque";"INT 9 ";"FR";"Histoire de l'art français I";;;;;
+9;;"Zodiaque";"INT10 ";"FR";"Histoire de l'art français II";;;;;
+10;;"Zodiaque";"INT11 ";"FR";"Révélation de la peinture romane";"Raymond Oursel";;2736901444;"http://images-eu.amazon.com/images/P/2736901444.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736901444/qid=1070961720/sr=1-16/ref=sr_1_0_16/402-5551720-9281739"
+11;;"Zodiaque";"INT12 ";"FR";"Routes romanes I La route aux saints";"Raymond Oursel";;2736901495;;"http://www.amazon.fr/exec/obidos/ASIN/2736901495/qid=1070961720/sr=1-4/ref=sr_1_0_4/402-5551720-9281739"
+12;;"Zodiaque";"INT13 ";"FR";"Routes romanes II La route aux solitudes";"Raymond Oursel";;2736900057;"http://images-eu.amazon.com/images/P/2736900057.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900057/qid=1070961720/sr=1-2/ref=sr_1_0_2/402-5551720-9281739"
+13;;"Zodiaque";"INT14 ";"FR";"Routes romanes III La garde de Dieu";"Raymond Oursel";;2736900243;"http://images-eu.amazon.com/images/P/2736900243.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900243/qid=1070961720/sr=1-1/ref=sr_1_0_1/402-5551720-9281739"
+14;"G2";"Zodiaque";"INT15 ";"FR";"Dictionnaire d'iconographie romane";;;2736902432;"http://images-eu.amazon.com/images/P/2736902432.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736902432/ref=ase_enef-21/402-5551720-9281739"
+15;;"Zodiaque";"INT16 ";"FR";"Initiation à l'art des cathédrales";;;;;
+16;"G1";"Zodiaque";"INT  ";"FR";"Initiation à l'art roman";"Anne Prache";;2736902882;"http://images-eu.amazon.com/images/P/2736902882.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736902882/enef-21/402-5551720-9281739"
+17;;"Zodiaque";"HC";"FR";"Atlas de la France Romane";"Pauline de la Malène";;2736902173;"http://images-eu.amazon.com/images/P/2736902173.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736902173/enef-21/402-5551720-9281739"
+18;;"Zodiaque";"AET1";"FR";"Terres de Bourgogne";"Raymond Oursel";;2736902165;"http://images-eu.amazon.com/images/P/2736902165.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736902165/qid=1070961720/sr=1-12/ref=sr_1_0_12/402-5551720-9281739"
+19;;"Zodiaque";"AET2";"FR";"Terres de Rouergue";;;;;
+20;;"Zodiaque";"NT 4 ";"FR";"Art gaulois ";;;;;
+21;;"Zodiaque";"NT16 ";"FR";"Art cistercien";"Anselme Dimier";;2736900685;"http://images-eu.amazon.com/images/P/2736900685.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900685/enef-21/402-5551720-9281739"
+22;;"Zodiaque";"NT28 ";"FR";"Art scandinave I";;;;;
+23;;"Zodiaque";"NT29 ";"FR";"Art scandinave II";;;;;
+24;;"Zodiaque";"NT20 ";"FR";"Art irlandais I ";;;;;
+25;;"Zodiaque";"NT21 ";"FR";"Art irlandais II ";;;;;
+26;;"Zodiaque";"NT22 ";"FR";"Art irlandais III ";;;;;
+27;;"Zodiaque";"NT  ";"FR";"Art mozarabe ";;;;;
+28;;"Zodiaque";"NT37 ";"FR";"Art préroman hispanique I";;;;;
+29;;"Zodiaque";"NT38 ";"FR";"Art préroman hispanique II";;;;;
+30;;"Zodiaque";"NT 1 ";"FR";"Bourgogne romane";;;;;
+31;;"Zodiaque";"NT 2 ";"FR";"Auvergne romane ";;;;;
+32;;"Zodiaque";"NT 3 ";"FR";"Val de Loire roman ";;;;;
+33;;"Zodiaque";"NT 5 ";"FR";"Poitou Roman ";;;;;
+34;;"Zodiaque";"NT 6 ";"FR";"Touraine romane ";;;;;
+35;;"Zodiaque";"NT 7 ";"FR";"Roussillon roman";;;;;
+36;;"Zodiaque";"NT 9 ";"FR";"Anjou roman";;;;;
+37;;"Zodiaque";"NT10 ";"FR";"Quercy roman";;;;;
+38;;"Zodiaque";"NT11 ";"FR";"Limousin roman";;;;;
+39;;"Zodiaque";"NT12 ";"FR";"Catalogne romane I   ";;;;;
+40;;"Zodiaque";"NT13 ";"FR";"Catalogne romane II";;;;;
+41;;"Zodiaque";"NT14 ";"FR";"Angoumois Roman ";;;;;
+42;;"Zodiaque";"NT15 ";"FR";"Forez Velay roman";;;;;
+43;;"Zodiaque";"NT17 ";"FR";"Rouergue roman ";;;;;
+44;;"Zodiaque";"NT22 ";"FR";"Alsace romane";;;;;
+45;;"Zodiaque";"NT25 ";"FR";"Normandie romane 1";;;;;
+46;;"Zodiaque";"NT27 ";"FR";"Périgord roman";;;;;
+47;;"Zodiaque";"NT30 ";"FR";"Pyrénées romanes";;;;;
+48;;"Zodiaque";"NT31 ";"FR";"Guyenne romane ";;;;;
+49;;"Zodiaque";"NT32 ";"FR";"Berry roman";;;;;
+50;;"Zodiaque";"NT33 ";"FR";"Saintonge romane";;;;;
+51;;"Zodiaque";"NT36 ";"FR";"Corse romane";;;;;
+52;;"Zodiaque";"NT40 ";"FR";"Provence romane 1  ";;;;;
+53;;"Zodiaque";"NT41 ";"FR";"Normandie romane 2";;;;;
+54;;"Zodiaque";"NT42 ";"FR";"Haut-Poitou roman";"Raymond Oursel";;2736900014;"http://images-eu.amazon.com/images/P/2736900014.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900014/qid=1070961720/sr=1-5/ref=sr_1_0_5/402-5551720-9281739"
+55;;"Zodiaque";"NT43 ";"FR";"Languedoc roman";;;;;
+56;;"Zodiaque";"NT44 ";"FR";"Vendée romane";;;;;
+57;;"Zodiaque";"NT45";"FR";"Nivernais-Bourbonnais romans ";;;;;
+58;;"Zodiaque";"NT46";"FR";"Provence romane 2 ";;;;;
+59;;"Zodiaque";"NT48 ";"FR";"Haut-Languedoc roman";;;;;
+60;;"Zodiaque";"NT49 ";"FR";"Gascogne romane ";;;;;
+61;;"Zodiaque";"NT60 ";"FR";"Ile de France Romane";;;;;
+62;;"Zodiaque";"NT82 ";"FR";"Nord roman";;;;;
+63;;"Zodiaque";"NT  ";"FR";"Alpes romanes";;;;;
+64;;"Zodiaque";"NT  ";"FR";"Bretagne romane";;;;;
+65;;"Zodiaque";"NT  ";"FR";"Champagne romane";;;;;
+66;;"Zodiaque";"NT77 ";"FR";"Dauphiné roman";;;;;
+67;;"Zodiaque";"NT  ";"FR";"Franche Comté - Bresse roman";;;;;
+68;;"Zodiaque";"NT  ";"FR";"Lorraine romane";;;;;
+69;;"Zodiaque";"NT73 ";"FR";"Lyonnais, Savoie romans";"Raymond Oursel";;2736901770;"http://images-eu.amazon.com/images/P/2736901770.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736901770/qid=1070961720/sr=1-9/ref=sr_1_0_9/402-5551720-9281739"
+70;;"Zodiaque";"NT  ";"FR";"Maine roman";;;;;
+71;;"Zodiaque";"NT75 ";"FR";"Vivarais Gévaudan romans";;;;;
+72;;"Zodiaque";"NT74 ";"FR";"Abruzzes Molise romans";;;;;
+73;;"Zodiaque";"NT59 ";"FR";"Angleterre romane I";;;;;
+74;;"Zodiaque";"NT69 ";"FR";"Angleterre romane II";;;;;
+75;;"Zodiaque";"NT34 ";"FR";"Aragon roman ";;;;;
+76;;"Zodiaque";"NT  ";"FR";"Bavière romane";;;;;
+77;;"Zodiaque";"NT71 ";"FR";"Belgique romane";;;;;
+78;;"Zodiaque";"NT70 ";"FR";"Calabre Basilicate romanes";;;;;
+79;;"Zodiaque";"NT  ";"FR";"Campanie romane";;;;;
+80;;"Zodiaque";"NT23 ";"FR";"Castille romane I";;;;;
+81;;"Zodiaque";"NT24 ";"FR";"Castille romane II";;;;;
+82;;"Zodiaque";"NT  ";"FR";"Ecosse romane";;;;;
+83;;"Zodiaque";"NT  ";"FR";"Emilie romane";;;;;
+84;;"Zodiaque";"NT39 ";"FR";"Galice romane Epuisé";;;;;
+85;;"Zodiaque";"NT35 ";"FR";"Leon roman";;;;;
+86;;"Zodiaque";"NT47 ";"FR";"Lombardie romane";;;;;
+87;;"Zodiaque";"NT80 ";"FR";"Marches romanes";;;;;
+88;;"Zodiaque";"NT26 ";"FR";"Navarre romane";;;;;
+89;;"Zodiaque";"NT  ";"FR";"Ombrie romane";;;;;
+90;;"Zodiaque";"NT79 ";"FR";"Palatinat roman";;;;;
+91;;"Zodiaque";"NT81 ";"FR";"Pays-Bas roman";;;;;
+92;;"Zodiaque";"NT  ";"FR";"Pays basque roman";;;;;
+93;;"Zodiaque";"NT51 ";"FR";"Piémont-Ligurie roman";;;;;
+94;;"Zodiaque";"NT  ";"FR";"Portugal roman 1";;;;;
+95;;"Zodiaque";"NT  ";"FR";"Portugal roman 2";;;;;
+96;;"Zodiaque";"NT  ";"FR";"Pouilles romanes";;;;;
+97;;"Zodiaque";"NT78 ";"FR";"Rome et Latium romans";;;;;
+98;;"Zodiaque";"NT72 ";"FR";"Sardaigne romane";;;;;
+99;;"Zodiaque";"NT  ";"FR";"Saxe romane";;;;;
+100;;"Zodiaque";"NT  ";"FR";"Sicile romane";;;;;
+101;;"Zodiaque";"NT 8 ";"FR";"Suisse romane";;;;;
+102;;"Zodiaque";"NT21 ";"FR";"Terre sainte romane";;;;;
+103;;"Zodiaque";"NT  ";"FR";"Toscane romane  ";;;;;
+104;;"Zodiaque";"NT76 ";"FR";"Vénétie romane";;;;;
+105;;"Zodiaque";"NT  ";"FR";"Westphalie romane";;;;;
+106;;"Zodiaque";"TM 1 ";"FR";" Autun ";;;;;
+107;;"Zodiaque";"TM  ";"FR";"Chartres";;;;;
+108;;"Zodiaque";"TM  ";"FR";"Chemins de Compostelle";"Raymond Oursel";;2736901630;"http://images-eu.amazon.com/images/P/2736901630.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736901630/qid=1070961720/sr=1-7/ref=sr_1_0_7/402-5551720-9281739"
+109;;"Zodiaque";"TM  ";"FR";"Christs romans  Christs en gloire";"Denis Grivot";;2736900480;"http://images-eu.amazon.com/images/P/2736900480.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900480/ref=ase_enef-21/402-5551720-9281739"
+110;;"Zodiaque";"TM  ";"FR";"Cloitres romans";;;;;
+111;;"Zodiaque";"TM  ";"FR";"Images d'anges et démons";;;;;
+112;;"Zodiaque";"TM  ";"FR";"Images des jours saints";;;;;
+113;;"Zodiaque";"TM 2 ";"FR";"Images de Notre Dame ";;;;;
+114;;"Zodiaque";"TM 3 ";"FR";"Maitre de Chaource";;;;;
+115;;"Zodiaque";"TM  ";"FR";"Mont Saint Michel";;;;;
+116;;"Zodiaque";"TM  ";"FR";"Reims";;;;;
+117;;"Zodiaque";"TM  ";"FR";"Rocamadour";;;;;
+118;;"Zodiaque";"TM  ";"FR";"Saint Benoit sur Loire";;;;;
+119;;"Zodiaque";"TM  ";"FR";"Senlis berceau de la France";;;;;
+120;;"Zodiaque";"TM  ";"FR";"Soeurs provençales ";;;;;
+121;;"Zodiaque";"TM  ";"FR";"Vézelay  ";;;;;
+122;;"Zodiaque";"TM  ";"FR";"Itinéraires romans en Bourgogne";"Raymond Oursel";;2736900537;"http://images-eu.amazon.com/images/P/2736900537.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900537/qid=1070961720/sr=1-14/ref=sr_1_0_14/402-5551720-9281739"
+123;;"Zodiaque";"TM  ";"FR";"Itinéraires romans en Normandie";;;;;
+124;;"Zodiaque";"TM  ";"FR";"Vierges romanes";"René Laurentin, Raymond Oursel";;2736900472;"http://images-eu.amazon.com/images/P/2736900472.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736900472/qid=1070961720/sr=1-3/ref=sr_1_0_3/402-5551720-9281739"
+125;;"Zodiaque";"FN";"FR";"Art Médiéval en Irlande";;;;;
+126;;"Zodiaque";"FN";"FR";"Chartres Révélé";;;;;
+127;;"Zodiaque";"FN";"FR";"Espagne romane";;;;;
+128;;"Zodiaque";"FN";"FR";"Europe cistercienne";;;;;
+129;;"Zodiaque";"FN";"FR";"Europe des monastères ";;;;;
+130;;"Zodiaque";"FN";"FR";"Europe musulmane";;;;;
+131;;"Zodiaque";"FN";"FR";"France romane I   XIe s.";"Raymond Oursel";;2736901711;"http://images-eu.amazon.com/images/P/2736901711.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736901711/qid=1070961720/sr=1-8/ref=sr_1_0_8/402-5551720-9281739"
+132;;"Zodiaque";"FN";"FR";"France romane II  XIIe s.";"Raymond Oursel";;2736901754;"http://images-eu.amazon.com/images/P/2736901754.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736901754/qid=1070961720/sr=1-18/ref=sr_1_0_18/402-5551720-9281739"
+133;;"Zodiaque";"FN";"FR";"Lombards";;;;;
+134;;"Zodiaque";"FN";"FR";"Miroir de l'invisible (peint. Géorgie 6/15°)";;;;;
+135;;"Zodiaque";"FN";"FR";"Serbie au Moyen Age";;;;;
+136;;"Zodiaque";"FN";"FR";"Arménie au Moyen Age";;;;;
+137;;"Zodiaque";"FN";"FR";"Cappadoce médiévale";;;;;
+138;;"Zodiaque";"FN";"FR";"Jugements derniers";;;;;
+139;;"Zodiaque";"VL";"FR";"Clartés de St Benoît sur Loire";;;;;
+140;;"Zodiaque";"VL";"FR";"Lumières de Vézelay";"Raymond Oursel";;2736902033;"http://images-eu.amazon.com/images/P/2736902033.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2736902033/qid=1070961720/sr=1-10/ref=sr_1_0_10/402-5551720-9281739"
+141;;"Zodiaque";"VL";"FR";"Mystère de Fontenay";;;;;
+142;;"Zodiaque";"VL";"FR";"Maître de Cabestany";;;;;
+143;;"Zodiaque";"VL";"FR";"Sénanque";;;;;
+144;;"Zodiaque";"PA";"FR";"Ateliers de la Renaissance";;;;;
+145;;"Zodiaque";"PA";"FR";"Chantiers médiévaux";;;;;
+146;;"Zodiaque";"PA";"FR";"Le Monde roman";;;;;
+147;;"Zodiaque";"PA";"FR";"La Renaissance . L'art du XVIe";;;;;
+148;;"Zodiaque";"PA";"FR";"Quattrocento";;;;;
+149;;"Zodiaque";"PA";"FR";"Pélerinages";;;;;
+150;;"Zodiaque";"CC";"FR";"Aulnay";;;;;
+151;;"Zodiaque";"CC";"FR";"Autun";;;;;
+152;;"Zodiaque";"CC";"FR";"Champagne-sur-Rhone";;;;;
+153;;"Zodiaque";"CC";"FR";"Chartres extérieur en anglais)";;;;;
+154;;"Zodiaque";"CC";"FR";"Chartres extérieur en français)";;;;;
+155;;"Zodiaque";"CC";"FR";"Le Dorat";;;;;
+156;;"Zodiaque";"CC";"FR";"Le Puy";;;;;
+157;;"Zodiaque";"CC";"FR";"Lessay";;;;;
+158;;"Zodiaque";"CC";"FR";"Moissac";;;;;
+159;;"Zodiaque";"CC";"FR";"Notre-Dame-du-Port";;;;;
+160;;"Zodiaque";"CC";"FR";"Poitiers";;;;;
+161;;"Zodiaque";"CC";"FR";"PONTIGNY  (nouvelle présentation).";;;;;
+162;;"Zodiaque";"CC";"FR";"Romainmotier";;;;;
+163;;"Zodiaque";"CC";"FR";"SAINT GUILHEM (nouvelle présentation)";;;;;
+164;;"Zodiaque";"CC";"FR";"Saint-Bertrand";;;;;
+165;;"Zodiaque";"CC";"FR";"Saint-Front";;;;;
+166;;"Zodiaque";"CC";"FR";"Saint-Gaudens";;;;;
+167;;"Zodiaque";"CC";"FR";"Saint-Germain-des-Prés";;;;;
+168;;"Zodiaque";"CC";"FR";"Saint-Sernin";;;;;
+169;;"Zodiaque";"CC";"FR";"Trésor de Sens";;;;;
+170;;"Zodiaque";"CC";"FR";"Vignory";;;;;
+171;;"Zodiaque";"VD";"FR";"De la nuit à l'aurore  2 volumes";;;;;
+172;;"Zodiaque";"VD";"FR";"Lettres d'Anne Dangar";;;;;
+173;;"Zodiaque";"VD";"FR";"Max Jacob: Les propos et les jours";;;;;
+174;;"Zodiaque";"VD";"FR";"Max Jacob: Saint-Benoit et l'abb. Fleury";;;;;
+175;;"Zodiaque";"VD";"FR";"Points de vue sur l'art abs. et l'art s.";;;;;
+176;;"Zodiaque";"RM";"FR";"arts et sagesses de l'Afrique Noire";;;;;
+177;;"Zodiaque";"RM";"FR";"art et spiritualité de l'Inde";;;;;
+178;;"Zodiaque";"RM";"FR";"art et sagesses de la Chine";;;;;
+179;;"Zodiaque";"RM";"FR";"art et sagesses du Tibet";;;;;
+180;;"Zodiaque";"PC21 ";"FR";" Anges et démons ";;;;;
+181;;"Zodiaque";"PC ";"FR";"Auxerre et Marie-Noël";;;;;
+182;;"Zodiaque";"PC 25";"FR";"Bestiaire roman ";;;;;
+183;;"Zodiaque";"PC ";"FR";"Christs en croix romans I (2e edition)";;;;;
+184;;"Zodiaque";"PC ";"FR";"Christs en croix romans II ";;;;;
+185;;"Zodiaque";"PC ";"FR";"Bible de Saint";;;;;
+186;;"Zodiaque";"PC ";"FR";"Les chemins de Compostelle";;;;;
+187;;"Zodiaque";"PC ";"FR";"Esprit de Citeaux";;;;;
+188;;"Zodiaque";"PC ";"FR";"Esprit de Cluny ";;;;;
+189;;"Zodiaque";"PC ";"FR";"Jours de l'apocalypse ";;;;;
+190;;"Zodiaque";"PC 6 ";"FR";"Jours de la passion ";;;;;
+191;;"Zodiaque";"PC 2 ";"FR";"Jours de la Nativité";;;;;
+192;;"Zodiaque";"PC ";"FR";"Message de Tournus ";;;;;
+193;;"Zodiaque";"PC 1 ";"FR";"Monde d'Autun ";;;;;
+194;;"Zodiaque";"PC 3 ";"FR";"Monde (Le) de Chartres ";;;;;
+195;;"Zodiaque";"PC ";"FR";"Monde des cryptes";;;;;
+196;;"Zodiaque";"PC ";"FR";"Monde de Vézelay ";;;;;
+197;;"Zodiaque";"PC 5 ";"FR";"Mont Saint Michel";;;;;
+198;;"Zodiaque";"PC ";"FR";"Saint Benoit sur Loire ";;;;;
+199;;"Zodiaque";"PC ";"FR";"Sainte Foy de Conques ";;;;;
+200;;"Zodiaque";"PC ";"FR";"Tympans romans I ";;;;;
+201;;"Zodiaque";"PC 13";"FR";"Tympans romans II ";;;;;
+202;;"Zodiaque";"PC ";"FR";"Vie de la Vierge";;;;;
+203;;"Zodiaque";"PC 4 ";"FR";"Vierges romanes";;;;;
+204;;"Zodiaque";"CP";"FR";"Avignon, le palais des papes";;;;;
+205;;"Zodiaque";"CP";"FR";"Strasbourg. La cathédrale";;;;;
+206;;"Zodiaque";"CP";"FR";"Reims, la cathédrale";;;;;
+207;;"Zodiaque";"CP";"FR";"Chartres, la cathédrale";;;;;
+208;;"Zodiaque";"CP";"FR";"Bourges, la cathédrale";;;;;
+209;;"Zodiaque";"CP";"FR";"Saint Denis, la basilique";;;;;
+210;;"Zodiaque";"CP";"FR";"Laon, la cathédrale";;;;;
+211;;"Zodiaque";"CP";"FR";"Quimper, la cathédrale";;;;;
+212;;"Zodiaque";"ET";"FR";"Romanische Spannien";;;;;
+213;;"Zodiaque";"ET";"DE";"Die Kuntz der Zisterzienser";;;;;
+214;;"Zodiaque";"ET";"DE";"Romanische Auvergne";;;;;
+215;;"Zodiaque";"ET";"DE";"Romanische Burgund";;;;;
+216;;"Zodiaque";"ET";"DE";"Romanik der Ile-de-France";;;;;
+217;;"Zodiaque";"ET";"DE";"Die Kaiserdome Speyer, Mainz, Worms";;;;;
+218;;"Zodiaque";"ET";"DE";"Cote d'Azur";;;;;
+219;;"Zodiaque";"ET";"DE";"Hoch Provence";;;;;
+220;;"Zodiaque";"ET";"DE";"Romanische Normandie Ost";;;;;
+221;;"Zodiaque";"ET";"DE";"Romanische Normandie West";;;;;
+222;;"Zodiaque";"ET";"DE";"Romanische Elsass";;;;;
+223;;"Zodiaque";"ET";"DE";"Romanische Schweiss";;;;;
+224;;"Zodiaque";"ET";"DE";"Romanik in Westphalen";;;;;
+225;;"Zodiaque";"ET";"DE";"Symbole";;;;;
+226;;"Zodiaque";"ET";"DE";"Reisewege durch die Provence";;;;;
+227;;"Zodiaque";"ET";"DE";"Reisewege durch das Languedoc";;;;;
+228;;"Zodiaque";"ET";"DE";"Romanische Kreuzgange in Frankreich";;;;;
+229;;"Zodiaque";"ET";"DE";"Romanik Sachsen";;;;;
+230;;"Zodiaque";"ET";"DE";"Die Welt der Zisterzienser";;;;;
+231;;"Zodiaque";"ET";"DE";"Lexikon";;;;;
+232;;"Zodiaque";"ET";"DE";"Frauen bilder im mittelalter";;;;;
+233;;"Zodiaque";"ET";"DE";"Engel und ihr bild im mittelalter";;;;;
+234;;"Zodiaque";"ET";"DE";"Die Bildwelt der Romanik";;;;;
+235;;"Zodiaque";"ET";"DE";"Romans Nederland";;;;;
+236;;"Zodiaque";"ET";"DE";"Das Jüngste Gericht";;;;;
+237;;"Zodiaque";"ET";"DE";"Romanische Frankreich (XII°s)";;;;;
+238;;"Zodiaque";"ET";"DE";"Strasbourg";;;;;
+239;;"Zodiaque";"ET";"DE";"Reims";;;;;
+240;;"Zodiaque";"ET";"DE";"Chartres";;;;;
+241;"G1";"Könemann";;"FR";"L'art roman";"Rolf Toman, Achim Bednorz";;3895084484;"http://images-eu.amazon.com/images/P/3895084484.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/3895084484/ref=ase_enef-21/402-5551720-9281739"
+242;"G1";"Mengès";;"FR";"Histoire de l'architecture française, tome 1 : Du Moyen Age à la Renaissance, IVe siècle - début XVIe siècle";" Alain Erlande-Brandenburg, Anne-Bénédicte Mérel-Brandenburg";;2856203671;"http://images-eu.amazon.com/images/P/2856203671.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2856203671/ref=ase_enef-21/402-5551720-9281739"
+243;"G1";"Editions de La Martinière";;"FR";"L'Architecture du silence";"Terryl N. Kinder, David Heald";;2732426709;"http://images-eu.amazon.com/images/P/2732426709.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2732426709/ref=ase_enef-21/402-5551720-9281739"
+244;"G2";"L'Instant durable ";;"FR;EN";"Sculpteurs au Moyen Age : L'Univers fantastique des chapiteaux romans";;"Eric de Bussac, Alain Berghmans";;"286404076X";"http://images-eu.amazon.com/images/P/286404076X.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/286404076X/ref=ase_enef-21/402-5551720-9281739"
+245;"G2";"Le Seuil";;"FR";"Figures Romanes";"Franck Horvat";;"202051687X";"http://www.alapage.com/get_img.php?cgi=livre_l&ref=l_isbn&num_ref=202051687Xl";"http://www.alapage.com/mx/?type=1&tp=F&donnee_appel=PIEWI&l_isbn=202051687X"
+246;"G2";"Grand-Midi ";;"FR";"La sculpture figurée des arcs romans de France";"Myrielle Boss-Favre ";;2880931169;"http://www.romanes.com/biblio/livre116.gif";"http://www.amazon.fr/exec/obidos/ASIN/2880931169/enef-21/402-5551720-9281739"
+247;"G2";"Editions du Rocher ";"La pierre philosophale ";"FR";"Les symboles de l'art roman";"Anne et Robert Blanc";;2268031624;"http://images-eu.amazon.com/images/P/2268031624.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2268031624/ref=ase_enef-21/402-5551720-9281739"
+248;"G2";"Patrimoine";"Monumental";"FR";"Monumental. La Sculpture monumentale - numéro 10-11, décembre 1995";"Collectif";;2858222126;"http://images-eu.amazon.com/images/P/2858222126.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2858222126/enef-21/402-5551720-9281739"
+249;"G3";"Taschen";"Architecture Mondiale";"FR ";"Le Monde roman";"Henri Stierlin";;3822873292;"http://www.alapage.com/get_img.php?cgi=livre_l&ref=l_isbn&num_ref=3822873292l";"http://www.alapage.com/mx/?type=1&tp=F&donnee_appel=PIEWI&l_isbn=3822873292"
+250;"G3";"Office du livre";;"FR";"La Bible Romane";"Walter Cahn";;2719101605;;
+251;"G3";"Taschen";;"FR";"Haut Moyen-Age";"Xavier Barral i Altet";;3822873292;;
+252;"G2";"Arthaud";;"FR";"Le bestiaire sculpté en France";"AV-H Debidour";1961;;;
+253;"G2";"Dervy";;"FR";"La flore des cathédrales: Le symbolisme floral dans l'architecture religieuse";"Patrick Darcheville";;2850769738;"http://images-eu.amazon.com/images/P/2850769738.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2850769738/enef-21/402-5551720-9281739"
+254;"G3";"Presses Universitaires de France";;"FR";"Dictionnaire du Moyen Âge";"Michel Zink";2002;2130530575;"http://images-eu.amazon.com/images/P/2130530575.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2130530575/ref=ase_enef-21/402-5551720-9281739"
+255;"G3";"Gallimard";;"FR";"Le Monde roman 1060-1220, Les Royaumes d'Occident,";"François Avril, Xavier Barral i Altet, Danielle Gaborit-Chopin";1993;2070110613;"http://images-eu.amazon.com/images/P/2070110613.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2070110613/ref=ase_enef-21/402-5551720-9281739"
+256;"G3";"Assouline";;"FR";"Les symboles catholiques";"Le Gall Dom Robert,";1999;2843231434;"http://images-eu.amazon.com/images/P/2843231434.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2843231434/ref=ase_enef-21/402-5551720-9281739"
+257;"G3";"Fayard";;"FR";"Le Moyen Âge en lumière : Manuscrits enluminés des bibliothèques de France";"Jacques Dalarun";2002;2213613974;"http://images-eu.amazon.com/images/P/2213613974.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2213613974/ref=ase_enef-21/402-5551720-9281739"
+258;"G3";"Gallimard";;"FR";"Pour un autre Moyen Age";"Jacques Le Goff";1991;2070722562;"http://images-eu.amazon.com/images/P/2070722562.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2070722562/ref=ase_enef-21/402-5551720-9281739"
+259;"G3";"Fayard";;"FR";"Dictionnaire raisonné de l'Occident médiéval";"Jacques Le Goff, Jean-Claude Schmitt";1999;2213602646;"http://images-eu.amazon.com/images/P/2213602646.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2213602646/ref=ase_enef-21/402-5551720-9281739"
+260;"G3";"Louis Audibert ";;"FR";"À la recherche du Moyen-Âge";"Jacques Le Goff";2003;2847490256;"http://images-eu.amazon.com/images/P/2847490256.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2847490256/ref=ase_enef-21/402-5551720-9281739"
+261;"G3";"Armand Colin";;"FR";"L'Art religieux du XIIe siècle en France: étude sur les origines de l'iconographie du Moyen âge,";"Emile Mâle";1998;2200017189;"http://images-eu.amazon.com/images/P/2200017189.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2200017189/ref=ase_enef-21/402-5551720-9281739"
+262;"G3";"Flammarion";;"FR";"La Bible et les saints";"Gaston Duchet-Suchaux, Michel Pastoureau";1999;2080122568;"http://images-eu.amazon.com/images/P/2080122568.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2080122568/ref=ase_enef-21/402-5551720-9281739"
+263;"G3";"Bibliothèque de l'image";;"FR";"Encyclopédie Médiévale";"Eugene Viollet Le Duc";1999;2909808610;"http://www.alapage.com/get_img.php?cgi=livre_l&ref=l_isbn&num_ref=2909808610l";"http://www.alapage.com/mx/?type=1&tp=F&donnee_appel=PIEWI&l_isbn=9782909808611"
+264;"G3";"Duculot";;"FR";"A la découverte de 850 Eglises romanes de France";"André Verrassel";1985;2801105554;;
+265;"G2";"Presses Universitaires de France";;"FR";"L'art des sculpteurs Romans";"Henri Focillon";1995;2130420478;"http://images-eu.amazon.com/images/P/2130420478.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2130420478/ref=ase_enef-21/402-5551720-9281739"
+266;"G2";"CIER";;"FR";"Bestiaire roman ";"Gaston Duchet-Suchaux";1992;;"http://www.art-roman.org/images/livre2.jpg";"http://www.art-roman.org/editcier.htm"
+267;"G2";"Christian Pirot";;"FR";"La Sculpture romane en Saintonge";"Jacques Lacoste";1998;2868081053;"http://images-eu.amazon.com/images/P/2868081053.08.MZZZZZZZ.jpg";"http://www.amazon.fr/exec/obidos/ASIN/2868081053/ref=ase_enef-21/402-5551720-9281739"
+268;;;;;;;;;;
+269;;;;;;;;;;
+270;;;;;;;;;;
+271;;;;;;;;;;
+272;;;;;;;;;;
+273;;;;;;;;;;
+274;;;;;;;;;;
+275;;;;;;;;;;
+276;;;;;;;;;;
+277;;;;;;;;;;
+278;;;;;;;;;;
+279;;;;;;;;;;
+280;;;;;;;;;;
+281;;;;;;;;;;
+282;;;;;;;;;;
+283;;;;;;;;;;
+284;;;;;;;;;;
+285;;;;;;;;;;
+286;;;;;;;;;;
+287;;;;;;;;;;
+288;;;;;;;;;;
+289;;;;;;;;;;
+290;;;;;;;;;;
+291;;;;;;;;;;
+292;;;;;;;;;;
+293;;;;;;;;;;
+294;;;;;;;;;;
+295;;;;;;;;;;
+296;;;;;;;;;;
+297;;;;;;;;;;
+298;;;;;;;;;;
+299;;;;;;;;;;

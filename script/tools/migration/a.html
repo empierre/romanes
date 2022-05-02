@@ -1,0 +1,467 @@
+<html>
+<head>
+ <!-- Do not change the headers of this file, otherwise Google Maps won't work with IE -->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Romanes.com </title>
+    <style type="text/css">
+    v\:* {
+        behavior:url(#default#VML);
+    }
+    div.markerTooltip, div.markerDetail {
+        color: black;
+        font-size: 0.8em;
+        font-family: Vandara;
+        background-color: white;
+        white-space: nowrap;
+        margin: 0;
+        padding: 2px 3px;
+        border: 1px solid black;
+    }
+    </style>
+
+    <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAfLAsrGu8Qq4MMz3epfjczhSouLLaYhVVQ8yIvdvjyPRinXPHohR_iJvkIHHzs2UJCyOWZityqBToyA" type="text/javascript"></script>
+
+</head>
+
+<body leftmargin="0" topmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0"  onunload="GUnload()>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="248"><a href="index.cfm?p=00,00,00,00"><img src="images/logo_citadelle.jpg" alt="MA" width="248" height="66" border="0"></a></td>
+</tr>
+</table>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="204"><img src="images/tit_tourisme.jpg" width="204" height="37" border="0"></td>
+
+<td width="30"><a href="index.cfm?p=00,00,00,00"><img src="images/min_home.jpg" alt="Accueil" width="30" height="37" border="0"></a></td>
+<td width="*" background="images/menu_fond.jpg" align=right><img src="images/min_search.jpg" alt="Chercher" width="29" height="37" border="0" align="absmiddle">&nbsp;<a href="print.cfm?" target="_blank"><img src="images/min_print.jpg" alt="Imprimer" width="29" height="37" border="0" align="absmiddle"></a>&nbsp;<a href="compte.cfm"><img src="images/min_config.jpg" alt="Configuration" width="29" height="37" border="0" align="absmiddle"></a>&nbsp;<img src="images/min_info.jpg" alt="Informations" width="29" height="37" border="0" align="absmiddle"></td>
+</tr>
+</table>
+
+<table width="100%" style="height:400px;" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="220" valign=top background="images/fond_gauche.jpg" id="tabltrsm">
+	
+	
+
+	
+	
+	
+	
+			
+
+		
+		
+			
+				
+			
+		
+
+		
+		
+				
+		
+				
+		
+	 
+<div id="minimap" style="width:219; height: 219; border:1px solid #ae113B;"></div>
+
+	
+
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<form name="CFForm_1" action="tourisme.cfm" method="POST" enctype="multipart/form-data" onsubmit="return _CF_checkCFForm_1(this)">
+	<tr><td><strong>France</strong> (par communes)<br>
+
+	<select name="xyz" size="1" style="width:210px;">
+	<option value="7,48.821332549646634,2.406005859375" >*** Nord de de la France
+	<option value="7,45.460131,2.406006" selected>*** Sud de la France
+	<option value="13,46.2807148690114,6.7200493812561035" >Abondance (74)<option value="13,45.049808220840084,3.882690668106079" >Aiguilhe (43)<option value="13,46.33063196324968,6.463136672973633" >Allinges (74)<option value="13,45.956990130750974,2.1689844131469726" >Aubusson (23)<option value="13,46.945325734695096,4.299076795578003" >Autun (71)<option value="13,47.022221971033346,4.836452007293701" >Beaune (21)<option value="13,44.90122530119589,-0.6300830841064453" >Blanquefort (33)<option value="13,44.8375670841054,-0.5775332450866699" >Bordeaux (33)<option value="13,46.27127479337908,6.400823593139648" >Brenthonne (74)<option value="13,46.43526904561845,4.658267498016357" >Cluny (71)<option value="13,46.86245784540663,4.586201906204224" >Couches (71)<option value="13,45.00126911927989,1.7426204681396484" >Curemonte (19)<option value="13,45.73901611934813,1.744476556777954" >Eymoutiers (23)<option value="13,45.75022445918284,1.9330894947052002" >Faux-la-Montagne (23)<option value="13,45.788078075181474,2.0301425457000732" >Gentioux (23)<option value="13,45.78469639319599,1.9933640956878662" >Gentioux-Pigerolles (23)<option value="13,45.044805311059385,3.884890079498291" >Le Puy-en-Velay  (43)<option value="13,45.58647340057001,-1.1730480194091796" >Le Verdon-sur-Mer (33)<option value="13,46.894982543081966,-0.9315204620361328" >Les Epesses (85)<option value="13,45.303976478174036,-0.9392237663269043" >Lesparre  (33)<option value="13,43.49033100228827,2.3736155033111572" >Mazamet (81)<option value="13,44.674085304919636,4.270162582397461" >Meyras (02)<option value="13,48.63648206279561,-1.5114784240722656" >Mont Saint-Michel (35)<option value="13,45.60561651140233,4.066250324249268" >Montbrison en Forez  (42)<option value="13,48.482665062784115,6.570553779602051" >Moyen (54)<option value="13,45.70208830985342,2.839064598083496" >Orcival (63)<option value="13,48.852785575663205,2.350054979324341" >Paris (75)<option value="13,46.58327348813117,0.3436446189880371" >Poitiers (86)<option value="13,45.06891379245802,3.8602781295776367" >Polignac (43)<option value="13,49.46918385448716,6.23774528503418" >Rodemack (57)<option value="13,45.56033814732289,2.3788833618164062" >Saint Fréjoux (19)<option value="13,45.55690511432101,4.12462592124939" >Saint Romain le Puy (42)<option value="13,44.89383811264407,-0.15664100646972656" >Saint-Emilion (33)<option value="13,45.43522404172205,4.388909339904785" >Saint-Etienne  (42)<option value="13,45.064215671846576,2.076716423034668" >Saint-Geniez-ô-Merle (19)<option value="13,45.00941618821823,3.6635756492614746" >Saint-Privat d'Allier (43)<option value="13,45.07400551292483,3.79976749420166" >Saint-Vidal (43)<option value="13,46.55559946304116,4.573466777801514" >Sigy-le-Châtel (71)<option value="13,45.51357980368057,-1.1216139793395996" >Soulac-sur-Mer (33)<option value="13,46.24213601384541,6.647586822509766" >St Jean d'Aulps (74)<option value="13,45.53455146816912,-0.9091293811798096" >Talmont-sur-Gironde (17)<option value="13,46.102220957081656,6.597204208374023" >Taninges (74)<option value="13,43.671464730381096,-0.012971162796020507" >Termes d'Armagnac (32)<option value="13,45.128402514167284,1.3050448894500732" >Terrasson-la-Villedieu (24)<option value="13,46.388207916555274,6.4867401123046875" >Thonon-les-Bains (74)<option value="13,43.39839828561274,1.7176330089569091" >Villefranche de Lauragais (31)<option value="13,46.3708882010425,6.326537132263184" >Yvoire (74)
+	</select>
+
+	<input type="submit" name="search" value="Chercher" class="ok_btn" style="width:100px;">
+	</td></tr></form>
+	 
+	</table>
+	
+		
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">	
+	<form name="CFForm_2" action="tourisme.cfm" method="POST" enctype="multipart/form-data" onsubmit="return _CF_checkCFForm_2(this)">
+	<tr><td>	<strong>Grande Bretagne</strong><br>
+	<select name="xyz" size="1" style="width:210px;">
+	<option value="7,52.802761415419674,1.285400390625" >*** Région Nord
+	<option value="7,51.42661449707482,0.37353515625" >*** Région Sud
+	<option value="11,51.12919548892125,1.321878433227539" >Dover (Kent)<option value="11,51.24835119823116,0.628666877746582" >Leeds (Kent)<option value="11,51.19643664964465,0.27463674545288086" >Tonbridge (Kent)
+	</select>
+
+	<input type="submit" name="search" value="Chercher" class="ok_btn" style="width:100px;">
+	</td></tr></form>
+	 
+	</table>
+		
+				
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<form name="CFForm_3" action="tourisme.cfm" method="POST" enctype="multipart/form-data" onsubmit="return _CF_checkCFForm_3(this)">
+	<tr><td><strong>Liban, Syrie</strong><br>
+	<select name="xyz" size="1" style="width:210px;">
+	<option value="8,33.881817226884806,35.51605224" >*** Liban
+	<option value="7,35.05922870088872,36.9744873046875" >*** Syrie
+	<option value="9,34.13404437271383,35.6422233581543" >Jbeil (Byblos)<option value="9,33.56557138356374,35.368595123291016" >Saïda (ancienne Sidon)
+	</select>
+
+	<input type="submit" name="search" value="Chercher" class="ok_btn" style="width:100px;">
+	</td></tr></form>
+			
+	</table>	
+		
+				
+	<table width="100%" border="0" cellspacing="0" cellpadding="0">
+	<form name="CFForm_4" action="tourisme.cfm" method="POST" enctype="multipart/form-data" onsubmit="return _CF_checkCFForm_4(this)">
+	<tr><td><strong>Pologne</strong><br>
+	<select name="xyz" size="1" style="width:210px;">
+	<option value="9,54.0398618193858,19.027462005615234" >Malbork
+	</select>
+
+	<input type="submit" name="search" value="Chercher" class="ok_btn" style="width:100px;">
+	</td></tr></form>
+
+	</table>	
+			
+	<br>
+	&nbsp;<img src="images/puce_fleche.gif" width="4" height="8" border="0"> <a href="" target="texte">Tout voir par ordre alphabétique</a>
+	
+	
+<br><br>
+<table width="90%" border="0" cellspacing="0" cellpadding="2" style="border:1px solid black;" align=center><tr>
+<td style="font-size:7pt;" align=center>
+<br>
+
+Forums : <b>2050</b> messages
+<br>
+Utilisateurs : <b>2344</b> inscrits
+<br>
+
+Articles : <b>132</b> documents
+<br>
+Annuaire : <b>149</b> sites répertoriés
+
+<br>
+Encyclopedie : <b>318</b> définitons
+<br>
+Scriptorium : <b>19</b> textes numérisés
+
+<br><br>
+</td></tr></table>
+<br><br>
+				 
+</td>
+<td width="*" valign=top background="images/fond.jpg" style="padding-left:5px;padding-right:5px;">
+
+<script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAfLAsrGu8Qq4MMz3epfjczhSouLLaYhVVQ8yIvdvjyPRinXPHohR_iJvkIHHzs2UJCyOWZityqBToyA" type="text/javascript"></script>
+
+    <script type="text/javascript">
+	var centerLat=0;
+	var centerLng=0;
+	
+	function load() {
+    	if (GBrowserIsCompatible()) {
+        	var map = new GMap2(document.getElementById("map"));
+			map.addControl(new GSmallMapControl());
+			map.addControl(new GMapTypeControl());
+			map.addControl(new GScaleControl());
+			
+        	map.setCenter(new GLatLng(45.460131,2.406006), 7);
+
+				// affiche tous les points de la carte courante
+				getPoints(map);
+		
+				// Create our "tiny" marker icon		
+				var icon = new Array();
+				icon["red"] = new GIcon();
+				icon["red"].image = "http://www.citadelle.org/images/mm_20_red.png";
+				icon["red"].shadow = "http://www.citadelle.org/images/mm_20_shadow.png";
+				icon["red"].iconSize = new GSize(12, 20);
+				icon["red"].shadowSize = new GSize(22, 20);
+				icon["red"].iconAnchor = new GPoint(6, 20);
+				icon["red"].infoWindowAnchor = new GPoint(5, 1);		
+				// create the crosshair icon, which will indicate where we are on the minimap
+				// Lets not bother with a shadow
+				var Icon = new GIcon();
+				Icon.image = "http://www.citadelle.org/images/xhair.png";
+				Icon.iconSize = new GSize(33, 33);
+				Icon.shadowSize = new GSize(0,0);
+				Icon.iconAnchor = new GPoint(16, 16);
+				Icon.infoWindowAnchor = new GPoint(16, 16);
+				Icon.infoShadowAnchor = new GPoint(16, 16);				
+				// Create the minimap
+			    var minimap = new GMap2(document.getElementById("minimap"));
+			    minimap.setCenter(new GLatLng(45.460131,2.406006), 4);
+		      	// Add the crosshair marker at the centre of teh minimap and keep a reference to it
+		      	var xhair = new GMarker(minimap.getCenter(), Icon);            
+		      	minimap.addOverlay(xhair);		      
+				// ====== Handle the Map movements ======
+				// Variables that log whether we are currently causing the maps to be moved
+				
+				var map_moving = 0;
+				var minimap_moving = 0;
+				
+				// This function handles what happens when the main map moves
+				// If we arent moving it (i.e. if the user is moving it) move the minimap to match
+				// and reposition the crosshair back to the centre
+				function Move(){
+					minimap_moving = true;
+					if (map_moving == false) {
+						minimap.setCenter(map.getCenter());
+						xhair.setPoint(map.getCenter());
+						xhair.redraw(true);
+					}
+					minimap_moving = false;
+				}
+				// This function handles what happens when the mini map moves
+				// If we arent moving it (i.e. if the user is moving it) move the main map to match
+				// and reposition the crosshair back to the centre
+				function MMove(){
+					map_moving = true;
+					if (minimap_moving == false) {
+						map.setCenter(minimap.getCenter());
+						xhair.setPoint(minimap.getCenter());
+						xhair.redraw(true);
+					}
+					map_moving = false;		
+				}
+				// Listen for when the user moves either map
+				GEvent.addListener(map, 'move', Move);
+				GEvent.addListener(minimap, 'moveend', MMove);		
+		
+				 
+
+		}
+		
+		function get_icon(iconColor) {
+			if ((typeof(iconColor)=="undefined") || (iconColor==null)) { 
+		    	iconColor = "red"; 
+		 	}
+			if (!icon[iconColor]) {
+		    	icon[iconColor] = new GIcon(icon["red"]);
+		    	icon[iconColor].image = "http://www.citadelle.org/images/mm_20_"+ iconColor +".png";
+		 	} 
+		 	return icon[iconColor];
+		}		
+		
+		function getPoints(map) { 
+			GDownloadUrl("http://www.romanes.com/romanes_map.xml", function(data, responseCode) {
+				var xml = GXml.parse(data);
+  				var markers = xml.documentElement.getElementsByTagName("site");
+				// efface tout les points de la carte
+				map.clearOverlays();				
+				// Create a base icon for all of our markers
+				var baseIcon = new GIcon();
+				baseIcon.image = "http://www.romanes.com/favicon.png";
+				baseIcon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+				baseIcon.iconSize = new GSize(12, 20);
+				baseIcon.shadowSize = new GSize(22, 20);
+				baseIcon.iconAnchor = new GPoint(6, 20);
+				baseIcon.infoWindowAnchor = new GPoint(5, 1);
+				baseIcon.infoShadowAnchor = new GPoint(18, 25);
+				var icon = new GIcon(baseIcon);
+				icon.image = "http://www.romanes.com/favicon.png";
+				for (var i = 0; i < markers.length; i++) {
+				//for (var i = 0; i < 100; i++) {
+    				var point = new GLatLng(parseFloat(markers[i].getElementsByTagName("lat")[0].firstChild.nodeValue), parseFloat(markers[i].getElementsByTagName("lng")[0].firstChild.nodeValue));
+					var url="";
+                	if (markers[i].getElementsByTagName("url")[0].firstChild) {
+                    	var url = markers[i].getElementsByTagName("url")[0].firstChild.nodeValue;
+                	}
+					map.addOverlay(createMarker(point, 1, markers[i].getElementsByTagName("name")[0].firstChild.nodeValue,  markers[i].getElementsByTagName("addr_city")[0].firstChild.nodeValue, url, icon ));
+				}
+				}     		
+				);	
+				
+		}
+	
+		function createMarker(point, number, texte, lieu, url, icone) {
+		  var marker = new GMarker(point, icone);
+		  GEvent.addListener(marker, "click", function() {
+	      if (url) {
+		  	marker.openInfoWindowHtml("<table><tr><td valign=top><a href='"+url+"' target='texte'>"+texte+"</a><br>"+lieu+"</td></tr></table>");
+		  } else {
+		  	marker.openInfoWindowHtml("<table><tr><td valign=top>"+texte+"<br>"+lieu+"</td></tr></table>");
+		  }
+		  });
+		  return marker;
+		}
+			
+
+function DMStoDEC(hem,deg,min,sec) {
+	res = Number(deg)+(min/60)+(sec/3600);
+	if(hem == "S" || hem == "W")
+		res = -res;
+	return res;
+}
+
+function DECtoDMS(A) {
+
+	var xdeg=0, xmin=0;
+	var xsec=0.0;
+	var ret;
+	var sign;
+	
+	if( A < 0 ) {
+	  A = -A; 
+	  sign = "-"; 
+	} else { 
+	  sign = "";
+	}
+	
+	Degrees = parseInt(A); 
+	A = 60 * (A - Degrees); 
+	Minutes = parseInt(A); 
+	Seconds = 60 * (A - Minutes); 
+	Seconds = Math.round(Seconds, 3); 
+	Seconds = parseInt(Seconds * 1000); 
+	Seconds = Seconds / 1000;
+	
+	ret = sign + Degrees + " " + Minutes + " " + Seconds 
+	//alert(ret);
+}
+
+
+
+
+	}
+    </script>
+
+  <body onload="load()" onunload="GUnload()">
+    <div align="center" style="height:100%;">
+		<div id="map" style="width: 100%; height: 40%; border:1px solid #ae113B;"></div>
+	
+		
+		<iframe src="" name="texte" id="texte" width="100%" height="60%" frameborder="0"></iframe>
+		
+		
+	</div>
+
+	
+
+</td>
+<td width="220" valign=top background="images/fond.jpg">
+
+	<table width="220" border="0" cellspacing="0" cellpadding="1">
+	<tr><td colspan=2><img src="images/tit_deg_ident.jpg" alt="Club &amp; forums" width="219" height="23" border="0"></td></tr>
+	<form name="CFForm_5" action="tourisme.cfm?" method="POST" enctype="multipart/form-data" onsubmit="return _CF_checkCFForm_5(this)">
+	<input type="hidden" name="login" value="true"> 
+	<tr><td class="login">Identifiant</td><td><input name="ulogin" id="ulogin" type="text" class="login"  /></td></tr>
+	<tr><td class="login"><nobr>Mot de passe</td><td><input name="upassword" id="upassword" type="password" class="pwd"  /> <input type="submit" name="submit" value="OK" class="ok_btn"></td></tr>	
+	<tr><td></td><td class="login"><a href="javascript:popMini('compte_forgot.cfm?rnd=2');">Perdu votre mot de passe ?</a></td></tr>
+
+	<tr><td colspan=2 class="login">Pour <a href="index.cfm?p=14,00,00,00">vous inscrire</a> &agrave; Citadelle et ainsi pouvoir participer aux forums ou recevoir notre newsletter, <a href="index.cfm?p=14,00,00,00">cliquez-ici</a></td></tr>
+	</form>
+
+	</table>	
+	
+	<br>
+	<div name="details" id="details"></div>
+	
+
+
+	
+	
+	
+	
+			
+
+		
+		
+			
+				
+			
+		
+
+		
+		
+				<table cellspacing="0" cellpadding="0" width="100%" border="0">
+
+    <tbody>
+        <tr>
+            <td><img height="23" alt="" src="" width="219" /></td>
+        </tr>
+        <tr>
+            <td style="PADDING-RIGHT: 5px; PADDING-LEFT: 5px; PADDING-BOTTOM: 5px; PADDING-TOP: 5px">
+            <p>Chaque <strong>ic&ocirc;ne</strong> sur la carte repr&eacute;sente un lieu, en cliquant dessus vous obtenez le d&eacute;tail dans une une petite fen&ecirc;tre. Dans cette <strong>fen&ecirc;tre</strong>, si vous cliquez sur le nom du lieu, une fiche descriptive appara&icirc;t en bas de votre &eacute;cran. Si plusieurs lieux sont trop proches les uns des autres, une seule ic&ocirc;ne appara&icirc;tra. Pour&nbsp;les distinguer, il suffit de &quot;zoomer&quot; sur le carte.</p>
+
+            <p>Vous pouvez <strong>d&eacute;placer</strong> la carte en cliquant sur celle-ci et en bougant la souris. Pour &quot;<strong>zoomer</strong>&quot;, appuyez sur les bouton [+] et [-] sur la gauche.</p>
+            <p><font color="#ff0000">J'attire grandement votre attention sur le fait que cette rubrique dynamique a aussi besoin de vous pour s'enrichir... Faites-nous parvenir vos fiches descriptives des lieux que vous avez visit&eacute;s, ainsi que les photos.<br />Merci &agrave; toutes et &agrave; tous !</font></p>
+
+            </td>
+        </tr>
+    </tbody>
+</table>
+<br /><br /><br />
+		
+				
+		
+		
+</td>
+</tr>
+</table>
+
+<script language="Javascript">
+<!--
+// permet de déterminer le navigateur en fonction de nos besoins
+var dom = net = iex = false;
+if (document.getElementById) dom = true; // IE5+ ou Netscape6+/Mozilla
+if (document.layers) net = true; // Netscape4 
+if (document.all) iex = true; // IE4+
+
+if (iex) {
+  var larg_utile = "document.body.offsetWidth";
+  var haut_utile = "document.body.offsetHeight-135";
+}
+else if (dom || net) {
+  var larg_utile = "window.innerWidth";
+  var haut_utile = "window.innerHeight-135";
+}
+else {}
+//var nb_couleurs = screen.colorDepth;
+//var larg_ecran = screen.width;
+//var haut_ecran = screen.height;
+
+if (iex) {
+	document.getElementById('tabltrsm').height=eval(haut_utile);
+	//document.getElementById('cell').height = '30px'; 
+	//var tt=document.table["tabltrsm"];
+	//tt.
+	//document.tabtour.setAttribute("cssText", "height:"+eval(haut_utile)+"px;");
+}
+else if (dom || net) {
+	var tt=document.getElementById("tabltrsm");
+	tt.setAttribute("style", "height:"+eval(haut_utile)+"px;");
+}
+// -->
+</script>
+
+
+
+
+
+
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td width="220" bgcolor="#990000" class="copy">11 visiteurs actifs / 92 sessions
+<a href="http://www.hit-parade.com/hp.asp?site=p27564" target="_blank"><img src="http://logp.hit-parade.com/logohp1.gif?site=p27564" alt="" width="1" height="1" border="0"></a>
+<br>204 ms
+
+
+
+</td>
+<td width="*" bgcolor="#990000" class="copy">&copy; Tous droits r&eacute;serv&eacute;s. 
+
+<br><a href="mailto:info@org" class="copy">Contactez nous</a> pour toutes informations. </td>
+<td width="220" bgcolor="#990000" class="copy">10507 visteurs depuis le 21/05/2006</td>
+</tr>
+</table>
+<div id="dhtmltooltip"></div>
+<script language="Javascript" src="_dhtmltooltip.js"></script>
+<script>function popTexte(id) {
+	window.open('pop_Texte.cfm?launch=true&id='+id,'popTexte','toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,resizable=yes,width=500,height=400');
+}</script>
+

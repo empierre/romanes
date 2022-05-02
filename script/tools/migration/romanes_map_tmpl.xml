@@ -1,0 +1,89 @@
+<romanes_worldwide>
+<site>
+    <name>Pise</name>
+    <type>branch</type>
+    <lat>43.7161</lat>
+    <lng>10.3966</lng>
+    <url/>
+    <addr_street>Pise</addr_street>
+    <addr_postalcode>56122</addr_postalcode>
+    <addr_city>Pise</addr_city>
+    <addr_country>Italie</addr_country>
+  </site>
+<site>
+    <name>Rome</name>
+    <type>branch</type>
+    <lat>41.8954</lat>
+    <lng>12.4822</lng>
+    <url/>
+    <addr_street>Rome</addr_street>
+    <addr_postalcode>00170</addr_postalcode>
+    <addr_city>Rome</addr_city>
+    <addr_country>Italie</addr_country>
+  </site>
+<site>
+    <name>Cefalu</name>
+    <type>branch</type>
+    <lat>38.0395</lat>
+    <lng>14.0219</lng>
+    <url/>
+    <addr_street>Cefalu</addr_street>
+    <addr_postalcode>90015</addr_postalcode>
+    <addr_city>Cefalu</addr_city>
+    <addr_country>Italie</addr_country>
+ </site>
+<site>
+    <name>La Seu d'Urgell</name>
+    <type>branch</type>
+    <lat>42.3567</lat>
+    <lng>1.4597</lng>
+    <url/>
+    <addr_street>La Seu d'Urgell</addr_street>
+    <addr_postalcode>25700</addr_postalcode>
+    <addr_city>La Seu d'Urgell</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Santo Domingo De Silos</name>
+    <type>branch</type>
+    <lat>41.9622</lat>
+    <lng>-3.4193</lng>
+    <url/>
+    <addr_street>Santo Domingo De Silos</addr_street>
+    <addr_postalcode>09610 </addr_postalcode>
+    <addr_city>Santo Domingo De Silos</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Santiago De Compostela</name>
+    <type>branch</type>
+    <lat>42.8804</lat>
+    <lng>-8.5463</lng>
+    <url/>
+    <addr_street>Santiago De Compostela</addr_street>
+    <addr_postalcode>15705</addr_postalcode>
+    <addr_city>Santiago De Compostela</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Aix-la-Chapelle</name>
+    <type>branch</type>
+    <lat>50.7659</lat>
+    <lng>6.0917</lng>
+    <url/>
+    <addr_street>Aix-la-Chapelle</addr_street>
+    <addr_postalcode>15705</addr_postalcode>
+    <addr_city>Aix-la-Chapelle</addr_city>
+    <addr_country>Allemagne</addr_country>
+  </site>
+<site>
+    <name>Giornico</name>
+    <type>branch</type>
+    <lat>46.4022</lat>
+    <lng>8.8766</lng>
+    <url>www.romanes.com/Gironico</url>
+    <addr_street> Giornico</addr_street>
+    <addr_postalcode>6745</addr_postalcode>
+    <addr_city> Giornico</addr_city>
+    <addr_country>Suisse</addr_country>
+  </site>

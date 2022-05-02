@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+  <head>
+    <!-- Do not change the headers of this file, otherwise Google Maps won't work with IE -->
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+    <title>Romanes.com </title>
+	<style type="text/css">
+	v\:* {
+		behavior:url(#default#VML);
+	}
+
+	div.markerTooltip, div.markerDetail {
+		color: black;
+		font-size: 0.8em;
+		font-family: Vandara;
+		background-color: white;
+		white-space: nowrap;
+		margin: 0;
+		padding: 2px 3px;
+		border: 1px solid black;
+	}
+    </style>
+    
+    <script src="http://maps.google.com/maps?file=api&v=2&key=ABQIAAAAfLAsrGu8Qq4MMz3epfjczhSouLLaYhVVQ8yIvdvjyPRinXPHohR_iJvkIHHzs2UJCyOWZityqBToyA" type="text/javascript"></script>
+	
+    <script type="text/javascript">
+    //<![CDATA[
+
+/**
+  * Romanes
+  * http://romanes.com/world_map.html
+  * 
+  * This file is offered under the terms of the Attribution-ShareAlike Creative Commons License.
+  * See http://creativecommons.org/licenses/by-sa/2.0
+  * 
+  */
+
+var map = null;
+var marker = new Array();
+var html = new Array();
+
+// Create a base icon for all of our markers
+var baseIcon = new GIcon();
+//baseIcon.image = "http://www.romanes.com/favicon.png";
+baseIcon.shadow = "http://www.google.com/mapfiles/shadow50.png";
+baseIcon.iconSize = new GSize(12, 20);
+baseIcon.shadowSize = new GSize(22, 20);
+baseIcon.iconAnchor = new GPoint(6, 20);
+baseIcon.infoWindowAnchor = new GPoint(5, 1);
+baseIcon.infoShadowAnchor = new GPoint(18, 25);
+
+function goToThisSite(id, zoomLevel){
+	// Don't reverse these two lines
+	map.setZoom(zoomLevel?zoomLevel:10);
+	marker[id].openInfoWindowHtml(html[id]);
+}
+
+function zoom(x) {
+    map.zoomTo(map.getZoom() + x);
+}
+
+// Create a marker whose info window displays the given number.
+function createMarker(id, point, icon, htmlContent) {
+	marker[id] = new GMarker(point, icon);
+	
+	// Show this marker's index in the info window when it is clicked.
+	html[id] = '<div style="margin: 0; width: 200px;"><div style="margin-bottom: 3px; font-size: 9pt; font-family: verdana,sans-serif">'+htmlContent+'</div></div>';
+	//GEvent.addListener(marker, 'mouseover', function() 
+	GEvent.addListener(marker[id], 'click', function() {
+		marker[id].openInfoWindowHtml(html[id]);
+	});
+	map.addOverlay(marker[id]);
+	//window.setTimeout(plotPoint,timeOut);
+	return true;
+}
+
+function createPolyline(points, colorIndex, thickness, opacity) {
+
+	var polyline = new GPolyline(points, color[colorIndex], thickness, opacity?opacity:0.5);
+	return polyline;
+}
+
+
+function loadMap(zoomLevel, mapType) {
+	
+	if (GBrowserIsCompatible()) {
+		map = new GMap2(document.getElementById("map"));
+		map.addControl(new GSmallMapControl());
+		//map.addControl(new GLargeMapControl());
+		map.addControl(new GMapTypeControl());
+		map.addControl(new GScaleControl());
+
+ 		map.setCenter(new GLatLng(45.460131,2.406006), 7);
+		
+		switch (mapType) {
+		    case "m": 	map.setMapType(G_NORMAL_MAP); break;
+		    case "s": 	map.setMapType(G_SATELLITE_MAP); break;
+		    case "h": 	
+		    default:    map.setMapType(G_HYBRID_MAP); break;
+	    }
+
+       // Si j'ai terminée de bouger la carte
+       GEvent.addListener(map, "moveend", function() {
+          var center = map.getCenter();
+           centerLat=center.lat();
+           centerLng=center.lng();
+           var bounds = map.getBounds();
+           var zoom   = map.getZoom();
+           
+
+           // affiche tous les points de la carte courante
+           getPoints(map);
+           }
+      );   
+
+       // Si j'ai terminée de zoomer la carte
+       GEvent.addListener(map, "zoomend", function() {
+           var center = map.getCenter();
+           centerLat=center.lat();
+           centerLng=center.lng();
+           var bounds = map.getBounds();
+           var zoom   = map.getZoom();
+
+           // affiche tous les points de la carte courante
+           getPoints(map);
+           }
+           );
+
+           // affiche tous les points de la carte courante
+           getPoints(map);
+
+	
+	    
+		// Get coordinates of a point
+		MyListener = GEvent.addListener(map, "click", function(overlay, point){
+			//document.getElementById('message').innerHTML = point;
+		});
+
+		// minimap definition
+		var Icon = new GIcon();
+        Icon.image = "http://www.romanes.com/img/xhair.png";
+        Icon.iconSize = new GSize(33, 33);
+        Icon.shadowSize = new GSize(0,0);
+        Icon.iconAnchor = new GPoint(16, 16);
+        Icon.infoWindowAnchor = new GPoint(16, 16);
+        Icon.infoShadowAnchor = new GPoint(16, 16);
+        // Create the minimap
+        var minimap = new GMap2(document.getElementById("minimap"));
+        minimap.setCenter(new GLatLng(45.460131,2.406006), 4);
+        // Add the crosshair marker at the centre of teh minimap and keep a reference to it
+        var xhair = new GMarker(minimap.getCenter(), Icon);
+        minimap.addOverlay(xhair);
+		// ====== Handle the Map movements ======
+        // Variables that log whether we are currently causing the maps to be moved
+        var map_moving = 0;
+        var minimap_moving = 0;
+
+		// This function handles what happens when the main map moves
+        // If we arent moving it (i.e. if the user is moving it) move the minimap to match
+        // and reposition the crosshair back to the centre
+        function Move(){
+            minimap_moving = true;
+            if (map_moving == false) {
+                minimap.setCenter(map.getCenter());
+                xhair.setPoint(map.getCenter());
+                xhair.redraw(true);
+            }
+            minimap_moving = false;
+        }
+        // This function handles what happens when the mini map moves
+        // If we arent moving it (i.e. if the user is moving it) move the main map to match
+        // and reposition the crosshair back to the centre
+        function MMove(){
+            map_moving = true;
+            if (minimap_moving == false) {
+                map.setCenter(minimap.getCenter());
+                xhair.setPoint(minimap.getCenter());
+                xhair.redraw(true);
+            }
+            map_moving = false;
+        }
+        // Listen for when the user moves either map
+        GEvent.addListener(map, 'move', Move);
+        GEvent.addListener(minimap, 'moveend', MMove);
+
+	}
+	
+}
+
+function getPoints(map) {
+	/* Read journey information from XML file */
+	var request = GXmlHttp.create();
+	request.open('GET', 'romanes_map.xml', true);
+	request.onreadystatechange = function() {
+		if (request.readyState == 4) {
+			var xmlDoc = request.responseXML;
+			var points = xmlDoc.documentElement.getElementsByTagName("site");
+			document.getElementById('linkstosite').innerHTML = '';
+			
+			for (var i = 0; i < points.length; i++) {
+				var icon = new GIcon(baseIcon);
+				//icon.image = "gmap_marker_" + points[i].getElementsByTagName("type")[0].firstChild.nodeValue +".png";
+				icon.image = "http://www.romanes.com/favicon.png";
+					
+			    	var lng = points[i].getElementsByTagName("lng")[0].firstChild.nodeValue;
+			    	var lat = points[i].getElementsByTagName("lat")[0].firstChild.nodeValue;
+				//var point = new GPoint(lng, lat);
+				var point = new GLatLng(lat,lng);
+									   
+				var marker = new GMarker(point, icon);
+				map.addOverlay(marker);
+			
+				var url="";
+				if (points[i].getElementsByTagName("url")[0].firstChild) {
+					var url = points[i].getElementsByTagName("url")[0].firstChild.nodeValue;
+				}
+				if (url) {
+					var name = "<a href=http://" + url + ">" 
+						+ points[i].getElementsByTagName("name")[0].firstChild.nodeValue +"</a>";
+				} else {
+					var name = points[i].getElementsByTagName("name")[0].firstChild.nodeValue;
+				}
+				var addr = points[i].getElementsByTagName("addr_city")[0].firstChild.nodeValue ;
+				createMarker(i, point, icon, "<b>" + name + "</b><br/>"+addr);
+				
+				if (i == 0) {
+				    // zoom levels 0-15, 15 => world
+				    map.setCenter(point, 12);
+				}
+				document.getElementById('linkstosite').innerHTML += "<a href=\"#\" onclick=\"goToThisSite(" + i + ")\">" + name + "</a><br/>";
+			}
+		}
+	}
+	request.send(null);
+}
+    //]]>
+    </script>
+  </head>
+  
+<body onload="loadMap(12)" bgcolor="#000000" onunload="GUnload()">
+
+	  <div id="intro" style="font-size:1.1em;color:#FFFFFF;"><p><img src="http://romanes.com/img/romanes2-logo-big.jpg" alt="Romanes Logo" style="position:relative; left:auto;right:auto;top:2px;"/> Tous les sites sur l'<a href="http://www.romanes.com/" target="_blank">Art Roman</a> en Europe <!--sur <a href="http://maps.google.com" target="_blank">Google Maps</a>--> :</p></div>
+
+	<div id="minimap" style="width:219; height: 219; border:1px solid #ae113B;"></div>
+
+    <div id="map" style="width:70%; height:450px; font-color: Black; background-color:Black; float:right;"></div>
+
+    <div id="message"></div>
+    <div id="linkstosite" style="display:none;"></div>
+    <div id="allsites" style=" color: #FFFFFF; font-size:9pt; width:auto; height:450px; overflow:auto; text-align:right;">
+    
+	    <p><strong><a href="#" onclick="goToThisSite(0)">Notre Dame de Chatou</a></strong><br>Chatou, France<br>XII-XIX</p>
+    	    <p><strong><a href="#" onclick="goToThisSite(1)">Saint Pierre d'Aulnay</a></strong><br>Aulnay, France<br>XII</p>
+    	    <p><strong><a href="#" onclick="goToThisSite(2)">Saint Nicolas de Civray</a></strong><br>Civray, France<br>XII</p>
+    	    <p><strong><a href="#" onclick="goToThisSite(3)">Notre Dame de Saint Nectaire</a></strong><br>Saint Nectaire, France<br>XII</p>
+    	    <p><strong><a href="#" onclick="goToThisSite(4)">Saint Austremoine d'Issoire</a></strong><br>Issoire, France<br>XII</p>
+	  </div>
+	  
+
+
+<div id="copyright" style="font-size:0.7em;"><p>Pour toutes les suggestions et questions relatives à ce plan, Webmaster webmaster@romanes.com.</p></div>
+    
+    
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-151022-1";
+urchinTracker();
+</script>
+
+    
+  </body>
+</html>

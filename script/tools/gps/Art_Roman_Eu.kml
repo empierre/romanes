@@ -1,0 +1,1350 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.1">
+  <Document>
+    <name>Arts roman et gothique en Europe</name>
+<Placemark>
+    <name></name>
+    <Point>
+      <coordinates>; This Ascii PoiFile was generated on 29/07/2007 by PoiEdit, ©2002-2007 by Dnote Software (http://www.dnote.nl). All rights reserved.</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 14 Caen (aux Hommes)*</name>
+    <Point>
+      <coordinates>-0.37323, 49.1815</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 17 Saintes (Abbaye aux Dames)*</name>
+    <Point>
+      <coordinates>-0.62314, 45.7454</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 60 Saint-Germer-de-Fly (Saint Germer)</name>
+    <Point>
+      <coordinates>1.7806, 49.4434</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Tournus (Saint Philibert)</name>
+    <Point>
+      <coordinates>4.90893, 46.5658</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien] 77 Dammarie-les-Lys (du Lys)</name>
+    <Point>
+      <coordinates>2.63206, 48.5183</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 86 Charroux (Saint-Sauveur)</name>
+    <Point>
+      <coordinates>0.40445, 46.1433</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien] 89 Pontigny (Notre Dame)</name>
+    <Point>
+      <coordinates>3.71344, 47.9096</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Paray-le-Monial (Sacré-Coeur)*</name>
+    <Point>
+      <coordinates>4.12129, 46.45</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 89 Vézelay (Sainte Madeleine)*</name>
+    <Point>
+      <coordinates>3.74867, 47.4663</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 14 Bayeux (Notre Dame)*</name>
+    <Point>
+      <coordinates>-0.70382, 49.2757</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 16 Angoulême (Saint Pierre)</name>
+    <Point>
+      <coordinates>0.1515, 45.649</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique] 18 Bourges (Saint Etienne)*</name>
+    <Point>
+      <coordinates>2.39894, 47.0824</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-NeoRoman] 24 Périgueux (Saint Front)</name>
+    <Point>
+      <coordinates>0.72287, 45.1838</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique] 24 Sarlat-la-Canéda (Saint Sardos)</name>
+    <Point>
+      <coordinates>1.21693, 44.8888</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 28 Chartres (Notre Dame)*</name>
+    <Point>
+      <coordinates>1.48738, 48.4478</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 30 Uzès (Saint-Théodorit)*</name>
+    <Point>
+      <coordinates>4.42199, 44.0121</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 51 Reims (Notre Dame)*</name>
+    <Point>
+      <coordinates>4.03402, 49.2534</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 60 Beauvais (Saint Pierre)*</name>
+    <Point>
+      <coordinates>2.08157, 49.4326</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique] 60 Senlis (Notre Dame)*</name>
+    <Point>
+      <coordinates>2.58617, 49.2068</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 63 Clermont-Ferrand ()</name>
+    <Point>
+      <coordinates>3.08574, 45.7785</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Autun (Saint Lazare)*</name>
+    <Point>
+      <coordinates>4.29886, 46.9451</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 72 Le Mans (Saint Julien)*</name>
+    <Point>
+      <coordinates>0.19885, 48.0092</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique] 80 Amiens (Notre Dame)*</name>
+    <Point>
+      <coordinates>2.30121, 49.8949</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 83 Fréjus (Saint Léonce)*</name>
+    <Point>
+      <coordinates>6.7365, 43.433</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 84 Avignon (ND des Doms)</name>
+    <Point>
+      <coordinates>4.80755, 43.9518</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Benedictin] 24 Chancelade (de l'Abbaye)</name>
+    <Point>
+      <coordinates>0.66602, 45.207</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Médiéval] 21 Beaune (Hospices de Beaune)*</name>
+    <Point>
+      <coordinates>4.83653, 47.0241</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothic] 77 Provins (Saint Quiriace)*</name>
+    <Point>
+      <coordinates>3.29079, 48.5608</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 77 Saint-Loup-de-Naud (Saint Loup)</name>
+    <Point>
+      <coordinates>3.20902, 48.5362</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 78 Poissy (Notre Dame)</name>
+    <Point>
+      <coordinates>2.03811, 48.9299</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 13 Arles (Saint Trophime)</name>
+    <Point>
+      <coordinates>4.62819, 43.6766</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 14 Caen (aux Dames)*</name>
+    <Point>
+      <coordinates>-0.36081, 49.1841</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 16 Ruffec (Saint André)</name>
+    <Point>
+      <coordinates>0.20261, 46.0279</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 17 Saintes (Saint Eutrope)*</name>
+    <Point>
+      <coordinates>-0.6371, 45.7474</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 17 Varaize (Saint Germain)</name>
+    <Point>
+      <coordinates>-0.42495, 45.9239</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 21 Saulieu (Saint Andoche)</name>
+    <Point>
+      <coordinates>4.22989, 47.2796</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 24 Belvès (N.D. de Capelou)</name>
+    <Point>
+      <coordinates>1.00252, 44.7762</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 24 Brantôme (Notre Dame)*</name>
+    <Point>
+      <coordinates>0.64714, 45.3647</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 24 Chancelade (Notre Dame)*</name>
+    <Point>
+      <coordinates>0.66692, 45.2072</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 24 Périgueux (Saint Etienne la Cité)*</name>
+    <Point>
+      <coordinates>0.71473, 45.1817</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 24 Saint-Léon-sur-Vézère (Saint Léon)</name>
+    <Point>
+      <coordinates>1.08831, 45.0101</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 30 Uzès (Saint-Thodorit</name>
+    <Point>
+      <coordinates>4.41848, 44.0108</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 43 Blesle (Saint Pierre)</name>
+    <Point>
+      <coordinates>3.17002, 45.3187</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 43 Brioude (Saint Julien)</name>
+    <Point>
+      <coordinates>3.38452, 45.2937</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Bénédictin] 60 Morienval (Notre Dame)</name>
+    <Point>
+      <coordinates>2.92199, 49.2983</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 63 Clermont-Ferrand (Notre Dame du Port)</name>
+    <Point>
+      <coordinates>3.0897, 45.7808</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 63 Issoire (Saint Austremoine)</name>
+    <Point>
+      <coordinates>3.25008, 45.5435</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 63 Royat (Saint Léger)</name>
+    <Point>
+      <coordinates>3.04947, 45.7649</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Gourdon (Notre-Dame-de-l'Assomption)</name>
+    <Point>
+      <coordinates>4.4466, 46.6416</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Mont-Saint-Vincent (Saint Vincent)</name>
+    <Point>
+      <coordinates>4.48023, 46.6322</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 71 Perrecy-les-Forges (Saint-Pierre-et-Saint-Benoit)</name>
+    <Point>
+      <coordinates>4.21515, 46.6126</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique] 75 Paris (Saint Eustache)</name>
+    <Point>
+      <coordinates>2.40624, 48.8482</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien] 77 Dammarie-les-Lys (Notre Dame du Lys)</name>
+    <Point>
+      <coordinates>2.63528, 48.5147</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 78 Bougival (Notre Dame)</name>
+    <Point>
+      <coordinates>2.14035, 48.8635</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Néo-Gothique] 78 Chatou (Notre Dame)</name>
+    <Point>
+      <coordinates>2.15974, 48.8891</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 78 Feucherolles (Sainte Geneviève)</name>
+    <Point>
+      <coordinates>1.97226, 48.8727</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 78 Louveciennes (Notre Dame)</name>
+    <Point>
+      <coordinates>2.114, 48.861</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Post-Gothique] 78 Mareil-Marly (Saint Etienne)</name>
+    <Point>
+      <coordinates>2.07802, 48.8818</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique] 78 Orgeval (Saint Pierre et Saint Paul)</name>
+    <Point>
+      <coordinates>1.97636, 48.9195</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 84 Avignon (Saint Benezet)</name>
+    <Point>
+      <coordinates>4.81362, 43.9508</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 86 Civray (Saint Nicolas)</name>
+    <Point>
+      <coordinates>0.29676, 46.148</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 86 Lusignan (Notre Dame)</name>
+    <Point>
+      <coordinates>0.12327, 46.4362</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 86 Poitiers (Notre Dame la Grande)</name>
+    <Point>
+      <coordinates>0.34401, 46.5833</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 89 Seignelay (Saint Martial)</name>
+    <Point>
+      <coordinates>3.60089, 47.9036</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 91 Etampes (Notre Dame du Fort)</name>
+    <Point>
+      <coordinates>2.1639, 48.435</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 91 Etampes (Saint Basile)</name>
+    <Point>
+      <coordinates>2.16112, 48.4359</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman] 91 Etampes (Saint Martin)</name>
+    <Point>
+      <coordinates>2.13911, 48.4262</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien] 95 Mériel (Notre Dame)</name>
+    <Point>
+      <coordinates>2.20658, 49.0805</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 Aulnay de Saintonge (Saint Pierre d'Aulnay de Saintonge)*</name>
+    <Point>
+      <coordinates>-0.35563, 46.023</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 Saint Bris des Bois (Abbaye de Fontdouce)*</name>
+    <Point>
+      <coordinates>-0.45861, 45.7699</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Chauvigny (Saint Pierre)*</name>
+    <Point>
+      <coordinates>0.64837, 46.5706</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 21 Saint Nicolas les Cîteaux (Abbaye de Cîteaux)*</name>
+    <Point>
+      <coordinates>5.0549, 47.1147</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 60 Pontpoint (Abbaye Royale du Moncel)*</name>
+    <Point>
+      <coordinates>2.6407, 49.3</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Renaissance nv] 17 Dampierre sur Boutonne (Demeure Philosophale de Dampierre sur Boutonne)*</name>
+    <Point>
+      <coordinates>-0.4136, 46.0662</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 60 Ercuis (Saint Nicolas d'Ercuis)*</name>
+    <Point>
+      <coordinates>2.3059, 49.2342</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Maillezais (Abbaye Saint Pierre de Maillezais)*</name>
+    <Point>
+      <coordinates>-0.7391, 46.3714</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 Matha (Saint Pierre de Marestay)*</name>
+    <Point>
+      <coordinates>-0.32, 45.8675</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Néo-Gothique nv] 17 Matha (Sainte Hérie de Matha)*</name>
+    <Point>
+      <coordinates>-0.32334, 45.8605</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Maillezais (Saint Nicolas de Maillezais)*</name>
+    <Point>
+      <coordinates>-0.7391, 46.3714</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Montmorillon (Montmorillon)*</name>
+    <Point>
+      <coordinates>0.8667, 46.426</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 75 Paris (Notre Dame de Paris)*</name>
+    <Point>
+      <coordinates>2.3497, 48.853</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Benet (Benet)*</name>
+    <Point>
+      <coordinates>-0.6072, 46.3643</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Maillé (Maillé)*</name>
+    <Point>
+      <coordinates>-0.7889, 46.3424</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Nouaillé-Maupertuis (Abbaye de Nouaillé-Maupertuis)*</name>
+    <Point>
+      <coordinates>0.4134, 46.5107</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 75 Paris (Sainte Chapelle)*</name>
+    <Point>
+      <coordinates>2.34476, 48.8555</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 60 Précy sur Oise (Saint Pierre et Saint Paul de Précy sur Oise)*</name>
+    <Point>
+      <coordinates>2.36862, 49.2037</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique nv] 60 Saint Leu d'Esserent (Saint Nicolas)*</name>
+    <Point>
+      <coordinates>2.417, 49.2171</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 95 Asnière sur Oise (Abbaye de Royaumont)*</name>
+    <Point>
+      <coordinates>2.35561, 49.1321</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Saint Savin sur Gartempe (Saint Savin)*</name>
+    <Point>
+      <coordinates>0.86583, 46.5652</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 84 Gordes (Abbaye de Sénanque)*</name>
+    <Point>
+      <coordinates>5.2011, 43.9112</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 13 La Roque-d'Anthéron (Abbaye de Silvacane)*</name>
+    <Point>
+      <coordinates>5.3101, 43.7164</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 12 Sylvanès (Abbaye de Sylvanès)*</name>
+    <Point>
+      <coordinates>2.9593, 43.8338</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 83 Le Thoronet (Abbaye du Thoronet)*</name>
+    <Point>
+      <coordinates>6.3081, 43.4501</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 St Mandé sur Brédoire (St Mandé sur Brédoire)*</name>
+    <Point>
+      <coordinates>-0.3031, 46.0239</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Bénédictin nv] 45 Saint-Benoît-sur-Loire (Abbaye de Saint-Benoît-sur-Loire)*</name>
+    <Point>
+      <coordinates>2.3056, 47.8098</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Nieul sur l'Autise (Abbaye Royale de Nieul sur l'Autise)*</name>
+    <Point>
+      <coordinates>-0.6807, 46.4225</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 85 Vouvant (Vouvant)*</name>
+    <Point>
+      <coordinates>-0.7692, 46.5724</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 Saintes (Saint Eutrope Eglise Haute)*</name>
+    <Point>
+      <coordinates>-0.6371, 45.7474</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Saint-Amand de Coly (Saint-Amand de Coly)*</name>
+    <Point>
+      <coordinates>1.2475, 45.0633</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 24 Villars (Abbaye cistercienne de Boschaud)*</name>
+    <Point>
+      <coordinates>0.754, 45.4197</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 24 Le Buisson de Cadouin (Abbaye cistercienne de Cadouin)*</name>
+    <Point>
+      <coordinates>0.9086, 44.8439</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Paunat (Abbaye Saint Martial de Paunat)*</name>
+    <Point>
+      <coordinates>0.8588, 44.9051</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Cenac et Saint Julien (Eglise de Cenac)*</name>
+    <Point>
+      <coordinates>1.2042, 44.7987</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Thiviers (Eglise de Thiviers)*</name>
+    <Point>
+      <coordinates>0.9209, 45.4144</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Audrix (Eglise d'Audrix)*</name>
+    <Point>
+      <coordinates>0.9473, 44.8807</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 95 Auvers sur Oise (Eglise de l'assomption d'Auvers sur Oise)*</name>
+    <Point>
+      <coordinates>2.17607, 49.0718</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 95 Saint-Ouen-l'Aumône (Abbaye Notre-Dame-La-Royale dite de Maubuisson)*</name>
+    <Point>
+      <coordinates>2.11798, 49.0456</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Merlande (Prieuré de Merlande)*</name>
+    <Point>
+      <coordinates>0.6553, 45.21</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 95 Méry sur Oise (Eglise de Méry sur Oise)*</name>
+    <Point>
+      <coordinates>2.186, 49.0638</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Monpazier (Bastide de Monpazier)*</name>
+    <Point>
+      <coordinates>0.8944, 44.6822</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Trémolat (Notre Dame de Trémolat)*</name>
+    <Point>
+      <coordinates>0.8309, 44.8761</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 79 Melle (Saint Hilaire)*</name>
+    <Point>
+      <coordinates>-0.14973, 46.2202</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 26 Montjoyer (Abbaye cistercienne d'Aiguebelle)*</name>
+    <Point>
+      <coordinates>4.8522, 44.4763</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 13 Arles (Facade de Saint Trophime d'Arles)*</name>
+    <Point>
+      <coordinates>4.6278, 43.6766</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 13 Arles (Saint Trophime d'Arles)*</name>
+    <Point>
+      <coordinates>4.6278, 43.6766</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 13 Arles (Saint Honorat des Alyscamps)*</name>
+    <Point>
+      <coordinates>4.6278, 43.6766</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-StMaur nv] 13 Montmajour (Abbaye Notre Dame de Montmajour)*</name>
+    <Point>
+      <coordinates>4.6615, 43.5476</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 26 La Garde Adhmar (Saint Michel de La Garde Adhmar)*</name>
+    <Point>
+      <coordinates>4.7557, 44.3932</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 26 Saint Paul des Trois Chateaux (Saint Paul Trois Chateaux)*</name>
+    <Point>
+      <coordinates>4.7663, 44.3496</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 84 Vaison la Romaine (Cathedrale N.D. de Nazareth de Vaison la Romaine)*</name>
+    <Point>
+      <coordinates>5.074, 44.241</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 84 Montfavet (Notre-Dame-de-Bon-Repos de Montfavet)*</name>
+    <Point>
+      <coordinates>4.806, 43.9486</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique nv] 45 Boiscommun (Notre Dame de Boiscommun)*</name>
+    <Point>
+      <coordinates>2.3827, 48.0362</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Gothique nv] 84 Avignon (Palais des Papes)*</name>
+    <Point>
+      <coordinates>4.806, 43.9486</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 24 Sainte Alvere (Sainte Alvere)*</name>
+    <Point>
+      <coordinates>0.8077, 44.9466</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] CH FRIBOURG (Abbaye Notre Dame de la Maigrauge)*</name>
+    <Point>
+      <coordinates>7.1513, 46.8025</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 75 Paris (Maison d'Ourscamp)*</name>
+    <Point>
+      <coordinates>2.3577, 48.8543</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] CH Romainmôtier (Abbaye de Romainmotier)*</name>
+    <Point>
+      <coordinates>6.4608, 46.6934</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Châtain (Saint Pierre de Châtain)*</name>
+    <Point>
+      <coordinates>0.4323, 46.0729</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Civaux (Saint Gervais et Saint Protais de Civaux)*</name>
+    <Point>
+      <coordinates>0.6644, 46.445</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 72 Yvré l'Evêque (Abbaye de l'Epau)*</name>
+    <Point>
+      <coordinates>0.24197, 47.9908</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Genouillé (Notre Dame de Genouillé)*</name>
+    <Point>
+      <coordinates>0.337, 46.1072</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Augustinien nv] 86 Saint Martin de l'Ars (Abbaye de La Réau)*</name>
+    <Point>
+      <coordinates>0.54897, 46.1951</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Saint Maurice la Clouère (Saint Maurice)*</name>
+    <Point>
+      <coordinates>0.41054, 46.3769</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Saint Pierre d'Exideuil (Eglise de Saint Pierre d'Exideuil)*</name>
+    <Point>
+      <coordinates>0.2704, 46.1502</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 86 Usson de Poitou (Eglise d'Usson de Poitou)*</name>
+    <Point>
+      <coordinates>0.52907, 46.2786</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 78 Conflans Sainte Honorine (Saint Maclou de Conflans Ste Honorine)*</name>
+    <Point>
+      <coordinates>2.0933, 48.9927</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 84 Isle sur la Sorgue (Collégiale N.D. des Anges de l'Isle sur la Sorgue)*</name>
+    <Point>
+      <coordinates>5.0864, 43.9159</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 21 Vougeot (Clos Vougeot)*</name>
+    <Point>
+      <coordinates>4.9639, 47.1781</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] CH Grandson (St-Jean-Baptiste de Grandson)*</name>
+    <Point>
+      <coordinates>6.646, 46.8094</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Médiéval nv] 21 Pouilly-en-Auxois (Châteaux de Châteauneuf)*</name>
+    <Point>
+      <coordinates>4.5246, 47.2483</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Gimeux (Saint Pierre de Gimeux)*</name>
+    <Point>
+      <coordinates>-0.371, 45.6364</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 4 Ganagobie (Notre Dame de Ganagobie)*</name>
+    <Point>
+      <coordinates>5.90749, 43.9982</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Augustinien nv] 16 Saint Brice (Notre Dame de Châtres)*</name>
+    <Point>
+      <coordinates>-0.2579, 45.6939</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 79 Airvault (Saint Pierre d'Airvault)*</name>
+    <Point>
+      <coordinates>-0.1381, 46.8264</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cluny nv] 71 BRancion (Saint Pierre de Brancion)*</name>
+    <Point>
+      <coordinates>4.7966, 46.5476</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Chapaize (Saint Martin de Chapaize)*</name>
+    <Point>
+      <coordinates>4.7368, 46.5566</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 71 Cluny (Abbaye de Cluny)*</name>
+    <Point>
+      <coordinates>4.6582, 46.4337</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 21 Montbard (Abbaye de Fontenay)*</name>
+    <Point>
+      <coordinates>4.338, 47.6252</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 79 Saint-Généroux (Saint-Généroux)*</name>
+    <Point>
+      <coordinates>-0.1375, 46.8835</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 79 Saint Jouin de Marnes (Saint Jouin de Marnes)*</name>
+    <Point>
+      <coordinates>-0.0529, 46.8815</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Jalogny (Eglises de Jalogny et Vaux)*</name>
+    <Point>
+      <coordinates>4.6287, 46.4197</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 83 Rians (Notre-Dame-de-Nazareth de Rians)*</name>
+    <Point>
+      <coordinates>5.7569, 43.607</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 93 Saint Denis (Basilique Saint Denis)*</name>
+    <Point>
+      <coordinates>2.3595, 48.9337</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 49 Trêves (Saint Aubin de Trêves)*</name>
+    <Point>
+      <coordinates>-0.2341, 47.337</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 49 Chenehutte-les-Tuffeaux (Notre Dame de la Prée des Tuffeaux)*</name>
+    <Point>
+      <coordinates>-0.2341, 47.337</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Post-Gothique nv] 37 Candes-Saint-Martin (Saint Martin de Candes-Saint-Martin)*</name>
+    <Point>
+      <coordinates>0.0745, 47.2113</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 78 Magny les Hameaux (Abbaye cistercienne de Port-Royal)*</name>
+    <Point>
+      <coordinates>2.0876, 48.7241</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 60 Gilocourt (Saint Martin et Saint Priest de Gilocourt)*</name>
+    <Point>
+      <coordinates>2.8642, 49.2967</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 60 Béthancourt en Valois (Saint Sulpice de Béthancourt en Valois)*</name>
+    <Point>
+      <coordinates>2.878, 49.2845</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] CH Giornico (San Nicolao de Giornico)*</name>
+    <Point>
+      <coordinates>8.8766, 46.4022</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 78 Cernay la ville (Abbaye des Vaulx de Cernay)*</name>
+    <Point>
+      <coordinates>1.93605, 48.6841</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 49 Cunault (Notre dame de Cunault)*</name>
+    <Point>
+      <coordinates>-0.2341, 47.337</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman</name>
+    <Point>
+      <coordinates>0.0502, 47.182</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 59 Les Rues des Vignes (Notre Dame de Vaucelles)*</name>
+    <Point>
+      <coordinates>3.2566, 50.0779</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 43 Saint Paulien (Collégiale Saint Georges de Saint Paulien)*</name>
+    <Point>
+      <coordinates>3.8152, 45.1601</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman-Cluny nv] 635 Lamontgie (Notre Dame de Mailhat)*</name>
+    <Point>
+      <coordinates>3.3414, 45.4489</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 63 Mozac (Abbaye Saint Pierre de Mozac)*</name>
+    <Point>
+      <coordinates>3.1247, 45.9094</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 3 Bourbon l'Archambault (Saint Georges de Bourbon l'Archambault)*</name>
+    <Point>
+      <coordinates>3.0578, 46.5817</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 36 Ségry (Notre Dame de La Prée)*</name>
+    <Point>
+      <coordinates>1.9459, 46.9139</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 63 Orcival (Notre Dame d'Orcival)*</name>
+    <Point>
+      <coordinates>2.8466, 45.7041</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 63 Ennezat (Collégiale Saint-Victor et Sainte-Couronne d'Ennezat)*</name>
+    <Point>
+      <coordinates>3.2354, 45.9061</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Saint Nectaire (Notre Dame de Saint Nectaire)*</name>
+    <Point>
+      <coordinates>2.9726, 45.6023</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Saint Saturnin (Notre Dame de Saint Saturnin)*</name>
+    <Point>
+      <coordinates>3.083, 45.6588</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 18 Ineuil (Saint Martin d'Ineuil)*</name>
+    <Point>
+      <coordinates>2.28939, 46.7766</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 3 Ygrande (Saint Martin d'Ygrande)*</name>
+    <Point>
+      <coordinates>3.0196, 46.6104</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Le Puy en Velay (St Michel d'Aiguilhe du Puy)*</name>
+    <Point>
+      <coordinates>3.8646, 45.0565</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Le Puy en Velay (Notre Dame du Puy en Velay)*</name>
+    <Point>
+      <coordinates>3.8646, 45.0565</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Le Puy en Velay (Notre Dame du Puy en Velay)*</name>
+    <Point>
+      <coordinates>3.8646, 45.0565</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Le Puy en Velay (St Michel d'Aiguilhe du Puy)*</name>
+    <Point>
+      <coordinates>3.8646, 45.0565</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Saint-Julien-Chapteuil (Saint Julien de Saint-Julien-Chapteuil)*</name>
+    <Point>
+      <coordinates>4.0511, 45.0391</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 18 Bruere-Allichamps (Notre Dame de Noirlac)*</name>
+    <Point>
+      <coordinates>2.45939, 46.7458</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Lavaudieu (Notre Dame de Lavaudieu)*</name>
+    <Point>
+      <coordinates>3.3646, 45.2689</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 6 Cannes (Notre Dame de Lerins)*</name>
+    <Point>
+      <coordinates>7.0106, 43.5509</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 63 Clermont-ferrand (Cathédrale Notre Dame de L'Assomption)*</name>
+    <Point>
+      <coordinates>3.1148, 45.7964</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 76 Saint-Martin-de-Boscherville (Saint Georges de Saint-Martin-de-Boscherville)*</name>
+    <Point>
+      <coordinates>0.9633, 49.4442</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 60 Fontaine-Chaalis (Abbaye Royale de Chaalis)*</name>
+    <Point>
+      <coordinates>2.68615, 49.1476</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 50 Cerisy-la-Forêt (Abbaye de Cerisy-la-Forêt)*</name>
+    <Point>
+      <coordinates>-0.93289, 49.1975</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 18 Bruère Allichamps (Prieuré d'Allichamps)*</name>
+    <Point>
+      <coordinates>2.4236, 46.7843</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 14 Rucqueville (Saint Pierre de Rucqueville)*</name>
+    <Point>
+      <coordinates>-0.5838, 49.2576</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 14 Rucqueville (Saint Pierre de Rucqueville)*</name>
+    <Point>
+      <coordinates>-0.5838, 49.2576</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 14 Saint Grabriel Brécy (Saint Grabriel Brécy)*</name>
+    <Point>
+      <coordinates>-0.5647, 49.2767</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 46 Carennac (Saint Pierre de Carennac)*</name>
+    <Point>
+      <coordinates>1.7318, 44.919</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Berzé-la-Ville (Chapelle de Berzé-la-Ville)*</name>
+    <Point>
+      <coordinates>4.7167, 46.3487</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Montceaux-l'Etoile (Saints-Pierre-et-Paul de Montceaux-l'Etoile)*</name>
+    <Point>
+      <coordinates>4.0445, 46.3516</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 3 Neuilly-en-Donjon (Sainte-Marie-Madeleine de Neuilly-en-Donjon)*</name>
+    <Point>
+      <coordinates>3.8882, 46.3448</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 42 Charlieu (Saint-Fortunat de Charlieu)*</name>
+    <Point>
+      <coordinates>4.1722, 46.1587</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Anzy-le-Duc (Sainte Trinité d'Anzy-le-Duc)*</name>
+    <Point>
+      <coordinates>4.06, 46.3198</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Baron (Saint Nizier de Baron)*</name>
+    <Point>
+      <coordinates>4.2772, 46.4909</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Mazille (Saint Blaise de Mazille)*</name>
+    <Point>
+      <coordinates>4.6041, 46.3943</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Varenne l'Arconce (Saint-Pierre-aux-Liens de Varenne l'Arconce)*</name>
+    <Point>
+      <coordinates>4.1586, 46.3383</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Iguérande (Saint-Marcel d'Iguérande)*</name>
+    <Point>
+      <coordinates>4.0778, 46.2062</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Massy (Saint Denis de Massy)*</name>
+    <Point>
+      <coordinates>4.6042, 46.4856</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Saint-Germain-en-Brionnais (Saint Germain de Saint-Germain-en-Brionnais)*</name>
+    <Point>
+      <coordinates>4.2609, 46.3509</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Sémur-en-Brionnais (Saint-Hilaire de Sémur-en-Brionnais)*</name>
+    <Point>
+      <coordinates>4.0902, 46.2632</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 71 Saint-Julien-de-Jonzy (Saint Julien de Saint-Julien-de-Jonzy)*</name>
+    <Point>
+      <coordinates>4.1425, 46.237</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 58 Cervon (Saint-Barthelemy de Cervon)*</name>
+    <Point>
+      <coordinates>3.7559, 47.2405</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 58 Donzy-le-Pré (Notre-Dame-du-Pré de Donzy-le-Pré)*</name>
+    <Point>
+      <coordinates>3.111, 47.3661</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 58 Saint-Révérien (Saint-Révérien)*</name>
+    <Point>
+      <coordinates>3.5021, 47.2118</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothique nv] 42 Saint-Nizier-sous-Charlieu (Couvent des Cordeliers)*</name>
+    <Point>
+      <coordinates>4.122, 46.1536</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Coulgens (Saint Jean-Baptiste de Coulgens)*</name>
+    <Point>
+      <coordinates>0.2851, 45.8131</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 La Couronne (Saint Jean-Baptiste de La Couronne)*</name>
+    <Point>
+      <coordinates>0.10153, 45.6102</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Puymoyen (Saint Vincent de Puymoyen)*</name>
+    <Point>
+      <coordinates>0.1818, 45.613</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Roullet (Saint Cybard de Roullet)*</name>
+    <Point>
+      <coordinates>0.04707, 45.5836</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 83 Saint Raphaël (San Rafeu de St Raphaël)*</name>
+    <Point>
+      <coordinates>6.7704, 43.4249</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Roullet-Saint-Estèphe (Saint Estèphe de Roullet-Saint-Estèphe)*</name>
+    <Point>
+      <coordinates>4.8333, 45.5844</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Saint Michel d'Entraygues (Saint Michel d'Entraygues)*</name>
+    <Point>
+      <coordinates>0.10722, 45.6428</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Sainte-Colombe (Sainte-Colombe)*</name>
+    <Point>
+      <coordinates>0.31874, 45.8334</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Trois Palis (Notre Dame de Trois Palis)*</name>
+    <Point>
+      <coordinates>0.05595, 45.64</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Benedictin nv] 76 Jumiège (Abbaye de Jumiège)*</name>
+    <Point>
+      <coordinates>0.81954, 49.4328</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Cistercien nv] 50 Mont-Saint-Michel (Abbaye du Mont-Saint-Michel)*</name>
+    <Point>
+      <coordinates>-1.5105, 48.6352</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 17 Bagnizeau (Saint Vivien de Bagnizeau)*</name>
+    <Point>
+      <coordinates>-0.31264, 45.8886</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Gothic nv] 62 Montreuil-sur-Mer (Saint-Saulve de Montreuil-sur-Mer)*</name>
+    <Point>
+      <coordinates>1.7684, 50.4663</coordinates>
+    </Point>
+</Placemark>
+<Placemark>
+    <name> [Roman nv] 16 Voulgézac (Notre Dame de Voulgézac)*</name>
+    <Point>
+      <coordinates>0.11895, 45.511</coordinates>
+    </Point>
+</Placemark>
+</Document>
+</kml>

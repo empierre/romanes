@@ -1,0 +1,4 @@
+[Art]
+getpoi asc 1 file:/mnt/data/dev/romanes2.com/script/tools/gps/Art_Roman_Eu.asc
+#deldup 100m
+savepoi ov2 Art_Roman_Eu.ov2

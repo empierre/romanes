@@ -1,0 +1,1471 @@
+<romanes_worldwide>
+<site>
+	<name>Notre Dame de Chatou</name>
+	<type>branch</type>
+	<lat>48.8899</lat>
+	<lng>2.1561</lng>
+	<url>www.romanes.com/Chatou/</url>
+	<addr_city>Chatou</addr_city>
+</site>
+<site>
+	<name>Aulnay de Saintonge</name>
+	<type>branch</type>
+	<lat>46.0201</lat>
+	<lng>-0.3374</lng>
+	<url>www.romanes.com/Aulnay/</url>
+	<addr_city>Aulnay de Saintonge</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Civray</name>
+	<type>branch</type>
+	<lat>46.1465</lat>
+	<lng>0.2941</lng>
+	<url>www.romanes.com/Civray/</url>
+	<addr_city>Civray</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Saint Nectaire</name>
+	<type>branch</type>
+	<lat>45.6023</lat>
+	<lng>2.9726</lng>
+	<url>www.romanes.com/Saint_Nectaire</url>
+	<addr_city>Saint Nectaire</addr_city>
+</site>
+<site>
+	<name>Saint Austremoine d'Issoire</name>
+	<type>branch</type>
+	<lat>45.5468</lat>
+	<lng>3.2519</lng>
+	<url>www.romanes.com/Issoire/</url>
+	<addr_city>Issoire</addr_city>
+</site>
+<site>
+    <name>Pise</name>
+    <type>branch</type>
+    <lat>43.7161</lat>
+    <lng>10.3966</lng>
+    <url/>
+    <addr_street>Pise</addr_street>
+    <addr_postalcode>56122</addr_postalcode>
+    <addr_city>Pise</addr_city>
+    <addr_country>Italie</addr_country>
+  </site>
+<site>
+    <name>Rome</name>
+    <type>branch</type>
+    <lat>41.8954</lat>
+    <lng>12.4822</lng>
+    <url/>
+    <addr_street>Rome</addr_street>
+    <addr_postalcode>00170</addr_postalcode>
+    <addr_city>Rome</addr_city>
+    <addr_country>Italie</addr_country>
+  </site>
+<site>
+    <name>Cefalu</name>
+    <type>branch</type>
+    <lat>38.0395</lat>
+    <lng>14.0219</lng>
+    <url/>
+    <addr_street>Cefalu</addr_street>
+    <addr_postalcode>90015</addr_postalcode>
+    <addr_city>Cefalu</addr_city>
+    <addr_country>Italie</addr_country>
+ </site>
+<site>
+    <name>La Seu d'Urgell</name>
+    <type>branch</type>
+    <lat>42.3567</lat>
+    <lng>1.4597</lng>
+    <url/>
+    <addr_street>La Seu d'Urgell</addr_street>
+    <addr_postalcode>25700</addr_postalcode>
+    <addr_city>La Seu d'Urgell</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Santo Domingo De Silos</name>
+    <type>branch</type>
+    <lat>41.9622</lat>
+    <lng>-3.4193</lng>
+    <url/>
+    <addr_street>Santo Domingo De Silos</addr_street>
+    <addr_postalcode>09610 </addr_postalcode>
+    <addr_city>Santo Domingo De Silos</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Santiago De Compostela</name>
+    <type>branch</type>
+    <lat>42.8804</lat>
+    <lng>-8.5463</lng>
+    <url/>
+    <addr_street>Santiago De Compostela</addr_street>
+    <addr_postalcode>15705</addr_postalcode>
+    <addr_city>Santiago De Compostela</addr_city>
+    <addr_country>Espagne</addr_country>
+  </site>
+<site>
+    <name>Aix-la-Chapelle</name>
+    <type>branch</type>
+    <lat>50.7659</lat>
+    <lng>6.0917</lng>
+    <url/>
+    <addr_street>Aix-la-Chapelle</addr_street>
+    <addr_postalcode>15705</addr_postalcode>
+    <addr_city>Aix-la-Chapelle</addr_city>
+    <addr_country>Allemagne</addr_country>
+  </site>
+<site>
+	<name>Moissac</name>
+	<type>branch</type>
+	<lat>44.104</lat>
+	<lng>1.0849</lng>
+	<url/>
+	<addr_city>Moissac</addr_city>
+</site>
+<site>
+	<name>Abbaye de Fontfroide</name>
+	<type>branch</type>
+	<lat>43.1838</lat>
+	<lng>2.9963</lng>
+	<url>www.romanes.com/Cistercien/Fontfroide/</url>
+	<addr_city>Narbonne</addr_city>
+</site>
+<site>
+	<name>Abbaye de Poblet</name>
+	<type>branch</type>
+	<lat>41.4008</lat>
+	<lng>1.049</lng>
+	<url>www.romanes.com/Cistercien/Poblet/</url>
+	<addr_city>Vimbodi</addr_city>
+</site>
+<site>
+	<name>Abbaye de Santes Creus</name>
+	<type>branch</type>
+	<lat>41.3302</lat>
+	<lng>1.3594</lng>
+	<url>www.romanes.com/Cistercien/SantesCreus/</url>
+	<addr_city>Aiguamurcia</addr_city>
+</site>
+<site>
+	<name>Abbaye de Veruela</name>
+	<type>branch</type>
+	<lat>41.8311</lat>
+	<lng>-1.6807</lng>
+	<url>www.romanes.com/Cistercien/Veruela/</url>
+	<addr_city>Vera de Moncayo</addr_city>
+</site>
+<site>
+	<name>Abbaye de Maulbronn</name>
+	<type>branch</type>
+	<lat>49.0254</lat>
+	<lng>8.7605</lng>
+	<url>www.romanes.com/Cistercien/Maulbronn/</url>
+	<addr_city>Maulbronn</addr_city>
+</site>
+<site>
+	<name>Abbaye d'Obazine</name>
+	<type>branch</type>
+	<lat>45.1743</lat>
+	<lng>1.6706</lng>
+	<url>www.romanes.com/Cistercien/Obazine/</url>
+	<addr_city>Aubazine</addr_city>
+</site>
+<site>
+	<name>Abbaye de Fontdouce</name>
+	<type>branch</type>
+	<lat>45.7664</lat>
+	<lng>-0.4903</lng>
+	<url>www.romanes.com/Fontdouce/</url>
+	<addr_city>Saint Bris des Bois</addr_city>
+</site>
+<site>
+	<name>Brousse le Château</name>
+	<type>branch</type>
+	<lat>43.9973</lat>
+	<lng>2.6246</lng>
+	<url>www.romanes.com/Brousse/</url>
+	<addr_city>Brousse le Château</addr_city>
+</site>
+<site>
+	<name>Abbayes de Caen</name>
+	<type>branch</type>
+	<lat>49.1847</lat>
+	<lng>-0.3601</lng>
+	<url>www.romanes.com/Caen/</url>
+	<addr_city>Caen</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Chauvigny</name>
+	<type>branch</type>
+	<lat>46.5684</lat>
+	<lng>0.6473</lng>
+	<url>www.romanes.com/Chauvigny/</url>
+	<addr_city>Chauvigny</addr_city>
+</site>
+<site>
+	<name>Cîteaux</name>
+	<type>branch</type>
+	<lat>47.1147</lat>
+	<lng>5.0549</lng>
+	<url>www.romanes.com/Citeaux/</url>
+	<addr_city>Saint Nicolas les Cîteaux</addr_city>
+</site>
+<site>
+	<name>Abbaye Royale du Moncel</name>
+	<type>branch</type>
+	<lat>49.3</lat>
+	<lng>2.6407</lng>
+	<url>www.romanes.com/Moncel/</url>
+	<addr_city>Pontpoint</addr_city>
+</site>
+<site>
+	<name>Aulnay de Saintonge</name>
+	<type>branch</type>
+	<lat>46.0662</lat>
+	<lng>-0.4136</lng>
+	<url>www.romanes.com/Dampierre/</url>
+	<addr_city>Dampierre sur Boutonne</addr_city>
+</site>
+<site>
+	<name>Saint Nicolas d'Ercuis</name>
+	<type>branch</type>
+	<lat>49.2342</lat>
+	<lng>2.3059</lng>
+	<url>www.romanes.com/Ercuis/</url>
+	<addr_city>Ercuis</addr_city>
+</site>
+<site>
+	<name>Abbaye Saint Pierre de Maillezais</name>
+	<type>branch</type>
+	<lat>46.3714</lat>
+	<lng>-0.7391</lng>
+	<url>www.romanes.com/Maillezais/Abbaye/</url>
+	<addr_city>Maillezais</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Marestay</name>
+	<type>branch</type>
+	<lat>45.8675</lat>
+	<lng>-0.32</lng>
+	<url>www.romanes.com/Marestay/</url>
+	<addr_city>Matha</addr_city>
+</site>
+<site>
+	<name>Saint Hérie de Matha</name>
+	<type>branch</type>
+	<lat>45.8675</lat>
+	<lng>-0.32</lng>
+	<url>www.romanes.com/Matha/</url>
+	<addr_city>Matha</addr_city>
+</site>
+<site>
+	<name>Benet</name>
+	<type>branch</type>
+	<lat>46.3643</lat>
+	<lng>-0.6072</lng>
+	<url>www.romanes.com/Benet/</url>
+	<addr_city>Benet</addr_city>
+</site>
+<site>
+	<name>Maillé</name>
+	<type>branch</type>
+	<lat>46.3424</lat>
+	<lng>-0.7889</lng>
+	<url>www.romanes.com/Maille/</url>
+	<addr_city>Maillé</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Lusignan</name>
+	<type>branch</type>
+	<lat>46.4352</lat>
+	<lng>0.1224</lng>
+	<url>www.romanes.com/Lusignan</url>
+	<addr_city>Lusignan</addr_city>
+</site>
+<site>
+	<name>Abbaye Royale de Nieul sur l'Autise</name>
+	<type>branch</type>
+	<lat>46.4225</lat>
+	<lng>-0.6807</lng>
+	<url>www.romanes.com/Nieul/</url>
+	<addr_city>Nieul sur l'Autise</addr_city>
+</site>
+<site>
+	<name>Vouvant</name>
+	<type>branch</type>
+	<lat>46.5724</lat>
+	<lng>-0.7692</lng>
+	<url>www.romanes.com/Vouvant</url>
+	<addr_city>Vouvant</addr_city>
+</site>
+<site>
+	<name>Saint Nicolas de Maillezais</name>
+	<type>branch</type>
+	<lat>46.3714</lat>
+	<lng>-0.7391</lng>
+	<url>www.romanes.com/Maillezais/St_Nicolas/</url>
+	<addr_city>Maillezais</addr_city>
+</site>
+<site>
+	<name>Montmorillon</name>
+	<type>branch</type>
+	<lat>46.426</lat>
+	<lng>0.8667</lng>
+	<url>www.romanes.com/Montmorillon/</url>
+	<addr_city>Montmorillon</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Paris</name>
+	<type>branch</type>
+	<lat>48.8625</lat>
+	<lng>2.3365</lng>
+	<url>www.romanes.com/Paris/Notre_Dame_de_Paris/</url>
+	<addr_city>Paris</addr_city>
+</site>
+<site>
+	<name>Abbaye de Nouaillé-Mauperthuis</name>
+	<type>branch</type>
+	<lat>46.5107</lat>
+	<lng>0.4134</lng>
+	<url>www.romanes.com/Nouaille_Mauperthuis/</url>
+	<addr_city>Nouaillé-Maupertuis</addr_city>
+</site>
+<site>
+	<name>Saint Hilaire de Melle</name>
+	<type>branch</type>
+	<lat>46.2207</lat>
+	<lng>-0.1456</lng>
+	<url>www.romanes.com/Melle/</url>
+	<addr_city>Melle</addr_city>
+</site>
+<site>
+	<name>Notre Dame la Grande de Poitiers</name>
+	<type>branch</type>
+	<lat>46.587</lat>
+	<lng>0.3426</lng>
+	<url>www.romanes.com/Poitiers/</url>
+	<addr_city>Poitiers</addr_city>
+</site>
+<site>
+	<name>Sainte Chapelle</name>
+	<type>branch</type>
+	<lat>48.8625</lat>
+	<lng>2.3365</lng>
+	<url>www.romanes.com/Paris/Sainte_Chapelle/</url>
+	<addr_city>Paris</addr_city>
+</site>
+<site>
+	<name>Précy sur Oise</name>
+	<type>branch</type>
+	<lat>49.2064</lat>
+	<lng>2.3743</lng>
+	<url>www.romanes.com/Precy/</url>
+	<addr_city>Précy sur Oise</addr_city>
+</site>
+<site>
+	<name>Abbatiale de Saint Leu d'Esserent</name>
+	<type>branch</type>
+	<lat>49.2171</lat>
+	<lng>2.417</lng>
+	<url>www.romanes.com/Saint_Leu/</url>
+	<addr_city>Saint Leu d'Esserent</addr_city>
+</site>
+<site>
+	<name>Abbaye Cistercienne de Royaumont</name>
+	<type>branch</type>
+	<lat>49.1146</lat>
+	<lng>2.399</lng>
+	<url>www.romanes.com/Royaumont/</url>
+	<addr_city>Asnière sur Oise</addr_city>
+</site>
+<site>
+	<name>Cathédrale de Senlis</name>
+	<type>branch</type>
+	<lat>49.2042</lat>
+	<lng>2.5862</lng>
+	<url>www.romanes.com/Senlis/</url>
+	<addr_city>Senlis</addr_city>
+</site>
+<site>
+	<name>Saint Mandé sur Bredoire</name>
+	<type>branch</type>
+	<lat>46.0239</lat>
+	<lng>-0.3031</lng>
+	<url>www.romanes.com/Saint_Mande_sur_Bredoire/</url>
+	<addr_city>St Mandé sur Brédoire</addr_city>
+</site>
+<site>
+	<name>Basilique Sainte Madeleine de Vézelay</name>
+	<type>branch</type>
+	<lat>47.4663</lat>
+	<lng>3.7476</lng>
+	<url>www.romanes.com/Vezelay/</url>
+	<addr_city>Vézelay</addr_city>
+</site>
+<site>
+	<name>Saint Benoît sur Loire</name>
+	<type>branch</type>
+	<lat>47.8105</lat>
+	<lng>2.306</lng>
+	<url>www.romanes.com/Saint_Benoit_sur_Loire/</url>
+	<addr_city>Saint-Benoît-sur-Loire</addr_city>
+</site>
+<site>
+	<name>Cathédrale de Reims</name>
+	<type>branch</type>
+	<lat>49.2566</lat>
+	<lng>4.0331</lng>
+	<url>www.romanes.com/Reims/</url>
+	<addr_city>Reims</addr_city>
+</site>
+<site>
+	<name>Abbaye de Sylvanès</name>
+	<type>branch</type>
+	<lat>43.8338</lat>
+	<lng>2.9593</lng>
+	<url>www.romanes.com/Sylvanes/</url>
+	<addr_city>Sylvanès</addr_city>
+</site>
+<site>
+	<name>Abbaye aux Dames de Saintes</name>
+	<type>branch</type>
+	<lat>45.7474</lat>
+	<lng>-0.6371</lng>
+	<url>www.romanes.com/Saintes/</url>
+	<addr_city>Saintes</addr_city>
+</site>
+<site>
+	<name>Saint Savin sur Gartempe</name>
+	<type>branch</type>
+	<lat>46.5636</lat>
+	<lng>0.8863</lng>
+	<url>www.romanes.com/Saint_Savin/</url>
+	<addr_city>Saint Savin sur Gartempe</addr_city>
+</site>
+<site>
+	<name>Abbaye de Sénanque</name>
+	<type>branch</type>
+	<lat>43.9112</lat>
+	<lng>5.2011</lng>
+	<url>www.romanes.com/Senanque/</url>
+	<addr_city>Gordes</addr_city>
+</site>
+<site>
+	<name>Abbaye de Silvacane</name>
+	<type>branch</type>
+	<lat>43.7164</lat>
+	<lng>5.3101</lng>
+	<url>www.romanes.com/Silvacane/</url>
+	<addr_city>La Roque-d'Anthéron</addr_city>
+</site>
+<site>
+	<name>Abbaye du Thoronet</name>
+	<type>branch</type>
+	<lat>43.4501</lat>
+	<lng>6.3081</lng>
+	<url>www.romanes.com/Thoronet/</url>
+	<addr_city>Le Thoronet</addr_city>
+</site>
+<site>
+	<name>Saint Eutrope Eglise Haute</name>
+	<type>branch</type>
+	<lat>45.74741</lat>
+	<lng>-0.63711</lng>
+	<url>www.romanes.com/St_Eutrope_Eglise_Haute/</url>
+	<addr_city>Saintes</addr_city>
+</site>
+<site>
+	<name>Saint Eutrope Eglise Basse</name>
+	<type>branch</type>
+	<lat>45.74742</lat>
+	<lng>-0.63712</lng>
+	<url>www.romanes.com/St_Eutrope_Eglise_Basse/</url>
+	<addr_city>Saintes</addr_city>
+</site>
+<site>
+	<name>Hospices de Beaune</name>
+	<type>branch</type>
+	<lat>47.024</lat>
+	<lng>4.8383</lng>
+	<url>www.romanes.com/Beaune/</url>
+	<addr_city>Beaune</addr_city>
+</site>
+<site>
+	<name>Couvertoirade</name>
+	<type>branch</type>
+	<lat>43.9129</lat>
+	<lng>3.3162</lng>
+	<url>www.romanes.com/Couvertoirade/</url>
+	<addr_city>La Couvertoirade</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre-Dame-La-Royale dite de Maubuisson</name>
+	<type>branch</type>
+	<lat>49.0452</lat>
+	<lng>2.1072</lng>
+	<url>www.romanes.com/Maubuisson/</url>
+	<addr_city>Saint-Ouen-l'Aumône</addr_city>
+</site>
+<site>
+	<name>Saint Eustache de Paris</name>
+	<type>branch</type>
+	<lat>48.8625</lat>
+	<lng>2.3365</lng>
+	<url>www.romanes.com/Paris/Saint_Eustache/</url>
+	<addr_city>Paris</addr_city>
+</site>
+<site>
+	<name>Saint Amand de Coly</name>
+	<type>branch</type>
+	<lat>45.0633</lat>
+	<lng>1.2475</lng>
+	<url>www.romanes.com/StAmanddeColy/</url>
+	<addr_city>Saint-Amand de Coly</addr_city>
+</site>
+<site>
+	<name>Abbaye Cistercienne de Boschaud</name>
+	<type>branch</type>
+	<lat>45.4197</lat>
+	<lng>0.754</lng>
+	<url>www.romanes.com/Boschaud/</url>
+	<addr_city>Villars</addr_city>
+</site>
+<site>
+	<name>Abbaye Cistercienne de Cadouin</name>
+	<type>branch</type>
+	<lat>44.8439</lat>
+	<lng>0.9086</lng>
+	<url>www.romanes.com/Cadouin/</url>
+	<addr_city>Le Buisson de Cadouin</addr_city>
+</site>
+<site>
+	<name>Abbaye de Chancelade</name>
+	<type>branch</type>
+	<lat>45.2055</lat>
+	<lng>0.6669</lng>
+	<url>www.romanes.com/Chancelade/</url>
+	<addr_city>Chancelade</addr_city>
+</site>
+<site>
+	<name>Saint Martial de Paunat</name>
+	<type>branch</type>
+	<lat>44.9051</lat>
+	<lng>0.8588</lng>
+	<url>www.romanes.com/Paunat/</url>
+	<addr_city>Paunat</addr_city>
+</site>
+<site>
+	<name>Abbaye Bénédictine de Brantome</name>
+	<type>branch</type>
+	<lat>45.3643</lat>
+	<lng>0.6472</lng>
+	<url>www.romanes.com/Bramtome/</url>
+	<addr_city>Brantome</addr_city>
+</site>
+<site>
+	<name>Cénac-et-Saint-Julien</name>
+	<type>branch</type>
+	<lat>44.7987</lat>
+	<lng>1.2042</lng>
+	<url>www.romanes.com/Cenac/</url>
+	<addr_city>Cenac et Saint Julien</addr_city>
+</site>
+<site>
+	<name>Saint Léon sur Vézère</name>
+	<type>branch</type>
+	<lat>45.0097</lat>
+	<lng>1.0884</lng>
+	<url>www.romanes.com/SaintLeonsurVezere/</url>
+	<addr_city>Saint-Léon-sur-Vézère</addr_city>
+</site>
+<site>
+	<name>Eglise de Thiviers</name>
+	<type>branch</type>
+	<lat>45.4144</lat>
+	<lng>0.9209</lng>
+	<url>www.romanes.com/Thiviers/</url>
+	<addr_city>Thiviers</addr_city>
+</site>
+<site>
+	<name>Cathédrale Saint Pierre d'Angoulême</name>
+	<type>branch</type>
+	<lat>45.6483</lat>
+	<lng>0.1609</lng>
+	<url>www.romanes.com/Angouleme/</url>
+	<addr_city>Angoulème</addr_city>
+</site>
+<site>
+	<name>Cathédrale Saint Pierre de Beauvais</name>
+	<type>branch</type>
+	<lat>49.4224</lat>
+	<lng>2.0836</lng>
+	<url>www.romanes.com/Beauvais/</url>
+	<addr_city>Beauvais</addr_city>
+</site>
+<site>
+	<name>Audrix</name>
+	<type>branch</type>
+	<lat>44.8807</lat>
+	<lng>0.9473</lng>
+	<url>www.romanes.com/Audrix/</url>
+	<addr_city>Audrix</addr_city>
+</site>
+<site>
+	<name>Auvers sur Oise</name>
+	<type>branch</type>
+	<lat>49.0712</lat>
+	<lng>2.1772</lng>
+	<url>www.romanes.com/Auvers/</url>
+	<addr_city>Auvers sur Oise</addr_city>
+</site>
+<site>
+	<name>Eglise de Belvès</name>
+	<type>branch</type>
+	<lat>44.7744</lat>
+	<lng>1.0052</lng>
+	<url>www.romanes.com/Belves/</url>
+	<addr_city>Belvès</addr_city>
+</site>
+<site>
+	<name>Saint Denis de Méry sur Oise</name>
+	<type>branch</type>
+	<lat>49.0638</lat>
+	<lng>2.186</lng>
+	<url>www.romanes.com/Mery/</url>
+	<addr_city>Méry sur Oise</addr_city>
+</site>
+<site>
+	<name>Bastide de Monpazier</name>
+	<type>branch</type>
+	<lat>44.6822</lat>
+	<lng>0.8944</lng>
+	<url>www.romanes.com/Monpazier/</url>
+	<addr_city>Monpazier</addr_city>
+</site>
+<site>
+	<name>Saint Germer de Fly</name>
+	<type>branch</type>
+	<lat>49.4436</lat>
+	<lng>1.7817</lng>
+	<url>www.romanes.com/StGermerdeFly/</url>
+	<addr_city>Saint-Germer-de-Fly</addr_city>
+</site>
+<site>
+	<name>Ancien Prieuré de Merlande</name>
+	<type>branch</type>
+	<lat>45.21</lat>
+	<lng>0.6553</lng>
+	<url>www.romanes.com/Merlande/</url>
+	<addr_city>Merlande</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Trémolat</name>
+	<type>branch</type>
+	<lat>44.8761</lat>
+	<lng>0.8309</lng>
+	<url>www.romanes.com/Tremolat/</url>
+	<addr_city>Trémolat</addr_city>
+</site>
+<site>
+	<name>Cathédrale de Chartres</name>
+	<type>branch</type>
+	<lat>48.4444</lat>
+	<lng>1.4842</lng>
+	<url>www.romanes.com/Chartres/</url>
+	<addr_city>Chartres</addr_city>
+</site>
+<site>
+	<name>Eglise StTrophime d'Arles</name>
+	<type>branch</type>
+	<lat>43.6766</lat>
+	<lng>4.6278</lng>
+	<url>www.romanes.com/Arles/StTrophime/Facade/</url>
+	<addr_city>Arles</addr_city>
+</site>
+<site>
+	<name>Facade de StTrophime d'Arles</name>
+	<type>branch</type>
+	<lat>43.6766</lat>
+	<lng>4.6278</lng>
+	<url>www.romanes.com/Arles/StTrophime/Facade/</url>
+	<addr_city>Arles</addr_city>
+</site>
+<site>
+	<name>Cloitre de StTrophime d'Arles</name>
+	<type>branch</type>
+	<lat>43.6766</lat>
+	<lng>4.6278</lng>
+	<url>www.romanes.com/Arles/StTrophime/Cloitre/</url>
+	<addr_city>Arles</addr_city>
+</site>
+<site>
+	<name>Abbaye cistercienne d'Aiguebelle</name>
+	<type>branch</type>
+	<lat>44.4763</lat>
+	<lng>4.8522</lng>
+	<url>www.romanes.com/Aiguebelle/</url>
+	<addr_city>Montjoyer</addr_city>
+</site>
+<site>
+	<name>Saint Honorat des Alyscamps</name>
+	<type>branch</type>
+	<lat>43.6766</lat>
+	<lng>4.6278</lng>
+	<url>www.romanes.com/Arles/StHonorat/</url>
+	<addr_city>Arles</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre Dame  de Montmajour</name>
+	<type>branch</type>
+	<lat>43.5476</lat>
+	<lng>4.6615</lng>
+	<url>www.romanes.com/Montmajour/</url>
+	<addr_city>Montmajour</addr_city>
+</site>
+<site>
+	<name>Saint Michel de La Garde Adhémar</name>
+	<type>branch</type>
+	<lat>44.3932</lat>
+	<lng>4.7557</lng>
+	<url>www.romanes.com/LaGardeAdhemar/</url>
+	<addr_city>La Garde Adhmar</addr_city>
+</site>
+<site>
+	<name>Saint Paul trois Châteaux</name>
+	<type>branch</type>
+	<lat>44.3496</lat>
+	<lng>4.7663</lng>
+	<url>www.romanes.com/SaintPaultroischateaux/</url>
+	<addr_city>Saint Paul des Trois Chateaux</addr_city>
+</site>
+<site>
+	<name>Cathédrale N.D. de Nazareth de Vaison la Romaine</name>
+	<type>branch</type>
+	<lat>44.241</lat>
+	<lng>5.074</lng>
+	<url>www.romanes.com/VaisonLaRomaine/</url>
+	<addr_city>Vaison la Romaine</addr_city>
+</site>
+<site>
+	<name>Notre-Dame-de-Bon-Repos de Montfavet</name>
+	<type>branch</type>
+	<lat>43.9486</lat>
+	<lng>4.806</lng>
+	<url>www.romanes.com/Montfavet</url>
+	<addr_city>Montfavet</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Boiscommun</name>
+	<type>branch</type>
+	<lat>48.0362</lat>
+	<lng>2.3827</lng>
+	<url>www.romanes.com/Boiscommun/</url>
+	<addr_city>Boiscommun</addr_city>
+</site>
+<site>
+	<name>Palais des Papes d'Avignon</name>
+	<type>branch</type>
+	<lat>43.9486</lat>
+	<lng>4.806</lng>
+	<url>www.romanes.com/Avignon/Palais_des_Papes</url>
+	<addr_city>Avignon</addr_city>
+</site>
+<site>
+	<name>Pont Saint Benezet</name>
+	<type>branch</type>
+	<lat>43.94865</lat>
+	<lng>4.8065</lng>
+	<url>www.romanes.com/Avignon/SaintBenezet/</url>
+	<addr_city>Avignon</addr_city>
+</site>
+<site>
+	<name>Saint-Théodorit, Saint-Etienne, Fenestrelle d'Uzes</name>
+	<type>branch</type>
+	<lat>44.0107</lat>
+	<lng>4.419</lng>
+	<url>www.romanes.com/Uzes/</url>
+	<addr_city>Uzes</addr_city>
+</site>
+<site>
+	<name>Saint Front de Périgueux</name>
+	<type>branch</type>
+	<lat>45.1868</lat>
+	<lng>0.7218</lng>
+	<url>www.romanes.com/Saint_Front/</url>
+	<addr_city>Perigueux</addr_city>
+</site>
+<site>
+	<name>Cathédrale Saint-Sardos de Sarlat</name>
+	<type>branch</type>
+	<lat>44.8913</lat>
+	<lng>1.2151</lng>
+	<url>www.romanes.com/Sarlat/</url>
+	<addr_city>Sarlat-la-Caneda</addr_city>
+</site>
+<site>
+	<name>Sainte Alvère</name>
+	<type>branch</type>
+	<lat>44.9466</lat>
+	<lng>0.8077</lng>
+	<url>www.romanes.com/Sainte_Alvere</url>
+	<addr_city>Sainte Alvere</addr_city>
+</site>
+<site>
+	<name>Saint Etienne de la Cité</name>
+	<type>branch</type>
+	<lat>45.1868</lat>
+	<lng>0.7218</lng>
+	<url>www.romanes.com/Perigueux/StEtienne/</url>
+	<addr_city>Perigueux</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre Dame de la Maigrauge</name>
+	<type>branch</type>
+	<lat>46.8025</lat>
+	<lng>7.1513</lng>
+	<url>www.romanes.com/Suisse/Maigrauge/</url>
+	<addr_city>FRIBOURG</addr_city>
+</site>
+<site>
+	<name>San Nicolao de Giornico</name>
+	<type>branch</type>
+	<lat>46.4022</lat>
+	<lng>8.8766</lng>
+	<url>www.romanes.com/Suisse/Giornico/</url>
+	<addr_city>Giornico</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre Dame d'Hauterive</name>
+	<type>branch</type>
+	<lat>46.7609</lat>
+	<lng>7.0961</lng>
+	<url>www.romanes.com//Suisse/Hauterive/</url>
+	<addr_city>Posieux</addr_city>
+</site>
+<site>
+	<name>St-Jean-Baptiste de Grandson</name>
+	<type>branch</type>
+	<lat>46.8094</lat>
+	<lng>6.646</lng>
+	<url>www.romanes.com/Suisse/Hauterive/</url>
+	<addr_city>Grandson</addr_city>
+</site>
+<site>
+	<name>Abbaye de Romainmotier</name>
+	<type>branch</type>
+	<lat>46.693</lat>
+	<lng>6.4608</lng>
+	<url>www.romanes.com/Suisse/Romainmotier/</url>
+	<addr_city>Romainmotier</addr_city>
+</site>
+<site>
+	<name>Maison d'Ourscamp</name>
+	<type>branch</type>
+	<lat>48.8543</lat>
+	<lng>2.3577</lng>
+	<url>www.romanes.com/Ourscamp/Maison/</url>
+	<addr_city>Paris</addr_city>
+</site>
+<site>
+	<name>Abbaye Bénédictine de Charroux</name>
+	<type>branch</type>
+	<lat>46.1417</lat>
+	<lng>0.405</lng>
+	<url>www.romanes.com/Charroux/</url>
+	<addr_city>Charroux</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Chatain</name>
+	<type>branch</type>
+	<lat>46.0729</lat>
+	<lng>0.4323</lng>
+	<url>www.romanes.com/Chatain/</url>
+	<addr_city>Châtain</addr_city>
+</site>
+<site>
+	<name>Saint Gervais et Saint Protais de Civaux</name>
+	<type>branch</type>
+	<lat>46.445</lat>
+	<lng>0.6644</lng>
+	<url>www.romanes.com/Civaux/</url>
+	<addr_city>Civaux</addr_city>
+</site>
+<site>
+	<name>Abbaye de l'Epau</name>
+	<type>branch</type>
+	<lat>48.0137</lat>
+	<lng>0.2714</lng>
+	<url>www.romanes.com/Epau/</url>
+	<addr_city>Yvré l'Evêque</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Genouillé</name>
+	<type>branch</type>
+	<lat>46.1072</lat>
+	<lng>0.337</lng>
+	<url>www.romanes.com/Genouille/</url>
+	<addr_city>Genouillé</addr_city>
+</site>
+<site>
+	<name>Abbaye de la Réau</name>
+	<type>branch</type>
+	<lat>46.261</lat>
+	<lng>0.5096</lng>
+	<url>www.romanes.com/LaReau/</url>
+	<addr_city>Saint Martin de l'Ars</addr_city>
+</site>
+<site>
+	<name>Cathédrale Saint Julien du Mans</name>
+	<type>branch</type>
+	<lat>48.0077</lat>
+	<lng>0.1986</lng>
+	<url>www.romanes.com/LeMans/</url>
+	<addr_city>Le Mans</addr_city>
+</site>
+<site>
+	<name>Saint Maurice la Clouère</name>
+	<type>branch</type>
+	<lat>46.3806</lat>
+	<lng>0.4121</lng>
+	<url>www.romanes.com/SaintMauricelaClouere/</url>
+	<addr_city>Saint Maurice la Clouère</addr_city>
+</site>
+<site>
+	<name>Saint Pierre d'Exideuil</name>
+	<type>branch</type>
+	<lat>46.1502</lat>
+	<lng>0.2704</lng>
+	<url>www.romanes.com/SaintPierredExideuil/</url>
+	<addr_city>Saint Pierre d'Exideuil</addr_city>
+</site>
+<site>
+	<name>Usson de Poitou</name>
+	<type>branch</type>
+	<lat>46.261</lat>
+	<lng>0.5096</lng>
+	<url>www.romanes.com/Usson/</url>
+	<addr_city>Usson de Poitou</addr_city>
+</site>
+<site>
+	<name>Saint Maclou de Conflans St Honorine</name>
+	<type>branch</type>
+	<lat>48.9927</lat>
+	<lng>2.0933</lng>
+	<url>www.romanes.com/Conflans/</url>
+	<addr_city>Conflans Sainte Honorine</addr_city>
+</site>
+<site>
+	<name>Collégiale N.D. des Anges de l'Isle sur la Sorgue</name>
+	<type>branch</type>
+	<lat>43.9159</lat>
+	<lng>5.0864</lng>
+	<url>www.romanes.com/Isle-sur-Sorgue/</url>
+	<addr_city>Isle sur la Sorgue</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Morienval</name>
+	<type>branch</type>
+	<lat>49.2951</lat>
+	<lng>2.9176</lng>
+	<url>www.romanes.com/Morienval/</url>
+	<addr_city>Morienval</addr_city>
+</site>
+<site>
+	<name>Abbaye de Pontigny</name>
+	<type>branch</type>
+	<lat>47.9097</lat>
+	<lng>3.7128</lng>
+	<url>www.romanes.com/Pontigny/</url>
+	<addr_city>Pontigny</addr_city>
+</site>
+<site>
+	<name>Saint Martial de Seignelay</name>
+	<type>branch</type>
+	<lat>47.9027</lat>
+	<lng>3.5998</lng>
+	<url>www.romanes.com/Seignelay/</url>
+	<addr_city>Seignelay</addr_city>
+</site>
+<site>
+	<name>Clos Vougeot</name>
+	<type>branch</type>
+	<lat>47.1781</lat>
+	<lng>4.9639</lng>
+	<url>www.romanes.com/Clos-Vougeot/</url>
+	<addr_city>Vougeot</addr_city>
+</site>
+<site>
+	<name>Collégiale de Poissy</name>
+	<type>branch</type>
+	<lat>48.9286</lat>
+	<lng>2.0418</lng>
+	<url>www.romanes.com/Poissy/</url>
+	<addr_city>Poissy</addr_city>
+</site>
+<site>
+	<name>Chateauneuf de Pouilly en Auxois</name>
+	<type>branch</type>
+	<lat>47.2483</lat>
+	<lng>4.5246</lng>
+	<url>www.romanes.com/Chateauneuf-Pouilly/</url>
+	<addr_city>Pouilly-en-Auxois</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Bougival</name>
+	<type>branch</type>
+	<lat>48.8632</lat>
+	<lng>2.1407</lng>
+	<url>www.romanes.com/Bougival/</url>
+	<addr_city>Bougival</addr_city>
+</site>
+<site>
+	<name>Eglise de Gimeux</name>
+	<type>branch</type>
+	<lat>45.6364</lat>
+	<lng>-0.371</lng>
+	<url>www.romanes.com/Gimeux/</url>
+	<addr_city>Gimeux</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Ganagobie</name>
+	<type>branch</type>
+	<lat>44.009</lat>
+	<lng>4.9166</lng>
+	<url>www.romanes.com/Ganagobie/</url>
+	<addr_city>Ganagobie</addr_city>
+</site>
+<site>
+	<name>Saint Léonce de Fréjus</name>
+	<type>branch</type>
+	<lat>43.4325</lat>
+	<lng>6.7352</lng>
+	<url>www.romanes.com/Frejus/</url>
+	<addr_city>Fréjus</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Châtres</name>
+	<type>branch</type>
+	<lat>45.6882</lat>
+	<lng>-0.2771</lng>
+	<url>www.romanes.com/Chatres/</url>
+	<addr_city>Saint Brice</addr_city>
+</site>
+<site>
+	<name>Saint Philibert de Tournus</name>
+	<type>branch</type>
+	<lat>46.5656</lat>
+	<lng>4.9084</lng>
+	<url>www.romanes.com/Tournus/</url>
+	<addr_city>Tournus</addr_city>
+</site>
+<site>
+	<name>Saint Pierre d'Airvault</name>
+	<type>branch</type>
+	<lat>46.8264</lat>
+	<lng>-0.1381</lng>
+	<url>www.romanes.com/Airvault/</url>
+	<addr_city>Airvault</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Brancion</name>
+	<type>branch</type>
+	<lat>46.5476</lat>
+	<lng>4.7966</lng>
+	<url>www.romanes.com/Brancion/</url>
+	<addr_city>BRancion</addr_city>
+</site>
+<site>
+	<name>Saint Martin de Chapaize</name>
+	<type>branch</type>
+	<lat>46.5566</lat>
+	<lng>4.7368</lng>
+	<url>www.romanes.com/Chapaize/</url>
+	<addr_city>Chapaize</addr_city>
+</site>
+<site>
+	<name>Saint Lazare d'Autun</name>
+	<type>branch</type>
+	<lat>46.9498</lat>
+	<lng>4.2994</lng>
+	<url>www.romanes.com/Autun/</url>
+	<addr_city>Autun</addr_city>
+</site>
+<site>
+	<name>Abbaye de Cluny</name>
+	<type>branch</type>
+	<lat>46.4337</lat>
+	<lng>4.6582</lng>
+	<url>www.romanes.com/Cluny/</url>
+	<addr_city>Cluny</addr_city>
+</site>
+<site>
+	<name>Abbaye de Fontenay</name>
+	<type>branch</type>
+	<lat>47.6252</lat>
+	<lng>4.338</lng>
+	<url>www.romanes.com/Fontenay/</url>
+	<addr_city>Montbard</addr_city>
+</site>
+<site>
+	<name>Abbaye du Val</name>
+	<type>branch</type>
+	<lat>49.0806</lat>
+	<lng>2.2076</lng>
+	<url>www.romanes.com/Le_val/</url>
+	<addr_city>Mériel</addr_city>
+</site>
+<site>
+	<name>Saint Etienne de Mareil-Marly</name>
+	<type>branch</type>
+	<lat>48.8824</lat>
+	<lng>2.0768</lng>
+	<url>www.romanes.com/Mareil-Marly/</url>
+	<addr_city>Mareil-Marly</addr_city>
+</site>
+<site>
+	<name>Saint Généroux</name>
+	<type>branch</type>
+	<lat>46.8835</lat>
+	<lng>-0.1375</lng>
+	<url>www.romanes.com/Saint_Generoux/</url>
+	<addr_city>Saint-Généroux</addr_city>
+</site>
+<site>
+	<name>Saint Jouin de Marnes</name>
+	<type>branch</type>
+	<lat>46.8815</lat>
+	<lng>-0.0529</lng>
+	<url>www.romanes.com/Saint_Jouin_de_Marnes/</url>
+	<addr_city>Saint Jouin de Marnes</addr_city>
+</site>
+<site>
+	<name>Eglises de Jalogny et Vaux</name>
+	<type>branch</type>
+	<lat>46.4197</lat>
+	<lng>4.6287</lng>
+	<url>www.romanes.com/Jalogny/</url>
+	<addr_city>Jalogny</addr_city>
+</site>
+<site>
+	<name>Notre-Dame-de-Nazareth de Rians</name>
+	<type>branch</type>
+	<lat>43.607</lat>
+	<lng>5.7569</lng>
+	<url>www.romanes.com/Rians/</url>
+	<addr_city>Rians</addr_city>
+</site>
+<site>
+	<name>Saint André de Ruffec</name>
+	<type>branch</type>
+	<lat>46.0284</lat>
+	<lng>0.2031</lng>
+	<url>www.romanes.com/Ruffec/</url>
+	<addr_city>Ruffec</addr_city>
+</site>
+<site>
+	<name>Saint Martin et Saint Blaise de Louveciennes</name>
+	<type>branch</type>
+	<lat>48.8626</lat>
+	<lng>2.111</lng>
+	<url>www.romanes.com/Louvecienne/</url>
+	<addr_city>Louveciennes</addr_city>
+</site>
+<site>
+	<name>Basilique de Saint Denis</name>
+	<type>branch</type>
+	<lat>48.9337</lat>
+	<lng>2.3595</lng>
+	<url>www.romanes.com/Saint_Denis/</url>
+	<addr_city>Saint Denis</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Cunault</name>
+	<type>branch</type>
+	<lat>47.337</lat>
+	<lng>-0.23411</lng>
+	<url>www.romanes.com/Cunault/</url>
+	<addr_city>Cunault</addr_city>
+</site>
+<site>
+	<name>Notre Dame de la Prée des Tuffeaux</name>
+	<type>branch</type>
+	<lat>47.337</lat>
+	<lng>-0.23412</lng>
+	<url>www.romanes.com/Chenehutte/</url>
+	<addr_city>Chenehutte-les-Tuffeaux</addr_city>
+</site>
+<site>
+	<name>Saint Aubin de Trêves</name>
+	<type>branch</type>
+	<lat>47.337</lat>
+	<lng>-0.23413</lng>
+	<url>www.romanes.com/Treves/</url>
+	<addr_city>Trêves</addr_city>
+</site>
+<site>
+	<name>Saint Martin de Candes-Saint-Martin</name>
+	<type>branch</type>
+	<lat>47.2113</lat>
+	<lng>0.0745</lng>
+	<url>www.romanes.com/Candes/</url>
+	<addr_city>Candes-Saint-Martin</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Port Royal des Champs</name>
+	<type>branch</type>
+	<lat>48.7241</lat>
+	<lng>2.0876</lng>
+	<url>www.romanes.com/Port_Royal/</url>
+	<addr_city>Magny les Hameaux</addr_city>
+</site>
+<site>
+	<name>Saint Sulpice de Béthancourt en Valois</name>
+	<type>branch</type>
+	<lat>49.2845</lat>
+	<lng>2.878</lng>
+	<url>www.romanes.com/Bethancourt/</url>
+	<addr_city>Béthancourt en Valois</addr_city>
+</site>
+<site>
+	<name>Saint Martin et Saint Priest de Gilocourt</name>
+	<type>branch</type>
+	<lat>49.2967</lat>
+	<lng>2.8642</lng>
+	<url>www.romanes.com/Gilocourt/</url>
+	<addr_city>Gilocourt</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre Dame des Vaulx de Cernay</name>
+	<type>branch</type>
+	<lat>48.6722</lat>
+	<lng>1.9626</lng>
+	<url>www.romanes.com/Vaux_de_Cernay/</url>
+	<addr_city>Cernay la ville</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Fontevraud</name>
+	<type>branch</type>
+	<lat>47.182</lat>
+	<lng>0.0502</lng>
+	<url>www.romanes.com/Fontevraud/</url>
+	<addr_city>Fontevraud</addr_city>
+</site>
+<site>
+	<name>Notre Dame du Fort d'Etampes</name>
+	<type>branch</type>
+	<lat>48.4371</lat>
+	<lng>2.1632</lng>
+	<url>www.romanes.com/Etampes/Notre_Dame_du_Fort/</url>
+	<addr_city>Etampes</addr_city>
+</site>
+<site>
+	<name>Saint Basile d'Etampes</name>
+	<type>branch</type>
+	<lat>48.4371</lat>
+	<lng>2.1632</lng>
+	<url>www.romanes.com/Etampes/Saint_Basile/</url>
+	<addr_city>Etampes</addr_city>
+</site>
+<site>
+	<name>Saint Martin d'Etampes</name>
+	<type>branch</type>
+	<lat>48.4371</lat>
+	<lng>2.1632</lng>
+	<url>www.romanes.com/Etampes/Saint_Martin/</url>
+	<addr_city>Etampes</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Vaucelles</name>
+	<type>branch</type>
+	<lat>50.0779</lat>
+	<lng>3.2566</lng>
+	<url>www.romanes.com/Vaucelles/</url>
+	<addr_city>Les Rues des Vignes</addr_city>
+</site>
+<site>
+	<name>Saint Julien de Brioude</name>
+	<type>branch</type>
+	<lat>45.2689</lat>
+	<lng>3.3646</lng>
+	<url>www.romanes.com/Brioude/</url>
+	<addr_city>Brioude</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Mozac</name>
+	<type>branch</type>
+	<lat>45.9094</lat>
+	<lng>3.1247</lng>
+	<url>www.romanes.com/Mozac/</url>
+	<addr_city>Mozac</addr_city>
+</site>
+<site>
+	<name>Saint Pierre de Blesle</name>
+	<type>branch</type>
+	<lat>45.3173</lat>
+	<lng>3.1623</lng>
+	<url>www.romanes.com/Blesle/</url>
+	<addr_city>Blesle</addr_city>
+</site>
+<site>
+	<name>Saint Georges de Saint Paulien</name>
+	<type>branch</type>
+	<lat>45.1601</lat>
+	<lng>3.8152</lng>
+	<url>www.romanes.com/StPaulien/</url>
+	<addr_city>Saint Paulien</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Mailhat</name>
+	<type>branch</type>
+	<lat>45.4489</lat>
+	<lng>3.3414</lng>
+	<url>www.romanes.com/Mailhat/</url>
+	<addr_city>Lamontgie</addr_city>
+</site>
+<site>
+	<name>Saint Georges de Bourbon L'Archambault</name>
+	<type>branch</type>
+	<lat>46.5817</lat>
+	<lng>3.0578</lng>
+	<url>www.romanes.com/Bourbon/</url>
+	<addr_city>Bourbon l'Archambault</addr_city>
+</site>
+<site>
+	<name>Notre Dame de La Prée</name>
+	<type>branch</type>
+	<lat>46.9139</lat>
+	<lng>1.9459</lng>
+	<url>www.romanes.com/La_Pree/</url>
+	<addr_city>Ségry</addr_city>
+</site>
+<site>
+	<name>Saint Léger de Royat</name>
+	<type>branch</type>
+	<lat>45.7579</lat>
+	<lng>3.0403</lng>
+	<url>www.romanes.com/Royat/</url>
+	<addr_city>Royat</addr_city>
+</site>
+<site>
+	<name>Notre Dame d'Orcival</name>
+	<type>branch</type>
+	<lat>45.7041</lat>
+	<lng>2.8466</lng>
+	<url>www.romanes.com/Orcival/</url>
+	<addr_city>Orcival</addr_city>
+</site>
+<site>
+	<name>Notre Dame du Port de Clermont</name>
+	<type>branch</type>
+	<lat>45.7964</lat>
+	<lng>3.1148</lng>
+	<url>www.romanes.com/Clermont/ND_Port/</url>
+	<addr_city>Clermont-Ferrand</addr_city>
+</site>
+<site>
+	<name>Collégiale Saint-Victor et Sainte-Couronne d'Ennezat</name>
+	<type>branch</type>
+	<lat>45.9061</lat>
+	<lng>3.2354</lng>
+	<url>www.romanes.com/Ennezat/</url>
+	<addr_city>Ennezat</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Saint Saturnin</name>
+	<type>branch</type>
+	<lat>45.6588</lat>
+	<lng>3.083</lng>
+	<url>www.romanes.com/Saint_Saturnin/</url>
+	<addr_city>Saint Saturnin</addr_city>
+</site>
+<site>
+	<name>Saint Martin d'Ineuil</name>
+	<type>branch</type>
+	<lat>46.7847</lat>
+	<lng>2.1802</lng>
+	<url>www.romanes.com/Ineuil/</url>
+	<addr_city>Ineuil</addr_city>
+</site>
+<site>
+	<name>Notre Dame du Puy en Velay</name>
+	<type>branch</type>
+	<lat>45.0565</lat>
+	<lng>3.8646</lng>
+	<url>www.romanes.com/Le_Puy/Notre_Dame/</url>
+	<addr_city>Le Puy en Velay</addr_city>
+</site>
+<site>
+	<name>Saint Michel d'Aiguilhe du Puy</name>
+	<type>branch</type>
+	<lat>45.0565</lat>
+	<lng>3.8646</lng>
+	<url>www.romanes.com/Le_Puy/Saint_Michel/</url>
+	<addr_city>Le Puy en Velay</addr_city>
+</site>
+<site>
+	<name>Saint Martin d'Ygrande</name>
+	<type>branch</type>
+	<lat>46.6104</lat>
+	<lng>3.0196</lng>
+	<url>www.romanes.com/Ygrande/</url>
+	<addr_city>Ygrande</addr_city>
+</site>
+<site>
+	<name>Saint Michel d'Aiguilhe du Puy</name>
+	<type>branch</type>
+	<lat>45.0565</lat>
+	<lng>3.8646</lng>
+	<url>www.romanes.com/Le_Puy/Saint_Michel/</url>
+	<addr_city>Le Puy en Velay</addr_city>
+</site>
+<site>
+	<name>Notre Dame du Puy en Velay</name>
+	<type>branch</type>
+	<lat>45.0565</lat>
+	<lng>3.8646</lng>
+	<url>www.romanes.com/Le_Puy/Notre_Dame/</url>
+	<addr_city>Le Puy en Velay</addr_city>
+</site>
+<site>
+	<name>Saint Julien de Saint-Julien-Chapteuil</name>
+	<type>branch</type>
+	<lat>45.0391</lat>
+	<lng>4.0511</lng>
+	<url>www.romanes.com/Saint-Julien-Chapteuil/</url>
+	<addr_city>Saint-Julien-Chapteuil</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Noirlac</name>
+	<type>branch</type>
+	<lat>46.7361</lat>
+	<lng>2.4967</lng>
+	<url>www.romanes.com/Noirlac/</url>
+	<addr_city>Bruere-Allichamps</addr_city>
+</site>
+<site>
+	<name>Notre Dame de Lavaudieu</name>
+	<type>branch</type>
+	<lat>45.2689</lat>
+	<lng>3.3646</lng>
+	<url>www.romanes.com/Lavaudieu/</url>
+	<addr_city>Lavaudieu</addr_city>
+</site>
+<site>
+	<name>Cathédrale Saint Etienne de Bourges</name>
+	<type>branch</type>
+	<lat>47.0749</lat>
+	<lng>2.4045</lng>
+	<url>www.romanes.com/Bourges/</url>
+	<addr_city>Bourges</addr_city>
+</site>
+<site>
+	<name>Abbaye Notre Dame de Lerins</name>
+	<type>branch</type>
+	<lat>43.5509</lat>
+	<lng>7.0106</lng>
+	<url>www.romanes.com/Lerins/</url>
+	<addr_city>Cannes</addr_city>
+</site>
+</romanes_worldwide>

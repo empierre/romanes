@@ -1,0 +1,610 @@
+id=1
+album_id=1
+map_url=/img/map/Haut-Poitou-Aulnay.jpg
+map_img_low=/img/map/Haut-Poitou-Aulnay.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT42
+map_source_book_id=52
+place_id=3
+map_img_site=8
+
+id=2
+album_id=58
+map_url=/img/map/Perigord-Cadouin.jpg
+map_img_low=/img/map/Perigord-Cadouin.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=50
+map_img_site=8
+
+id=3
+album_id=110
+map_url=/img/map/Haut-Poitou-Charroux.jpg
+map_img_low=/img/map/Haut-Poitou-Charroux.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT42
+map_source_book_id=52
+place_id=93
+map_img_site=8
+
+id=4
+album_id=114
+map_url=/img/map/Haut-Poitou-Civaux.jpg
+map_img_low=/img/map/Haut-Poitou-Civaux.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT42
+map_source_book_id=52
+place_id=95
+map_img_site=8
+
+id=5
+album_id=29
+map_url=/img/map/Haut-Poitou-Nouaille.jpg
+map_img_low=/img/map/Haut-Poitou-Nouaille.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT42
+map_source_book_id=52
+place_id=23
+map_img_site=8
+
+id=6
+album_id=30
+map_url=/img/map/Poitou-PoitiersNDLaGrande.jpg
+map_img_low=/img/map/Poitou-PoitiersNDLaGrande.s.jpg
+map_source_text=Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=33
+place_id=25
+map_img_site=8
+
+id=7
+album_id=41
+map_url=/img/map/Poitou-SaintSavin.jpg
+map_img_low=/img/map/Poitou-SaintSavin.s.jpg
+map_source_text=Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=33
+place_id=38
+map_img_site=8
+
+id=8
+album_id=6
+map_url=/img/map/Poitou-StPierredeChauvigny.jpg
+map_img_low=/img/map/Poitou-StPierredeChauvigny.s.jpg
+map_source_text=Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=33
+place_id=6
+map_img_site=8
+
+id=9
+album_id=62
+map_url=/img/map/Perigord-Cenac.jpg
+map_img_low=/img/map/Perigord-Cenac.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=54
+map_img_site=8
+
+id=10
+album_id=73
+map_url=/img/map/Perigord-Merlande.jpg
+map_img_low=/img/map/Perigord-Merlande.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=67
+map_img_site=8
+
+id=11
+album_id=60
+map_url=/img/map/Perigord-Paunat.jpg
+map_img_low=/img/map/Perigord-Paunat.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=52
+map_img_site=8
+
+id=12
+album_id=105
+map_url=/img/map/Perigord-Perigueux-StEtienneCite.jpg
+map_img_low=/img/map/Perigord-Perigueux-StEtienneCite.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=88
+map_img_site=8
+
+id=13
+album_id=56
+map_url=/img/map/Perigord-StAmandColy.jpg
+map_img_low=/img/map/Perigord-StAmandColy.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=48
+map_img_site=8
+
+id=14
+album_id=63
+map_url=/img/map/Perigord-StLeonVezere.jpg
+map_img_low=/img/map/Perigord-StLeonVezere.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=55
+map_img_site=8
+
+id=15
+album_id=65
+map_url=/img/map/Perigord-Thiviers.jpg
+map_img_low=/img/map/Perigord-Thiviers.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=57
+map_img_site=8
+
+id=16
+album_id=76
+map_url=/img/map/Perigord-Tremolat.jpg
+map_img_low=/img/map/Perigord-Tremolat.s.jpg
+map_source_text=Périgord roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT27
+map_source_book_id=46
+place_id=68
+map_img_site=8
+
+id=17
+album_id=90
+map_url=/img/map/Provence-Alyscamps.jpg
+map_img_low=/img/map/Provence-Alyscamps.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=74
+map_img_site=8
+
+id=18
+album_id=100
+map_url=/img/map/Provence-Benezet.jpg
+map_img_low=/img/map/Provence-Benezet.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=83
+map_img_site=8
+
+id=19
+album_id=93
+map_url=/img/map/Provence-GardeAdhemar.jpg
+map_img_low=/img/map/Provence-GardeAdhemar.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=76
+map_img_site=8
+
+id=20
+album_id=92
+map_url=/img/map/Provence-Montmajour2.jpg
+map_img_low=/img/map/Provence-Montmajour2.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=75
+map_img_site=8
+
+id=21
+album_id=94
+map_url=/img/map/Provence-StPaul3Chat.jpg
+map_img_low=/img/map/Provence-StPaul3Chat.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=77
+map_img_site=8
+
+id=22
+album_id=89
+map_url=/img/map/Provence-StTrophime-Cloitre.jpg
+map_img_low=/img/map/Provence-StTrophime-Cloitre.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=72
+map_img_site=8
+
+id=23
+album_id=88
+map_url=/img/map/Provence-StTrophime-Eglise.jpg
+map_img_low=/img/map/Provence-StTrophime-Eglise.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=70
+map_img_site=8
+
+id=24
+album_id=87
+map_url=/img/map/Provence-StTrophime-Facade.jpg
+map_img_low=/img/map/Provence-StTrophime-Facade.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=71
+map_img_site=8
+
+id=25
+album_id=95
+map_url=/img/map/Provence-Vaison.jpg
+map_img_low=/img/map/Provence-Vaison.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=78
+map_img_site=8
+
+id=26
+album_id=85
+map_url=/img/map/Haut-Poitou-Melle-StHilaire.jpg
+map_img_low=/img/map/Haut-Poitou-Melle-StHilaire.s.jpg
+map_source_text=Haut-Poitou roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT54
+map_source_book_id=85
+place_id=24
+map_img_site=8
+
+id=27
+album_id=40
+map_url=/img/map/Saintonge-AbbayeDamesSaintes.jpg
+map_img_low=/img/map/Saintonge-AbbayeDamesSaintes.s.jpg
+map_source_text=Saintonge romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=40
+place_id=37
+map_img_site=8
+
+id=28
+album_id=19
+map_url=/img/map/Saintonge-MathaMarestay.jpg
+map_img_low=/img/map/Saintonge-MathaMarestay.s.jpg
+map_source_text=Saintonge romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=40
+place_id=14
+map_img_site=8
+
+id=29
+album_id=52
+map_url=/img/map/Saintonge-StEutropeHaute.jpg
+map_img_low=/img/map/Saintonge-StEutropeHaute.s.jpg
+map_source_text=Saintonge romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=40
+place_id=42
+map_img_site=8
+
+id=30
+album_id=51
+map_url=/img/map/Saintonge-StEutropeBasse.jpg
+map_img_low=/img/map/Saintonge-StEutropeBasse.s.jpg
+map_source_text=Saintonge romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT33
+map_source_book_id=40
+place_id=43
+map_img_site=8
+
+id=31
+album_id=112
+map_url=/img/map/Provence-StPaul3Chat.jpg
+map_img_low=/img/map/Provence-StPaul3Chat.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=94
+map_img_site=8
+
+id=32
+album_id=112
+map_url=/img/map/Provence-StPaul3Chat.jpg
+map_img_low=/img/map/Provence-StPaul3Chat.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=94
+map_img_site=8
+
+id=33
+album_id=112
+map_url=/img/map/Provence-StPaul3Chat.jpg
+map_img_low=/img/map/Provence-StPaul3Chat.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=94
+map_img_site=8
+
+id=34
+album_id=112
+map_url=/img/map/Provence-StPaul3Chat.jpg
+map_img_low=/img/map/Provence-StPaul3Chat.s.jpg
+map_source_text=Provence romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT46
+map_source_book_id=58
+place_id=94
+map_img_site=8
+
+id=69
+album_id=184
+map_url=/img/map/NT02-Saint_Nectaire2.m.jpg
+map_img_low=/img/map/NT02-Saint_Nectaire2.s.jpg
+map_source_text=Auvergne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT02
+map_source_book_id=31
+place_id=160
+map_img_site=8
+
+id=68
+album_id=183
+map_url=/img/map/NT02-NDPort.m.jpg
+map_img_low=/img/map/NT02-NDPort.s.jpg
+map_source_text=Auvergne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT02
+map_source_book_id=31
+place_id=158
+map_img_site=8
+
+id=67
+album_id=181
+map_url=/img/map/NT02-Orcival.m.jpg
+map_img_low=/img/map/NT02-Orcival.s.jpg
+map_source_text=Auvergne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT02
+map_source_book_id=31
+place_id=157
+map_img_site=8
+
+id=66
+album_id=177
+map_url=/img/map/NT02-Mozac.m.jpg
+map_img_low=/img/map/NT02-Mozac.s.jpg
+map_source_text=Auvergne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT02
+map_source_book_id=31
+place_id=149
+map_img_site=8
+
+id=65
+album_id=176
+map_url=/img/map/NT02-Issoire.m.jpg
+map_img_low=/img/map/NT02-Issoire.s.jpg
+map_source_text=Auvergne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT02
+map_source_book_id=31
+place_id=153
+map_img_site=8
+
+id=64
+album_id=167
+map_url=/img/map/NT09-Fontevraud.m.jpg
+map_img_low=/img/map/NT09-Fontevraud.s.jpg
+map_source_text=Anjou Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT09
+map_source_book_id=36
+place_id=143
+map_img_site=8
+
+id=63
+album_id=166
+map_url=/img/map/NT09-Cunault.m.jpg
+map_img_low=/img/map/NT09-Cunault.s.jpg
+map_source_text=Anjou Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT09
+map_source_book_id=36
+place_id=142
+map_img_site=8
+
+id=62
+album_id=158
+map_url=/img/map/NT09-Treves.m.jpg
+map_img_low=/img/map/NT09-Treves.s.jpg
+map_source_text=Anjou Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT09
+map_source_book_id=36
+place_id=135
+map_img_site=8
+
+id=61
+album_id=49
+map_url=/img/map/NT44-0002-Nieul.m.jpg
+map_img_low=/img/map/NT44-0002-Nieul.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT42
+map_source_book_id=54
+place_id=18
+map_img_site=8
+
+id=60
+album_id=17
+map_url=/img/map/NT44-0001-Maillezais.m.jpg
+map_img_low=/img/map/NT44-0001-Maillezais.s.jpg
+map_source_text=Haut-Poitou Roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT44
+map_source_book_id=56
+place_id=12
+map_img_site=8
+
+id=46
+album_id=4
+map_url=/img/map/IDF-Chartres-0001.m.jpg
+map_img_low=/img/map/IDF-Chartres-0001.s.jpg
+map_source_text=Ile de France Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT60
+map_source_book_id=61
+place_id=69
+map_img_site=8
+
+id=47
+album_id=36
+map_url=/img/map/Bourgogne-Vezelay-0001.m.jpg
+map_img_low=/img/map/Bourgogne-Vezelay-0001.s.jpg
+map_source_text=Bourgogne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT01
+map_source_book_id=30
+place_id=32
+map_img_site=8
+
+id=48
+album_id=42
+map_url=/img/map/Cister-senanque-0001.m.jpg
+map_img_low=/img/map/Cister-senanque-0001.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=39
+map_img_site=8
+
+id=49
+album_id=43
+map_url=/img/map/Cister-Silvacane-0010.m.jpg
+map_img_low=/img/map/Cister-Silvacane-0010.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=40
+map_img_site=8
+
+id=50
+album_id=45
+map_url=/img/map/Cister-Thoronet-0005.m.jpg
+map_img_low=/img/map/Cister-Thoronet-0005.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=41
+map_img_site=8
+
+id=51
+album_id=68
+map_url=/img/map/IDF-beauvais-0001.m.jpg
+map_img_low=/img/map/IDF-beauvais-0001.s.jpg
+map_source_text=Ile de France Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT60
+map_source_book_id=61
+place_id=59
+map_img_site=8
+
+id=52
+album_id=124
+map_url=/img/map/IDF-Morienval-0001.m.jpg
+map_img_low=/img/map/IDF-Morienval-0001.s.jpg
+map_source_text=Ile de France,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT60
+map_source_book_id=61
+place_id=105
+map_img_site=8
+
+id=53
+album_id=125
+map_url=/img/map/Cister-Pontigny-0008.m.jpg
+map_img_low=/img/map/Cister-Pontigny-0008.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=106
+map_img_site=8
+
+id=54
+album_id=140
+map_url=/img/map/Bourgogne-Tournus-0001.m.jpg
+map_img_low=/img/map/Bourgogne-Tournus-0001.s.jpg
+map_source_text=Bourgogne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT1
+map_source_book_id=30
+place_id=118
+map_img_site=8
+
+id=55
+album_id=144
+map_url=/img/map/Bourgogne-Autun-0002.m.jpg
+map_img_low=/img/map/Bourgogne-Autun-0002.s.jpg
+map_source_text=Bourgogne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT1
+map_source_book_id=30
+place_id=122
+map_img_site=8
+
+id=56
+album_id=145
+map_url=/img/map/Bourgogne-Cluny-0001.m.jpg
+map_img_low=/img/map/Bourgogne-Cluny-0001.s.jpg
+map_source_text=Bourgogne Romane,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT1
+map_source_book_id=30
+place_id=123
+map_img_site=8
+
+id=57
+album_id=146
+map_url=/img/map/Cister-Fontenay-0001.m.jpg
+map_img_low=/img/map/Cister-Fontenay-0001.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=124
+map_img_site=8
+
+id=58
+album_id=157
+map_url=/img/map/IDF-St-Denis-0001.m.jpg
+map_img_low=/img/map/IDF-St-Denis-0001.s.jpg
+map_source_text=Ile de France,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT60
+map_source_book_id=61
+place_id=133
+map_img_site=8
+
+id=59
+album_id=169
+map_url=/img/map/IDF-Etampes-StMartin-0001.m.jpg
+map_img_low=/img/map/IDF-Etampes-StMartin-0001.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT60
+map_source_book_id=61
+place_id=146
+map_img_site=8
+
+id=70
+album_id=188
+map_url=/img/map/NT15-Le_Puy.m.jpg
+map_img_low=/img/map/NT15-Le_Puy.s.jpg
+map_source_text=Forez Velay roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT15
+map_source_book_id=42
+place_id=163
+map_img_site=8
+
+id=71
+album_id=189
+map_url=/img/map/NT15-Le_Puy-Aiguilhe.m.jpg
+map_img_low=/img/map/NT15-Le_Puy-Aiguilhe.s.jpg
+map_source_text=Forez Velay roman,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT15
+map_source_book_id=42
+place_id=165
+map_img_site=8
+
+id=72
+album_id=191
+map_url=/img/map/Cister-Noirlac-0007.m.jpg
+map_img_low=/img/map/Cister-Noirlac-0007.s.jpg
+map_source_text=Art cistercien,Zodiaque
+map_source_url=/biblio/zodiaque_fr.html#NT16
+map_source_book_id=21
+place_id=167
+map_img_site=8
+

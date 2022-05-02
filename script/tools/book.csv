@@ -1,0 +1,267 @@
+1;Glossaire des termes techniques de l'art roman;INT 1;1-2-6-9-10
+2;Bayeux (La tapisserie - édition 2002);INT 2
+3;Symboles (Introduction au monde des);INT 3;13-15-16
+4;Evocation;INT 4;
+5;Invention de l'architecture romane;INT 6;1-2-5-6-9-10-11-22-32
+6;Floraison de la sculpture romane I;INT 7;14-15-16 
+7;Floraison de la sculpture romane II;INT 8;14-15-16
+8;Histoire de l'art français I;INT 9 
+9;Histoire de l'art français II;INT10 
+10;Révélation de la peinture romane;INT11;2-6 
+11;Routes romanes I La route aux saints;INT12;2
+12;Routes romanes II La route aux solitudes;INT13;2 
+13;Routes romanes III La garde de Dieu;INT14;2
+14;Dictionnaire d'iconographie romane;INT15;2-13-14-15-16
+15;Initiation à l'art des cathédrales;INT16;1-2-3-7
+16;Initiation à l'art roman;INT;1-2-5-6
+17;Atlas de la France Romane;HC;1-2
+18;Terres de Bourgogne;AET1;2-189-158-121-171
+19;Terres de Rouergue;AET2;2-189-158-121-171
+20;Art gaulois;NT 4
+21;Art cistercien;NT16;2-5-30
+22;Art scandinave I;NT28;2
+23;Art scandinave II;NT29;2
+24;Art irlandais I;NT20;2
+25;Art irlandais II;NT21;2
+26;Art irlandais III;NT22;2
+27;Art mozarabe ;NT;2
+28;Art préroman hispanique I;NT37;2
+29;Art préroman hispanique II;NT38;2
+30;Bourgogne romane;NT 1;2-189-158-121-171
+31;Auvergne romane ;NT 2;2-189-158-121-171
+32;Val de Loire roman ;NT 3;2-6-151-172-144-149
+33;Poitou Roman ;NT 5;2-6-116-117
+34;Touraine romane ;NT 6;2-6-137136-141
+35;Roussillon roman;NT 7;2-6-111-134
+36;Anjou roman;NT 9;2-6-149
+37;Quercy roman;NT10;2-6-146
+38;Limousin roman;NT11;2-6-187-119-123
+39;Catalogne romane I;NT12;
+40;Catalogne romane II;NT13;
+41;Angoumois Roman;NT14;2-6-116
+42;Forez Velay roman;NT15;2-6-143
+43;Rouergue roman;NT17;2-6-112
+44;Alsace romane;NT22;2-6-167-168
+45;Normandie romane 1;NT25;2-6-150-114-161
+46;Périgord roman;NT27;2-6-124-146
+47;Pyrénées romanes;NT30;2-6-164
+48;Guyenne romane;NT31;2-6-147-146
+49;Berry roman;NT32;
+50;Saintonge romane;NT33;2-6-116-117
+51;Corse romane;NT36;2-6-20
+52;Provence romane 1;NT40;2-6-184-104
+53;Normandie romane 2;NT41;2-6-184-104 
+54;Haut-Poitou roman;NT42;116;117;186;
+55;Languedoc roman;NT43 
+56;Vendée romane;NT44;2-6-185
+57;Nivernais-Bourbonnais romans;NT45;2-6-103
+58;Provence romane 2;NT46;2-6-184-104
+59;Haut-Languedoc roman;NT48 
+60;Gascogne romane ;NT49 
+61;Ile de France Romane;NT60;2-6-175-178-191-195-177-193-192-194
+62;Nord roman;NT82;2-6-162-159
+63;Alpes romanes;NT;2-6-105-104-106
+64;Bretagne romane;NT;2-6-129-156-122-135
+65;Champagne romane;NT  
+66;Dauphiné roman;NT77 
+67;Franche Comté - Bresse roman;NT  
+68;Lorraine romane;NT  
+69;Lyonnais, Savoie romans;NT73 
+70;Maine roman;NT  
+71;Vivarais Gévaudan romans;NT75;2-6-107-148 
+72;Abruzzes Molise romans;NT74 
+73;Angleterre romane I;NT59 
+74;Angleterre romane II;NT69 
+75;Aragon roman ;NT34 
+76;Bavière romane;NT  
+77;Belgique romane;NT71 
+78;Calabre Basilicate romanes;NT70 
+79;Campanie romane;NT  
+80;Castille romane I;NT23 
+81;Castille romane II;NT24 
+82;Ecosse romane;NT  
+83;Emilie romane;NT  
+84;Galice romane Epuisé;NT39 
+85;Leon roman;NT35 
+86;Lombardie romane;NT47 
+87;Marches romanes;NT80 
+88;Navarre romane;NT26 
+89;Ombrie romane;NT  
+90;Palatinat roman;NT79 
+91;Pays-Bas roman;NT81 
+92;Pays basque roman;NT  
+93;Piémont-Ligurie roman;NT51 
+94;Portugal roman 1;NT  
+95;Portugal roman 2;NT  
+96;Pouilles romanes;NT  
+97;Rome et Latium romans;NT78 
+98;Sardaigne romane;NT72 
+99;Saxe romane;NT  
+100;Sicile romane;NT  
+101;Suisse romane;NT 8 
+102;Terre sainte romane;NT21 
+103;Toscane romane  ;NT  
+104;Vénétie romane;NT76 
+105;Westphalie romane;NT  
+106;Autun;TM 1;
+107;Chartres;TM;1-3-7  
+108;Chemins de Compostelle;TM  
+109;Christs romans  Christs en gloire;TM;2-13-16
+110;Cloitres romans;TM;5-32-2
+111;Images d'anges et démons;TM  
+112;Images des jours saints;TM  
+113;Images de Notre Dame ;TM 2 
+114;Maitre de Chaource;TM 3 
+115;Mont Saint Michel;TM  
+116;Reims;TM  
+117;Rocamadour;TM  
+118;Saint Benoit sur Loire;TM  
+119;Senlis berceau de la France;TM  
+120;Soeurs provençales ;TM  
+121;Vézelay  ;TM  
+122;Itinéraires romans en Bourgogne;TM  
+123;Itinéraires romans en Normandie;TM  
+124;Vierges romanes;TM  
+125;Art Médiéval en Irlande;FN
+126;Chartres Révélé;FN
+127;Espagne romane;FN;2
+128;Europe cistercienne;FN;30
+129;Europe des monastères ;FN
+130;Europe musulmane;FN
+131;France romane I   XIe s.;FN;2
+132;France romane II  XIIe s.;FN;2
+133;Lombards;FN
+134;Miroir de l'invisible (peint. Géorgie 6/15°);FN
+135;Serbie au Moyen Age;FN
+136;Arménie au Moyen Age;FN
+137;Cappadoce médiévale;FN
+138;Jugements derniers;FN
+139;Clartés de St Benoît sur Loire;VL
+140;Lumières de Vézelay;VL
+141;Mystère de Fontenay;VL
+142;Maître de Cabestany;VL
+143;Sénanque;VL;30
+144;Ateliers de la Renaissance;PA
+145;Chantiers médiévaux;PA
+146;Le Monde roman;PA
+147;La Renaissance . L'art du XVIe;PA
+148;Quattrocento;PA
+149;Pélerinages;PA
+150;Aulnay;CC
+151;Autun;CC
+152;Champagne-sur-Rhone;CC
+153;Chartres extérieur en anglais);CC
+154;Chartres extérieur en français);CC
+155;Le Dorat;CC
+156;Le Puy;CC
+157;Lessay;CC
+158;Moissac;CC
+159;Notre-Dame-du-Port;CC
+160;Poitiers;CC
+161;PONTIGNY  (nouvelle présentation).;CC
+162;Romainmotier;CC
+163;SAINT GUILHEM (nouvelle présentation);CC
+164;Saint-Bertrand;CC
+165;Saint-Front;CC
+166;Saint-Gaudens;CC
+167;Saint-Germain-des-Prés;CC
+168;Saint-Sernin;CC
+169;Trésor de Sens;CC
+170;Vignory;CC
+171;De la nuit à l'aurore  2 volumes;VD
+172;Lettres d'Anne Dangar;VD
+173;Max Jacob: Les propos et les jours;VD
+174;Max Jacob: Saint-Benoit et l'abb. Fleury;VD
+175;Points de vue sur l'art abs. et l'art s.;VD
+176;arts et sagesses de l'Afrique Noire;RM
+177;art et spiritualité de l'Inde;RM
+178;art et sagesses de la Chine;RM
+179;art et sagesses du Tibet;RM
+180; Anges et démons ;PC21 
+181;Auxerre et Marie-Noël;PC 
+182;Bestiaire roman;PC 25;2-13-14-15-16
+183;Christs en croix romans I;PC 
+184;Christs en croix romans II ;PC 
+185;Bible de Saint;PC 
+186;Les chemins de Compostelle;PC 
+187;Esprit de Citeaux;PC 
+188;Esprit de Cluny ;PC 
+189;Jours de l'apocalypse ;PC 
+190;Jours de la passion ;PC 6 
+191;Jours de la Nativité;PC 2 
+192;Message de Tournus ;PC 
+193;Monde d'Autun ;PC 1 
+194;Monde (Le) de Chartres ;PC 3 
+195;Monde des cryptes;PC 
+196;Monde de Vézelay ;PC 
+197;Mont Saint Michel;PC 5 
+198;Saint Benoit sur Loire ;PC;1-2-5-6-13-15-16-28-29
+199;Sainte Foy de Conques ;PC 
+200;Tympans romans I ;PC 
+201;Tympans romans II ;PC 13
+202;Vie de la Vierge;PC 
+203;Vierges romanes;PC 4 
+204;Avignon, le palais des papes;CP
+205;Strasbourg. La cathédrale;CP
+206;Reims, la cathédrale;CP
+207;Chartres, la cathédrale;CP
+208;Bourges, la cathédrale;CP
+209;Saint Denis, la basilique;CP
+210;Laon, la cathédrale;CP
+211;Quimper, la cathédrale;CP
+212;Romanische Spannien;ET
+213;Die Kuntz der Zisterzienser;ET
+214;Romanische Auvergne;ET
+215;Romanische Burgund;ET
+216;Romanik der Ile-de-France;ET
+217;Die Kaiserdome Speyer, Mainz, Worms;ET
+218;Cote d'Azur;ET
+219;Hoch Provence;ET
+220;Romanische Normandie Ost;ET
+221;Romanische Normandie West;ET
+222;Romanische Elsass;ET
+223;Romanische Schweiss;ET
+224;Romanik in Westphalen;ET
+225;Symbole;ET
+226;Reisewege durch die Provence;ET
+227;Reisewege durch das Languedoc;ET
+228;Romanische Kreuzgange in Frankreich;ET
+229;Romanik Sachsen;ET
+230;Die Welt der Zisterzienser;ET
+231;Lexikon;ET
+232;Frauen bilder im mittelalter;ET
+233;Engel und ihr bild im mittelalter;ET
+234;Die Bildwelt der Romanik;ET
+235;Romans Nederland;ET
+236;Das Jüngste Gericht;ET
+237;Romanische Frankreich (XII°s);ET
+238;Strasbourg;ET
+239;Reims;ET
+240;Chartres;ET
+241;L'art roman;2
+242;Histoire de l'architecture française, tome 1 : Du Moyen Age à la Renaissance, IVe siècle - début XVIe siècle;
+243;L'Architecture du silence;2-30
+244;Sculpteurs au Moyen Age : L'Univers fantastique des chapiteaux romans;;2-6-13-15-16
+245;Figures Romanes;;2-6-13-15-16
+246;La sculpture figurée des arcs romans de France;2-6-11-13-15-16
+247;Les symboles de l'art roman;La pierre philosophale 
+248;Monumental. La Sculpture monumentale - numéro 10-11, décembre 1995;Monumental
+249;Le Monde roman;Architecture Mondiale;;1-2
+250;La Bible Romane;
+251;Haut Moyen-Age;
+252;Le bestiaire sculpté en France;;1-2-13-14-15-16
+253;La flore des cathédrales: Le symbolisme floral dans l'architecture religieuse;;1-2-13-14-15-16
+254;Dictionnaire du Moyen Âge;
+255;Le Monde roman 1060-1220, Les Royaumes d'Occident,;
+256;Les symboles catholiques;
+257;Le Moyen Âge en lumière : Manuscrits enluminés des bibliothèques de France;
+258;Pour un autre Moyen Age;
+259;Dictionnaire raisonné de l'Occident médiéval;
+260;À la recherche du Moyen-Âge;
+261;L'Art religieux du XIIe siècle en France: étude sur les origines de l'iconographie du Moyen âge,;
+262;La Bible et les saints;
+263;Encyclopédie Médiévale;
+264;A la découverte de 850 Eglises romanes de France;
+265;L'art des sculpteurs Romans;;2-13-14-15-16
+266;Bestiaire roman;;2-13-14-15-16
+267;La Sculpture romane en Saintonge;116-117-2-13-14-15-16

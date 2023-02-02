@@ -25,9 +25,11 @@ use open IO => ":utf8",":std";
 use utf8;
 use Encode;
 use Text::Unidecode;
+use Image::ExifTool qw(:Public);
+
 
 #version
-my $version_dev="3.0.2";
+my $version_dev="3.0.3";
 my $debug=0;
 my $regenerate=0;
 my $relocation_path;
@@ -139,6 +141,7 @@ my %web_host_album=(
 my $reference_onsite=8;
 
 my $local_tmpl="/mnt/data/web/prod/r2/templates/";
+my $local_img="/mnt/data/web/prod/r2/media/";
 my $photo_album_file="index$lang_param.html";
 
 my @tab_site_region_next=();
@@ -534,7 +537,13 @@ my $photo_name_file;my $photo_name_toprint_file;my $photo_nr=1;
 	                $urlphoto=~s/\\//g;
 	                my $photo_dir=$web_host_img{$site_img};
 	                #$urlphoto=~s/ /%20/g;
-			my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$photo_name,'photo_id'=>"R-".$pr);
+			#Image size
+			#my $exif = new Image::ExifTool;
+			#my $data = $exif->ImageInfo($local_img.$urlphoto);
+			#my $ewh = $exif->GetValue('ImageSize');
+			#my ($pix_w,$pix_h)=($ewh=~/(\d+)x(\d+)/);
+			#my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$urlphoto,'alt'=>$urlphoto,'photo_id'=>"R-".$pr,'pix_w'=>$pix_w."px",'pix_h'=>$pix_h."px");
+			my %ix=('photo_url'=>"$photo_dir/$urlphoto",'doc_title'=>$urlphoto,'alt'=>$urlphoto,'photo_id'=>"R-".$pr);
 			if (-e '/home/data/prod/r2/media/'.$urlphoto) {
 				push  @loop,\%ix;
 			}

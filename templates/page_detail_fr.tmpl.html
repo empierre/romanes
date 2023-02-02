@@ -57,15 +57,6 @@
 		<link href="/assets/css/gsdk.css" rel="stylesheet"/>      
 		<link href="/assets/css/r3b.css" rel="stylesheet" /> 
         
-    <!--     Fonts and icons     -->
-		<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"> 
-		<link href='https://fonts.googleapis.com/css?family=Grand+Hotel|Open+Sans:400,300' rel='stylesheet' type='text/css'>  
-		<link href="/assets/css/pe-icon-7-stroke.css" rel="stylesheet" />  
-		<link href='https://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=PT+Sans&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700' rel='stylesheet' type='text/css'>
-		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
 	<meta name="theme-color" content="#EEEEEE">
 	<meta name="apple-mobile-web-app-status-bar-style" content="#EEEEEE">
@@ -86,15 +77,6 @@
 	<meta name="rights" content="/copyright.html">
 	<meta name="language" content="fr, eng, es, it">
 
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-F9VXESNE1K"></script>
-<script type="text/javascript">
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-F9VXESNE1K');
 </script>
 
 </head>
@@ -321,7 +303,7 @@
 					
 		<TMPL_LOOP NAME="photo_list">		
 		<div class="grid-item"><a href="">	
-		<img src="<TMPL_VAR NAME="photo_url">" alt="<TMPL_VAR NAME="doc_title">" title="<TMPL_VAR NAME="doc_title">" id="<TMPL_VAR NAME="photo_id">"></a>
+		<img src="<TMPL_VAR NAME="photo_url">" alt="<TMPL_VAR NAME="doc_title">" title="<TMPL_VAR NAME="doc_title">" id="<TMPL_VAR NAME="photo_id">" width="<TMPL_VAR NAME="pix_w">" height="<TMPL_VAR NAME="pix_h">"></a>
 		</div>	
 		</TMPL_LOOP>
 		
@@ -373,11 +355,7 @@
 </div>
 
 
-
-
 		<a href="index.html"><div class="closed"></div></a>
-
-
 
 
 </body>
@@ -389,12 +367,9 @@
 
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
 
-    <!--  Get Shit Done Kit PRO Core javascript 	 -->
 	<script src="/assets/js/get-shit-done.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
-
-    <!--  Get Shit Done Kit PRO methods used for demo purpose      -->
-    <script src="/assets/js/r3.js"></script>
+        <script src="/assets/js/r3.js"></script>
     	
     <script type="text/javascript">
         $().ready(function(){
@@ -547,7 +522,7 @@ $('.grid-item').click(function () {
 		});
 	} else {
 		$('#curr_num').text(window.location.hash.replace('#', ''));
-		console.dir(window.location.hash.replace('#', '') - 1)
+		//console.dir(window.location.hash.replace('#', '') - 1)
 		$('.gallery_wrapp').addClass('hide_slider_gal');
 		$('#wowslider-container1').removeClass('hide_slider_gal');
 		$('.close_slider').removeClass('hide_slider_gal');
@@ -655,6 +630,18 @@ $(document).ready(function(){
     }
   }
 </script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F9VXESNE1K"></script>
+<script type="text/javascript">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F9VXESNE1K');
+</script>
+
+    <script src="https://connect.facebook.net/en_US/all.js"></script>
 
 <script src="/assets/js/cookiechoices.js"></script><script>document.addEventListener('DOMContentLoaded', function(event){cookieChoices.showCookieConsentBar('Ce site utilise des cookies pour vous offrir le meilleur service. En poursuivant votre navigation, vous acceptez l’utilisation des cookies.', 'J’accepte', 'En savoir plus', 'https://www.romanes.com/copyright.html');});</script>
 

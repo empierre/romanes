@@ -219,6 +219,7 @@ sub photo_insert {
 		$album_name=~tr/'/\\'/;
 		my ($i2,$i3,$i4)=&get_author_creation_place($out_dir);
 		$i1=&generate_sernum($myfile,$i2,$i3,$i4,0);
+		if (! $i2) { $i2=1;}
 	
 
 		my $sql = "INSERT INTO photo (id,sernum,author_id,creation,place_id,resolution_x,resolution_y,description,original_file,thumb_file,name,site_img,site_thb,md5) VALUES (null,'$i1',$i2,'$i3',$i4,$height,$width,'','$myfile','$thumbfile','$album_name',$onsite_img,$onsite_thb,'$digest');";

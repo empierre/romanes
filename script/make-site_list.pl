@@ -19,6 +19,7 @@ use Text::Unaccent::PurePerl qw(unac_string);
 use open IO => ":utf8",":std";
 use Encode;
 use Text::Unidecode;
+use Data::Dumper;
 binmode(STDOUT, ":utf8");
 
 
@@ -28,7 +29,7 @@ binmode(STDOUT, ":utf8");
 # Make a list of site per regions
 
 #version
-my $version_dev="3.0.0";
+my $version_dev="3.0.1";
 my $debug=0;
 my $regenerate=0;
 
@@ -143,44 +144,111 @@ my %web_host_album=(
 
 my $reference_onsite=8;
 
+
 #Generate site list
 #
+# France
+#
 print STDERR "Generating $lang_param France ";
-my $sql="select id,title from region_state order by title";
+my $sql="select id,title from region_state where country=250 order by title";
 my $sth = $dbh1->prepare($sql);
 $sth->execute();
-my ($pid,@f_region,$ptitle);
+my ($pid,@region_f,$ptitle);
 $sth->bind_columns(\$pid,\$ptitle);
 #print STDERR ".";
 while ($sth->fetch()) {
-	push @f_region,$pid;
-	$ptitle=&get_region($pid,$lang_param);
+	push @region_f,$pid;
+	$ptitle=&get_region($pid,$lang_param,250);
 	$ptitle=~s/\'/'/g;
 	$ptitle=~s/_/ /g;
 	#if ( $ptitle =~ /[\x80-\xff]/ ) {
 	 	#$ptitle=decode_utf8($ptitle);
 		#print STDERR "1 $pid-$ptitle\n";
 	#}
-	push @tab_menu,{'region_url'=>'#F'.$pid,"region_name_fr"=>$ptitle};
+	push @tab_menu_f,{'region_url'=>'#F'.$pid,"region_name_fr"=>$ptitle};
 	#print STDERR "$pid-$ptitle\n";
 }
 #print STDERR ".";
-&generate_region("$local_tmpl/pages/liste_site$lang_param.tmpl.html","France",0,2,250,@f_region);
+&generate_region("$local_tmpl/pages/liste_site$lang_param.tmpl.html","France",250,2,250,\@region_f,\@tab_menu_f);
 #print STDERR ". ok\n";
 
-
-#Generate per region page
-while ($#tab_menu+1) {pop @tab_menu};
-my $sql="select id,title from region_state order by title";
+#
+# Italy 
+#
+print STDERR "Generating $lang_param Italy  ";
+my $sql="select id,title from region_state where country=380 order by id";
 my $sth = $dbh1->prepare($sql);
 $sth->execute();
-my ($pid,@f_region,$ptitle);
+my ($pid,@region_i,$ptitle);
 $sth->bind_columns(\$pid,\$ptitle);
-push @tab_menu,{'region_url'=>"/France$lang_param.html",'region_name_fr'=>&get_country(250,$lang_param)};
 while ($sth->fetch()) {
-	push @f_region,$pid;
-	$ptitle=&get_region($pid,$lang_param);
-		#$phtitle=decode_utf8($phtitle);
+	push @region_i,$pid;
+	$ptitle=&get_region($pid,$lang_param,380);
+	$ptitle=~s/\'/'/g;
+	$ptitle=~s/_/ /g;
+	push @tab_menu_i,{'region_url'=>'#F'.$pid,"region_name_fr"=>$ptitle};
+	#print STDERR "$pid-$ptitle\n";
+}
+#print STDERR ".";
+&generate_region("$local_tmpl/pages/liste_site$lang_param.tmpl.html","Italie",380,2,380,\@region_i,\@tab_menu_i);
+
+#
+# France : Generate per region page
+#
+print STDERR "Generating $lang_param France regions";
+while ($#tab_menu_f+1) {pop @tab_menu_f};
+my $sql="select id,title from region_state where country=250 order by title";
+my $sth = $dbh1->prepare($sql);
+$sth->execute();
+my ($pid,@region_f,$ptitle,@tab_menu_f);
+$sth->bind_columns(\$pid,\$ptitle);
+push @tab_menu_f,{'region_url'=>"/France$lang_param.html",'region_name_fr'=>&get_country(250,$lang_param)};
+while ($sth->fetch()) {
+	push @region_f,$pid;
+	$ptitle=&get_region($pid,$lang_param,250);
+	my $phtitle=$ptitle;
+	chomp($phtitle);
+	$phtitle=~s/\s/_/g;
+	$phtitle=~s/__/_/g;
+	$phtitle=~s/\'/_/g;
+	$phtitle=~s/_$//;
+	$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+	$phtitle=unac_string($phtitle);
+	#print STDERR "tabmenuf $ptitle\n ";
+	push @tab_menu_f,{'region_url'=>"/".$phtitle."$lang_param.html",'region_name_fr'=>$ptitle};
+}	
+my $sql="select id,title from region_state where country=250 order by title";
+my $sth = $dbh1->prepare($sql);
+$sth->execute();
+my ($pid,@region_f,$ptitle);
+$sth->bind_columns(\$pid,\$ptitle);
+while ($sth->fetch()) {
+	my @region_f=($pid);
+	$ptitle=&get_region($pid,$lang_param,250);
+	$ptitle=~s/\s/_/g;
+	$ptitle=~s/__/_/g;
+	$ptitle=~s/\'/_/g;
+	$ptitle=~s/_$//;
+	$ptitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
+	$ptitle=unac_string($ptitle);
+	#print STDERR "regionf $ptitle ";
+	&generate_region("$local_tmpl/pages/region$lang_param.tmpl.html",$ptitle,$pid,2,250,\@region_f,\@tab_menu_f);
+	#print STDERR ". ok\n";
+}
+#
+# Italie : Generate per region page
+#
+print STDERR "Generating $lang_param Italy regions";
+while ($#tab_menu_i+1) {pop @tab_menu_i};
+my $sql="select id,title from region_state where country=380 order by title";
+my $sth = $dbh1->prepare($sql);
+$sth->execute();
+my ($pid,@region_i,$ptitle,@tab_menu_i);
+$sth->bind_columns(\$pid,\$ptitle);
+push @tab_menu_i,{'region_url'=>"/Italie$lang_param.html",'region_name_fr'=>&get_country(380,$lang_param)};
+while ($sth->fetch()) {
+	push @region_i,$pid;
+	$ptitle=&get_region($pid,$lang_param,380);
 	   	my $phtitle=$ptitle;
 		chomp($phtitle);
 		$phtitle=~s/\s/_/g;
@@ -189,17 +257,18 @@ while ($sth->fetch()) {
 		$phtitle=~s/_$//;
 		$phtitle=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
 		$phtitle=unac_string($phtitle);
-		push @tab_menu,{'region_url'=>"/".$phtitle."$lang_param.html",'region_name_fr'=>$ptitle};
+		#print STDERR "tabmenui $ptitle ";
+		push @tab_menu_i,{'region_url'=>"/".$phtitle."$lang_param.html",'region_name_fr'=>$ptitle};
 }	
-my $sql="select id,title from region_state order by title";
+my $sql="select id,title from region_state where country=380 order by title";
 my $sth = $dbh1->prepare($sql);
 $sth->execute();
-my ($pid,@t_region,$ptitle);
+my ($pid,@region_i,$ptitle);
 $sth->bind_columns(\$pid,\$ptitle);
 while ($sth->fetch()) {
-	my @l_region=($pid);
-	#push @l_region,$pid;
-	$ptitle=&get_region($pid,$lang_param);
+	my @region_i=($pid);
+	#push @region_i,$pid;
+	$ptitle=&get_region($pid,$lang_param,380);
 	#$ptitle=encode("iso-8859-1",decode("utf8", $ptitle));
 	#Encode::_utf8_off($ptitle);
 	#$ptitle=decode_utf8($ptitle);
@@ -212,7 +281,7 @@ while ($sth->fetch()) {
 	#$ptitle=unac_string("UTF-8",$ptitle);
 	$ptitle=unac_string($ptitle);
 	print STDERR "$ptitle ";
-	&generate_region("$local_tmpl/pages/region$lang_param.tmpl.html",$ptitle,$pid,2,250,@l_region);
+	&generate_region("$local_tmpl/pages/region$lang_param.tmpl.html",$ptitle,$pid,2,380,\@region_i,\@tab_menu_i);
 	#print STDERR ". ok\n";
 }
 
@@ -229,13 +298,15 @@ sub generate_region {
 		my $region_id=shift(@_);		
 		my $item_per_line=shift(@_);
 		my $country=shift(@_);
-		my @t_region;
-		foreach (@_) { push @t_region,$_;}
+		my @t_region=@{$_[0]};
+		my @tab_menu=@{$_[1]};
+
 		if ($debug) {print STDERR "$tmpl_name-$region_name-$item_per_line-".join(':',@t_region)."\n";}
 
+		#Get department in region
 		my (%l_department);
 		foreach my $dpt (@t_region) {
-			my $sql="select id from region where region_id=$dpt";
+			my $sql="select id from region where region_id=$dpt and country=$country";
 			my $sth = $dbh->prepare($sql);
 			$sth->execute();
 			my ($pid,@t_department);
@@ -249,15 +320,15 @@ sub generate_region {
 
 		my @tab_site_loop;my @site_loop;
 		#if ($debug) {print STDERR "tab_site_loop".join(':',@tab_site_loop)."\n";}
-		#foreach (@tab_site_loop) { shift @tab_site_loop;}
-		my $odd_even=0;my %tab={};#my @tab_menu;
+		my $odd_even=0;my %tab={};
 		foreach my $k (@t_region) {
 			my @l=split(/,/,$l_department{$k});
 			my $loop;my $cnt;my @loop1;my @loop0;my $reg_cnt;
 
 			foreach my $v (@l) {
 
-				my $sql="select photo.id,photo.place_id,photo.thumb_file,photo.site_img,album.title,photo.resolution_x,photo.resolution_y,album.url,place.town,album.epoch_str,album.epoch_style,album.onsite from photo,place,album,album_photo where album.id=album_photo.album_id and album_photo.photo_id=photo.id and photo.place_id=place.id and place.postcode rlike '^$v' AND album_photo.publish=1 order by album_photo.display_order";
+				my $sql="select photo.id,photo.place_id,photo.thumb_file,photo.site_img,album.title,photo.resolution_x,photo.resolution_y,album.url,place.town,album.epoch_str,album.epoch_style,album.onsite from photo,place,album,album_photo where album.id=album_photo.album_id and album_photo.photo_id=photo.id and photo.place_id=place.id and place.postcode rlike '^$v' AND album_photo.publish=1 and place.country=$country order by album_photo.display_order";
+				print $sql."\n";
 				my $sth = $dbh->prepare($sql);
 				$sth->execute();
 				my ($pid,$plid,$nm,$tf,$si,$rx,$ry,$album_url,$place_name,$epoch_str,$epoch_style,$px,$py,$town_name,$album_onsite);
@@ -303,7 +374,7 @@ sub generate_region {
 				$cnt=0;$reg_cnt++;
 			}
 			#push @site_loop,{'title_name_fr'=>"France $k",'thb_site_loop_line'=>\@loop1};
-			my $region_name=&get_region($k,$lang_param);
+			my $region_name=&get_region($k,$lang_param,$country);
 			$region_name=~s/_/ /g;
 			my $country_name=&get_country($country,$lang_param);
 			push @site_loop,{'title_name_fr'=>"$country_name -  $region_name",'title_id_fr'=>"F$k",'thb_site_loop_line'=>\@loop0} if ($reg_cnt);
@@ -312,6 +383,10 @@ sub generate_region {
 			#$loop0=\@loop3;
 
 		}
+
+	#
+	# Header
+	#
 
 		$t_header=HTML::Template->new(filename=>"$local_tmpl/header$lang_param.tmpl.html",die_on_bad_params=>1,utf8     => 1);
 		if ($lang_param eq '_en') {
@@ -339,6 +414,7 @@ sub generate_region {
 	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/France'.$lang_param.'.html','name'=>'Europa'};
 	if ($country==250) {$ncountry=&get_country($country,$lang_param);}
 	if ($country==756) {$ncountry=&get_country($country,$lang_param);}
+	if ($country==850) {$ncountry=&get_country($country,$lang_param);}
 	push @POS_loop,{'url'=>$web_host_album{$reference_onsite}.'/'.&get_country($country,'fr').$lang_param.'.html','name'=>$ncountry};
 
 	#if ($region_name ne &get_country($country,$lang_param)) 
@@ -359,9 +435,9 @@ sub generate_region {
 	if ($debug) {print STDERR "POS: $album_id $place_town $place_name\n";}
 	$t_header->param('POS_loop',\@POS_loop);
 	
-		#
-		# Footer
-		#
+	#
+	# Footer
+	#
 		$t_footer=HTML::Template->new(filename=>"$local_tmpl/footer$lang_param.tmpl.html",die_on_bad_params=>0,utf8     => 1);
         	my $marqueur=$album_title;
 		$marqueur=~s/\s/_/g;
@@ -371,7 +447,7 @@ sub generate_region {
 
 		#Include regional text
 		my $region_intro;
-		my $r_l=&get_region($region_id,'fr');$r_l=~tr/ 'éè/__ee/;
+		my $r_l=&get_region($region_id,'fr',$country);$r_l=~tr/ 'éè/__ee/;
 	print STDERR "R: $_l ". $local_tmpl."pages/regions/".$r_l."$lang_param.html". "\n";
         	if ($debug) {print STDERR "template region ".$r_l."$lang_param.html\n";}
 		if (($region_name eq 'Centre')||($region_name =~/Picardie/)) {
@@ -400,7 +476,7 @@ sub generate_region {
             $lang_show=lc($lang_show);
             $fo_lang=$photo_name_file;
             	$fo_lang=~s/out/$lang_show/;
-		my $ptitle=&get_region($region_id,$lang_show);
+		my $ptitle=&get_region($region_id,$lang_show,$country);
 		$ptitle=~s/\s/_/g;
 		$ptitle=~s/__/_/g;
 		$ptitle=~s/\'/_/g;
@@ -414,15 +490,15 @@ sub generate_region {
         }
 	
 		$ptitle=~s/_/ /g;
-	        $ptitle=&get_region($region_id,$lang_param);
+	        $ptitle=&get_region($region_id,$lang_param,$country);
 		$t_content->param('region_name_fr',$ptitle);
 		$t_content->param('site_region',$region_name);
 		$t_content->param('site_loop',\@site_loop);
 		$t_content->param('region_list',\@tab_menu);
 		$t_content->param('region_intro',$region_intro);
 		$t_content->param('region_name_categ_fr',$region_name);
-		#my $rn_esc=uri_escape($rn{&get_region($region_id,"fr")});
-		my $rn_esc=&get_region($region_id,"fr");
+		#my $rn_esc=uri_escape($rn{&get_region($region_id,"fr")},$country);
+		my $rn_esc=&get_region($region_id,"fr",$country);
 		$rn_esc=~tr/éèêëàâôöùñóí/eeeeaaoounoi/;
 		#$rn_esc=decode_utf8($rn_esc);
 		$rn_esc=unac_string($rn_esc);
@@ -441,19 +517,6 @@ sub generate_region {
 		close(FIC);
 }
 
-
-sub get_region_by_id($){
-	my ($id)=shift;
-	my $sql="select title from region_state where id=$id";
-	my $sth = $dbh2->prepare($sql);
-	$sth->execute();
-	my ($pid);
-	$sth->bind_columns(\$pid);
-	while ($sth->fetch()) {
-		$id=$pid;
-	}
-	return($id);
-}
 
 sub get_country() {
 	my $country_id=shift(@_);
@@ -479,9 +542,10 @@ sub get_country() {
 sub get_region() {
 	my $region_id=shift(@_);
 	my $lang_id=shift(@_);
+	my $country=shift(@_)||250;
 	$lang_id=~s/_//;
     if (($lang_id eq 'fr')||($lang_id  eq '')) {$lang_id='title';}
-	my $sql = "SELECT region_state.".$lang_id." FROM region_state where region_state.id=$region_id";
+	my $sql = "SELECT region_state.".$lang_id." FROM region_state where region_state.id=$region_id and country=$country";
 	my $sth = $dbh2->prepare($sql);
 	$sth->execute();
 
@@ -495,6 +559,7 @@ sub get_region() {
 	$cstring=~s/ $//;
 	#$cstring=encode("iso-8859-1",decode("utf8", $cstring));	
 	#$cstring=decode_utf8($cstring);
+	#print STDERR "get_region $sql\n";
 	return ($cstring);
 }
 

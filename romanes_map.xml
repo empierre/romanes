@@ -3634,4 +3634,404 @@
 	<addr_city>Carrara</addr_city>
 	<thumb>https://www.romanes.com/media/thumb/thb-IT-Carrara-Sant_Andrea_Apostolo-E6D_2017-08-11_2413.jpg</thumb>
 </site>
+<site>
+	<id>384</id>
+	<name>Abbaye Notre Dame d'Ourscamp</name>
+	<type>branch</type>
+	<lat>49.5357</lat>
+	<lng>2.9725</lng>
+	<url>https://www.romanes.com//Ourscamp/</url>
+	<addr_city>Chully-Ourscamp</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Ourscamp-Abbaye_Notre_Dame-IMG_20220918_140928_898_DxO.jpg</thumb>
+</site>
+<site>
+	<id>385</id>
+	<name>Abbatiale Notre-Dame-la-Blanche de Selles-sur-Cher</name>
+	<type>branch</type>
+	<lat>47.2752</lat>
+	<lng>1.5541</lng>
+	<url>https://www.romanes.com//Selles-sur-Cher/</url>
+	<addr_city>Selles-sur-Cher</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Selles_sur_cher-Notre_Dame_la_blanche-E6D_2022-11-01_4722.jpg</thumb>
+</site>
+<site>
+	<id>386</id>
+	<name>Collégiale Saint-Aignan</name>
+	<type>branch</type>
+	<lat>47.2691</lat>
+	<lng>1.376</lng>
+	<url>https://www.romanes.com//Saint-Aignan/</url>
+	<addr_city>Saint-Aignan</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Saint_Aignan-Collegiale_Saint_Aignan-IMG_20221101_164632_650_DxO.jpg</thumb>
+</site>
+<site>
+	<id>387</id>
+	<name>Saint Blaise de L'Hôpital-Saint-Blaise</name>
+	<type>branch</type>
+	<lat>43.2513</lat>
+	<lng>-0.769</lng>
+	<url>https://www.romanes.com//Hopital-Saint-Blaise/</url>
+	<addr_city>L'Hôpital-Saint-Blaise</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Hopital_Saint_Blaise-Saint_Blaise-GEN_2022-02-06_0000.jpg</thumb>
+</site>
+<site>
+	<id>388</id>
+	<name>Saint-André de Sauveterre-de-Béarn</name>
+	<type>branch</type>
+	<lat>43.3984</lat>
+	<lng>-0.9393</lng>
+	<url>https://www.romanes.com//Sauveterre-de-Bearn/</url>
+	<addr_city>Sauveterre-de-Béarn</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Sauveterre_de_Bearn-Saint_Andre-E6D_2021-07-31_4619.jpg</thumb>
+</site>
+<site>
+	<id>389</id>
+	<name>Cathédrale Sainte-Marie d'Oloron</name>
+	<type>branch</type>
+	<lat>43.1877</lat>
+	<lng>-0.6157</lng>
+	<url>https://www.romanes.com//Oloron-Sainte-Marie/</url>
+	<addr_city>Oloron-Sainte-Marie</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-FR-Oloron_Sainte_Marie-Sainte_Marie_d_Oloron-E6D_2021-07-31_4657.jpg</thumb>
+</site>
+<site>
+	<id>390</id>
+	<name>Chiesa di Santa Maria dei Greci</name>
+	<type>branch</type>
+	<lat>37.312944</lat>
+	<lng>13.578028</lng>
+	<url>https://www.romanes.com//Italia/Agrigento/</url>
+	<addr_city>Agrigento</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Agrigente-Santa_Maria_dei_Greci-P6PR_2023-08-12_9718_0000.jpg</thumb>
+</site>
+<site>
+	<id>391</id>
+	<name>San Pietro in Consavia</name>
+	<type>branch</type>
+	<lat>44.902639</lat>
+	<lng>8.213333</lng>
+	<url>https://www.romanes.com//Italia/Asti/San-Pietro</url>
+	<addr_city>Asti</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Asti-San_Pietro_in_Consavia-E6D_2018-08-10_2018_0001.jpg</thumb>
+</site>
+<site>
+	<id>393</id>
+	<name>Duomo di Cefalù</name>
+	<type>branch</type>
+	<lat>38.03983</lat>
+	<lng>14.02359</lng>
+	<url>https://www.romanes.com//Italia/Cefalu/</url>
+	<addr_city>Cefalù</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Cefalu-basilica_cattedrale_della_Trasfigurazione,-GEN_2023-12-01_7023_0000.jpg</thumb>
+</site>
+<site>
+	<id>394</id>
+	<name>Cattedrale di Santa Maria Nuova</name>
+	<type>branch</type>
+	<lat>38.0817</lat>
+	<lng>13.2919</lng>
+	<url>https://www.romanes.com//Italia/Monreale/</url>
+	<addr_city>Monreale</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Monreale-Cattedrale_di_Santa_Maria_Nuova-GEN_2023-12-02_0000.jpg</thumb>
+</site>
+<site>
+	<id>395</id>
+	<name>San Angelo di Perugia</name>
+	<type>branch</type>
+	<lat>43.0974</lat>
+	<lng>12.3956</lng>
+	<url>https://www.romanes.com//Italia/Perugia/San-Angelo</url>
+	<addr_city>Perugia</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Perugia-San_Angelo-E6D_2019-08-07_4200_0001.jpg</thumb>
+</site>
+<site>
+	<id>396</id>
+	<name>Chapelle Palatine de Parlerme</name>
+	<type>branch</type>
+	<lat>38.1106</lat>
+	<lng>13.3537</lng>
+	<url>https://www.romanes.com//Italia/Palermo/Palatine</url>
+	<addr_city>Palermo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Perugia-San_Angelo-GEN_2023-12-02_0000.jpg</thumb>
+</site>
+<site>
+	<id>397</id>
+	<name>Santa Maria dell’Ammiragliato</name>
+	<type>branch</type>
+	<lat>38.1149</lat>
+	<lng>13.363</lng>
+	<url>https://www.romanes.com//Italia/Palermo/Martorana</url>
+	<addr_city>Palermo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Palermo-Santa_Maria_dell_Ammiragliato-GEN_2023-12-04_0000.jpg</thumb>
+</site>
+<site>
+	<id>398</id>
+	<name>San Cantaldo di Palermo</name>
+	<type>branch</type>
+	<lat>38.1148</lat>
+	<lng>13.3625</lng>
+	<url>https://www.romanes.com//Italia/Palermo/San-Cantaldo</url>
+	<addr_city>Palermo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Palermo-Santa_Cantaldo-GEN_2023-12-02_0000_0001.jpg</thumb>
+</site>
+<site>
+	<id>399</id>
+	<name>Basilica Cattedrale Metropolitana Primaziale della Santa Vergine Maria Assunta</name>
+	<type>branch</type>
+	<lat>38.114444</lat>
+	<lng>13.356111</lng>
+	<url>https://www.romanes.com//Italia/Palermo/Duomo/</url>
+	<addr_city>Palermo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Palermo-Duomo-GEN_2023-12-04_0096_0000.jpg</thumb>
+</site>
+<site>
+	<id>400</id>
+	<name>Chiesa del Gesù </name>
+	<type>branch</type>
+	<lat>38.113</lat>
+	<lng>13.3616</lng>
+	<url>https://www.romanes.com//Italia/Palermo/Gesu</url>
+	<addr_city>Palermo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Palermo-Gesu-GEN_2023-12-02_0000.jpg</thumb>
+</site>
+<site>
+	<id>402</id>
+	<name>Cattedrale Santa Maria Nascente</name>
+	<type>branch</type>
+	<lat>45.4609</lat>
+	<lng>9.1914</lng>
+	<url>https://www.romanes.com//Italia/Milano/Cattedrale</url>
+	<addr_city>Milano</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Milano-Cattedrale-E6D_2016-08-13_0000_0000.jpg</thumb>
+</site>
+<site>
+	<id>403</id>
+	<name>Cattedrale di San Rufino</name>
+	<type>branch</type>
+	<lat>43.0671</lat>
+	<lng>12.6175</lng>
+	<url>https://www.romanes.com//Italia/Assisi/San_Rufino</url>
+	<addr_city>Assisi</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Assisi-San_Rufino-E6D_2019-08-08_4259_0001.jpg</thumb>
+</site>
+<site>
+	<id>406</id>
+	<name>Santa Chiara</name>
+	<type>branch</type>
+	<lat>43.0653</lat>
+	<lng>12.6169</lng>
+	<url>https://www.romanes.com//Italia/Assisi/Santa_Chiara</url>
+	<addr_city>Assisi</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Assisi-Santa_Chiara-E5D_2014-08-20_4288_0001.jpg</thumb>
+</site>
+<site>
+	<id>407</id>
+	<name>Basilica di San Francesco</name>
+	<type>branch</type>
+	<lat>41.21</lat>
+	<lng>12.52</lng>
+	<url>https://www.romanes.com//Italia/Assisi/San_Francesco</url>
+	<addr_city>Assisi</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Assisi-San_Francisco-E5D_2014-08-20_4296_0001.jpg</thumb>
+</site>
+<site>
+	<id>408</id>
+	<name>Santo Stefano de Bologna</name>
+	<type>branch</type>
+	<lat>44.4921</lat>
+	<lng>11.3488</lng>
+	<url>https://www.romanes.com//Italia/Bologna</url>
+	<addr_city>Bologna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Bologna-San_Stefano-P3XL_2020-08-16_0000.jpg</thumb>
+</site>
+<site>
+	<id>409</id>
+	<name>San Michele in Foro</name>
+	<type>branch</type>
+	<lat>43.8431</lat>
+	<lng>10.5028</lng>
+	<url>https://www.romanes.com//Italia/Lucca/San_Michele_in_foro</url>
+	<addr_city>Lucca</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Lucca-San_Michele_in_Foro-E6D_2018-08-12_3594_0001.jpg</thumb>
+</site>
+<site>
+	<id>410</id>
+	<name>San Frediano</name>
+	<type>branch</type>
+	<lat>43.8426</lat>
+	<lng>10.5046</lng>
+	<url>https://www.romanes.com//Italia/Lucca/San_Frediano</url>
+	<addr_city>Lucca</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Lucca-San_Frediano-E6D_2018-08-12_3616_0001.jpg</thumb>
+</site>
+<site>
+	<id>411</id>
+	<name>Cattedrale di San Lorenzo</name>
+	<type>branch</type>
+	<lat>44.4074</lat>
+	<lng>8.9316</lng>
+	<url>https://www.romanes.com//Italia/Genova/</url>
+	<addr_city>Genova</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Genova-San_LorenzoP3XL_2020-08-19_0001_0000.jpg</thumb>
+</site>
+<site>
+	<id>412</id>
+	<name>Sant Apollinare Nuovo</name>
+	<type>branch</type>
+	<lat>44.4131</lat>
+	<lng>12.2044</lng>
+	<url>https://www.romanes.com//Italia/Ravenna/Sant_Apollinare_Nuovo</url>
+	<addr_city>Ravenna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Ravenna-Sant_Apollinare_Nuovo-E5D_2014-08-17_3874_0001.jpg</thumb>
+</site>
+<site>
+	<id>413</id>
+	<name>Galla Placidia</name>
+	<type>branch</type>
+	<lat>44.4177</lat>
+	<lng>12.1968</lng>
+	<url>https://www.romanes.com//Italia/Ravenna/Galla_placidia/</url>
+	<addr_city>Ravenna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Ravenna-Galla_placidia-E5D_2014-08-18_4101_0001.jpg</thumb>
+</site>
+<site>
+	<id>414</id>
+	<name>San Lorenzo di Veronna</name>
+	<type>branch</type>
+	<lat>45.44124</lat>
+	<lng>10.99121</lng>
+	<url>https://www.romanes.com//Italia/Verona/San_Lorenzo</url>
+	<addr_city>Verona</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Veronna-San_Lorenzo-E6D_2015-08-22_6431_0001.jpg</thumb>
+</site>
+<site>
+	<id>415</id>
+	<name>San Fermo Maggiore</name>
+	<type>branch</type>
+	<lat>45.439133</lat>
+	<lng>10.999778</lng>
+	<url>https://www.romanes.com//Italia/Veronna/San_Fermo_Maggiore/</url>
+	<addr_city>Verona</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Verona-San_Fermo_Maggiore-E6D_2015-08-21_6029_0001.jpg</thumb>
+</site>
+<site>
+	<id>416</id>
+	<name>Santa Maria Matricolare</name>
+	<type>branch</type>
+	<lat>45.447</lat>
+	<lng>10.9969</lng>
+	<url>https://www.romanes.com//Italia/Verona/Santa_Maria_Matricolare</url>
+	<addr_city>Veronna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-E6D_2015-08-21_5865_0001.jpg</thumb>
+</site>
+<site>
+	<id>417</id>
+	<name>Santa Anastasia</name>
+	<type>branch</type>
+	<lat>45.445278</lat>
+	<lng>11</lng>
+	<url>https://www.romanes.com//Italia/Varena/Santa_Anastasia</url>
+	<addr_city>Veronna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Verona-Santa_Anastasia-E6D_2015-08-21_5852_0001.jpg</thumb>
+</site>
+<site>
+	<id>418</id>
+	<name>San Francesco d'Arezzo</name>
+	<type>branch</type>
+	<lat>43.4644</lat>
+	<lng>11.8808</lng>
+	<url>https://www.romanes.com//Italia/Arezzo/San_Francesco</url>
+	<addr_city>Arezzo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Arezzo-San_Francesco-E6D_2015-08-23_6600_0001.jpg</thumb>
+</site>
+<site>
+	<id>420</id>
+	<name>Santa Maria della Pieve</name>
+	<type>branch</type>
+	<lat>43.465</lat>
+	<lng>11.883611</lng>
+	<url>https://www.romanes.com//Italia/Arezzo/Santa_Maria_della_Pieve</url>
+	<addr_city>Arezzo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Arezzo-Santa_Maria_della_Pieve-E6D_2015-08-23_6485_0001.jpg</thumb>
+</site>
+<site>
+	<id>421</id>
+	<name>Cattedrale San Donato</name>
+	<type>branch</type>
+	<lat>43.4634</lat>
+	<lng>11.8832</lng>
+	<url>https://www.romanes.com//Italia/Arezzo/San_Donato</url>
+	<addr_city>Arezzo</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Arezzo-San_Donato-E6D_2015-08-23_6724_0001.jpg</thumb>
+</site>
+<site>
+	<id>422</id>
+	<name>San Giorgio di Varenna</name>
+	<type>branch</type>
+	<lat>46.01009</lat>
+	<lng>9.28416</lng>
+	<url>https://www.romanes.com//Italia/Varenna/San_Giorgio</url>
+	<addr_city>Varenna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Varenna-San_Giorgio-E6D_2016-08-12_8951_0001.jpg</thumb>
+</site>
+<site>
+	<id>423</id>
+	<name>San Giovani Baptista di Varenna</name>
+	<type>branch</type>
+	<lat>46.00983</lat>
+	<lng>9.28291</lng>
+	<url>https://www.romanes.com//Italia/Varenna/San_Giovani_Baptista</url>
+	<addr_city>Varenna</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Varenna-San_Giovani_Baptista-E6D_2016-08-12_8967_0001.jpg</thumb>
+</site>
+<site>
+	<id>424</id>
+	<name>Pieve di Santo Stefano</name>
+	<type>branch</type>
+	<lat>43.8784</lat>
+	<lng>11.0977</lng>
+	<url>https://www.romanes.com//Italia/Prato</url>
+	<addr_city>Prato</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Prato-Pieve_di_Santo_Stefano-E6D_2016-08-18_0001_0001.jpg</thumb>
+</site>
+<site>
+	<id>425</id>
+	<name>Sant Andrea di Pistoïa</name>
+	<type>branch</type>
+	<lat>43.935856</lat>
+	<lng>10.913072</lng>
+	<url>https://www.romanes.com//Italia/Pistoia/Sant_Andrea</url>
+	<addr_city>Pistoïa</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Pistoia-Sant_Andrea-E5D_2014-08-21_4340_0001.jpg</thumb>
+</site>
+<site>
+	<id>426</id>
+	<name>Cattedrale di San Zeno</name>
+	<type>branch</type>
+	<lat>43.933219</lat>
+	<lng>10.9179</lng>
+	<url>https://www.romanes.com//Italia/Pistoia/San_Zeno</url>
+	<addr_city>Pistoia</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Pistoia-San_Zeno-E5D_2014-08-21_4408_0001.jpg</thumb>
+</site>
+<site>
+	<id>427</id>
+	<name>San Pablo di Pistoia</name>
+	<type>branch</type>
+	<lat>43.930614</lat>
+	<lng>10.918611</lng>
+	<url>https://www.romanes.com//Italia/Pistoia/San_Pablo</url>
+	<addr_city>Pistoia</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Pistoia-San_Pablo-E6D_2015-08-23_6468_0001.jpg</thumb>
+</site>
+<site>
+	<id>428</id>
+	<name>San Andrea di Orvieto</name>
+	<type>branch</type>
+	<lat>42.7182</lat>
+	<lng>12.1087</lng>
+	<url>https://www.romanes.com//Italia/Orvieto/San_Andrea</url>
+	<addr_city>Orvieto</addr_city>
+	<thumb>https://www.romanes.com/media/thumb/thb-IT-Orvieto-Sant_Andrea-P3XL_2019-08-09_0000.jpg</thumb>
+</site>
 </romanes_worldwide>
